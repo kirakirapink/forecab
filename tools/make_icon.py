@@ -15,13 +15,13 @@ BLACK = (18, 18, 22)
 WHITE = (240, 240, 240)
 
 
-def write_png(path, size, pixels):
+def write_png(path, width, height, pixels):
     raw = b"".join(b"\x00" + b"".join(struct.pack("BBB", *p) for p in row) for row in pixels)
 
     def chunk(typ, data):
         return struct.pack(">I", len(data)) + typ + data + struct.pack(">I", zlib.crc32(typ + data))
 
-    ihdr = struct.pack(">IIBBBBB", size, size, 8, 2, 0, 0, 0)
+    ihdr = struct.pack(">IIBBBBB", width, height, 8, 2, 0, 0, 0)
     path.write_bytes(
         b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", ihdr) + chunk(b"IDAT", zlib.compress(raw)) + chunk(b"IEND", b"")
     )
@@ -59,7 +59,7 @@ def make_icon(size):
 def main():
     for size in (180, 512):
         out = WEB / f"icon-{size}.png"
-        write_png(out, size, make_icon(size))
+        write_png(out, size, size, make_icon(size))
         print(f"OK: {out}")
 
 

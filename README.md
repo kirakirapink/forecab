@@ -123,6 +123,20 @@ gh repo create forecab --public --source=. --push
 
 以後、毎朝6時(JST)の更新後に投稿される。やめたくなったら Secret を削除するだけ。
 
+## 毎朝のラジオ（YouTube用）を作る
+
+本日の予報を読み上げる「フォアキャブ・デイリー」の音声と動画を生成できる（macOS専用）:
+
+```bash
+python3 tools/make_radio.py                # 原稿 + 音声(m4a) + YouTube用動画(mp4)
+python3 tools/make_radio.py --script-only  # 原稿テキストだけ確認
+```
+
+生成先は `output/radio/日付/`。約2分のラジオになる。
+mp4 はそのまま YouTube に投稿できる（H.264 + AAC、カバー画像つき）。
+音声は macOS 標準の say（Kyoko）。声やテンポは [tools/make_radio.py](tools/make_radio.py) 冒頭の
+`VOICE` / `RATE` で変更できる。
+
 ## 会場を追加する
 
 [web/venues.js](web/venues.js) に1ブロック足すだけ。
