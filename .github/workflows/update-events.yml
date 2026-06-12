@@ -1,0 +1,56 @@
+# 毎朝イベントデータを自動取得して GitHub Pages に公開するワークフロー。
+# これが「サーバー」の代わり。自前サーバーの運用は不要で、GitHub の無料枠で動く。
+#
+# 有効化の手順（リポジトリ作成後に一度だけ）:
+#   1. GitHub のリポジトリ Settings → Pages → Source を「GitHub Actions」にする
+#   2. Actions タブでこのワークフローを手動実行（Run workflow）して動作確認
+#   以後は毎朝6時(JST)に自動更新される。
+
+name: update-events
+
+on:
+  schedule:
+    - cron: "0 21 * * *" # JST 6:00（UTC 21:00）
+  workflow_dispatch: {}    # 手動実行も可能
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: イベントデータを取得
+        run: python3 tools/fetch_events.py
+
+      - name: 更新があればコミット
+        run: |
+          git config user.name "taxi-radar-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/events.js
+          if ! git diff --cached --quiet; then
+            git commit -m "イベントデータ自動更新 $(date +'%Y-%m-%d')"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

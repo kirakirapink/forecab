@@ -1,0 +1,12 @@
+# 取得HTMLのキャッシュ（ローカル作業用。リポジトリには不要）
+data/cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# ローカル設定
+.claude/
