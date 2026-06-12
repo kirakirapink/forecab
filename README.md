@@ -1,7 +1,8 @@
-# 流しレーダー TOKYO 🚕
+# FORECAB — 東京イベント需要予報
 
 東京のイベント情報（展示会・ライブ・スポーツ・舞台・催事）から、
 タクシードライバー向けに **「いつ・どこを狙うべきか」** を星0〜5でスコアリングして表示するWebアプリ。
+（FORECAB = Forecast + Cab）
 
 ブラウザだけで動く（サーバー・ネット接続・インストール不要）。
 
@@ -121,7 +122,7 @@ gh repo create taxi-radar --public --source=. --push
 web/index.html   アプリ本体（これを開く）
 web/app.js       スコアリングエンジン + UI
 web/venues.js    会場マスタ（タクシー特性の知識ベース)
-web/style.css    ダークテーマ（夜間の車内向け）
+web/style.css    シルバー/ホワイトベースのライトテーマ
 data/events.js   イベントデータ（自動生成。直接編集しない）
 tools/           データ生成・変換スクリプト（Python 3 標準ライブラリのみ）
 ```

@@ -1,4 +1,4 @@
-/* 流しレーダー TOKYO — スコアリングエンジン + UI */
+/* FORECAB — スコアリングエンジン + UI */
 "use strict";
 
 /* ===========================================================
@@ -147,12 +147,12 @@ function demandWindows(ev, weight) {
 function aimText(ev) {
   const e = toMin(ev.end);
   if (ev.category === "exhibition") {
-    return `${ev.start}〜${ev.end} 終日チャンス。ピークは ${fmtMin(e - 60)}〜${fmtMin(e + 30)}`;
+    return `常時流入 ${ev.start}–${ev.end} ／ ピーク ${fmtMin(e - 60)}–${fmtMin(e + 30)}`;
   }
   if (ev.category === "festival") {
-    return `引け際 ${fmtMin(e - 30)}〜${fmtMin(e + 60)} が中心`;
+    return `引け際需要 ${fmtMin(e - 30)}–${fmtMin(e + 60)}`;
   }
-  return `終演の波 ${fmtMin(e - 15)}〜${fmtMin(e + 75)} が勝負`;
+  return `終演後需要 ${fmtMin(e - 15)}–${fmtMin(e + 75)}`;
 }
 
 /* ---------- データ準備 ---------- */
@@ -212,7 +212,7 @@ function renderTabs() {
       d === state.date ? "active" : "",
       dow === 0 ? "sun" : dow === 6 ? "sat" : "",
     ].join(" ");
-    const todayMark = d === today ? `<span class="today-mark">今日</span>` : "";
+    const todayMark = d === today ? `<span class="today-mark">TODAY</span>` : "";
     return `<button class="${cls}" data-date="${d}">${todayMark}<span class="md">${md}</span><span class="wd">(${wd})</span></button>`;
   }).join("");
   el.querySelectorAll("button").forEach(b =>
@@ -239,16 +239,17 @@ function renderSummary() {
     return;
   }
   el.innerHTML = `
-    <h2 class="section-title">この日のベスト3</h2>
+    <h2 class="section-title"><span class="en">Priority</span>重点3件</h2>
     <div class="best3">` +
     top.map((e, i) => `
       <button class="best-card" data-id="${e.id}">
-        <div class="best-rank">${i + 1}</div>
+        <div class="best-rank">${String(i + 1).padStart(2, "0")}</div>
         <div class="best-body">
-          <div class="best-stars">${starsHtml(e.score.stars)}</div>
           <div class="best-name">${esc(e.name)}</div>
-          <div class="best-meta">${esc(e.venue)} ・ ${esc(aimText(e))}</div>
+          <div class="best-meta">${esc(e.venue)}</div>
+          <div class="best-aim">${esc(aimText(e))}</div>
         </div>
+        <div class="best-score">${e.score.total}</div>
       </button>`).join("") +
     `</div>`;
   el.querySelectorAll(".best-card").forEach(b =>
@@ -295,11 +296,23 @@ function renderHeatmap() {
     labels += `<div class="hm-label">${(b * BIN) % 120 === 0 ? fmtMin(b * BIN).replace(":00", "") + "時" : ""}</div>`;
   }
 
+  // 今日を表示中なら現在時刻のラインを重ねる
+  let nowLine = "";
+  if (state.date === todayISO()) {
+    const now = new Date();
+    const nowMin = now.getHours() * 60 + now.getMinutes();
+    const rangeLo = lo * BIN, rangeHi = (hi + 1) * BIN;
+    if (nowMin >= rangeLo && nowMin <= rangeHi) {
+      const pct = ((nowMin - rangeLo) / (rangeHi - rangeLo)) * 100;
+      nowLine = `<div class="hm-now" style="left:${pct.toFixed(2)}%"><span>NOW</span></div>`;
+    }
+  }
+
   el.innerHTML = `
-    <h2 class="section-title">時間帯別の需要予報
-      <span class="peak-note">ピーク: ${fmtMin(peakBin * BIN)}前後</span>
+    <h2 class="section-title"><span class="en">Demand Timeline</span>時間帯別需要指数
+      <span class="peak-note">ピーク ${fmtMin(peakBin * BIN)}前後</span>
     </h2>
-    <div class="hm-chart">${bars}</div>
+    <div class="hm-chart">${bars}${nowLine}</div>
     <div class="hm-labels">${labels}</div>`;
 }
 
@@ -314,7 +327,7 @@ function renderControls() {
   el.innerHTML = eventsOfDay().length === 0 ? "" : `
     <div class="control-row">
       <div class="sort-toggle">
-        <button class="sort-btn ${state.sort === "score" ? "on" : ""}" data-sort="score">おすすめ順</button>
+        <button class="sort-btn ${state.sort === "score" ? "on" : ""}" data-sort="score">スコア順</button>
         <button class="sort-btn ${state.sort === "time" ? "on" : ""}" data-sort="time">時間順</button>
       </div>
     </div>
@@ -343,9 +356,9 @@ function breakdownHtml(e) {
     </div>`).join("");
   const v = e.venueInfo;
   const dest = (v.typical_destinations || []).length
-    ? `<div class="detail-row"><span class="detail-key">よく出る行き先</span>${v.typical_destinations.map(d => `<span class="dest">${esc(d)}</span>`).join("")}</div>` : "";
-  const tips = v.tips ? `<div class="detail-row"><span class="detail-key">付け方のコツ</span>${esc(v.tips)}</div>` : "";
-  const notes = e.notes ? `<div class="detail-row"><span class="detail-key">メモ</span>${esc(e.notes)}</div>` : "";
+    ? `<div class="detail-row"><span class="detail-key">主要行き先</span>${v.typical_destinations.map(d => `<span class="dest">${esc(d)}</span>`).join("")}</div>` : "";
+  const tips = v.tips ? `<div class="detail-row"><span class="detail-key">現場メモ</span>${esc(v.tips)}</div>` : "";
+  const notes = e.notes ? `<div class="detail-row"><span class="detail-key">備考</span>${esc(e.notes)}</div>` : "";
   return `
     <div class="breakdown">
       <div class="bd-title">スコア内訳（種別補正 ×${e.score.factor.toFixed(2)}）</div>
@@ -374,20 +387,23 @@ function renderList() {
   el.innerHTML = sorted.map(e => `
     <details class="event-card" data-id="${e.id}">
       <summary>
-        <div class="card-top">
-          ${starsHtml(e.score.stars)}
-          <span class="score-num">${e.score.total}<span class="score-max">点</span></span>
-          <span class="cat-badge cat-${e.category}">${CATEGORY_LABEL[e.category] || esc(e.category)}</span>
+        <div class="card-grid">
+          <div class="card-score">
+            <div class="score-num">${e.score.total}</div>
+            ${starsHtml(e.score.stars)}
+          </div>
+          <div class="card-info">
+            <div class="card-top-row">
+              <span class="cat-badge cat-${e.category}">${CATEGORY_LABEL[e.category] || esc(e.category)}</span>
+              <span class="card-time">${e.start}–${e.end}</span>
+              <span class="expand-hint">詳細</span>
+            </div>
+            <div class="card-name">${esc(e.name)}</div>
+            <div class="card-venue">${esc(e.venue)}<span class="card-area">${esc(e.venueInfo.area)}</span></div>
+            <div class="card-facts">約${Number(e.attendance).toLocaleString()}人<span class="sep">／</span>${AUDIENCE_LABEL[e.audience] || esc(e.audience)}</div>
+            <div class="card-aim">${esc(aimText(e))}</div>
+          </div>
         </div>
-        <div class="card-name">${esc(e.name)}</div>
-        <div class="card-venue">${esc(e.venue)}<span class="card-area">（${esc(e.venueInfo.area)}）</span></div>
-        <div class="card-facts">
-          <span>🕐 ${e.start}〜${e.end}</span>
-          <span>👥 約${Number(e.attendance).toLocaleString()}人</span>
-          <span>💼 ${AUDIENCE_LABEL[e.audience] || esc(e.audience)}</span>
-        </div>
-        <div class="card-aim">🎯 ${esc(aimText(e))}</div>
-        <div class="expand-hint">タップで内訳 ▾</div>
       </summary>
       ${breakdownHtml(e)}
     </details>`).join("");
@@ -397,9 +413,9 @@ function renderFooter() {
   const el = document.getElementById("footer");
   const meta = window.TAXI_APP_DATA || {};
   const src = meta.source === "demo"
-    ? "⚠️ 表示中のイベントはデモデータ（架空）です"
+    ? "表示中のイベントはデモデータ（架空）です"
     : `データソース: ${esc(meta.source || "不明")}`;
-  el.innerHTML = `${src} ・ 生成: ${esc(meta.generated_at || "-")}<br>
+  el.innerHTML = `<span class="footer-brand">FORECAB</span> ${src} ・ 更新 ${esc(meta.generated_at || "-")}<br>
     スコアは公開情報ベースの参考値です。実際の需要・交通規制・営業区域は現場の判断を優先してください。`;
 }
 
