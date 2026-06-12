@@ -95,20 +95,33 @@ GitHub側がデータを自動更新して静的サイトとして配信する
 
 ```bash
 cd /Users/Shared/Taxi_JP_Project
-git add -A && git commit -m "初版"
-gh repo create taxi-radar --public --source=. --push
+gh repo create forecab --public --source=. --push
 ```
 
 その後 GitHub のリポジトリ設定で:
 1. **Settings → Pages → Source を「GitHub Actions」** にする
 2. **Actions タブ → update-events → Run workflow** で初回実行
 
-公開URLは `https://<ユーザー名>.github.io/taxi-radar/`。
+公開URLは `https://<ユーザー名>.github.io/forecab/`。
 友人には このURLをSafariで開いて **共有 → ホーム画面に追加** してもらうと、
 アイコン付きでアプリのように起動できる（PWA対応済み）。
 
 - 料金: 無料（公開リポジトリのGitHub Pages + Actions無料枠。1日1回の実行なら余裕）
 - 非公開にしたい場合: Private リポジトリのPagesは有料プランが必要になる点に注意
+
+## Discord への毎朝自動投稿
+
+毎朝の更新時に「本日の重点3件」をDiscordチャンネルへ自動投稿できる
+（[tools/post_discord.py](tools/post_discord.py)。Webhook未設定なら何もしない）。
+
+設定手順（一度だけ）:
+1. Discord で投稿先チャンネルの **設定（歯車）→ 連携サービス → ウェブフック → 新しいウェブフック** を作成し、**ウェブフックURLをコピー**
+2. そのURLをリポジトリのSecretに登録:
+   ```bash
+   gh secret set DISCORD_WEBHOOK_URL --body "コピーしたURL"
+   ```
+
+以後、毎朝6時(JST)の更新後に投稿される。やめたくなったら Secret を削除するだけ。
 
 ## 会場を追加する
 

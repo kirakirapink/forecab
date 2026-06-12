@@ -54,3 +54,12 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      # Discord への「本日の重点」投稿。
+      # リポジトリの Settings → Secrets and variables → Actions に
+      # DISCORD_WEBHOOK_URL を登録すると有効になる（未登録ならスキップ）。
+      - name: Discord に本日のサマリーを投稿
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          FORECAB_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python3 tools/post_discord.py

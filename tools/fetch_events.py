@@ -31,9 +31,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "data" / "events.js"
 MANUAL_CSV = ROOT / "data" / "manual_events.csv"
 
+# GitHub Actions(UTC)で実行しても日付がズレないよう、日本時間で「今日」を決める
+JST = datetime.timezone(datetime.timedelta(hours=9))
+
 
 def date_range(days):
-    today = datetime.date.today()
+    today = datetime.datetime.now(JST).date()
     return [today + datetime.timedelta(days=i) for i in range(days)]
 
 
@@ -143,7 +146,7 @@ def main():
 
     srcs = sorted({e["source"] for e in events})
     payload = {
-        "generated_at": datetime.datetime.now().isoformat(timespec="seconds"),
+        "generated_at": datetime.datetime.now(JST).isoformat(timespec="seconds"),
         "source": "自動取得: " + " + ".join(srcs) if srcs else "データなし",
         "events": events,
     }
