@@ -2,13 +2,13 @@
 """PWA用アイコンPNGを標準ライブラリだけで生成する（タクシー琥珀×市松×レーダー円環）。
 
 使い方:
-    python3 tools/make_icon.py   # web/icon-180.png と web/icon-512.png を生成
+    python3 tools/make_icon.py   # icon-180.png と icon-512.png を生成
 """
 import struct
 import zlib
 from pathlib import Path
 
-WEB = Path(__file__).resolve().parent.parent / "web"
+WEB = Path(__file__).resolve().parent.parent
 
 AMBER = (245, 179, 1)
 BLACK = (18, 18, 22)

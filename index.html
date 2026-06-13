@@ -2,10 +2,36 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url=web/index.html">
-<title>流しレーダー TOKYO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#eef0f3">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="FORECAB">
+<title>FORECAB — 東京イベント需要予報</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p><a href="web/index.html">アプリを開く</a></p>
+<header class="app-header">
+  <div class="brand">FORE<span class="brand-accent">CAB</span></div>
+  <div class="brand-tag">東京イベント需要予報<span class="brand-tag-en">Tokyo Event Demand Forecast</span></div>
+</header>
+
+<nav id="date-tabs" class="date-tabs"></nav>
+
+<main id="app">
+  <section id="summary" class="section"></section>
+  <section id="heatmap" class="section"></section>
+  <section id="controls" class="section"></section>
+  <section id="event-list" class="section"></section>
+</main>
+
+<footer class="app-footer" id="footer"></footer>
+
+<script src="venues.js"></script>
+<script src="data/events.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

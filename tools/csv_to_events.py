@@ -9,7 +9,7 @@
 CSVの列（1行目はヘッダー。data/events_template.csv 参照）:
     date       : 2026-06-15 形式
     name       : イベント名
-    venue      : 会場名（web/venues.js のキーと一致させると精度が上がる。未登録会場も可）
+    venue      : 会場名（venues.js のキーと一致させると精度が上がる。未登録会場も可）
     category   : exhibition / concert / sports / theater / festival
     start      : 開始時刻 10:00 形式
     end        : 終了時刻 18:00 形式
