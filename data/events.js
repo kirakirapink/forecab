@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-06-13T18:40:55+09:00",
+  "generated_at": "2026-06-13T23:32:21+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + tokyo-dome.co.jp",
   "events": [
     {

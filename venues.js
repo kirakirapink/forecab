@@ -160,6 +160,15 @@ window.VENUES = {
     long_distance: 0.4,
     typical_destinations: ["都心ホテル", "渋谷・新宿"],
     tips: "小規模公演。観客は若手中心で電車利用も多い。"
+  },
+  "都内学術集会会場": {
+    area: "都内（学会会場）",
+    ward: "千代田・港・新宿等",
+    lat: null, lng: null,
+    station_access: "mid",
+    long_distance: 0.7,
+    typical_destinations: ["羽田空港", "東京駅", "都心ホテル"],
+    tips: "医学会など専門職向け学術集会。地方からの参加医師が中心で、羽田・東京駅方面の中距離乗車が典型。開催ホテルや東京国際フォーラム周辺で構える。"
   }
 };
 
