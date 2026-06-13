@@ -8,6 +8,10 @@ __pycache__/
 # ラジオ生成物（音声・動画はリポジトリに入れない）
 output/
 
+# ローカル限定の運用スクリプト（GitHubには含めない）
+tools/make_radio.py
+tools/post_discord.py
+
 # macOS
 .DS_Store
 
