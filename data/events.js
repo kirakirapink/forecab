@@ -1,60 +1,8 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-06-12T00:12:15",
+  "generated_at": "2026-06-13T13:45:24+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + npb.jp + tokyo-dome.co.jp",
   "events": [
-    {
-      "date": "2026-06-12",
-      "name": "電子機器トータルソリューション展2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "東1-3・7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-001"
-    },
-    {
-      "date": "2026-06-12",
-      "name": "Smart Sensing2026/SEMISOL2026半導体後工程技術＆ソリューション展",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-002"
-    },
-    {
-      "date": "2026-06-12",
-      "name": "インテリア ライフスタイル",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "西1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-003"
-    },
-    {
-      "date": "2026-06-12",
-      "name": "KAWAII LAB.・PEAK SPOT 大特典会",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "auto-004"
-    },
     {
       "date": "2026-06-13",
       "name": "キャリタス就活フォーラム",
@@ -66,7 +14,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "西4ホール。一般公開。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-005"
+      "id": "auto-001"
     },
     {
       "date": "2026-06-13",
@@ -79,7 +27,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "種別: コンサート。終了時刻は開演からの推定",
       "source": "tokyo-dome.co.jp",
-      "id": "auto-006"
+      "id": "auto-002"
     },
     {
       "date": "2026-06-13",
@@ -92,7 +40,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-007"
+      "id": "auto-003"
     },
     {
       "date": "2026-06-14",
@@ -105,7 +53,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "東1・2ホール。一般公開。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-008"
+      "id": "auto-004"
     },
     {
       "date": "2026-06-14",
@@ -118,7 +66,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "種別: コンサート。終了時刻は開演からの推定",
       "source": "tokyo-dome.co.jp",
-      "id": "auto-009"
+      "id": "auto-005"
     },
     {
       "date": "2026-06-14",
@@ -131,7 +79,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-010"
+      "id": "auto-006"
     },
     {
       "date": "2026-06-16",
@@ -144,7 +92,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-011"
+      "id": "auto-007"
     },
     {
       "date": "2026-06-17",
@@ -157,7 +105,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
       "source": "bigsight.jp",
-      "id": "auto-012"
+      "id": "auto-008"
     },
     {
       "date": "2026-06-17",
@@ -170,7 +118,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
       "source": "bigsight.jp",
-      "id": "auto-013"
+      "id": "auto-009"
     },
     {
       "date": "2026-06-17",
@@ -183,59 +131,59 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
+      "id": "auto-010"
+    },
+    {
+      "date": "2026-06-18",
+      "name": "総務・人事・経理Week【東京｜6月】 ほか9展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 63000,
+      "audience": "business",
+      "notes": "東1-3・7・8ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-011"
+    },
+    {
+      "date": "2026-06-18",
+      "name": "第6回 XR・メタバース総合展 夏 ほか8展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 28000,
+      "audience": "business",
+      "notes": "西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-012"
+    },
+    {
+      "date": "2026-06-19",
+      "name": "総務・人事・経理Week【東京｜6月】 ほか9展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 63000,
+      "audience": "business",
+      "notes": "東1-3・7・8ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-013"
+    },
+    {
+      "date": "2026-06-19",
+      "name": "第6回 XR・メタバース総合展 夏 ほか8展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 28000,
+      "audience": "business",
+      "notes": "西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
+      "source": "bigsight.jp",
       "id": "auto-014"
-    },
-    {
-      "date": "2026-06-18",
-      "name": "総務・人事・経理Week【東京｜6月】 ほか9展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 63000,
-      "audience": "business",
-      "notes": "東1-3・7・8ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-015"
-    },
-    {
-      "date": "2026-06-18",
-      "name": "第6回 XR・メタバース総合展 夏 ほか8展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-016"
-    },
-    {
-      "date": "2026-06-19",
-      "name": "総務・人事・経理Week【東京｜6月】 ほか9展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 63000,
-      "audience": "business",
-      "notes": "東1-3・7・8ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-017"
-    },
-    {
-      "date": "2026-06-19",
-      "name": "第6回 XR・メタバース総合展 夏 ほか8展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-018"
     },
     {
       "date": "2026-06-19",
@@ -248,7 +196,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-019"
+      "id": "auto-015"
     },
     {
       "date": "2026-06-20",
@@ -261,7 +209,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-020"
+      "id": "auto-016"
     },
     {
       "date": "2026-06-20",
@@ -274,7 +222,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-021"
+      "id": "auto-017"
     },
     {
       "date": "2026-06-21",
@@ -287,7 +235,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "東2・3ホール。一般公開。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-022"
+      "id": "auto-018"
     },
     {
       "date": "2026-06-21",
@@ -300,7 +248,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-023"
+      "id": "auto-019"
     },
     {
       "date": "2026-06-21",
@@ -313,7 +261,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-024"
+      "id": "auto-020"
     },
     {
       "date": "2026-06-22",
@@ -326,11 +274,11 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-025"
+      "id": "auto-021"
     },
     {
       "date": "2026-06-24",
-      "name": "ライフスタイルWeek TOKYO【夏】 ほか4展（合同開催）",
+      "name": "ライフスタイルWeek TOKYO【夏】 ほか7展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
       "start": "10:00",
@@ -339,7 +287,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（5ホール）",
       "source": "bigsight.jp",
-      "id": "auto-026"
+      "id": "auto-022"
     },
     {
       "date": "2026-06-24",
@@ -352,11 +300,11 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "種別: コンサート。終了時刻は開演からの推定",
       "source": "tokyo-dome.co.jp",
-      "id": "auto-027"
+      "id": "auto-023"
     },
     {
       "date": "2026-06-25",
-      "name": "ライフスタイルWeek TOKYO【夏】 ほか4展（合同開催）",
+      "name": "ライフスタイルWeek TOKYO【夏】 ほか7展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
       "start": "10:00",
@@ -365,7 +313,20 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（5ホール）",
       "source": "bigsight.jp",
-      "id": "auto-028"
+      "id": "auto-024"
+    },
+    {
+      "date": "2026-06-26",
+      "name": "ライフスタイルWeek TOKYO【夏】 ほか7展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 35000,
+      "audience": "business",
+      "notes": "東1-3・7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（5ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-025"
     }
   ]
 };
