@@ -124,6 +124,42 @@ window.VENUES = {
     long_distance: 0.7,
     typical_destinations: ["東京駅", "羽田空港", "舞浜・浦安"],
     tips: "都外だが大型展示会では都内への長距離が出る。営業区域の扱いに注意（迎車・帰り便中心）。"
+  },
+  "歌舞伎座": {
+    area: "銀座・東銀座",
+    ward: "中央区",
+    lat: 35.6691, lng: 139.7672,
+    station_access: "near",
+    long_distance: 0.7,
+    typical_destinations: ["世田谷・港区の住宅街", "都心ホテル（銀座・丸の内）", "築地・湾岸エリア"],
+    tips: "1階桟敷席2万円帯の常連客は決まったタクシーを指名する傾向。木挽町広場側出口に礼装で構える。夜の部21時前後が勝負。"
+  },
+  "新国立劇場（オペラパレス）": {
+    area: "初台",
+    ward: "渋谷区",
+    lat: 35.6839, lng: 139.6864,
+    station_access: "mid",
+    long_distance: 0.6,
+    typical_destinations: ["世田谷・目黒の住宅街", "都心ホテル", "渋谷・新宿"],
+    tips: "京王新線初台駅から地下通路が長く、オペラ・バレエの高齢富裕層は確実にタクシー利用。甲州街道側の正面車寄せで待機。21〜22時台が勝負。"
+  },
+  "新国立劇場（中劇場）": {
+    area: "初台",
+    ward: "渋谷区",
+    lat: 35.6839, lng: 139.6864,
+    station_access: "mid",
+    long_distance: 0.5,
+    typical_destinations: ["世田谷・目黒の住宅街", "都心ホテル", "渋谷・新宿"],
+    tips: "現代演劇・ダンスは中年層中心。オペラパレスと同じ車寄せを共有。"
+  },
+  "新国立劇場（小劇場）": {
+    area: "初台",
+    ward: "渋谷区",
+    lat: 35.6839, lng: 139.6864,
+    station_access: "mid",
+    long_distance: 0.4,
+    typical_destinations: ["都心ホテル", "渋谷・新宿"],
+    tips: "小規模公演。観客は若手中心で電車利用も多い。"
   }
 };
 
