@@ -31,7 +31,33 @@
 <footer class="app-footer" id="footer"></footer>
 
 <script src="venues.js"></script>
-<script src="data/events.js"></script>
-<script src="app.js"></script>
+<script>
+// events.js を毎回サーバーから取得してキャッシュを回避する。
+// 既存フォーマット (`window.TAXI_APP_DATA = {...};`) を保ったまま、
+// テキストで取得して JSON 部分だけ取り出してパースする。
+(function () {
+  var bust = "?t=" + Date.now();
+  var FALLBACK = { generated_at: "", source: "読み込みエラー", events: [] };
+
+  function loadApp() {
+    var s = document.createElement("script");
+    s.src = "app.js" + bust;
+    document.body.appendChild(s);
+  }
+
+  fetch("data/events.js" + bust, { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+    .then(function (txt) {
+      var eq = txt.indexOf("=");
+      var json = txt.slice(eq + 1).trim().replace(/;\s*$/, "");
+      window.TAXI_APP_DATA = JSON.parse(json);
+    })
+    .catch(function (e) {
+      console.error("events.js の取得に失敗:", e);
+      window.TAXI_APP_DATA = FALLBACK;
+    })
+    .finally(loadApp);
+})();
+</script>
 </body>
 </html>
