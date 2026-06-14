@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-06-14T11:03:49+09:00",
+  "generated_at": "2026-06-14T11:09:59+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + ntj.jac.go.jp + t-i-forum.co.jp + tokyo-dome.co.jp",
   "events": [
     {
@@ -1134,5 +1134,58 @@ window.TAXI_APP_DATA = {
       "source": "t-i-forum.co.jp",
       "id": "auto-087"
     }
-  ]
+  ],
+  "weather": {
+    "2026-06-14": {
+      "weather_code": "111",
+      "weather": "晴れ　昼過ぎ　から　くもり　所により　雨　で　雷を伴う",
+      "pop_max": 20,
+      "temp_min": 28,
+      "temp_max": 28
+    },
+    "2026-06-15": {
+      "weather_code": "313",
+      "weather": "雨　昼過ぎ　から　くもり",
+      "pop_max": 80,
+      "temp_min": 18,
+      "temp_max": 20
+    },
+    "2026-06-16": {
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
+      "pop_max": 20,
+      "temp_min": 16,
+      "temp_max": 27
+    },
+    "2026-06-17": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 18,
+      "temp_max": 29
+    },
+    "2026-06-18": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 19,
+      "temp_max": 24
+    },
+    "2026-06-19": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 20,
+      "temp_max": 27
+    },
+    "2026-06-20": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 21,
+      "temp_max": 28
+    },
+    "2026-06-21": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 21,
+      "temp_max": 26
+    }
+  }
 };
