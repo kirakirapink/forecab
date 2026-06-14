@@ -166,6 +166,33 @@ button { font-family: inherit; }
   font-variant-numeric: tabular-nums; white-space: nowrap;
 }
 
+/* ---------- ヒートマップ上の天気帯 ---------- */
+.hm-weather {
+  position: relative; height: 22px;
+  background: var(--card);
+  border: 1px solid var(--border); border-bottom: none;
+  border-radius: 11px 11px 0 0;
+  padding: 0 10px;
+  margin-bottom: -1px;
+  overflow: hidden;
+}
+.hm-weather + .hm-chart { border-radius: 0; }
+.wx-slice {
+  position: absolute; top: 3px; bottom: 3px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 4px;
+  font-size: 10px; font-weight: 700;
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+  overflow: hidden; text-overflow: clip;
+  border: 1px solid transparent;
+}
+.wx-slice .wx-lbl { padding: 0 4px; }
+.wx-slice.wx-clear       { background: #f5f7fa; color: #9aa3b2; }
+.wx-slice.wx-rain-light  { background: #e6f0fb; color: #4a7dbd; border-color: #c8ddf2; }
+.wx-slice.wx-rain-mid    { background: #cfe1f6; color: #2d5fa3; border-color: #a6c5e8; }
+.wx-slice.wx-rain-heavy  { background: #5b8fd1; color: #fff; border-color: #3d6ea8; }
+.wx-slice.wx-fallback    { opacity: .85; }
+
 /* ---------- コントロール ---------- */
 .control-row { margin-bottom: 9px; }
 .sort-toggle {
