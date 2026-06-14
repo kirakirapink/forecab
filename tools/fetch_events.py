@@ -25,7 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from sources import base, npb, bigsight, dome, ariake, nntt, kabukiza, national_stadium, medical_society, nougakudo, annual, forum  # noqa: E402
+from sources import base, npb, bigsight, dome, ariake, nntt, kabukiza, national_stadium, medical_society, nougakudo, annual, forum, weather  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "data" / "events.js"
@@ -200,11 +200,20 @@ def main():
                   f"{ev['venue']:<10} {ev['name'][:40]} ({ev['attendance']:,}人, {ev['source']})")
         return
 
+    # 気象予報（東京地方）。失敗時は空dictで継続（app.js側でweather_factor=1.0）
+    try:
+        wx = weather.fetch()
+        print(f"[weather] {len(wx)}日分（気象庁・東京地方）")
+    except Exception as e:
+        wx = {}
+        print(f"警告: [weather] {e}")
+
     srcs = sorted({e["source"] for e in events})
     payload = {
         "generated_at": datetime.datetime.now(JST).isoformat(timespec="seconds"),
         "source": "自動取得: " + " + ".join(srcs) if srcs else "データなし",
         "events": events,
+        "weather": wx,
     }
     js = (
         "// このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する\n"

@@ -4,7 +4,8 @@
 /* ===========================================================
  * スコアリングモデル（乗算式）→ 星0〜5
  *
- *   需要指数 = 集客 × 退場集中度 × タクシー利用率 × 駅事情 × 時間プレミアム × 長距離プレミアム
+ *   需要指数 = 集客 × 退場集中度 × タクシー利用率 × 駅事情
+ *            × 時間プレミアム × 長距離プレミアム × 気象プレミアム
  *
  *     集客           : イベント来場者数の絶対値
  *     退場集中度     : ピーク前後の同時退場比率（カテゴリ別）
@@ -12,6 +13,7 @@
  *     駅事情         : 駅遠ほど捕捉率が上がる（near<mid<far）
  *     時間プレミアム : 終演〜終電マージン。深夜ほど確実にタクシー
  *     長距離プレミアム: 1.0 + 0.5 × 長距離期待度。空港・遠郊外需要の単価補正
+ *     気象プレミアム : 気象庁予報を反映。雨1.4 / 雪1.8 / 猛暑1.1 / 極寒1.1
  *
  *   表示スコア(0〜100)は需要指数を対数正規化したもの。
  *   needs と revenue の両方を「需要 × 価値」の乗算で表現するのが旧加点式との違い。
@@ -74,6 +76,49 @@ const ACCESS_LABEL = {
   mid: "駅やや遠 or 終演時大混雑",
   far: "駅遠・路線弱でタクシー有利",
 };
+
+// 気象庁weatherCode先頭1桁 → 係数。雨300番台=1.4、雪400番台=1.8
+function _codeFactor(code) {
+  if (!code) return null;
+  const c = String(code);
+  if (c.startsWith("4")) return { f: 1.8, hint: "雪予報でタクシー一択" };
+  if (c.startsWith("3")) return { f: 1.4, hint: "雨予報で電車・徒歩を回避" };
+  return null;
+}
+
+function weatherFactor(ev) {
+  const wx = (window.TAXI_APP_DATA && window.TAXI_APP_DATA.weather) || {};
+  const fc = wx[ev.date];
+  if (!fc) return { f: 1.0, hint: "予報なし（基準値）", weather: null, pop: null };
+
+  let f = 1.0;
+  const parts = [];
+  const cf = _codeFactor(fc.weather_code);
+  const pop = Number(fc.pop_max);
+  const tmax = Number(fc.temp_max);
+  const tmin = Number(fc.temp_min);
+  const popN = Number.isFinite(pop) ? pop : 0;
+
+  if (cf) {
+    f = cf.f;
+    parts.push(cf.hint + `（降水${popN}%）`);
+  } else if (popN >= 60) {
+    f = 1.3;
+    parts.push(`降水確率${popN}%で電車回避層増`);
+  } else if (popN >= 30) {
+    f = 1.1;
+    parts.push(`降水確率${popN}%でやや増`);
+  } else {
+    const w = (fc.weather || "").replace(/[\s　]+/g, " ").trim();
+    parts.push(w ? `${w.slice(0, 18)} / 降水${popN}%` : "標準");
+  }
+
+  if (Number.isFinite(tmax) && tmax >= 35) { f *= 1.1; parts.push(`最高${tmax}℃で駅遠を回避`); }
+  if (Number.isFinite(tmin) && tmin <= 0)  { f *= 1.1; parts.push(`最低${tmin}℃で屋外を回避`); }
+
+  f = Math.min(2.0, Number(f.toFixed(2)));
+  return { f, hint: parts.join(" / "), weather: fc.weather || null, pop: popN, tmax, tmin };
+}
 
 /* ---------- ユーティリティ ---------- */
 
@@ -147,11 +192,12 @@ function scoreEvent(ev) {
   const timeF = timeWindowFactor(ev);
   const longProb = clamp(v.long_distance ?? 0.3, 0, 1);
   const longF = 1.0 + 0.5 * longProb;
+  const wx = weatherFactor(ev);
 
   // ピーク同時タクシー需要(人) = 集客 × 退場集中度 × タクシー利用率 × 駅事情
   const peakDemand = att * exit * useRate * access;
-  // 需要指数 = ピーク需要 × 時間プレミアム × 長距離プレミアム
-  const demandIndex = peakDemand * timeF * longF;
+  // 需要指数 = ピーク需要 × 時間プレミアム × 長距離プレミアム × 気象プレミアム
+  const demandIndex = peakDemand * timeF * longF * wx.f;
   // 0〜100 へ対数正規化（demandIndex 500 → 約50点、2000 → 約75点、10000 → 上限近傍）
   const total = clamp(-21 + 30 * Math.log10(demandIndex + 1), 0, 100);
   const stars = Math.round((total / 20) * 2) / 2; // 半星刻み
@@ -163,6 +209,7 @@ function scoreEvent(ev) {
     stars,
     peakDemand,
     demandIndex,
+    weather: wx,
     breakdown: [
       { label: "規模",           strength: clamp(Math.log10(att + 1) / 5, 0, 1) * 100,
         value: `${att.toLocaleString()}人`, hint: "集客の絶対数（対数スケール）" },
@@ -176,6 +223,8 @@ function scoreEvent(ev) {
         value: `×${timeF.toFixed(2)}`,       hint: timeHint(ev) },
       { label: "長距離期待",     strength: longProb * 100,
         value: `×${longF.toFixed(2)}`,       hint: destHint },
+      { label: "気象プレミアム", strength: clamp((wx.f - 1.0) / 1.0, 0, 1) * 100,
+        value: `×${wx.f.toFixed(2)}`,        hint: wx.hint },
     ],
   };
 }
@@ -477,7 +526,21 @@ function renderFooter() {
   const src = meta.source === "demo"
     ? "表示中のイベントはデモデータ（架空）です"
     : `データソース: ${esc(meta.source || "不明")}`;
-  el.innerHTML = `<span class="footer-brand">FORECAB</span> ${src} ・ 更新 ${esc(meta.generated_at || "-")}<br>
+
+  // 表示中の日付の気象を出す（今日の場合「本日」、それ以外は日付）
+  const wx = (meta.weather || {})[state.date];
+  let wxLine = "";
+  if (wx) {
+    const w = (wx.weather || "").replace(/[\s　]+/g, " ").trim();
+    const pop = Number.isFinite(Number(wx.pop_max)) ? `降水${wx.pop_max}%` : "";
+    const t = [];
+    if (wx.temp_max != null) t.push(`最高${wx.temp_max}℃`);
+    if (wx.temp_min != null) t.push(`最低${wx.temp_min}℃`);
+    const isToday = state.date === todayISO();
+    wxLine = `<div class="footer-wx">${isToday ? "本日" : esc(state.date)}の予報 ／ ${esc(w || "")} ／ ${esc(pop)} ／ ${esc(t.join(" "))}</div>`;
+  }
+
+  el.innerHTML = `${wxLine}<span class="footer-brand">FORECAB</span> ${src} ・ 更新 ${esc(meta.generated_at || "-")}<br>
     スコアは公開情報ベースの参考値です。実際の需要・交通規制・営業区域は現場の判断を優先してください。`;
 }
 
