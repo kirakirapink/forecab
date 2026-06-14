@@ -2,14 +2,19 @@
 "use strict";
 
 /* ===========================================================
- * スコアリングモデル（合計0〜100点 → 星0〜5）
+ * スコアリングモデル（乗算式）→ 星0〜5
  *
- *   規模(0-40)    : 来場者数。対数スケール（100人=0点、10万人=40点）
- *   客層(0-20)    : タクシー利用率・客単価の期待値
- *   時間帯(0-20)  : 終演が遅いほど高得点（終電後は最大）。展示会は常時出入りで底上げ
- *   駅事情(0-10)  : 駅が遠い・弱い・混む会場ほどタクシーに流れる
- *   長距離(0-10)  : 空港・近県・都心横断などロング期待
- *   ×種別補正     : 展示会1.10（ビジネス経費移動・手荷物）〜 催事0.85（電車中心）
+ *   需要指数 = 集客 × 退場集中度 × タクシー利用率 × 駅事情 × 時間プレミアム × 長距離プレミアム
+ *
+ *     集客           : イベント来場者数の絶対値
+ *     退場集中度     : ピーク前後の同時退場比率（カテゴリ別）
+ *     タクシー利用率 : 客層別の退場者→タクシー流入率
+ *     駅事情         : 駅遠ほど捕捉率が上がる（near<mid<far）
+ *     時間プレミアム : 終演〜終電マージン。深夜ほど確実にタクシー
+ *     長距離プレミアム: 1.0 + 0.5 × 長距離期待度。空港・遠郊外需要の単価補正
+ *
+ *   表示スコア(0〜100)は需要指数を対数正規化したもの。
+ *   needs と revenue の両方を「需要 × 価値」の乗算で表現するのが旧加点式との違い。
  * =========================================================== */
 
 const CATEGORY_LABEL = {
@@ -20,12 +25,21 @@ const CATEGORY_LABEL = {
   festival: "催事・フェス",
 };
 
-const CATEGORY_FACTOR = {
-  exhibition: 1.10,
-  theater: 1.05,
-  concert: 1.00,
-  sports: 0.92,  // 駅至近スタジアムが多く電車比率高
-  festival: 0.85,
+// 退場集中度: ピーク時に同時に出る観客の比率
+const EXIT_RATE = {
+  sports: 0.85,      // 試合終了で一斉退場
+  theater: 0.80,    // 拍手の後にまとまって退場
+  concert: 0.75,    // アンコール後にまとまる
+  festival: 0.35,   // 引け際にばらつく
+  exhibition: 0.18, // 終日出入りで分散
+};
+
+const EXIT_HINT = {
+  sports: "試合終了で一斉退場",
+  theater: "拍手の後にまとまって退場",
+  concert: "アンコール後にまとまる",
+  festival: "引け際にばらつく",
+  exhibition: "終日出入りで分散",
 };
 
 const AUDIENCE_LABEL = {
@@ -36,24 +50,30 @@ const AUDIENCE_LABEL = {
   senior_wealthy: "年配・富裕層",
 };
 
-const AUDIENCE_SPEND = {  // 0-20
-  senior_wealthy: 20,
-  business: 18,
-  general: 10,
-  family: 8,
-  youth: 5,
+// 退場者のうちタクシーに流れる比率（客層別）
+const TAXI_USE_RATE = {
+  senior_wealthy: 0.45, // 歌舞伎・オペラ・能の常連は確実
+  business: 0.22,       // 経費移動・手荷物・時間価値
+  family: 0.10,         // 子連れ短距離需要
+  general: 0.06,        // 通常の電車優位層
+  youth: 0.03,          // 電車・徒歩中心
 };
 
 const AUDIENCE_HINT = {
-  business: "経費移動が多くタクシー利用率高",
-  senior_wealthy: "タクシー利用率は最高クラス",
-  general: "利用率は普通。規模で勝負",
-  family: "子連れ・荷物で短距離需要が出る",
+  senior_wealthy: "年配・富裕層は利用率最高クラス",
+  business: "経費移動・手荷物でタクシー比率高",
+  family: "子連れ・荷物で短距離需要",
+  general: "利用率は限定的。規模で稼ぐ",
   youth: "電車中心で利用率低め",
 };
 
-const ACCESS_SCORE = { near: 3, mid: 6, far: 10 };
-const ACCESS_LABEL = { near: "駅近（電車に流れやすい）", mid: "駅やや遠 or 終演時大混雑", far: "駅遠・路線弱（タクシー有利）" };
+// 駅事情によるタクシー捕捉率。駅遠ほど高い
+const ACCESS_FACTOR = { near: 0.55, mid: 1.0, far: 1.5 };
+const ACCESS_LABEL = {
+  near: "駅近で電車に流れやすい",
+  mid: "駅やや遠 or 終演時大混雑",
+  far: "駅遠・路線弱でタクシー有利",
+};
 
 /* ---------- ユーティリティ ---------- */
 
@@ -76,46 +96,86 @@ function venueOf(ev) {
 
 /* ---------- スコアリング ---------- */
 
-function timingScore(ev) {
-  const end = toMin(ev.end);
+// 終演時刻 → 時間プレミアム係数。終電マージンが薄いほど大きい
+function timeWindowFactor(ev) {
   if (ev.category === "exhibition") {
-    // 終日出入りがあるため底上げ。閉場が夕方以降ならピークも乗る
-    return clamp(12 + (end >= toMin("17:00") ? 3 : 0), 0, 20);
+    const end = toMin(ev.end);
+    if (end < toMin("17:00")) return 0.7;
+    if (end < toMin("19:00")) return 0.9;
+    return 1.1;
   }
-  let base;
-  if (end < toMin("18:00")) base = 4;
-  else if (end < toMin("20:00")) base = 8;
-  else if (end < toMin("21:00")) base = 12;
-  else if (end < toMin("22:00")) base = 16;
-  else if (end < toMin("23:00")) base = 19;
-  else base = 20; // 終電が怪しい時間帯はタクシー一択になる
-  if (ev.category === "festival") base = Math.max(0, base - 4);
-  return base;
+  const startMin = toMin(ev.start);
+  const endMin = toMin(ev.end);
+  // 終演が日跨ぎ（深夜帯）の場合は終電喪失で最大係数
+  if (endMin < startMin) return 2.5;
+  const end = endMin;
+  if (end < toMin("18:00")) return 0.5;
+  if (end < toMin("20:00")) return 0.8;
+  if (end < toMin("21:00")) return 1.0;
+  if (end < toMin("22:00")) return 1.3;
+  if (end < toMin("23:00")) return 1.6;
+  if (end < toMin("23:45")) return 2.0;
+  return 2.5; // 終電喪失でタクシー一択
+}
+
+function timeHint(ev) {
+  if (ev.category === "exhibition") {
+    const end = toMin(ev.end);
+    if (end < toMin("17:00")) return "閉場が早く電車優位";
+    if (end < toMin("19:00")) return "夕方閉場で需要中程度";
+    return "夜閉場で需要が立つ";
+  }
+  const endMin = toMin(ev.end);
+  const startMin = toMin(ev.start);
+  if (endMin < startMin) return "深夜帯で終電喪失";
+  const end = endMin;
+  if (end < toMin("18:00")) return "終演早く電車優位";
+  if (end < toMin("20:00")) return "終電まで余裕大";
+  if (end < toMin("21:00")) return "終電まで余裕";
+  if (end < toMin("22:00")) return "終電2-3h前で需要本格化";
+  if (end < toMin("23:00")) return "終電1-2h前で需要強";
+  if (end < toMin("23:45")) return "終電怪しい時間帯";
+  return "終電喪失でタクシー一択";
 }
 
 function scoreEvent(ev) {
   const v = venueOf(ev);
   const att = Math.max(1, Number(ev.attendance) || 1);
-  const volume = clamp((Math.log10(att) - 2) / 3, 0, 1) * 40;
-  const spend = AUDIENCE_SPEND[ev.audience] ?? 10;
-  const timing = timingScore(ev);
-  const access = ACCESS_SCORE[v.station_access] ?? 6;
-  const longdist = clamp(v.long_distance ?? 0.3, 0, 1) * 10;
-  const factor = CATEGORY_FACTOR[ev.category] ?? 1.0;
+  const exit = EXIT_RATE[ev.category] ?? 0.5;
+  const useRate = TAXI_USE_RATE[ev.audience] ?? 0.06;
+  const access = ACCESS_FACTOR[v.station_access] ?? 1.0;
+  const timeF = timeWindowFactor(ev);
+  const longProb = clamp(v.long_distance ?? 0.3, 0, 1);
+  const longF = 1.0 + 0.5 * longProb;
 
-  const total = clamp((volume + spend + timing + access + longdist) * factor, 0, 100);
+  // ピーク同時タクシー需要(人) = 集客 × 退場集中度 × タクシー利用率 × 駅事情
+  const peakDemand = att * exit * useRate * access;
+  // 需要指数 = ピーク需要 × 時間プレミアム × 長距離プレミアム
+  const demandIndex = peakDemand * timeF * longF;
+  // 0〜100 へ対数正規化（demandIndex 500 → 約50点、2000 → 約75点、10000 → 上限近傍）
+  const total = clamp(-21 + 30 * Math.log10(demandIndex + 1), 0, 100);
   const stars = Math.round((total / 20) * 2) / 2; // 半星刻み
+
+  const destHint = (v.typical_destinations || []).slice(0, 2).join("・") || "標準的な需要";
 
   return {
     total: Math.round(total),
     stars,
-    factor,
+    peakDemand,
+    demandIndex,
     breakdown: [
-      { label: "規模",     score: Math.round(volume),  max: 40, hint: `${att.toLocaleString()}人規模` },
-      { label: "客層",     score: spend,               max: 20, hint: AUDIENCE_HINT[ev.audience] || "" },
-      { label: "時間帯",   score: timing,              max: 20, hint: ev.category === "exhibition" ? "終日出入りあり" : `終演 ${ev.end}` },
-      { label: "駅事情",   score: access,              max: 10, hint: ACCESS_LABEL[v.station_access] || "" },
-      { label: "長距離",   score: Math.round(longdist), max: 10, hint: (v.typical_destinations || []).slice(0, 2).join("・") || "データなし" },
+      { label: "規模",           strength: clamp(Math.log10(att + 1) / 5, 0, 1) * 100,
+        value: `${att.toLocaleString()}人`, hint: "集客の絶対数（対数スケール）" },
+      { label: "退場集中度",     strength: exit * 100,
+        value: `×${exit.toFixed(2)}`,        hint: EXIT_HINT[ev.category] || "退場の集中度" },
+      { label: "客層タクシー率", strength: clamp(useRate / 0.45, 0, 1) * 100,
+        value: `×${useRate.toFixed(2)}`,     hint: AUDIENCE_HINT[ev.audience] || "" },
+      { label: "駅距離補正",     strength: clamp((access - 0.55) / 0.95, 0, 1) * 100,
+        value: `×${access.toFixed(2)}`,      hint: ACCESS_LABEL[v.station_access] || "" },
+      { label: "終演時間",       strength: clamp((timeF - 0.5) / 2.0, 0, 1) * 100,
+        value: `×${timeF.toFixed(2)}`,       hint: timeHint(ev) },
+      { label: "長距離期待",     strength: longProb * 100,
+        value: `×${longF.toFixed(2)}`,       hint: destHint },
     ],
   };
 }
@@ -350,8 +410,8 @@ function breakdownHtml(e) {
   const rows = e.score.breakdown.map(b => `
     <div class="bd-row">
       <div class="bd-label">${b.label}</div>
-      <div class="bd-bar"><div class="bd-fill" style="width:${(b.score / b.max) * 100}%"></div></div>
-      <div class="bd-score">${b.score}<span class="bd-max">/${b.max}</span></div>
+      <div class="bd-bar"><div class="bd-fill" style="width:${b.strength.toFixed(0)}%"></div></div>
+      <div class="bd-score">${esc(b.value)}</div>
       <div class="bd-hint">${esc(b.hint)}</div>
     </div>`).join("");
   const v = e.venueInfo;
@@ -359,9 +419,11 @@ function breakdownHtml(e) {
     ? `<div class="detail-row"><span class="detail-key">主要行き先</span>${v.typical_destinations.map(d => `<span class="dest">${esc(d)}</span>`).join("")}</div>` : "";
   const tips = v.tips ? `<div class="detail-row"><span class="detail-key">現場メモ</span>${esc(v.tips)}</div>` : "";
   const notes = e.notes ? `<div class="detail-row"><span class="detail-key">備考</span>${esc(e.notes)}</div>` : "";
+  const peak = Math.round(e.score.peakDemand);
+  const idx = Math.round(e.score.demandIndex);
   return `
     <div class="breakdown">
-      <div class="bd-title">スコア内訳（種別補正 ×${e.score.factor.toFixed(2)}）</div>
+      <div class="bd-title">スコア内訳（乗算モデル：需要指数 ${idx} ／ ピーク同時需要 約${peak.toLocaleString()}人）</div>
       ${rows}
     </div>
     ${dest}${tips}${notes}`;
