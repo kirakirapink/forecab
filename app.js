@@ -406,21 +406,51 @@ function renderHeatmap() {
   }
 
   // 今日を表示中なら現在時刻のラインを重ねる
+  const rangeLo = lo * BIN, rangeHi = (hi + 1) * BIN, rangeSpan = rangeHi - rangeLo;
   let nowLine = "";
   if (state.date === todayISO()) {
     const now = new Date();
     const nowMin = now.getHours() * 60 + now.getMinutes();
-    const rangeLo = lo * BIN, rangeHi = (hi + 1) * BIN;
     if (nowMin >= rangeLo && nowMin <= rangeHi) {
-      const pct = ((nowMin - rangeLo) / (rangeHi - rangeLo)) * 100;
+      const pct = ((nowMin - rangeLo) / rangeSpan) * 100;
       nowLine = `<div class="hm-now" style="left:${pct.toFixed(2)}%"><span>NOW</span></div>`;
     }
+  }
+
+  // 天気帯: 6時間毎の降水確率を時間軸に沿って表示
+  const fc = ((window.TAXI_APP_DATA && window.TAXI_APP_DATA.weather) || {})[state.date];
+  let wxStrip = "";
+  if (fc && Array.isArray(fc.hourly) && fc.hourly.length > 0) {
+    const slices = fc.hourly
+      .map(h => {
+        const s = Math.max(rangeLo, h.start_min);
+        const e = Math.min(rangeHi, h.end_min);
+        if (e <= s) return "";
+        const left = ((s - rangeLo) / rangeSpan) * 100;
+        const width = ((e - s) / rangeSpan) * 100;
+        const pop = Number(h.pop) || 0;
+        const cls = pop >= 60 ? "wx-rain-heavy" : pop >= 30 ? "wx-rain-mid" : pop >= 10 ? "wx-rain-light" : "wx-clear";
+        const icon = pop >= 30 ? "☔" : pop >= 10 ? "☁" : "☀";
+        const lbl = pop >= 10 ? `${icon} ${pop}%` : icon;
+        const title = `${fmtMin(h.start_min)}-${fmtMin(h.end_min % 1440 || 1440)} 降水${pop}%`;
+        return `<div class="wx-slice ${cls}" style="left:${left.toFixed(2)}%;width:${width.toFixed(2)}%" title="${title}"><span class="wx-lbl">${lbl}</span></div>`;
+      })
+      .join("");
+    if (slices) wxStrip = `<div class="hm-weather">${slices}</div>`;
+  } else if (fc && fc.pop_max != null) {
+    // 時間帯別データが無い（週間予報範囲）→ 1日全体の最大降水確率を1枚で表示
+    const pop = Number(fc.pop_max) || 0;
+    const cls = pop >= 60 ? "wx-rain-heavy" : pop >= 30 ? "wx-rain-mid" : pop >= 10 ? "wx-rain-light" : "wx-clear";
+    const icon = pop >= 30 ? "☔" : pop >= 10 ? "☁" : "☀";
+    const lbl = pop >= 10 ? `${icon} 日中最大 ${pop}%` : `${icon} 概ね晴れ`;
+    wxStrip = `<div class="hm-weather"><div class="wx-slice wx-fallback ${cls}" style="left:0%;width:100%" title="日中最大降水${pop}%"><span class="wx-lbl">${lbl}</span></div></div>`;
   }
 
   el.innerHTML = `
     <h2 class="section-title"><span class="en">Demand Timeline</span>時間帯別需要指数
       <span class="peak-note">ピーク ${fmtMin(peakBin * BIN)}前後</span>
     </h2>
+    ${wxStrip}
     <div class="hm-chart">${bars}${nowLine}</div>
     <div class="hm-labels">${labels}</div>`;
 }

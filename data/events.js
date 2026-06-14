@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-06-14T15:48:44+09:00",
+  "generated_at": "2026-06-14T17:32:40+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + ntj.jac.go.jp + t-i-forum.co.jp + tokyo-dome.co.jp",
   "events": [
     {
@@ -941,7 +941,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-06-24",
-      "name": "IVE WORLD TOUR &lsquo;SHOW WHAT I AM&rsquo; IN JAPAN",
+      "name": "IVE WORLD TOUR ‘SHOW WHAT I AM’ IN JAPAN",
       "venue": "東京ドーム",
       "category": "concert",
       "start": "18:30",
@@ -1097,7 +1097,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-06-27",
-      "name": "三代目 J SOUL BROTHERS PRESENTS &quot;JSB LAND 〜FOREVER〜&quot;",
+      "name": "三代目 J SOUL BROTHERS PRESENTS \"JSB LAND 〜FOREVER〜\"",
       "venue": "東京ドーム",
       "category": "concert",
       "start": "18:00",
@@ -1137,22 +1137,49 @@ window.TAXI_APP_DATA = {
   ],
   "weather": {
     "2026-06-14": {
-      "weather_code": "111",
-      "weather": "晴れ　昼過ぎ　から　くもり　所により　雨　で　雷を伴う",
+      "weather_code": "200",
+      "weather": "くもり　所により　雨　で　雷を伴う",
       "pop_max": 20,
-      "temp_min": 28,
-      "temp_max": 28
+      "hourly": [
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
     },
     "2026-06-15": {
       "weather_code": "313",
       "weather": "雨　昼過ぎ　から　くもり",
       "pop_max": 80,
-      "temp_min": 18,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 70
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 80
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
+        }
+      ],
+      "temp_min": 17,
       "temp_max": 20
     },
     "2026-06-16": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
       "pop_max": 20,
       "temp_min": 16,
       "temp_max": 27

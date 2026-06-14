@@ -66,21 +66,36 @@ def fetch():
                 if i < len(weathers):
                     result.setdefault(date, {})["weather"] = weathers[i]
 
-        # timeSeries[1]: 6時間毎の降水確率 → 日次max集計
+        # timeSeries[1]: 6時間毎の降水確率
+        #   timeDefinesの各時刻は「その時刻から6時間先まで」の予報を表す
+        #   日次最大 + 時間帯別配列の両方を保持（時間帯別はヒートマップ表示用）
         if len(short) > 1 and short[1].get("areas"):
             a = short[1]["areas"][0]
             pops_by_date = {}
+            hourly_by_date = {}  # 日付 → [{start_min, end_min, pop}, ...]
             for i, ts in enumerate(short[1]["timeDefines"]):
                 date = _parse_date(ts)
                 pop_list = a.get("pops", [])
-                if i < len(pop_list):
-                    try:
-                        pop = int(pop_list[i])
-                        pops_by_date[date] = max(pops_by_date.get(date, 0), pop)
-                    except (ValueError, TypeError):
-                        pass
+                if i >= len(pop_list):
+                    continue
+                try:
+                    pop = int(pop_list[i])
+                except (ValueError, TypeError):
+                    continue
+                pops_by_date[date] = max(pops_by_date.get(date, 0), pop)
+                # 「YYYY-MM-DDTHH:MM:SS+09:00」から時間を抜く
+                hour = int(ts[11:13])
+                start_min = hour * 60
+                end_min = start_min + 360  # 6時間 = 360分
+                hourly_by_date.setdefault(date, []).append({
+                    "start_min": start_min,
+                    "end_min": end_min,
+                    "pop": pop,
+                })
             for date, pop in pops_by_date.items():
                 result.setdefault(date, {})["pop_max"] = pop
+            for date, hourly in hourly_by_date.items():
+                result.setdefault(date, {})["hourly"] = hourly
 
         # timeSeries[2]: 朝晩の気温（最低・最高）
         if len(short) > 2 and short[2].get("areas"):
