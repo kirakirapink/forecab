@@ -25,7 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from sources import base, npb, bigsight, dome, ariake, nntt, kabukiza, national_stadium, medical_society  # noqa: E402
+from sources import base, npb, bigsight, dome, ariake, nntt, kabukiza, national_stadium, medical_society, nougakudo  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "data" / "events.js"
@@ -64,7 +64,7 @@ def main():
     ap = argparse.ArgumentParser(description="イベント自動取得 → data/events.js 生成")
     ap.add_argument("--days", type=int, default=14, help="今日から何日分を対象にするか（既定14）")
     ap.add_argument("--pages", type=int, default=3, help="ビッグサイト一覧の取得ページ数（既定3）")
-    ap.add_argument("--sources", default="npb,bigsight,dome,ariake,nntt,kabukiza,national_stadium,medical_society", help="使うソース（カンマ区切り）")
+    ap.add_argument("--sources", default="npb,bigsight,dome,ariake,nntt,kabukiza,national_stadium,medical_society,nougakudo", help="使うソース（カンマ区切り）")
     ap.add_argument("--offline", action="store_true", help="通信せずキャッシュのみ使う")
     ap.add_argument("--dry-run", action="store_true", help="events.js を書かずに結果表示のみ")
     args = ap.parse_args()
@@ -143,6 +143,14 @@ def main():
             all_events += got
         except base.SourceError as e:
             errors.append(f"[medical_society] {e}")
+
+    if "nougakudo" in wanted:
+        try:
+            got = nougakudo.fetch()
+            print(f"[nougakudo] {len(got)}件（国立能楽堂）")
+            all_events += got
+        except base.SourceError as e:
+            errors.append(f"[nougakudo] {e}")
 
     manual = load_manual_csv()
     if manual:
