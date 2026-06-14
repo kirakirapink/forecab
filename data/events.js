@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-06-14T15:47:43+09:00",
+  "generated_at": "2026-06-14T15:48:44+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + ntj.jac.go.jp + t-i-forum.co.jp + tokyo-dome.co.jp",
   "events": [
     {
@@ -941,7 +941,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-06-24",
-      "name": "IVE WORLD TOUR ‘SHOW WHAT I AM’ IN JAPAN",
+      "name": "IVE WORLD TOUR &lsquo;SHOW WHAT I AM&rsquo; IN JAPAN",
       "venue": "東京ドーム",
       "category": "concert",
       "start": "18:30",
@@ -1097,7 +1097,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-06-27",
-      "name": "三代目 J SOUL BROTHERS PRESENTS \"JSB LAND 〜FOREVER〜\"",
+      "name": "三代目 J SOUL BROTHERS PRESENTS &quot;JSB LAND 〜FOREVER〜&quot;",
       "venue": "東京ドーム",
       "category": "concert",
       "start": "18:00",
