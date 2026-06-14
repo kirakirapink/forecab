@@ -1,11 +1,13 @@
 """年次の超大型イベント手動マスタ。
 
-自動取得が困難で年次回帰する花火大会・東京マラソン・初詣・カウントダウン等を
-data/annual_master.csv に登録しておくと、開催14日前から自動で events.js に反映される。
+自動取得が困難で年次回帰する花火大会・東京マラソン・初詣・カウントダウン・
+大相撲本場所・サントリーホール主催公演等を data/annual_master.csv に登録しておくと、
+開催14日前から自動で events.js に反映される。
 
 CSV列:
-    date,name,venue,category,start,end,attendance,audience,notes
-    （events_template.csv と同じスキーマ）
+    date,date_end,name,venue,category,start,end,attendance,audience,notes
+    - date_end は省略可。指定すると date〜date_end の各日に展開（大相撲15日間など）。
+    - その他は events_template.csv と同じスキーマ
 
 メンテナンス方針:
     - 年に1回、翌年分の予定日を更新する（多くは「○月第N土曜」等のパターンで概算可能）
@@ -16,6 +18,7 @@ CSV列:
     花火・初詣・マラソン・カウントダウンは特定客層に偏らない混在イベントだが、
     会場が駅遠（花火）または広域規制（マラソン・カウントダウン）になることで
     駅事情×時間プレミアムの両軸でスコアが跳ねる。
+    大相撲本場所はタニマチ・年配富裕層中心で打ち出し直後の中距離需要が確実。
 """
 import csv
 import datetime
@@ -27,7 +30,9 @@ CSV_PATH = Path(__file__).resolve().parent.parent.parent / "data" / "annual_mast
 
 
 def fetch(days_ahead=120):
-    """年次手動マスタから今後 days_ahead 日以内のイベントを取得"""
+    """年次手動マスタから今後 days_ahead 日以内のイベントを取得。
+    date_end 列が指定されていれば date〜date_end の各日を展開する。
+    """
     if not CSV_PATH.exists():
         return []
     today = datetime.date.today()
@@ -40,25 +45,37 @@ def fetch(days_ahead=120):
             if not date_s or not row.get("name"):
                 continue
             try:
-                d = datetime.date.fromisoformat(date_s)
+                d_start = datetime.date.fromisoformat(date_s)
             except ValueError:
                 continue
-            if not (today <= d <= cutoff):
+            # 終了日（省略時は開始日と同じ）
+            date_end_s = row.get("date_end", "") or date_s
+            try:
+                d_end = datetime.date.fromisoformat(date_end_s)
+            except ValueError:
+                d_end = d_start
+            if d_end < d_start or (d_end - d_start).days > 30:
+                # 1ヶ月超は安全上スキップ（誤入力対策）
                 continue
             try:
                 attendance = int(row.get("attendance", "10000") or "10000")
             except ValueError:
                 attendance = 10000
-            events.append(make_event(
-                date=date_s,
-                name=row["name"],
-                venue=row.get("venue", ""),
-                category=row.get("category", "festival") or "festival",
-                start=row.get("start", "19:00") or "19:00",
-                end=row.get("end", "21:00") or "21:00",
-                attendance=attendance,
-                audience=row.get("audience", "general") or "general",
-                notes=row.get("notes", ""),
-                source="年次マスタ",
-            ))
+
+            for i in range((d_end - d_start).days + 1):
+                d = d_start + datetime.timedelta(days=i)
+                if not (today <= d <= cutoff):
+                    continue
+                events.append(make_event(
+                    date=d.isoformat(),
+                    name=row["name"],
+                    venue=row.get("venue", ""),
+                    category=row.get("category", "festival") or "festival",
+                    start=row.get("start", "19:00") or "19:00",
+                    end=row.get("end", "21:00") or "21:00",
+                    attendance=attendance,
+                    audience=row.get("audience", "general") or "general",
+                    notes=row.get("notes", ""),
+                    source="年次マスタ",
+                ))
     return events
