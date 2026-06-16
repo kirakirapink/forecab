@@ -22,6 +22,12 @@ from .base import _SSL_CTX, USER_AGENT, SourceError
 
 # 130000 = 東京都
 URL = "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+FALLBACK_HOURLY_WINDOWS = (
+    (0, 360),
+    (360, 720),
+    (720, 1080),
+    (1080, 1440),
+)
 
 
 def _fetch_json():
@@ -37,6 +43,14 @@ def _fetch_json():
 def _parse_date(ts):
     """ISO 'YYYY-MM-DDTHH:MM:SS+09:00' → 'YYYY-MM-DD'"""
     return ts.split("T", 1)[0]
+
+
+def _make_fallback_hourly(pop):
+    """日次POPからヒートマップ用の6時間枠を合成する。"""
+    return [
+        {"start_min": start, "end_min": end, "pop": pop}
+        for start, end in FALLBACK_HOURLY_WINDOWS
+    ]
 
 
 def fetch():
@@ -151,5 +165,14 @@ def fetch():
                         result[date].setdefault("temp_max", int(tmax[i]))
                     except (ValueError, TypeError):
                         pass
+
+    # 短期予報の6時間POPが実行時刻によって欠ける日や、週間予報のみの日でも
+    # ヒートマップに天気帯を出せるよう、日次POPから4枠を補完する。
+    for forecast in result.values():
+        if "pop_max" not in forecast:
+            continue
+        hourly = forecast.get("hourly")
+        if not hourly or len(hourly) <= 2:
+            forecast["hourly"] = _make_fallback_hourly(forecast["pop_max"])
 
     return result
