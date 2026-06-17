@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-06-17T01:03:47+09:00",
+  "generated_at": "2026-06-17T21:39:35+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + ntj.jac.go.jp + t-i-forum.co.jp + tokyo-dome.co.jp",
   "events": [
     {
@@ -1032,52 +1032,52 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-06-16": {
-      "weather_code": "200",
-      "weather": "くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ]
-    },
     "2026-06-17": {
-      "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり",
+      "weather_code": "200",
+      "weather": "くもり　所により　夜遅く　雨",
       "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 0
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-06-18": {
+      "weather_code": "202",
+      "weather": "くもり　明け方　まで　雨　所により　昼過ぎ　から　雷",
+      "pop_max": 50,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
         },
         {
           "start_min": 1080,
@@ -1088,116 +1088,88 @@ window.TAXI_APP_DATA = {
       "temp_min": 19,
       "temp_max": 28
     },
-    "2026-06-18": {
-      "weather_code": "202",
-      "weather": "くもり　一時　雨",
-      "pop_max": 50,
-      "temp_min": 19,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ]
-    },
     "2026-06-19": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
+      "pop_max": 30,
       "temp_min": 21,
       "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     },
     "2026-06-20": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 20,
-      "temp_max": 27,
+      "weather_code": "212",
+      "pop_max": 50,
+      "temp_min": 19,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
     "2026-06-21": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 18,
-      "temp_max": 23,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
@@ -1205,7 +1177,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 18,
-      "temp_max": 23,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -1232,8 +1204,8 @@ window.TAXI_APP_DATA = {
     "2026-06-23": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 17,
-      "temp_max": 23,
+      "temp_min": 18,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -1254,6 +1226,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 40
+        }
+      ]
+    },
+    "2026-06-24": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 18,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
