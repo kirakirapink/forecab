@@ -291,7 +291,215 @@ const state = {
   sort: "score",          // score | time
   category: new Set(),     // 空 = 全部
   area: new Set(),
+  userLatLng: null,
 };
+
+let map = null;
+let markerLayerGroup = null;
+let zoneLayerGroup = null;
+let userLocationMarker = null;
+let mapInitialized = false;
+
+/**
+ * Haversine formulaで2点間の距離をkm単位で返す。
+ * @param {{lat: number, lng: number}} a 始点の緯度経度。
+ * @param {{lat: number, lng: number}} b 終点の緯度経度。
+ * @returns {number} 2点間の距離(km)。
+ */
+function haversineKm(a, b) {
+  const lat1 = Number(a.lat);
+  const lng1 = Number(a.lng);
+  const lat2 = Number(b.lat);
+  const lng2 = Number(b.lng);
+  if (![lat1, lng1, lat2, lng2].every(Number.isFinite)) return NaN;
+
+  const toRad = deg => deg * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const sLat1 = toRad(lat1);
+  const sLat2 = toRad(lat2);
+  const h = Math.sin(dLat / 2) ** 2 +
+    Math.cos(sLat1) * Math.cos(sLat2) * Math.sin(dLng / 2) ** 2;
+  return 6371 * 2 * Math.atan2(Math.sqrt(h), Math.sqrt(1 - h));
+}
+
+/**
+ * 会場マーカーとホットゾーン円を全削除し、描画用レイヤーを作り直す。
+ * @returns {void}
+ */
+function clearMapLayers() {
+  if (!map || !window.L) return;
+  if (markerLayerGroup) map.removeLayer(markerLayerGroup);
+  if (zoneLayerGroup) map.removeLayer(zoneLayerGroup);
+  zoneLayerGroup = L.layerGroup().addTo(map);
+  markerLayerGroup = L.layerGroup().addTo(map);
+}
+
+/**
+ * state.dateにイベントがある会場だけを地図へ描画する。
+ * @returns {void}
+ */
+function renderMap() {
+  if (!map || !window.L) return;
+  clearMapLayers();
+
+  const evs = eventsOfDay();
+  if (evs.length === 0 || !window.VENUES) return;
+
+  Object.entries(window.VENUES).forEach(([venueName, venue]) => {
+    const lat = Number(venue.lat);
+    const lng = Number(venue.lng);
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+
+    const venueEvents = evs.filter(e => e.venue === venueName);
+    if (venueEvents.length === 0) return;
+
+    const score = Math.max(...venueEvents.map(e => e.score.total));
+    const color = score >= 70 ? "#d32f2f"
+      : score >= 50 ? "#f57c00"
+      : score >= 30 ? "#fbc02d"
+      : "#757575";
+    const point = [lat, lng];
+
+    if (score >= 30) {
+      L.circle(point, {
+        radius: 300 + score * 15,
+        fillColor: color,
+        fillOpacity: 0.10 + score / 400,
+        stroke: false,
+      }).addTo(zoneLayerGroup);
+    }
+
+    const eventNames = venueEvents.map(e => esc(e.name)).join("<br>");
+    const eventTimes = venueEvents.map(e => `${esc(e.start)}-${esc(e.end)}`).join("<br>");
+    const marker = L.circleMarker(point, {
+      radius: Math.round(8 + score / 100 * 6),
+      color,
+      fillColor: color,
+      fillOpacity: 0.85,
+      weight: 2,
+    }).addTo(markerLayerGroup);
+
+    marker.bindPopup(`
+      <strong>${esc(venueName)}</strong><br>
+      ${eventNames}<br>
+      スコア ${score}<br>
+      ${eventTimes}
+    `);
+  });
+}
+
+/**
+ * 現在地がある場合、イベントカードに現在地から会場までの距離を反映する。
+ * @returns {void}
+ */
+function updateDistances() {
+  document.querySelectorAll(".event-card[data-id]").forEach(card => {
+    const venueEl = card.querySelector(".card-venue");
+    if (!venueEl) return;
+
+    let label = venueEl.querySelector(".distance-label");
+    if (!label) {
+      label = document.createElement("span");
+      label.className = "distance-label";
+      venueEl.appendChild(label);
+    }
+
+    if (!state.userLatLng) {
+      label.hidden = true;
+      label.textContent = "";
+      return;
+    }
+
+    const ev = EVENTS.find(e => e.id === card.dataset.id);
+    const lat = Number(ev && ev.venueInfo && ev.venueInfo.lat);
+    const lng = Number(ev && ev.venueInfo && ev.venueInfo.lng);
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
+      label.hidden = true;
+      label.textContent = "";
+      return;
+    }
+
+    const km = haversineKm(state.userLatLng, { lat, lng });
+    if (!Number.isFinite(km)) {
+      label.hidden = true;
+      label.textContent = "";
+      return;
+    }
+
+    label.hidden = false;
+    label.textContent = `あなたから ${km.toFixed(1)} km`;
+  });
+}
+
+/**
+ * Leaflet地図を1回だけ初期化し、現在地ボタンと保存済み位置を接続する。
+ * @returns {void}
+ */
+function initVenueMap() {
+  if (mapInitialized || !window.L || !document.getElementById("venue-map")) return;
+  mapInitialized = true;
+  map = L.map("venue-map").setView([35.681, 139.767], 12);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+  clearMapLayers();
+  renderMap();
+
+  const locationBtn = document.getElementById("get-location-btn");
+  const errorEl = document.getElementById("location-error");
+  const markerOptions = {
+    radius: 8,
+    color: "#1e88e5",
+    fillColor: "#1e88e5",
+    fillOpacity: 0.9,
+  };
+
+  try {
+    const saved = sessionStorage.getItem("userLatLng");
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      const lat = Number(parsed.lat);
+      const lng = Number(parsed.lng);
+      if (Number.isFinite(lat) && Number.isFinite(lng)) {
+        state.userLatLng = { lat, lng };
+        if (userLocationMarker) map.removeLayer(userLocationMarker);
+        userLocationMarker = L.circleMarker([lat, lng], markerOptions).addTo(map);
+        updateDistances();
+      }
+    }
+  } catch (e) {
+    try {
+      sessionStorage.removeItem("userLatLng");
+    } catch (err) {}
+  }
+
+  if (!locationBtn) return;
+  locationBtn.addEventListener("click", () => {
+    if (errorEl) errorEl.textContent = "";
+    if (!navigator.geolocation) {
+      if (errorEl) errorEl.textContent = "位置取得に失敗";
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(position => {
+      const lat = position.coords.latitude;
+      const lng = position.coords.longitude;
+      state.userLatLng = { lat, lng };
+      try {
+        sessionStorage.setItem("userLatLng", JSON.stringify(state.userLatLng));
+      } catch (e) {
+        // 保存できない環境でも現在セッションの表示は継続する。
+      }
+      if (userLocationMarker) map.removeLayer(userLocationMarker);
+      userLocationMarker = L.circleMarker([lat, lng], markerOptions).addTo(map);
+      map.setView([lat, lng], 13);
+      updateDistances();
+    }, () => {
+      if (errorEl) errorEl.textContent = "位置取得に失敗";
+    });
+  });
+}
 
 /* ---------- レンダリング ---------- */
 
@@ -581,6 +789,25 @@ function render() {
   renderControls();
   renderList();
   renderFooter();
+}
+
+/**
+ * 既存UIの再描画後に地図と距離表示を同期する。
+ * @returns {void}
+ */
+const renderWithMap = function () {
+  renderBase();
+  renderMap();
+  updateDistances();
+};
+
+const renderBase = render;
+render = renderWithMap;
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initVenueMap, { once: true });
+} else {
+  initVenueMap();
 }
 
 render();
