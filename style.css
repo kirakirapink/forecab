@@ -193,6 +193,73 @@ button { font-family: inherit; }
 .wx-slice.wx-rain-heavy  { background: #5b8fd1; color: #fff; border-color: #3d6ea8; }
 .wx-slice.wx-fallback    { opacity: .85; }
 
+/* ---------- 会場マップ ---------- */
+.map-section {
+  margin-bottom: 26px;
+}
+.map-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.map-title-row .section-title {
+  margin-bottom: 0;
+}
+.location-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0;
+  flex: 0 0 auto;
+  min-height: 33px;
+}
+#venue-map {
+  height: 400px;
+  width: 100%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(20, 24, 33, .04);
+}
+#get-location-btn {
+  background: linear-gradient(#ffffff, #f5f7fa);
+  color: var(--ink);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(20, 24, 33, .04);
+  white-space: nowrap;
+}
+#get-location-btn:hover {
+  background: #fff;
+  border-color: #b9c0ca;
+}
+#get-location-btn:focus-visible {
+  outline: 2px solid rgba(30, 136, 229, .35);
+  outline-offset: 2px;
+}
+.distance-label {
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 8px;
+  white-space: nowrap;
+}
+.distance-label[hidden] {
+  display: none;
+}
+#location-error {
+  font-size: 0.8em;
+  color: #c62828;
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
 /* ---------- コントロール ---------- */
 .control-row { margin-bottom: 9px; }
 .sort-toggle {
@@ -321,4 +388,16 @@ button { font-family: inherit; }
 .footer-wx {
   font-size: 12px; color: var(--ink); margin-bottom: 8px; padding: 8px 10px;
   background: var(--card); border: 1px solid var(--border-strong); border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .map-title-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .location-controls {
+    justify-content: flex-start;
+  }
+  #venue-map { height: 300px; }
 }
