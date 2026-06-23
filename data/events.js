@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-06-23T00:59:44+09:00",
+  "generated_at": "2026-06-23T17:48:56+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + ntj.jac.go.jp + t-i-forum.co.jp + tokyo-dome.co.jp",
   "events": [
     {
@@ -135,7 +135,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-06-24",
-      "name": "IVE WORLD TOUR ‘SHOW WHAT I AM’ IN JAPAN",
+      "name": "IVE WORLD TOUR &lsquo;SHOW WHAT I AM&rsquo; IN JAPAN",
       "venue": "東京ドーム",
       "category": "concert",
       "start": "18:30",
@@ -369,7 +369,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-06-27",
-      "name": "三代目 J SOUL BROTHERS PRESENTS \"JSB LAND 〜FOREVER〜\"",
+      "name": "三代目 J SOUL BROTHERS PRESENTS &quot;JSB LAND 〜FOREVER〜&quot;",
       "venue": "東京ドーム",
       "category": "concert",
       "start": "18:00",
@@ -447,7 +447,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-06-28",
-      "name": "三代目 J SOUL BROTHERS PRESENTS \"JSB LAND 〜FOREVER〜\"",
+      "name": "三代目 J SOUL BROTHERS PRESENTS &quot;JSB LAND 〜FOREVER〜&quot;",
       "venue": "東京ドーム",
       "category": "concert",
       "start": "17:00",
@@ -889,9 +889,36 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-06-22": {
+    "2026-06-23": {
       "weather_code": "200",
       "weather": "くもり　所により　雨",
+      "pop_max": 30,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-06-24": {
+      "weather_code": "200",
+      "weather": "くもり",
       "pop_max": 20,
       "hourly": [
         {
@@ -902,111 +929,56 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
-    "2026-06-23": {
-      "weather_code": "201",
-      "weather": "くもり　朝　から　昼過ぎ　晴れ　所により　夕方　から　雨",
-      "pop_max": 30,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
           "pop": 10
         },
         {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
         }
       ],
-      "temp_min": 19,
-      "temp_max": 28
-    },
-    "2026-06-24": {
-      "weather_code": "200",
-      "weather": "くもり",
-      "pop_max": 40,
       "temp_min": 18,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
+      "temp_max": 25
     },
     "2026-06-25": {
-      "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 19,
+      "weather_code": "203",
+      "weather": "くもり　時々　雨",
+      "pop_max": 70,
+      "temp_min": 20,
       "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 70
         }
       ]
     },
     "2026-06-26": {
-      "weather_code": "203",
+      "weather_code": "313",
       "pop_max": 70,
-      "temp_min": 19,
-      "temp_max": 26,
+      "temp_min": 21,
+      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
@@ -1034,7 +1006,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 20,
-      "temp_max": 28,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
@@ -1061,8 +1033,8 @@ window.TAXI_APP_DATA = {
     "2026-06-28": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 20,
-      "temp_max": 25,
+      "temp_min": 21,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -1089,8 +1061,8 @@ window.TAXI_APP_DATA = {
     "2026-06-29": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 21,
-      "temp_max": 27,
+      "temp_min": 20,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -1111,6 +1083,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-06-30": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 20,
+      "temp_max": 28,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
