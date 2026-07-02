@@ -9,3 +9,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run unittest
         run: python3 -m unittest discover -s tools/tests -v
+      - name: JS構文チェック
+        run: |
+          node --check app.js
+          node --check scoring.js
+          node --check tools/post_daily.mjs
