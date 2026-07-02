@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-07-03T00:51:57+09:00",
+  "generated_at": "2026-07-03T07:57:21+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + t-i-forum.co.jp + tokyo-dome.co.jp + 年次マスタ",
   "events": [
     {
@@ -1448,47 +1448,15 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-07-02": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夜のはじめ頃　まで　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
     "2026-07-03": {
-      "weather_code": "200",
-      "weather": "くもり　所により　昼過ぎ　から　雨",
+      "weather_code": "202",
+      "weather": "くもり　明け方　まで　雨",
       "pop_max": 30,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 720,
@@ -1501,37 +1469,37 @@ window.TAXI_APP_DATA = {
           "pop": 30
         }
       ],
-      "temp_min": 21,
+      "temp_min": 25,
       "temp_max": 25
     },
     "2026-07-04": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
-      "pop_max": 30,
-      "temp_min": 20,
-      "temp_max": 26,
+      "weather_code": "200",
+      "weather": "くもり　所により　昼過ぎ　から　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 20,
+      "temp_max": 25
     },
     "2026-07-05": {
       "weather_code": "200",
