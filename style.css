@@ -7,12 +7,17 @@
   --ink: #16181d;          /* 主要テキスト・選択状態 */
   --text: #2a2e36;
   --dim: #6a7282;
+  --muted-label: #9aa2b1;
   --amber: #f0a800;        /* タクシーアンバー（面用） */
   --amber-deep: #a87b00;   /* アンバー（文字用） */
   --star-off: #d8dce3;
   --hot: #e8590c;
   --warm: #f0a800;
   --cool: #c3cad4;
+  --warn-bg: #fff1f2;
+  --warn-ink: #8f1d2c;
+  --warn-border: #f0b8c0;
+  --error-ink: #b04a43;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -48,7 +53,7 @@ button { font-family: inherit; }
 }
 .brand-tag-en {
   display: block; font-size: 9.5px; font-weight: 700;
-  letter-spacing: .22em; text-transform: uppercase; color: #9aa2b1;
+  letter-spacing: .22em; text-transform: uppercase; color: var(--muted-label);
   margin-top: 2px;
 }
 
@@ -56,9 +61,9 @@ button { font-family: inherit; }
 .freshness-banner {
   margin: 0 2px 8px;
   padding: 10px 12px;
-  background: #fff1f2;
-  color: #8f1d2c;
-  border: 1px solid #f0b8c0;
+  background: var(--warn-bg);
+  color: var(--warn-ink);
+  border: 1px solid var(--warn-border);
   border-radius: 9px;
   font-size: 13px;
   font-weight: 700;
@@ -347,7 +352,7 @@ button { font-family: inherit; }
 .card-info { padding: 12px 14px 13px; min-width: 0; }
 .card-top-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
 .card-time { font-size: 12.5px; font-weight: 700; color: var(--dim); font-variant-numeric: tabular-nums; }
-.expand-hint { margin-left: auto; font-size: 10.5px; font-weight: 700; color: #9aa2b1; letter-spacing: .08em; }
+.expand-hint { margin-left: auto; font-size: 10.5px; font-weight: 700; color: var(--muted-label); letter-spacing: .08em; }
 .expand-hint::after { content: " +"; }
 .event-card[open] .expand-hint::after { content: " −"; }
 
@@ -363,7 +368,7 @@ button { font-family: inherit; }
 
 .card-name { font-size: 16px; font-weight: 700; color: var(--ink); line-height: 1.4; }
 .card-venue { font-size: 13px; color: var(--dim); font-weight: 600; margin: 1px 0 7px; }
-.card-area { font-size: 11.5px; font-weight: 600; color: #9aa2b1; margin-left: 7px; }
+.card-area { font-size: 11.5px; font-weight: 600; color: var(--muted-label); margin-left: 7px; }
 .card-facts {
   font-size: 13px; color: var(--text); font-variant-numeric: tabular-nums;
   margin-bottom: 8px;
@@ -432,7 +437,7 @@ button { font-family: inherit; }
   font-size: 12px; color: var(--ink); margin-bottom: 8px; padding: 8px 10px;
   background: var(--card); border: 1px solid var(--border-strong); border-radius: 6px;
 }
-.footer-errors { color: #b04a43; margin-bottom: 6px; }
+.footer-errors { color: var(--error-ink); margin-bottom: 6px; }
 
 @media (max-width: 600px) {
   .map-title-row {
@@ -444,4 +449,110 @@ button { font-family: inherit; }
     justify-content: flex-start;
   }
   #venue-map { height: 300px; }
+}
+
+/* ---------- 夜間（ダークモード） ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171c;
+    --card: #1e2128;
+    --border: #2e323b;
+    --border-strong: #3d434e;
+    --ink: #e8eaee;
+    --text: #c9cdd6;
+    --dim: #8b93a1;
+    --muted-label: #6f7784;
+    --amber: #f0a800;
+    --amber-deep: #d9a51e;
+    --star-off: #3a4048;
+    --hot: #ff7a33;
+    --warm: #f0a800;
+    --cool: #4a515c;
+    --warn-bg: #38222a;
+    --warn-ink: #f0aab4;
+    --warn-border: #5c3240;
+    --error-ink: #e08a82;
+  }
+
+  /* ---------- ブランド ---------- */
+  .brand-accent,
+  .today-mark {
+    color: #15171c;
+  }
+
+  /* ---------- 日付タブ ---------- */
+  .date-tab,
+  .best-card,
+  .now-bridge,
+  .hm-chart,
+  #venue-map,
+  #get-location-btn,
+  .sort-toggle,
+  .event-card {
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  }
+  .date-tab.sat .wd { color: #7ba7e8; }
+  .date-tab.sun .wd { color: #e08573; }
+  .date-tab.active .md { color: #15171c; }
+  .date-tab.active .wd { color: rgba(21,23,28,.65); }
+
+  /* ---------- 重点3件 ---------- */
+  .best-rank { color: #5f6672; }
+
+  /* ---------- 今から狙う ---------- */
+  .now-view .now-card,
+  .now-view .now-card:first-child {
+    background: var(--card);
+  }
+
+  /* ---------- ヒートマップ上の天気帯 ---------- */
+  .wx-slice.wx-clear { background: #232830; color: #8b93a1; }
+  .wx-slice.wx-rain-light { background: #1d2836; color: #7fa8d9; border-color: #2c3d52; }
+  .wx-slice.wx-rain-mid { background: #23374f; color: #9dc0ea; border-color: #33506e; }
+  .wx-slice.wx-rain-heavy { background: #3d6ea8; color: #fff; border-color: #2d5580; }
+
+  /* ---------- 会場マップ ---------- */
+  #venue-map { filter: brightness(.85) contrast(1.05) saturate(.9); }
+  #get-location-btn {
+    background: linear-gradient(#242832, #1e2128);
+  }
+  #get-location-btn:hover {
+    background: var(--card);
+    border-color: var(--border-strong);
+  }
+  #get-location-btn:focus-visible {
+    outline-color: rgba(123,167,232,.45);
+  }
+  .distance-label { color: #8b93a1; }
+  #location-error { color: #e08a82; }
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: #1e2128;
+    color: var(--text);
+  }
+
+  /* ---------- コントロール ---------- */
+  .sort-btn.on,
+  .chip.on {
+    color: #15171c;
+  }
+
+  /* ---------- イベントカード ---------- */
+  .event-card[open] {
+    box-shadow: 0 4px 16px rgba(0,0,0,.3);
+  }
+  .cat-exhibition { background: #1e2c44; color: #8ab4f0; }
+  .cat-concert { background: #40222f; color: #ef9cc5; }
+  .cat-sports { background: #1d3328; color: #7fd0a4; }
+  .cat-theater { background: #2c2440; color: #b79aeb; }
+  .cat-festival { background: #3a2d1a; color: #dfa860; }
+  .card-facts .sep { color: #5f6672; }
+
+  /* ---------- スコア内訳 ---------- */
+  .breakdown,
+  .detail-row {
+    background: #1a1d24;
+  }
+  .bd-bar { background: #2e323b; }
+  .dest { background: #2a2f38; }
 }
