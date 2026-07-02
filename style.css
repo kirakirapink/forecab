@@ -353,6 +353,8 @@ button { font-family: inherit; }
 .card-info { padding: 12px 14px 13px; min-width: 0; }
 .card-top-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
 .card-time { font-size: 12.5px; font-weight: 700; color: var(--dim); font-variant-numeric: tabular-nums; }
+.countdown { color: var(--dim); font-size: 11.5px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.countdown.urgent { color: var(--amber-deep); }
 .expand-hint { margin-left: auto; font-size: 10.5px; font-weight: 700; color: var(--muted-label); letter-spacing: .08em; }
 .expand-hint::after { content: " +"; }
 .event-card[open] .expand-hint::after { content: " −"; }
