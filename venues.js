@@ -80,6 +80,15 @@ window.VENUES = {
     typical_destinations: ["東京駅", "新宿・渋谷方面", "羽田空港"],
     tips: "駅が遠く弱いので湾岸では最もタクシーが出る会場。終演15分前に正面へ。豊洲方面の渋滞は織り込むこと。"
   },
+  "東京ガーデンシアター": {
+    area: "湾岸（有明）",
+    ward: "江東区",
+    lat: 35.6363, lng: 139.7911,
+    station_access: "mid", // 有明駅徒歩5分/国際展示場駅徒歩7分。8千人規模だと駅が捌けない
+    long_distance: 0.5,
+    typical_destinations: ["東京駅", "都心ホテル（銀座・汐留）", "羽田空港"],
+    tips: "有明ガーデン内。大規模公演時は規制退場でゆりかもめが長蛇。ビッグサイト同様に都心方面ロングが期待できる。"
+  },
   "サントリーホール": {
     area: "六本木・溜池",
     ward: "港区",
@@ -99,13 +108,22 @@ window.VENUES = {
     tips: "駅前だがオペラ・バレエ客は高齢富裕層が中心で着物客も多い。正面口に短い列ができる。"
   },
   "Zepp DiverCity": {
-    area: "湾岸（お台場）",
+    area: "お台場",
     ward: "江東区",
     lat: 35.6251, lng: 139.7753,
-    station_access: "mid",
+    station_access: "mid", // 東京テレポート/台場とも徒歩5-8分・終演時混雑
     long_distance: 0.4,
-    typical_destinations: ["新橋・東京駅方面", "りんかい線沿線"],
-    tips: "若年客中心でタクシー比率は低めだが、湾岸は流しが少ないため競合も少ない。"
+    typical_destinations: ["新橋・銀座", "品川", "豊洲・勝どき"],
+    tips: "ダイバーシティ東京プラザ横。りんかい線・ゆりかもめとも輸送力が細く、雨天時はタクシー需要が跳ねる。"
+  },
+  "Zepp Haneda": {
+    area: "羽田・天空橋",
+    ward: "大田区",
+    lat: 35.5493, lng: 139.7420,
+    station_access: "near", // 天空橋駅直結・京急/モノレール
+    long_distance: 0.3,
+    typical_destinations: ["品川", "蒲田・川崎方面", "羽田空港"],
+    tips: "HANEDA INNOVATION CITY内。駅直結だが終演直後は改札が混み、物販待ちの分散退場もある。空港が近く訪日客の空港送りが稀に出る。"
   },
   "豊洲PIT": {
     area: "豊洲",
