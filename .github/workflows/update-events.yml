@@ -54,3 +54,10 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: 本日の重点3件をDiscordへ配信
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node tools/post_daily.mjs
+        continue-on-error: true
