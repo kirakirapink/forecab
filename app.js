@@ -421,8 +421,12 @@ function renderMap() {
       }).addTo(zoneLayerGroup);
     }
 
-    const eventNames = venueEvents.map(e => esc(e.name)).join("<br>");
-    const eventTimes = venueEvents.map(e => `${esc(e.start)}-${esc(e.end)}`).join("<br>");
+    const eventRows = venueEvents.map(e => `
+      <div class="popup-event">
+        <button class="popup-jump" data-id="${esc(e.id)}">${esc(e.name)}</button>
+        <span>${esc(e.start)}-${esc(e.end)}</span>
+      </div>
+    `).join("");
     const marker = L.circleMarker(point, {
       radius: Math.round(8 + score / 100 * 6),
       color,
@@ -433,9 +437,8 @@ function renderMap() {
 
     marker.bindPopup(`
       <strong>${esc(venueName)}</strong><br>
-      ${eventNames}<br>
+      ${eventRows}
       スコア ${score}<br>
-      ${eventTimes}
     `);
   });
 }
@@ -545,6 +548,22 @@ function initVenueMap() {
   if (mapInitialized || !window.L || !document.getElementById("venue-map")) return;
   mapInitialized = true;
   map = L.map("venue-map").setView([35.681, 139.767], 12);
+  map.on("popupopen", e => {
+    const popupEl = e.popup.getElement();
+    if (!popupEl) return;
+    popupEl.querySelectorAll(".popup-jump").forEach(button => {
+      button.addEventListener("click", () => {
+        const id = button.dataset.id;
+        map.closePopup();
+        if (!document.querySelector(`.event-card[data-id="${id}"]`)) {
+          state.category.clear();
+          state.area.clear();
+          render();
+        }
+        scrollToEventCard(id);
+      });
+    });
+  });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map);
