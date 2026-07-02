@@ -54,6 +54,8 @@ python3 tools/fetch_events.py --offline   # 通信せずキャッシュから再
 | `bigsight.py` — 東京ビッグサイト公式 | 展示会・催事（会期・時間・入場区分つき） | 利用ホール数 × 7,000人/日 |
 | `dome.py` — 東京ドーム公式 | ドームのコンサート・催事（野球以外。開演時刻つき） | コンサート45,000 / 催事30,000 |
 | `ariake.py` — 有明アリーナ公式 | アリーナのライブ・スポーツ（当月+翌月） | 12,000（開演は18:00仮置き） |
+| `zepp.py` — Zepp公式 | Zepp Haneda / Zepp DiverCity のライブ（OPEN/START時刻つき） | Haneda 2,900 / DiverCity 2,400 |
+| `garden_theater.py` — 東京ガーデンシアター公式 | 大型ホールのライブ・スポーツ（期間公演は日ごとに展開） | 7,000（開演は18:00仮置き） |
 
 取得マナー（[tools/sources/base.py](tools/sources/base.py) で一元管理）:
 - リクエスト間に最低2秒空ける ・ 同一URLは12時間キャッシュ ・ User-Agentに用途と連絡先を明示

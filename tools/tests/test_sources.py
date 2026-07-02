@@ -30,6 +30,9 @@ URL_FIXTURES = {
     "https://jams.med.or.jp/members-a/index.html": "medical_society_members.html",
     "https://www.ntj.jac.go.jp/nou/": "nougakudo_top.html",
     "https://www.t-i-forum.co.jp/visitors/event/": "forum_event.html",
+    "https://www.zepp.co.jp/hall/haneda/schedule/": "zepp_haneda.html",
+    "https://www.zepp.co.jp/hall/divercity/schedule/": "zepp_divercity.html",
+    "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/schedule/": "garden_theater.html",
 }
 
 VALID_CATEGORIES = {"exhibition", "concert", "sports", "theater", "festival"}
@@ -109,6 +112,48 @@ class SourceFixtureTests(EventAssertions):
             events = ariake.fetch()
         self.assertGreaterEqual(len(events), 1)
         self.assert_valid_event(events[0])
+
+    def test_zepp_fetches_from_haneda_and_divercity_fixtures(self):
+        with offline_source("zepp") as zepp:
+            events = zepp.fetch()
+        venues = {event["venue"] for event in events}
+        self.assertIn("Zepp Haneda", venues)
+        self.assertIn("Zepp DiverCity", venues)
+        self.assertGreaterEqual(len([e for e in events if e["venue"] == "Zepp Haneda"]), 20)
+        self.assertGreaterEqual(len([e for e in events if e["venue"] == "Zepp DiverCity"]), 20)
+        self.assertTrue(any(
+            e["date"] == "2026-07-03"
+            and e["venue"] == "Zepp Haneda"
+            and e["start"] == "19:00"
+            and "BLUE ENCOUNT" in e["name"]
+            for e in events
+        ))
+        self.assertTrue(any(
+            e["date"] == "2026-07-03"
+            and e["venue"] == "Zepp DiverCity"
+            and e["start"] == "19:00"
+            and "East Of Eden" in e["name"]
+            for e in events
+        ))
+        self.assert_valid_event(events[0])
+
+    def test_garden_theater_fetches_and_expands_periods(self):
+        with offline_source("garden_theater", today=(2026, 7, 3)) as garden_theater:
+            events = garden_theater.fetch()
+        self.assertGreaterEqual(len(events), 20)
+        self.assert_valid_event(events[0])
+        akanishi_dates = {
+            e["date"] for e in events
+            if e["venue"] == "東京ガーデンシアター" and "JIN AKANISHI HEART LIVE 2026" in e["name"]
+        }
+        self.assertEqual(akanishi_dates, {"2026-07-03", "2026-07-04", "2026-07-05"})
+        self.assertTrue(any(
+            e["date"] == "2026-07-24"
+            and e["start"] == "18:00"
+            and e["end"] == "21:00"
+            and "サマーステップコンサート" in e["name"]
+            for e in events
+        ))
 
     def test_nntt_fetches_from_calendar_fixture(self):
         # The cached NNTT payload is JSON and contains 2027/08 performances.
