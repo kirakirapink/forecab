@@ -77,6 +77,7 @@ def main():
 
     all_events = []
     errors = []
+    fetch_stats = []
 
     if "npb" in wanted:
         months = sorted({(d.year, d.month) for d in dates})
@@ -84,6 +85,7 @@ def main():
             try:
                 got = npb.fetch(year, month, weekend_dates)
                 print(f"[npb] {year}-{month:02d}: {len(got)}試合（都内球場）")
+                fetch_stats.append({"source": "npb", "count": len(got)})
                 all_events += got
             except base.SourceError as e:
                 errors.append(f"[npb] {e}")
@@ -92,6 +94,7 @@ def main():
         try:
             got = bigsight.fetch(pages=args.pages)
             print(f"[bigsight] {len(got)}件（開催日ごとに展開済み）")
+            fetch_stats.append({"source": "bigsight", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[bigsight] {e}")
@@ -100,6 +103,7 @@ def main():
         try:
             got = dome.fetch()
             print(f"[dome] {len(got)}件（東京ドーム・野球以外）")
+            fetch_stats.append({"source": "dome", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[dome] {e}")
@@ -108,6 +112,7 @@ def main():
         try:
             got = ariake.fetch()
             print(f"[ariake] {len(got)}件（有明アリーナ）")
+            fetch_stats.append({"source": "ariake", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[ariake] {e}")
@@ -116,6 +121,7 @@ def main():
         try:
             got = nntt.fetch()
             print(f"[nntt] {len(got)}件（新国立劇場：オペラ・バレエ・現代演劇）")
+            fetch_stats.append({"source": "nntt", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[nntt] {e}")
@@ -124,6 +130,7 @@ def main():
         try:
             got = kabukiza.fetch()
             print(f"[kabukiza] {len(got)}件（歌舞伎座）")
+            fetch_stats.append({"source": "kabukiza", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[kabukiza] {e}")
@@ -132,6 +139,7 @@ def main():
         try:
             got = national_stadium.fetch()
             print(f"[national_stadium] {len(got)}件（国立競技場）")
+            fetch_stats.append({"source": "national_stadium", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[national_stadium] {e}")
@@ -140,6 +148,7 @@ def main():
         try:
             got = medical_society.fetch()
             print(f"[medical_society] {len(got)}件（日本医学会・都内学術集会）")
+            fetch_stats.append({"source": "medical_society", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[medical_society] {e}")
@@ -148,6 +157,7 @@ def main():
         try:
             got = nougakudo.fetch()
             print(f"[nougakudo] {len(got)}件（国立能楽堂）")
+            fetch_stats.append({"source": "nougakudo", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[nougakudo] {e}")
@@ -156,6 +166,7 @@ def main():
         try:
             got = annual.fetch(days_ahead=args.days)
             print(f"[annual] {len(got)}件（年次マスタ）")
+            fetch_stats.append({"source": "annual", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[annual] {e}")
@@ -164,6 +175,7 @@ def main():
         try:
             got = forum.fetch(days_ahead=args.days)
             print(f"[forum] {len(got)}件（東京国際フォーラム）")
+            fetch_stats.append({"source": "forum", "count": len(got)})
             all_events += got
         except base.SourceError as e:
             errors.append(f"[forum] {e}")
@@ -214,6 +226,8 @@ def main():
         "source": "自動取得: " + " + ".join(srcs) if srcs else "データなし",
         "events": events,
         "weather": wx,
+        "fetch_stats": fetch_stats,
+        "errors": errors,
     }
     js = (
         "// このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する\n"
