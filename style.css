@@ -18,6 +18,9 @@
   --warn-ink: #8f1d2c;
   --warn-border: #f0b8c0;
   --error-ink: #b04a43;
+  --sat-ink: #3b6fc4;
+  --sun-ink: #c2503e;
+  --week-meter-bg: #edf0f4;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -85,8 +88,8 @@ button { font-family: inherit; }
 }
 .date-tab .md { font-weight: 800; font-size: 16px; font-variant-numeric: tabular-nums; letter-spacing: .01em; }
 .date-tab .wd { font-size: 11px; color: var(--dim); font-weight: 600; }
-.date-tab.sat .wd { color: #3b6fc4; }
-.date-tab.sun .wd { color: #c2503e; }
+.date-tab.sat .wd { color: var(--sat-ink); }
+.date-tab.sun .wd { color: var(--sun-ink); }
 .date-tab.active { background: var(--ink); border-color: var(--ink); }
 .date-tab.active .md { color: #fff; }
 .date-tab.active .wd { color: rgba(255, 255, 255, .65); }
@@ -240,6 +243,128 @@ button { font-family: inherit; }
 .wx-slice.wx-rain-mid    { background: #cfe1f6; color: #2d5fa3; border-color: #a6c5e8; }
 .wx-slice.wx-rain-heavy  { background: #5b8fd1; color: #fff; border-color: #3d6ea8; }
 .wx-slice.wx-fallback    { opacity: .85; }
+
+/* ---------- 週間ビュー ---------- */
+.week-view {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-variant-numeric: tabular-nums;
+}
+.week-row {
+  display: grid;
+  grid-template-columns: 84px 28px minmax(70px, 1fr) 38px minmax(90px, 1.15fr) 48px;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 32px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 5px 9px;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 0 1px 2px rgba(20, 24, 33, .03);
+}
+.week-row.active {
+  border-color: var(--ink);
+  background: var(--bg);
+}
+.week-date {
+  position: relative;
+  color: var(--ink);
+  font-size: 12.5px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.week-date .wd {
+  color: var(--dim);
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 2px;
+}
+.week-row.sat .week-date .wd { color: var(--sat-ink); }
+.week-row.sun .week-date .wd { color: var(--sun-ink); }
+.week-today {
+  display: inline-block;
+  margin-right: 5px;
+  color: var(--amber-deep);
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  vertical-align: 1px;
+}
+.week-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 18px;
+  border-radius: 4px;
+  background: var(--amber);
+  color: var(--ink);
+  font-size: 10px;
+  font-weight: 900;
+}
+.week-rank.blank {
+  background: transparent;
+}
+.week-meter {
+  position: relative;
+  height: 6px;
+  background: var(--week-meter-bg);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.week-row.no-events .week-meter {
+  background: transparent;
+}
+.week-bar {
+  display: block;
+  height: 100%;
+  min-width: 3px;
+  background: var(--cool);
+  border-radius: inherit;
+}
+.week-row.ranked .week-bar {
+  background: var(--amber);
+}
+.week-total {
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 800;
+  text-align: right;
+}
+.week-event {
+  color: var(--dim);
+  font-size: 12px;
+  font-weight: 650;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.week-weather {
+  color: var(--dim);
+  font-size: 12px;
+  font-weight: 800;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .week-row {
+    grid-template-columns: 72px 25px minmax(52px, 1fr) 32px minmax(64px, .8fr) 42px;
+    gap: 5px;
+    padding: 5px 7px;
+  }
+  .week-today {
+    display: block;
+    margin: -1px 0 0;
+    line-height: 1;
+  }
+}
 
 /* ---------- 会場マップ ---------- */
 .map-section {
@@ -486,6 +611,9 @@ button { font-family: inherit; }
     --warn-ink: #f0aab4;
     --warn-border: #5c3240;
     --error-ink: #e08a82;
+    --sat-ink: #7ba7e8;
+    --sun-ink: #e08573;
+    --week-meter-bg: #2a2f38;
   }
 
   /* ---------- ブランド ---------- */
@@ -505,8 +633,6 @@ button { font-family: inherit; }
   .event-card {
     box-shadow: 0 1px 2px rgba(0,0,0,.3);
   }
-  .date-tab.sat .wd { color: #7ba7e8; }
-  .date-tab.sun .wd { color: #e08573; }
   .date-tab.active .md { color: #15171c; }
   .date-tab.active .wd { color: rgba(21,23,28,.65); }
 
@@ -525,6 +651,13 @@ button { font-family: inherit; }
   .wx-slice.wx-rain-mid { background: #23374f; color: #9dc0ea; border-color: #33506e; }
   .wx-slice.wx-rain-heavy { background: #3d6ea8; color: #fff; border-color: #2d5580; }
 
+  /* ---------- 週間ビュー ---------- */
+  .week-row {
+    box-shadow: 0 1px 2px rgba(0,0,0,.25);
+  }
+  .week-rank {
+    color: #15171c;
+  }
   /* ---------- 会場マップ ---------- */
   #venue-map { filter: brightness(.85) contrast(1.05) saturate(.9); }
   #get-location-btn {
