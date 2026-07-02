@@ -284,6 +284,7 @@ function aimText(ev) {
 
 /* ---------- データ準備 ---------- */
 
+const STALE_HOURS = 26;
 const RAW = (window.TAXI_APP_DATA && window.TAXI_APP_DATA.events) || [];
 const EVENTS = RAW.map(ev => {
   const sc = scoreEvent(ev);
@@ -535,6 +536,27 @@ function starsHtml(stars) {
     html += `<span class="star"><span class="star-fill" style="width:${fill}%">★</span><span class="star-bg">★</span></span>`;
   }
   return `<span class="stars" title="${stars}/5">${html}</span>`;
+}
+
+function renderFreshnessBanner() {
+  const el = document.getElementById("freshness-banner");
+  const meta = window.TAXI_APP_DATA || {};
+  const gen = new Date(meta.generated_at);
+
+  if (!meta.generated_at || isNaN(gen.getTime())) {
+    el.textContent = "⚠ データの更新時刻が確認できません。表示内容が古い可能性があります";
+    el.hidden = false;
+    return;
+  }
+
+  if (Date.now() - gen.getTime() > STALE_HOURS * 3600 * 1000) {
+    const mdhm = `${gen.getMonth() + 1}/${gen.getDate()} ${String(gen.getHours()).padStart(2, "0")}:${String(gen.getMinutes()).padStart(2, "0")}`;
+    el.innerHTML = esc(`⚠ データが更新されていません（最終更新 ${mdhm}）。予報が古い可能性があります`);
+    el.hidden = false;
+    return;
+  }
+
+  el.hidden = true;
 }
 
 function renderTabs() {
@@ -801,6 +823,7 @@ function renderFooter() {
 }
 
 function render() {
+  renderFreshnessBanner();
   renderTabs();
   renderSummary();
   renderHeatmap();
