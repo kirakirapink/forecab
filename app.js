@@ -307,10 +307,11 @@ function defaultDate() {
 
 const state = {
   date: defaultDate(),
-  sort: "score",          // score | time
+  sort: "score",          // score | time | near | eff
   category: new Set(),     // 空 = 全部
   area: new Set(),
   userLatLng: null,
+  locationDenied: false,
 };
 
 const NOW_VIEW_LOOKAHEAD_MIN = 90;
@@ -457,6 +458,60 @@ function updateDistances() {
 }
 
 /**
+ * 現在地からイベント会場までの距離をkm単位で返す。
+ * @param {object} ev イベント。
+ * @returns {number} 距離(km)。取得不能時はInfinity。
+ */
+function distanceKmOf(ev) {
+  if (!state.userLatLng) return Infinity;
+  const lat = Number(ev && ev.venueInfo && ev.venueInfo.lat);
+  const lng = Number(ev && ev.venueInfo && ev.venueInfo.lng);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return Infinity;
+
+  const km = haversineKm(state.userLatLng, { lat, lng });
+  return Number.isFinite(km) ? km : Infinity;
+}
+
+/**
+ * ブラウザの現在地取得を行い、成功時は状態・地図・距離表示へ反映する。
+ * @param {Function} onSuccess 成功時コールバック。
+ * @param {Function} onError 失敗時コールバック。
+ * @returns {void}
+ */
+function requestUserLocation(onSuccess, onError) {
+  if (!navigator.geolocation) {
+    if (onError) onError();
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(position => {
+    const lat = position.coords.latitude;
+    const lng = position.coords.longitude;
+    state.userLatLng = { lat, lng };
+    state.locationDenied = false;
+    try {
+      sessionStorage.setItem("userLatLng", JSON.stringify(state.userLatLng));
+    } catch (e) {
+      // 保存できない環境でも現在セッションの表示は継続する。
+    }
+    if (map && window.L) {
+      if (userLocationMarker) map.removeLayer(userLocationMarker);
+      userLocationMarker = L.circleMarker([lat, lng], {
+        radius: 8,
+        color: "#1e88e5",
+        fillColor: "#1e88e5",
+        fillOpacity: 0.9,
+      }).addTo(map);
+      map.setView([lat, lng], 13);
+    }
+    updateDistances();
+    if (onSuccess) onSuccess();
+  }, () => {
+    if (onError) onError();
+  });
+}
+
+/**
  * Leaflet地図を1回だけ初期化し、現在地ボタンと保存済み位置を接続する。
  * @returns {void}
  */
@@ -501,25 +556,7 @@ function initVenueMap() {
   if (!locationBtn) return;
   locationBtn.addEventListener("click", () => {
     if (errorEl) errorEl.textContent = "";
-    if (!navigator.geolocation) {
-      if (errorEl) errorEl.textContent = "位置取得に失敗";
-      return;
-    }
-
-    navigator.geolocation.getCurrentPosition(position => {
-      const lat = position.coords.latitude;
-      const lng = position.coords.longitude;
-      state.userLatLng = { lat, lng };
-      try {
-        sessionStorage.setItem("userLatLng", JSON.stringify(state.userLatLng));
-      } catch (e) {
-        // 保存できない環境でも現在セッションの表示は継続する。
-      }
-      if (userLocationMarker) map.removeLayer(userLocationMarker);
-      userLocationMarker = L.circleMarker([lat, lng], markerOptions).addTo(map);
-      map.setView([lat, lng], 13);
-      updateDistances();
-    }, () => {
+    requestUserLocation(null, () => {
       if (errorEl) errorEl.textContent = "位置取得に失敗";
     });
   });
@@ -780,13 +817,33 @@ function renderControls() {
       <div class="sort-toggle">
         <button class="sort-btn ${state.sort === "score" ? "on" : ""}" data-sort="score">スコア順</button>
         <button class="sort-btn ${state.sort === "time" ? "on" : ""}" data-sort="time">時間順</button>
+        <button class="sort-btn ${state.sort === "near" ? "on" : ""}" data-sort="near">近い順</button>
+        <button class="sort-btn ${state.sort === "eff" ? "on" : ""}" data-sort="eff">効率順</button>
       </div>
+      ${state.locationDenied ? `<div class="sort-note">現在地が取得できないため、近い順・効率順は使用できません</div>` : ""}
     </div>
     <div class="chip-row">${cats.map(c => chip(c, CATEGORY_LABEL[c] || c, state.category, "category")).join("")}</div>
     <div class="chip-row">${areas.map(a => chip(a, a, state.area, "area")).join("")}</div>`;
 
   el.querySelectorAll(".sort-btn").forEach(b =>
-    b.addEventListener("click", () => { state.sort = b.dataset.sort; render(); })
+    b.addEventListener("click", () => {
+      const nextSort = b.dataset.sort;
+      if ((nextSort === "near" || nextSort === "eff") && !state.userLatLng) {
+        state.locationDenied = false;
+        requestUserLocation(() => {
+          state.sort = nextSort;
+          state.locationDenied = false;
+          render();
+        }, () => {
+          state.locationDenied = true;
+          render();
+        });
+        return;
+      }
+      state.sort = nextSort;
+      if (nextSort === "near" || nextSort === "eff") state.locationDenied = false;
+      render();
+    })
   );
   el.querySelectorAll(".chip").forEach(b =>
     b.addEventListener("click", () => {
@@ -832,11 +889,28 @@ function renderList() {
     el.innerHTML = `<div class="empty">フィルタに合うイベントがありません</div>`;
     return;
   }
-  const sorted = [...evs].sort((a, b) =>
-    state.sort === "score"
-      ? b.score.total - a.score.total
-      : toMin(a.start) - toMin(b.start)
-  );
+  const sorted = [...evs].sort((a, b) => {
+    if (state.sort === "score") return b.score.total - a.score.total;
+    if (state.sort === "near") {
+      const akm = distanceKmOf(a);
+      const bkm = distanceKmOf(b);
+      if (!Number.isFinite(akm) && Number.isFinite(bkm)) return 1;
+      if (Number.isFinite(akm) && !Number.isFinite(bkm)) return -1;
+      if (akm !== bkm) return akm - bkm;
+      return b.score.total - a.score.total;
+    }
+    if (state.sort === "eff") {
+      const akm = distanceKmOf(a);
+      const bkm = distanceKmOf(b);
+      if (!Number.isFinite(akm) && Number.isFinite(bkm)) return 1;
+      if (Number.isFinite(akm) && !Number.isFinite(bkm)) return -1;
+      const aEff = a.score.total / Math.max(0.5, akm);
+      const bEff = b.score.total / Math.max(0.5, bkm);
+      if (aEff !== bEff) return bEff - aEff;
+      return b.score.total - a.score.total;
+    }
+    return toMin(a.start) - toMin(b.start);
+  });
   el.innerHTML = sorted.map(e => `
     <details class="event-card" data-id="${e.id}">
       <summary>
