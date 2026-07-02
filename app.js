@@ -153,6 +153,32 @@ function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+function countdownText(ev, nowMin) {
+  const startMin = toMin(ev.start);
+  const endMin = toMin(ev.end);
+  const endAbs = endMin <= startMin ? endMin + 1440 : endMin;
+  const nowAbs = (endMin <= startMin && nowMin <= endMin) ? nowMin + 1440 : nowMin;
+  const delta = endAbs - nowAbs;
+
+  if (delta > 0) {
+    const h = Math.floor(delta / 60);
+    const m = delta % 60;
+    return {
+      text: `終演まであと${h > 0 ? `${h}時間${m}分` : `${m}分`}`,
+      urgent: (0 <= delta && delta <= 45) || (-75 <= delta && delta < 0),
+    };
+  }
+
+  if (delta >= -75) {
+    return {
+      text: delta === 0 ? "終演直後" : `終演から${Math.abs(delta)}分経過`,
+      urgent: (0 <= delta && delta <= 45) || (-75 <= delta && delta < 0),
+    };
+  }
+
+  return null;
+}
+
 function venueOf(ev) {
   return Object.assign({}, window.VENUE_DEFAULT, window.VENUES[ev.venue] || {});
 }
@@ -911,6 +937,7 @@ function renderList() {
     }
     return toMin(a.start) - toMin(b.start);
   });
+  const showCountdown = state.date === todayISO();
   el.innerHTML = sorted.map(e => `
     <details class="event-card" data-id="${e.id}">
       <summary>
@@ -923,6 +950,7 @@ function renderList() {
             <div class="card-top-row">
               <span class="cat-badge cat-${e.category}">${CATEGORY_LABEL[e.category] || esc(e.category)}</span>
               <span class="card-time">${e.start}–${e.end}</span>
+              ${showCountdown ? `<span class="countdown" data-id="${esc(e.id)}"></span>` : ""}
               <span class="expand-hint">詳細</span>
             </div>
             <div class="card-name">${esc(e.name)}</div>
@@ -934,6 +962,25 @@ function renderList() {
       </summary>
       ${breakdownHtml(e)}
     </details>`).join("");
+}
+
+function updateCountdowns(nowOverrideMin) {
+  const now = new Date();
+  const nowMin = Number.isFinite(nowOverrideMin) ? nowOverrideMin : now.getHours() * 60 + now.getMinutes();
+  document.querySelectorAll(".countdown").forEach(el => {
+    if (state.date !== todayISO()) {
+      el.textContent = "";
+      el.hidden = true;
+      el.classList.remove("urgent");
+      return;
+    }
+
+    const ev = EVENTS.find(e => String(e.id) === el.dataset.id);
+    const c = ev ? countdownText(ev, nowMin) : null;
+    el.textContent = c ? c.text : "";
+    el.hidden = !c;
+    el.classList.toggle("urgent", Boolean(c && c.urgent));
+  });
 }
 
 function renderFooter() {
@@ -976,6 +1023,7 @@ function render() {
   renderControls();
   renderList();
   renderFooter();
+  updateCountdowns();
 }
 
 function startNowViewAutoRefresh() {
@@ -983,6 +1031,7 @@ function startNowViewAutoRefresh() {
   nowViewTimer = setInterval(() => {
     // 今日タブの表示中だけ、現在時刻セクションを軽量更新する。
     if (state.date === todayISO()) renderNowView();
+    updateCountdowns();
   }, NOW_VIEW_REFRESH_MS);
 }
 
