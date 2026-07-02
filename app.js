@@ -313,11 +313,16 @@ const state = {
   userLatLng: null,
 };
 
+const NOW_VIEW_LOOKAHEAD_MIN = 90;
+const NOW_VIEW_LIMIT = 3;
+const NOW_VIEW_REFRESH_MS = 60 * 1000;
+
 let map = null;
 let markerLayerGroup = null;
 let zoneLayerGroup = null;
 let userLocationMarker = null;
 let mapInitialized = false;
+let nowViewTimer = null;
 
 /**
  * Haversine formulaで2点間の距離をkm単位で返す。
@@ -588,6 +593,72 @@ function filteredEvents() {
   );
 }
 
+function scrollToEventCard(eventId) {
+  const card = document.querySelector(`.event-card[data-id="${eventId}"]`);
+  // フィルタで一覧カードが無い場合は何もしない。
+  if (!card) return;
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.classList.add("flash");
+  setTimeout(() => card.classList.remove("flash"), 1500);
+}
+
+function renderNowView(nowOverrideMin) {
+  const el = document.getElementById("now-view");
+  if (!el) return;
+  if (state.date !== todayISO()) {
+    el.innerHTML = "";
+    return;
+  }
+
+  const now = new Date();
+  const nowMin = Number.isFinite(nowOverrideMin) ? nowOverrideMin : now.getHours() * 60 + now.getMinutes();
+  const untilMin = nowMin + NOW_VIEW_LOOKAHEAD_MIN;
+  const evs = eventsOfDay();
+  const targetEvents = evs
+    .filter(e => demandWindows(e, e.score.total / 100).some(w => w.from <= untilMin && w.to >= nowMin))
+    .sort((a, b) => b.score.total - a.score.total)
+    .slice(0, NOW_VIEW_LIMIT);
+
+  if (targetEvents.length > 0) {
+    el.innerHTML = `
+      <h2 class="section-title"><span class="en">Right Now</span>今から狙う</h2>
+      <div class="best3 now-view">` +
+      targetEvents.map((e, i) => `
+        <button class="best-card now-card" data-id="${e.id}">
+          <div class="best-rank">${String(i + 1).padStart(2, "0")}</div>
+          <div class="best-body">
+            <div class="best-name">${esc(e.name)}</div>
+            <div class="best-meta">${esc(e.venue)}</div>
+            <div class="best-aim">${esc(aimText(e))}</div>
+          </div>
+          <div class="best-score">${e.score.total}</div>
+        </button>`).join("") +
+      `</div>`;
+    el.querySelectorAll(".now-card").forEach(b =>
+      b.addEventListener("click", () => scrollToEventCard(b.dataset.id))
+    );
+    return;
+  }
+
+  const futureWindows = [];
+  evs.forEach(e => {
+    demandWindows(e, e.score.total / 100).forEach(w => {
+      if (w.from > nowMin) futureWindows.push({ event: e, from: w.from });
+    });
+  });
+  futureWindows.sort((a, b) => a.from - b.from);
+  const next = futureWindows[0];
+  if (!next) {
+    el.innerHTML = "";
+    return;
+  }
+
+  // 現在は谷間なら、最も近い次ピークだけを軽く出す。
+  el.innerHTML = `
+    <h2 class="section-title"><span class="en">Right Now</span>今から狙う</h2>
+    <div class="now-bridge">次のピークは <span class="now-bridge-time">${fmtMin(next.from)}</span> 頃 ／ ${esc(next.event.name)}</div>`;
+}
+
 function renderSummary() {
   const el = document.getElementById("summary");
   const top = [...eventsOfDay()].sort((a, b) => b.score.total - a.score.total).slice(0, 3);
@@ -610,14 +681,7 @@ function renderSummary() {
       </button>`).join("") +
     `</div>`;
   el.querySelectorAll(".best-card").forEach(b =>
-    b.addEventListener("click", () => {
-      const card = document.querySelector(`.event-card[data-id="${b.dataset.id}"]`);
-      if (card) {
-        card.scrollIntoView({ behavior: "smooth", block: "center" });
-        card.classList.add("flash");
-        setTimeout(() => card.classList.remove("flash"), 1500);
-      }
-    })
+    b.addEventListener("click", () => scrollToEventCard(b.dataset.id))
   );
 }
 
@@ -832,11 +896,20 @@ function renderFooter() {
 function render() {
   renderFreshnessBanner();
   renderTabs();
+  renderNowView();
   renderSummary();
   renderHeatmap();
   renderControls();
   renderList();
   renderFooter();
+}
+
+function startNowViewAutoRefresh() {
+  if (nowViewTimer !== null) return;
+  nowViewTimer = setInterval(() => {
+    // 今日タブの表示中だけ、現在時刻セクションを軽量更新する。
+    if (state.date === todayISO()) renderNowView();
+  }, NOW_VIEW_REFRESH_MS);
 }
 
 /**
@@ -858,4 +931,5 @@ if (document.readyState === "loading") {
   initVenueMap();
 }
 
+startNowViewAutoRefresh();
 render();
