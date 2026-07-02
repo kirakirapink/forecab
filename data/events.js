@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-07-02T20:58:05+09:00",
+  "generated_at": "2026-07-02T21:00:30+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + t-i-forum.co.jp + tokyo-dome.co.jp + 年次マスタ",
   "events": [
     {
@@ -1686,5 +1686,52 @@ window.TAXI_APP_DATA = {
         }
       ]
     }
-  }
+  },
+  "fetch_stats": [
+    {
+      "source": "npb",
+      "count": 10
+    },
+    {
+      "source": "bigsight",
+      "count": 25
+    },
+    {
+      "source": "dome",
+      "count": 36
+    },
+    {
+      "source": "ariake",
+      "count": 27
+    },
+    {
+      "source": "nntt",
+      "count": 90
+    },
+    {
+      "source": "kabukiza",
+      "count": 88
+    },
+    {
+      "source": "national_stadium",
+      "count": 7
+    },
+    {
+      "source": "medical_society",
+      "count": 21
+    },
+    {
+      "source": "nougakudo",
+      "count": 4
+    },
+    {
+      "source": "annual",
+      "count": 1
+    },
+    {
+      "source": "forum",
+      "count": 25
+    }
+  ],
+  "errors": []
 };
