@@ -53,6 +53,17 @@ button { font-family: inherit; }
 }
 
 /* ---------- 日付タブ ---------- */
+.freshness-banner {
+  margin: 0 2px 8px;
+  padding: 10px 12px;
+  background: #fff1f2;
+  color: #8f1d2c;
+  border: 1px solid #f0b8c0;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+}
 .date-tabs {
   display: flex; gap: 7px; overflow-x: auto; padding: 10px 2px 16px;
   scrollbar-width: none;
