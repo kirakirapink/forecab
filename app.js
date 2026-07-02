@@ -597,6 +597,79 @@ function renderHeatmap() {
     <div class="hm-labels">${labels}</div>`;
 }
 
+function renderWeekView() {
+  const el = document.getElementById("week-view");
+  const today = todayISO();
+  const weather = (window.TAXI_APP_DATA && window.TAXI_APP_DATA.weather) || {};
+  // DATESの時系列順をそのまま使い、各日の合計需要と代表イベントを作る。
+  const dayRows = DATES.map(date => {
+    const evs = EVENTS.filter(e => e.date === date);
+    const dayTotal = evs.reduce((sum, e) => sum + e.score.total, 0);
+    const topEvent = [...evs].sort((a, b) => b.score.total - a.score.total)[0] || null;
+    return { date, evs, dayTotal, topEvent };
+  });
+  const maxTotal = Math.max(...dayRows.map(r => r.dayTotal), 0);
+  const topRanks = new Map(
+    [...dayRows]
+      .filter(r => r.dayTotal > 0)
+      .sort((a, b) => b.dayTotal - a.dayTotal)
+      .slice(0, 3)
+      .map((r, i) => [r.date, i + 1])
+  );
+
+  const weatherLabel = date => {
+    const pop = Number(weather[date] && weather[date].pop_max);
+    if (!Number.isFinite(pop)) return "";
+    if (pop < 10) return "☀";
+    if (pop < 30) return "☁";
+    return `☔ ${pop}%`;
+  };
+  const shortName = name => {
+    const s = String(name);
+    return s.length > 12 ? `${s.slice(0, 12)}...` : s;
+  };
+
+  el.innerHTML = `
+    <h2 class="section-title"><span class="en">Weekly Outlook</span>出る日の目安</h2>
+    <div class="week-view">` +
+    dayRows.map(row => {
+      const { md, wd, dow } = dateLabel(row.date);
+      const rank = topRanks.get(row.date);
+      const width = maxTotal > 0 ? (row.dayTotal / maxTotal) * 100 : 0;
+      const cls = [
+        "week-row",
+        row.date === state.date ? "active" : "",
+        rank ? "ranked" : "",
+        row.evs.length === 0 ? "no-events" : "",
+        dow === 0 ? "sun" : dow === 6 ? "sat" : "",
+      ].join(" ");
+      const todayMark = row.date === today ? `<span class="week-today">TODAY</span>` : "";
+      const rankBadge = rank ? `<span class="week-rank">${String(rank).padStart(2, "0")}</span>` : `<span class="week-rank blank"></span>`;
+      const eventName = row.topEvent ? shortName(row.topEvent.name) : "イベントなし";
+      const bar = row.evs.length > 0
+        ? `<span class="week-bar" style="width:${width.toFixed(2)}%"></span>`
+        : "";
+      return `
+        <button class="${cls}" data-date="${row.date}">
+          <span class="week-date">${todayMark}<span class="md">${esc(md)}</span><span class="wd">(${esc(wd)})</span></span>
+          ${rankBadge}
+          <span class="week-meter">${bar}</span>
+          <span class="week-total">${row.dayTotal}</span>
+          <span class="week-event">${esc(eventName)}</span>
+          <span class="week-weather">${esc(weatherLabel(row.date))}</span>
+        </button>`;
+    }).join("") +
+    `</div>`;
+
+  el.querySelectorAll(".week-row").forEach(b =>
+    b.addEventListener("click", () => {
+      state.date = b.dataset.date;
+      render();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    })
+  );
+}
+
 function renderControls() {
   const el = document.getElementById("controls");
   const cats = [...new Set(eventsOfDay().map(e => e.category))];
@@ -787,6 +860,7 @@ function render() {
   renderNowView();
   renderSummary();
   renderHeatmap();
+  renderWeekView();
   renderControls();
   renderList();
   renderFooter();
