@@ -804,6 +804,13 @@ function renderFooter() {
   const src = meta.source === "demo"
     ? "表示中のイベントはデモデータ（架空）です"
     : `データソース: ${esc(meta.source || "不明")}`;
+  const errors = Array.isArray(meta.errors) ? meta.errors : [];
+  const errorLine = errors.length
+    ? `<div class="footer-errors">&#9888; データ取得エラー: ${errors.map(err => {
+        const s = String(err);
+        return esc(s.length > 60 ? `${s.slice(0, 57)}...` : s);
+      }).join(" ／ ")}</div>`
+    : "";
 
   // 表示中の日付の気象を出す（今日の場合「本日」、それ以外は日付）
   const wx = (meta.weather || {})[state.date];
@@ -818,7 +825,7 @@ function renderFooter() {
     wxLine = `<div class="footer-wx">${isToday ? "本日" : esc(state.date)}の予報 ／ ${esc(w || "")} ／ ${esc(pop)} ／ ${esc(t.join(" "))}</div>`;
   }
 
-  el.innerHTML = `${wxLine}<span class="footer-brand">FORECAB</span> ${src} ・ 更新 ${esc(meta.generated_at || "-")}<br>
+  el.innerHTML = `${errorLine}${wxLine}<span class="footer-brand">FORECAB</span> ${src} ・ 更新 ${esc(meta.generated_at || "-")}<br>
     スコアは公開情報ベースの参考値です。実際の需要・交通規制・営業区域は現場の判断を優先してください。`;
 }
 

@@ -400,6 +400,7 @@ button { font-family: inherit; }
   font-size: 12px; color: var(--ink); margin-bottom: 8px; padding: 8px 10px;
   background: var(--card); border: 1px solid var(--border-strong); border-radius: 6px;
 }
+.footer-errors { color: #b04a43; margin-bottom: 6px; }
 
 @media (max-width: 600px) {
   .map-title-row {
