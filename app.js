@@ -86,6 +86,16 @@ function _codeFactor(code) {
   return null;
 }
 
+function hourlySliceFor(fc, minOfDay) {
+  const hourly = fc && fc.hourly;
+  if (!Array.isArray(hourly) || hourly.length === 0) return null;
+  return hourly.find(h => {
+    const start = Number(h.start_min);
+    const end = Number(h.end_min);
+    return Number.isFinite(start) && Number.isFinite(end) && start <= minOfDay && minOfDay < end;
+  }) || null;
+}
+
 function weatherFactor(ev) {
   const wx = (window.TAXI_APP_DATA && window.TAXI_APP_DATA.weather) || {};
   const fc = wx[ev.date];
@@ -98,26 +108,34 @@ function weatherFactor(ev) {
   const tmax = Number(fc.temp_max);
   const tmin = Number(fc.temp_min);
   const popN = Number.isFinite(pop) ? pop : 0;
+  const startMin = toMin(ev.start);
+  const endMin = toMin(ev.end);
+  const exitPeakMin = endMin < startMin ? 1439 : endMin;
+  const slice = hourlySliceFor(fc, exitPeakMin);
+  const slicePop = slice ? Number(slice.pop) : NaN;
+  const useSlicePop = Number.isFinite(slicePop);
+  const effPop = useSlicePop ? slicePop : popN;
+  const sliceLabel = useSlicePop ? `${fmtMin(slice.start_min)}-${fmtMin(slice.end_min % 1440 || 1440)}` : null;
 
-  if (cf) {
+  if (cf && (!slice || slicePop >= 30)) {
     f = cf.f;
-    parts.push(cf.hint + `（降水${popN}%）`);
-  } else if (popN >= 60) {
+    parts.push(cf.hint + `（${sliceLabel ? `${sliceLabel} ` : ""}降水${effPop}%）`);
+  } else if (effPop >= 60) {
     f = 1.3;
-    parts.push(`降水確率${popN}%で電車回避層増`);
-  } else if (popN >= 30) {
+    parts.push(sliceLabel ? `${sliceLabel} 降水${effPop}%で電車回避層増` : `降水確率${effPop}%で電車回避層増`);
+  } else if (effPop >= 30) {
     f = 1.1;
-    parts.push(`降水確率${popN}%でやや増`);
+    parts.push(sliceLabel ? `${sliceLabel} 降水${effPop}%でやや増` : `降水確率${effPop}%でやや増`);
   } else {
     const w = (fc.weather || "").replace(/[\s　]+/g, " ").trim();
-    parts.push(w ? `${w.slice(0, 18)} / 降水${popN}%` : "標準");
+    parts.push(w ? `${w.slice(0, 18)} / ${sliceLabel ? `${sliceLabel} ` : ""}降水${effPop}%` : (sliceLabel ? `${sliceLabel} 降水${effPop}%` : "標準"));
   }
 
   if (Number.isFinite(tmax) && tmax >= 35) { f *= 1.1; parts.push(`最高${tmax}℃で駅遠を回避`); }
   if (Number.isFinite(tmin) && tmin <= 0)  { f *= 1.1; parts.push(`最低${tmin}℃で屋外を回避`); }
 
   f = Math.min(2.0, Number(f.toFixed(2)));
-  return { f, hint: parts.join(" / "), weather: fc.weather || null, pop: popN, tmax, tmin };
+  return { f, hint: parts.join(" / "), weather: fc.weather || null, pop: effPop, tmax, tmin };
 }
 
 /* ---------- ユーティリティ ---------- */
