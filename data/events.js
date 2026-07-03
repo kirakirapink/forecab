@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-07-03T08:28:50+09:00",
+  "generated_at": "2026-07-03T17:39:24+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + kabuki-bito.jp + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
     {
@@ -1891,10 +1891,15 @@ window.TAXI_APP_DATA = {
   ],
   "weather": {
     "2026-07-03": {
-      "weather_code": "202",
-      "weather": "くもり　明け方　まで　雨",
+      "weather_code": "200",
+      "weather": "くもり　所により　雨",
       "pop_max": 30,
       "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -1910,24 +1915,22 @@ window.TAXI_APP_DATA = {
           "end_min": 1440,
           "pop": 30
         }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
+      ]
     },
     "2026-07-04": {
       "weather_code": "200",
-      "weather": "くもり　所により　昼過ぎ　から　雨",
+      "weather": "くもり　所により　雨",
       "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
@@ -1941,41 +1944,42 @@ window.TAXI_APP_DATA = {
         }
       ],
       "temp_min": 20,
-      "temp_max": 25
+      "temp_max": 26
     },
     "2026-07-05": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "weather": "くもり　一時　雨",
+      "pop_max": 50,
       "temp_min": 21,
       "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
     "2026-07-06": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 21,
-      "temp_max": 25,
+      "temp_min": 22,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -2002,7 +2006,7 @@ window.TAXI_APP_DATA = {
     "2026-07-07": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 28,
       "hourly": [
         {
@@ -2058,8 +2062,8 @@ window.TAXI_APP_DATA = {
     "2026-07-09": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 23,
-      "temp_max": 31,
+      "temp_min": 22,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -2080,6 +2084,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-07-10": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 23,
+      "temp_max": 31,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
@@ -2111,11 +2143,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 90
+      "count": 88
     },
     {
       "source": "kabukiza",
-      "count": 88
+      "count": 89
     },
     {
       "source": "national_stadium",
@@ -2123,7 +2155,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "medical_society",
-      "count": 21
+      "count": 22
     },
     {
       "source": "nougakudo",
@@ -2135,7 +2167,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 25
+      "count": 24
     }
   ],
   "errors": []
