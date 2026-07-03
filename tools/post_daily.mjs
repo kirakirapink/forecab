@@ -69,7 +69,7 @@ function buildMessage() {
   const events = Array.isArray(payload.events) ? payload.events : [];
   const weather = payload.weather || {};
   const ctx = { venues, venueDefault, weather };
-  const lines = [`🚕 FORECAB 本日の重点3件（${label}）`];
+  const lines = [`🚕 FORECAB 本日の焦点（${label}）`];
 
   const ranked = events
     .filter(ev => ev.date === iso)

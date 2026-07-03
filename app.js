@@ -470,7 +470,7 @@ function renderNowView(nowOverrideMin) {
 
   if (targetEvents.length > 0) {
     el.innerHTML = `
-      <h2 class="section-title"><span class="en">Right Now</span>今から狙う</h2>
+      <h2 class="section-title"><span class="en">Nowcast</span>ナウキャスト</h2>
       <div class="best3 now-view">` +
       targetEvents.map((e, i) => `
         <button class="best-card now-card" data-id="${e.id}">
@@ -504,7 +504,7 @@ function renderNowView(nowOverrideMin) {
 
   // 現在は谷間なら、最も近い次ピークだけを軽く出す。
   el.innerHTML = `
-    <h2 class="section-title"><span class="en">Right Now</span>今から狙う</h2>
+    <h2 class="section-title"><span class="en">Nowcast</span>ナウキャスト</h2>
     <div class="now-bridge">次のピークは <span class="now-bridge-time">${fmtMin(next.from)}</span> 頃 ／ ${esc(next.event.name)}</div>`;
 }
 
@@ -516,7 +516,7 @@ function renderSummary() {
     return;
   }
   el.innerHTML = `
-    <h2 class="section-title"><span class="en">Priority</span>重点3件</h2>
+    <h2 class="section-title"><span class="en">Today's Focus</span>本日の焦点</h2>
     <div class="best3">` +
     top.map((e, i) => `
       <button class="best-card" data-id="${e.id}">
@@ -608,7 +608,7 @@ function renderHeatmap() {
   }
 
   el.innerHTML = `
-    <h2 class="section-title"><span class="en">Demand Timeline</span>時間帯別需要指数
+    <h2 class="section-title"><span class="en">Hourly Outlook</span>時間帯予報
       <span class="peak-note">ピーク ${fmtMin(peakBin * BIN)}前後</span>
     </h2>
     ${wxStrip}
@@ -649,7 +649,7 @@ function renderWeekView() {
   };
 
   el.innerHTML = `
-    <h2 class="section-title"><span class="en">Weekly Outlook</span>出る日の目安</h2>
+    <h2 class="section-title"><span class="en">Weekly Forecast</span>週間予報</h2>
     <div class="week-view">` +
     dayRows.map(row => {
       const { md, wd, dow } = dateLabel(row.date);
