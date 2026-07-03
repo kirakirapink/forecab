@@ -18,6 +18,7 @@
   --warn-ink: #8f1d2c;
   --warn-border: #f0b8c0;
   --error-ink: #b04a43;
+  --hit-ink: #1d7a4f;
   --sat-ink: #3b6fc4;
   --sun-ink: #c2503e;
   --week-meter-bg: #edf0f4;
@@ -464,6 +465,31 @@ button { font-family: inherit; }
   padding: 5px 14px; font-size: 12.5px; font-weight: 600; cursor: pointer;
 }
 .chip.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.fb-row {
+  padding: 9px 16px;
+  font-size: 13px;
+  border-top: 1px solid var(--border);
+  background: #fafbfc;
+}
+.fb-btn {
+  background: transparent;
+  color: var(--dim);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.fb-btn.on[data-verdict="hit"] {
+  color: var(--hit-ink);
+  border-color: var(--hit-ink);
+}
+.fb-btn.on[data-verdict="miss"] {
+  color: var(--error-ink);
+  border-color: var(--error-ink);
+}
 
 /* ---------- イベントカード ---------- */
 .event-card {
@@ -577,6 +603,41 @@ button { font-family: inherit; }
   background: var(--card); border: 1px solid var(--border-strong); border-radius: 6px;
 }
 .footer-errors { color: var(--error-ink); margin-bottom: 6px; }
+#feedback-log:empty { display: none; }
+.fb-log {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  padding: 10px 12px;
+  color: var(--text);
+  font-size: 12.5px;
+}
+.fb-log summary {
+  cursor: pointer;
+  color: var(--ink);
+  font-weight: 800;
+}
+.fb-log-body {
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+.fb-log-row {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  padding: 3px 0;
+}
+#fb-export {
+  margin-top: 10px;
+  background: transparent;
+  color: var(--dim);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
 
 @media (max-width: 600px) {
   .map-title-row {
@@ -611,6 +672,7 @@ button { font-family: inherit; }
     --warn-ink: #f0aab4;
     --warn-border: #5c3240;
     --error-ink: #e08a82;
+    --hit-ink: #7fd0a4;
     --sat-ink: #7ba7e8;
     --sun-ink: #e08573;
     --week-meter-bg: #2a2f38;
@@ -697,7 +759,8 @@ button { font-family: inherit; }
 
   /* ---------- スコア内訳 ---------- */
   .breakdown,
-  .detail-row {
+  .detail-row,
+  .fb-row {
     background: #1a1d24;
   }
   .bd-bar { background: #2e323b; }

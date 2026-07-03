@@ -30,6 +30,25 @@ function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+function loadFeedback() {
+  try {
+    const raw = localStorage.getItem("forecab_feedback");
+    if (!raw) return {};
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveFeedback(obj) {
+  try {
+    localStorage.setItem("forecab_feedback", JSON.stringify(obj));
+  } catch (e) {
+    // 保存できない環境では実績記録だけ無効化し、表示は継続する。
+  }
+}
+
 function countdownText(ev, nowMin) {
   const startMin = toMin(ev.start);
   const endMin = toMin(ev.end);
@@ -735,12 +754,20 @@ function breakdownHtml(e) {
   const notes = e.notes ? `<div class="detail-row"><span class="detail-key">備考</span>${esc(e.notes)}</div>` : "";
   const peak = Math.round(e.score.peakDemand);
   const idx = Math.round(e.score.demandIndex);
+  const feedback = loadFeedback()[e.id] || {};
+  const hitOn = feedback.verdict === "hit" ? " on" : "";
+  const missOn = feedback.verdict === "miss" ? " on" : "";
   return `
     <div class="breakdown">
       <div class="bd-title">スコア内訳（乗算モデル：需要指数 ${idx} ／ ピーク同時需要 約${peak.toLocaleString()}人）</div>
       ${rows}
     </div>
-    ${dest}${tips}${notes}`;
+    ${dest}${tips}${notes}
+    <div class="fb-row">
+      <span class="detail-key">実績記録</span>
+      <button class="fb-btn${hitOn}" data-id="${esc(e.id)}" data-verdict="hit">当たった</button>
+      <button class="fb-btn${missOn}" data-id="${esc(e.id)}" data-verdict="miss">外れた</button>
+    </div>`;
 }
 
 function renderList() {
@@ -802,6 +829,84 @@ function renderList() {
       </summary>
       ${breakdownHtml(e)}
     </details>`).join("");
+  el.querySelectorAll(".fb-btn").forEach(button =>
+    button.addEventListener("click", ev => {
+      ev.preventDefault();
+      const target = EVENTS.find(item => String(item.id) === button.dataset.id);
+      if (!target) return;
+
+      const feedback = loadFeedback();
+      const current = feedback[target.id];
+      if (current && current.verdict === button.dataset.verdict) {
+        delete feedback[target.id];
+      } else {
+        feedback[target.id] = {
+          date: target.date,
+          name: target.name,
+          venue: target.venue,
+          score: target.score.total,
+          verdict: button.dataset.verdict,
+          recordedAt: new Date().toISOString(),
+        };
+      }
+      saveFeedback(feedback);
+      // 全再描画すると開いているカードが閉じるため、ボタン状態と一覧のみ更新する。
+      const updated = loadFeedback()[target.id];
+      button.closest(".fb-row").querySelectorAll(".fb-btn").forEach(b =>
+        b.classList.toggle("on", Boolean(updated && updated.verdict === b.dataset.verdict))
+      );
+      renderFeedbackLog();
+    })
+  );
+}
+
+function renderFeedbackLog() {
+  const el = document.getElementById("feedback-log");
+  if (!el) return;
+
+  const feedback = loadFeedback();
+  const entries = Object.values(feedback);
+  if (entries.length === 0) {
+    el.innerHTML = "";
+    return;
+  }
+
+  const rows = entries
+    .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")))
+    .map(item => {
+      const d = new Date(`${item.date}T00:00:00`);
+      const md = Number.isFinite(d.getTime()) ? `${d.getMonth() + 1}/${d.getDate()}` : esc(item.date || "-");
+      const verdict = item.verdict === "hit" ? "当たった" : "外れた";
+      return `<div class="fb-log-row">${md} ${esc(item.name || "")}（${esc(item.venue || "")}）スコア${esc(item.score == null ? "-" : item.score)} ── ${verdict}</div>`;
+    }).join("");
+
+  el.innerHTML = `
+    <details class="fb-log">
+      <summary>実績記録 ${entries.length}件</summary>
+      <div class="fb-log-body">${rows}</div>
+      <button id="fb-export" type="button">JSONをコピー</button>
+    </details>`;
+
+  const exportBtn = document.getElementById("fb-export");
+  if (!exportBtn) return;
+  exportBtn.addEventListener("click", () => {
+    const json = JSON.stringify(loadFeedback(), null, 2);
+    const original = exportBtn.textContent;
+    const markCopied = () => {
+      exportBtn.textContent = "コピーしました";
+      setTimeout(() => {
+        exportBtn.textContent = original;
+      }, 2000);
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(json).then(markCopied).catch(() => {
+        prompt("コピーしてください", json);
+      });
+      return;
+    }
+    prompt("コピーしてください", json);
+  });
 }
 
 function updateCountdowns(nowOverrideMin) {
@@ -863,6 +968,7 @@ function render() {
   renderWeekView();
   renderControls();
   renderList();
+  renderFeedbackLog();
   renderFooter();
   updateCountdowns();
 }
