@@ -172,7 +172,8 @@ function renderMap() {
     const venueEvents = evs.filter(e => e.venue === venueName);
     if (venueEvents.length === 0) return;
 
-    const score = Math.max(...venueEvents.map(e => e.score.total));
+    const bestEvent = venueEvents.reduce((best, e) => e.score.total > best.score.total ? e : best, venueEvents[0]);
+    const score = bestEvent.score.total;
     const color = score >= 70 ? "#d32f2f"
       : score >= 50 ? "#f57c00"
       : score >= 30 ? "#fbc02d"
@@ -205,7 +206,7 @@ function renderMap() {
     marker.bindPopup(`
       <strong>${esc(venueName)}</strong><br>
       ${eventRows}
-      スコア ${score}<br>
+      ${starsHtml(bestEvent.score.stars)}<br>
     `);
   });
 }
@@ -480,7 +481,7 @@ function renderNowView(nowOverrideMin) {
             <div class="best-meta">${esc(e.venue)}</div>
             <div class="best-aim">${esc(aimText(e))}</div>
           </div>
-          <div class="best-score">${e.score.total}</div>
+          <div class="best-score">${starsHtml(e.score.stars)}</div>
         </button>`).join("") +
       `</div>`;
     el.querySelectorAll(".now-card").forEach(b =>
@@ -526,7 +527,7 @@ function renderSummary() {
           <div class="best-meta">${esc(e.venue)}</div>
           <div class="best-aim">${esc(aimText(e))}</div>
         </div>
-        <div class="best-score">${e.score.total}</div>
+        <div class="best-score">${starsHtml(e.score.stars)}</div>
       </button>`).join("") +
     `</div>`;
   el.querySelectorAll(".best-card").forEach(b =>
@@ -810,7 +811,6 @@ function renderList() {
       <summary>
         <div class="card-grid">
           <div class="card-score">
-            <div class="score-num">${e.score.total}</div>
             ${starsHtml(e.score.stars)}
           </div>
           <div class="card-info">

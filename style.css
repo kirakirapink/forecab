@@ -141,8 +141,10 @@ button { font-family: inherit; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .best-score {
-  flex: 0 0 auto; font-size: 26px; font-weight: 800; color: var(--ink);
-  font-variant-numeric: tabular-nums; letter-spacing: -0.02em;
+  flex: 0 0 auto; display: flex; align-items: center; color: var(--ink);
+}
+.best-score .star {
+  font-size: 14px;
 }
 
 @media (min-width: 640px) {
@@ -150,7 +152,7 @@ button { font-family: inherit; }
   .best-card { flex-direction: column; align-items: flex-start; gap: 6px; position: relative; padding: 14px 16px 12px; }
   .best-card:first-child { border-left: 1px solid var(--border); border-top: 3px solid var(--amber); }
   .best-score { position: absolute; top: 10px; right: 14px; }
-  .best-name { white-space: normal; line-height: 1.35; min-height: 2.6em; padding-right: 44px; }
+  .best-name { white-space: normal; line-height: 1.35; min-height: 2.6em; padding-right: 82px; }
 }
 
 /* ---------- 今から狙う ---------- */
@@ -502,15 +504,14 @@ button { font-family: inherit; }
 .event-card summary { list-style: none; cursor: pointer; }
 .event-card summary::-webkit-details-marker { display: none; }
 
-.card-grid { display: grid; grid-template-columns: 80px 1fr; }
+.card-grid { display: grid; grid-template-columns: 92px 1fr; }
 .card-score {
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
   border-right: 1px solid var(--border);
   padding: 14px 6px;
 }
-.score-num {
-  font-size: 29px; font-weight: 800; color: var(--ink);
-  font-variant-numeric: tabular-nums; letter-spacing: -0.03em; line-height: 1;
+.card-score .star {
+  font-size: 16px;
 }
 .card-info { padding: 12px 14px 13px; min-width: 0; }
 .card-top-row { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
@@ -585,6 +586,8 @@ button { font-family: inherit; }
   position: absolute; left: 0; top: 0; overflow: hidden; white-space: nowrap;
   color: var(--amber-deep); width: 0;
 }
+.leaflet-popup .stars { margin-top: 4px; }
+.leaflet-popup .star { font-size: 13px; }
 
 /* ---------- その他 ---------- */
 .empty { color: var(--dim); padding: 14px; text-align: center; }
