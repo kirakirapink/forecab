@@ -54,12 +54,14 @@ python3 tools/fetch_events.py --offline   # 通信せずキャッシュから再
 | `bigsight.py` — 東京ビッグサイト公式 | 展示会・催事（会期・時間・入場区分つき） | 利用ホール数 × 7,000人/日 |
 | `dome.py` — 東京ドーム公式 | ドームのコンサート・催事（野球以外。開演時刻つき） | コンサート45,000 / 催事30,000 |
 | `ariake.py` — 有明アリーナ公式 | アリーナのライブ・スポーツ（当月+翌月） | 12,000（開演は18:00仮置き） |
-| `zepp.py` — Zepp公式 | Zepp Haneda / Zepp DiverCity のライブ（OPEN/START時刻つき） | Haneda 2,900 / DiverCity 2,400 |
+| `zepp.py` — Zepp公式 | Zepp Haneda / Zepp DiverCity / Zepp Shinjuku のライブ（OPEN/START時刻つき） | Haneda 2,900 / DiverCity 2,400 / Shinjuku 1,500 |
 | `garden_theater.py` — 東京ガーデンシアター公式 | 大型ホールのライブ・スポーツ（期間公演は日ごとに展開） | 7,000（開演は18:00仮置き） |
+| `yoyogi.py` — 国立代々木競技場公式 | 第一体育館のライブ・イベント（当月+翌月） | 10,000（時刻は17:00-20:30仮置き） |
+| `takarazuka.py` — 宝塚歌劇公式 | 東京宝塚劇場の公演（期間公演は月曜を除き日ごとに展開） | 2,000（終演18:30の夕方回を主需要として採用） |
 
 取得マナー（[tools/sources/base.py](tools/sources/base.py) で一元管理）:
 - リクエスト間に最低2秒空ける ・ 同一URLは12時間キャッシュ ・ User-Agentに用途と連絡先を明示
-- 両サイトとも robots.txt なし（クロール禁止指定なし）を確認済み（2026-06時点）
+- robots.txt の確認状況と時刻仮置きの有無は各ソースファイルの先頭コメントに記録
 
 ビッグサイト固有の処理:
 - 「◯◯Week」のような**合同開催の構成展は1件に統合**（重複カウントするとヒートマップが過大になるため）

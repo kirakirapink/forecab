@@ -32,7 +32,10 @@ URL_FIXTURES = {
     "https://www.t-i-forum.co.jp/visitors/event/": "forum_event.html",
     "https://www.zepp.co.jp/hall/haneda/schedule/": "zepp_haneda.html",
     "https://www.zepp.co.jp/hall/divercity/schedule/": "zepp_divercity.html",
+    "https://www.zepp.co.jp/hall/shinjuku/schedule/": "zepp_shinjuku.html",
     "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/schedule/": "garden_theater.html",
+    "https://www.jpnsport.go.jp/yoyogi/event/tabid/59/Default.aspx": "yoyogi_gym1.html",
+    "https://kageki.hankyu.co.jp/revue/index.html": "takarazuka_revue.html",
 }
 
 VALID_CATEGORIES = {"exhibition", "concert", "sports", "theater", "festival"}
@@ -113,14 +116,16 @@ class SourceFixtureTests(EventAssertions):
         self.assertGreaterEqual(len(events), 1)
         self.assert_valid_event(events[0])
 
-    def test_zepp_fetches_from_haneda_and_divercity_fixtures(self):
+    def test_zepp_fetches_from_three_hall_fixtures(self):
         with offline_source("zepp") as zepp:
             events = zepp.fetch()
         venues = {event["venue"] for event in events}
         self.assertIn("Zepp Haneda", venues)
         self.assertIn("Zepp DiverCity", venues)
+        self.assertIn("Zepp Shinjuku", venues)
         self.assertGreaterEqual(len([e for e in events if e["venue"] == "Zepp Haneda"]), 20)
         self.assertGreaterEqual(len([e for e in events if e["venue"] == "Zepp DiverCity"]), 20)
+        self.assertGreaterEqual(len([e for e in events if e["venue"] == "Zepp Shinjuku"]), 20)
         self.assertTrue(any(
             e["date"] == "2026-07-03"
             and e["venue"] == "Zepp Haneda"
@@ -133,6 +138,57 @@ class SourceFixtureTests(EventAssertions):
             and e["venue"] == "Zepp DiverCity"
             and e["start"] == "19:00"
             and "East Of Eden" in e["name"]
+            for e in events
+        ))
+        self.assertTrue(any(
+            e["venue"] == "Zepp Shinjuku"
+            and e["start"] == "18:30"
+            and "HIKAGE Pre. P.H.S Vol.4" in e["name"]
+            for e in events
+        ))
+        self.assert_valid_event(events[0])
+
+    def test_yoyogi_fetches_first_gym_events(self):
+        with offline_source("yoyogi", today=(2026, 7, 4)) as yoyogi:
+            events = yoyogi.fetch()
+        self.assertEqual(
+            len([e for e in events if e["venue"] == "国立代々木競技場 第一体育館"]),
+            4,
+        )
+        self.assertTrue(all(e["start"] == "17:00" and e["end"] == "20:30" for e in events))
+        self.assertEqual(
+            {e["date"] for e in events if e["name"] == "KAWAII LAB. SESSION 2026 SUMMER"},
+            {"2026-07-10", "2026-07-11"},
+        )
+        self.assert_valid_event(events[0])
+
+    def test_yoyogi_infers_next_january_from_december_listing(self):
+        with offline_source("yoyogi", today=(2026, 12, 20)) as yoyogi:
+            rows = list(yoyogi._parse_rows(
+                '<table class="event-calendar">'
+                "<tr><td>12/31(木)</td><td>年末ライブ</td></tr>"
+                "<tr><td>1/2(土)</td><td>新春ライブ</td></tr>"
+                "</table>",
+                yoyogi.datetime.date.today(),
+            ))
+        self.assertEqual(rows, [("2026-12-31", "年末ライブ"), ("2027-01-02", "新春ライブ")])
+
+    def test_takarazuka_expands_tokyo_theater_runs_without_mondays(self):
+        with offline_source("takarazuka") as takarazuka:
+            events = takarazuka.fetch()
+        self.assertGreaterEqual(len(events), 250)
+        self.assertTrue(any(
+            e["date"] == "2026-07-04"
+            and e["name"] == "月組『RYOFU』"
+            and e["start"] == "15:30"
+            and e["end"] == "18:30"
+            for e in events
+        ))
+        self.assertFalse(any(e["date"] == "2026-07-06" and e["name"] == "月組『RYOFU』" for e in events))
+        self.assertTrue(any(
+            e["date"] == "2027-02-07"
+            and e["name"] == "花組『エリザベート－愛と死の輪舞（ロンド）－』"
+            and "土日は11時回あり" in e["notes"]
             for e in events
         ))
         self.assert_valid_event(events[0])

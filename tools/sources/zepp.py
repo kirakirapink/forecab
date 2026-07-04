@@ -1,12 +1,13 @@
-"""Zepp公式スケジュールから都内2館の公演を取得する。
+"""Zepp公式スケジュールから都内3館の公演を取得する。
 
 ページ: https://www.zepp.co.jp/hall/haneda/schedule/
         https://www.zepp.co.jp/hall/divercity/schedule/
+        https://www.zepp.co.jp/hall/shinjuku/schedule/
 構造:   サーバーレンダリング。公演カードに日付、出演者、公演名、
         OPEN/START 時刻が掲載される。
 
 robots.txt: /wp-admin/ のみ禁止。上記スケジュールページはクロール可
-（確認日: 2026-07-03）。
+（確認日: Haneda / DiverCity 2026-07-03、Shinjuku 2026-07-04）。
 """
 import html as html_lib
 import re
@@ -23,6 +24,11 @@ HALLS = [
         "url": "https://www.zepp.co.jp/hall/divercity/schedule/",
         "venue": "Zepp DiverCity",
         "attendance": 2400,
+    },
+    {
+        "url": "https://www.zepp.co.jp/hall/shinjuku/schedule/",
+        "venue": "Zepp Shinjuku",
+        "attendance": 1500,
     },
 ]
 
