@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-07-04T09:49:17+09:00",
+  "generated_at": "2026-07-04T16:31:50+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
     {
@@ -2477,9 +2477,14 @@ window.TAXI_APP_DATA = {
   "weather": {
     "2026-07-04": {
       "weather_code": "200",
-      "weather": "くもり　所により　雨",
+      "weather": "くもり　所により　昼過ぎ　から　雨",
       "pop_max": 20,
       "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -2496,8 +2501,8 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ],
-      "temp_min": 26,
-      "temp_max": 26
+      "temp_min": 27,
+      "temp_max": 27
     },
     "2026-07-05": {
       "weather_code": "203",
@@ -2530,36 +2535,37 @@ window.TAXI_APP_DATA = {
     },
     "2026-07-06": {
       "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 22,
-      "temp_max": 29,
+      "weather": "くもり　一時　雨",
+      "pop_max": 80,
+      "temp_min": 21,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 80
         }
       ]
     },
     "2026-07-07": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 22,
+      "temp_min": 21,
       "temp_max": 28,
       "hourly": [
         {
@@ -2585,30 +2591,30 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-07-08": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 22,
       "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     },
@@ -2616,7 +2622,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 22,
-      "temp_max": 29,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
@@ -2641,30 +2647,58 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-07-10": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "201",
+      "pop_max": 30,
       "temp_min": 23,
-      "temp_max": 31,
+      "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
+        }
+      ]
+    },
+    "2026-07-11": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 24,
+      "temp_max": 32,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
@@ -2704,7 +2738,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "national_stadium",
-      "count": 7
+      "count": 9
     },
     {
       "source": "medical_society",
