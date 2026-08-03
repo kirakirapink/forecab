@@ -1,86 +1,8 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-08-03T06:58:34+09:00",
+  "generated_at": "2026-08-04T07:10:48+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jns-e.com + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-08-03",
-      "name": "Super Business Forum",
-      "venue": "東京国際フォーラム",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 3000,
-      "audience": "business",
-      "notes": "学会・展示会・カンファレンス想定。10-17時開催で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "auto-001"
-    },
-    {
-      "date": "2026-08-03",
-      "name": "八月納涼歌舞伎（第一部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "14:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-002"
-    },
-    {
-      "date": "2026-08-03",
-      "name": "八月納涼歌舞伎（第二部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "15:10",
-      "end": "18:40",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-003"
-    },
-    {
-      "date": "2026-08-03",
-      "name": "プロ野球 オリックス vs 楽天",
-      "venue": "東京ドーム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 40000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "auto-004"
-    },
-    {
-      "date": "2026-08-03",
-      "name": "青山メインランドファンタジースペシャル ブロードウェイミュージカル『ピーター・パン』",
-      "venue": "東京国際フォーラム",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "senior_wealthy",
-      "notes": "ミュージカル・舞台想定。18時開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "auto-005"
-    },
-    {
-      "date": "2026-08-03",
-      "name": "八月納涼歌舞伎（第三部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-006"
-    },
     {
       "date": "2026-08-04",
       "name": "CAFERES JAPAN 2026 ほか3展（合同開催）",
@@ -92,7 +14,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-007"
+      "id": "auto-001"
     },
     {
       "date": "2026-08-04",
@@ -105,7 +27,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-008"
+      "id": "auto-002"
     },
     {
       "date": "2026-08-04",
@@ -118,7 +40,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西ホール。商談展（業界関係者中心）。来場者はホール数からの概算（?ホール）",
       "source": "bigsight.jp",
-      "id": "auto-009"
+      "id": "auto-003"
     },
     {
       "date": "2026-08-04",
@@ -131,7 +53,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-010"
+      "id": "auto-004"
     },
     {
       "date": "2026-08-04",
@@ -144,7 +66,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-011"
+      "id": "auto-005"
     },
     {
       "date": "2026-08-04",
@@ -157,7 +79,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-012"
+      "id": "auto-006"
     },
     {
       "date": "2026-08-04",
@@ -170,7 +92,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 15:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-013"
+      "id": "auto-007"
     },
     {
       "date": "2026-08-04",
@@ -183,7 +105,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-014"
+      "id": "auto-008"
     },
     {
       "date": "2026-08-04",
@@ -196,7 +118,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-015"
+      "id": "auto-009"
     },
     {
       "date": "2026-08-04",
@@ -209,7 +131,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-016"
+      "id": "auto-010"
     },
     {
       "date": "2026-08-04",
@@ -222,7 +144,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ミュージカル・舞台想定。18時開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-017"
+      "id": "auto-011"
     },
     {
       "date": "2026-08-04",
@@ -235,7 +157,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-018"
+      "id": "auto-012"
     },
     {
       "date": "2026-08-04",
@@ -248,7 +170,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-019"
+      "id": "auto-013"
     },
     {
       "date": "2026-08-05",
@@ -261,7 +183,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-020"
+      "id": "auto-014"
     },
     {
       "date": "2026-08-05",
@@ -274,7 +196,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-021"
+      "id": "auto-015"
     },
     {
       "date": "2026-08-05",
@@ -287,7 +209,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西ホール。商談展（業界関係者中心）。来場者はホール数からの概算（?ホール）",
       "source": "bigsight.jp",
-      "id": "auto-022"
+      "id": "auto-016"
     },
     {
       "date": "2026-08-05",
@@ -300,7 +222,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-023"
+      "id": "auto-017"
     },
     {
       "date": "2026-08-05",
@@ -313,7 +235,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 14:15。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-024"
+      "id": "auto-018"
     },
     {
       "date": "2026-08-05",
@@ -326,7 +248,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-025"
+      "id": "auto-019"
     },
     {
       "date": "2026-08-05",
@@ -339,7 +261,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-026"
+      "id": "auto-020"
     },
     {
       "date": "2026-08-05",
@@ -352,7 +274,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-027"
+      "id": "auto-021"
     },
     {
       "date": "2026-08-05",
@@ -365,7 +287,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "種別: コンサート。終了時刻は開演からの推定",
       "source": "tokyo-dome.co.jp",
-      "id": "auto-028"
+      "id": "auto-022"
     },
     {
       "date": "2026-08-05",
@@ -378,7 +300,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-029"
+      "id": "auto-023"
     },
     {
       "date": "2026-08-05",
@@ -391,7 +313,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ミュージカル・舞台想定。18時開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-030"
+      "id": "auto-024"
     },
     {
       "date": "2026-08-05",
@@ -404,7 +326,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-031"
+      "id": "auto-025"
     },
     {
       "date": "2026-08-05",
@@ -417,7 +339,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-032"
+      "id": "auto-026"
     },
     {
       "date": "2026-08-05",
@@ -430,7 +352,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-033"
+      "id": "auto-027"
     },
     {
       "date": "2026-08-05",
@@ -443,7 +365,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-034"
+      "id": "auto-028"
     },
     {
       "date": "2026-08-06",
@@ -456,7 +378,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-035"
+      "id": "auto-029"
     },
     {
       "date": "2026-08-06",
@@ -469,7 +391,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-036"
+      "id": "auto-030"
     },
     {
       "date": "2026-08-06",
@@ -482,7 +404,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西ホール。商談展（業界関係者中心）。来場者はホール数からの概算（?ホール）",
       "source": "bigsight.jp",
-      "id": "auto-037"
+      "id": "auto-031"
     },
     {
       "date": "2026-08-06",
@@ -495,7 +417,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-038"
+      "id": "auto-032"
     },
     {
       "date": "2026-08-06",
@@ -508,7 +430,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-039"
+      "id": "auto-033"
     },
     {
       "date": "2026-08-06",
@@ -521,7 +443,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-040"
+      "id": "auto-034"
     },
     {
       "date": "2026-08-06",
@@ -534,7 +456,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "種別: コンサート。終了時刻は開演からの推定",
       "source": "tokyo-dome.co.jp",
-      "id": "auto-041"
+      "id": "auto-035"
     },
     {
       "date": "2026-08-06",
@@ -547,7 +469,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ミュージカル・舞台想定。18時開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-042"
+      "id": "auto-036"
     },
     {
       "date": "2026-08-06",
@@ -560,7 +482,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-043"
+      "id": "auto-037"
     },
     {
       "date": "2026-08-06",
@@ -573,7 +495,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-044"
+      "id": "auto-038"
     },
     {
       "date": "2026-08-06",
@@ -586,7 +508,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-045"
+      "id": "auto-039"
     },
     {
       "date": "2026-08-06",
@@ -599,7 +521,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-046"
+      "id": "auto-040"
     },
     {
       "date": "2026-08-07",
@@ -612,7 +534,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西ホール。商談展（業界関係者中心）。来場者はホール数からの概算（?ホール）",
       "source": "bigsight.jp",
-      "id": "auto-047"
+      "id": "auto-041"
     },
     {
       "date": "2026-08-07",
@@ -625,7 +547,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-048"
+      "id": "auto-042"
     },
     {
       "date": "2026-08-07",
@@ -638,7 +560,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-049"
+      "id": "auto-043"
     },
     {
       "date": "2026-08-07",
@@ -651,7 +573,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-050"
+      "id": "auto-044"
     },
     {
       "date": "2026-08-07",
@@ -664,7 +586,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-051"
+      "id": "auto-045"
     },
     {
       "date": "2026-08-07",
@@ -677,7 +599,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-052"
+      "id": "auto-046"
     },
     {
       "date": "2026-08-07",
@@ -690,7 +612,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-053"
+      "id": "auto-047"
     },
     {
       "date": "2026-08-07",
@@ -703,7 +625,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ミュージカル・舞台想定。18時開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-054"
+      "id": "auto-048"
     },
     {
       "date": "2026-08-07",
@@ -716,7 +638,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-055"
+      "id": "auto-049"
     },
     {
       "date": "2026-08-07",
@@ -729,7 +651,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-056"
+      "id": "auto-050"
     },
     {
       "date": "2026-08-07",
@@ -742,7 +664,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "国立競技場5万人規模 (スポーツ)。規制退場により需要は60-90分に分散。",
       "source": "jns-e.com",
-      "id": "auto-057"
+      "id": "auto-051"
     },
     {
       "date": "2026-08-08",
@@ -755,7 +677,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-058"
+      "id": "auto-052"
     },
     {
       "date": "2026-08-08",
@@ -768,7 +690,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 13:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-059"
+      "id": "auto-053"
     },
     {
       "date": "2026-08-08",
@@ -781,7 +703,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-060"
+      "id": "auto-054"
     },
     {
       "date": "2026-08-08",
@@ -794,7 +716,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-061"
+      "id": "auto-055"
     },
     {
       "date": "2026-08-08",
@@ -807,7 +729,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-062"
+      "id": "auto-056"
     },
     {
       "date": "2026-08-08",
@@ -820,7 +742,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 15:15。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-063"
+      "id": "auto-057"
     },
     {
       "date": "2026-08-08",
@@ -833,7 +755,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-064"
+      "id": "auto-058"
     },
     {
       "date": "2026-08-08",
@@ -846,7 +768,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-065"
+      "id": "auto-059"
     },
     {
       "date": "2026-08-08",
@@ -859,7 +781,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-066"
+      "id": "auto-060"
     },
     {
       "date": "2026-08-08",
@@ -872,7 +794,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-067"
+      "id": "auto-061"
     },
     {
       "date": "2026-08-08",
@@ -885,7 +807,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-068"
+      "id": "auto-062"
     },
     {
       "date": "2026-08-08",
@@ -898,7 +820,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-069"
+      "id": "auto-063"
     },
     {
       "date": "2026-08-08",
@@ -911,7 +833,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-070"
+      "id": "auto-064"
     },
     {
       "date": "2026-08-08",
@@ -924,7 +846,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-071"
+      "id": "auto-065"
     },
     {
       "date": "2026-08-08",
@@ -937,7 +859,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-072"
+      "id": "auto-066"
     },
     {
       "date": "2026-08-09",
@@ -950,7 +872,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-073"
+      "id": "auto-067"
     },
     {
       "date": "2026-08-09",
@@ -963,7 +885,7 @@ window.TAXI_APP_DATA = {
       "audience": "family",
       "notes": "上映会・ファミリー向け想定。昼開催で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-074"
+      "id": "auto-068"
     },
     {
       "date": "2026-08-09",
@@ -976,7 +898,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-075"
+      "id": "auto-069"
     },
     {
       "date": "2026-08-09",
@@ -989,7 +911,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-076"
+      "id": "auto-070"
     },
     {
       "date": "2026-08-09",
@@ -1002,7 +924,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-077"
+      "id": "auto-071"
     },
     {
       "date": "2026-08-09",
@@ -1015,7 +937,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-078"
+      "id": "auto-072"
     },
     {
       "date": "2026-08-09",
@@ -1028,7 +950,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-079"
+      "id": "auto-073"
     },
     {
       "date": "2026-08-09",
@@ -1041,7 +963,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-080"
+      "id": "auto-074"
     },
     {
       "date": "2026-08-09",
@@ -1054,7 +976,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-081"
+      "id": "auto-075"
     },
     {
       "date": "2026-08-09",
@@ -1067,7 +989,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-082"
+      "id": "auto-076"
     },
     {
       "date": "2026-08-09",
@@ -1080,7 +1002,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-083"
+      "id": "auto-077"
     },
     {
       "date": "2026-08-09",
@@ -1093,7 +1015,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-084"
+      "id": "auto-078"
     },
     {
       "date": "2026-08-09",
@@ -1106,7 +1028,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-085"
+      "id": "auto-079"
     },
     {
       "date": "2026-08-09",
@@ -1119,7 +1041,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-086"
+      "id": "auto-080"
     },
     {
       "date": "2026-08-09",
@@ -1132,7 +1054,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-087"
+      "id": "auto-081"
     },
     {
       "date": "2026-08-10",
@@ -1145,7 +1067,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-088"
+      "id": "auto-082"
     },
     {
       "date": "2026-08-10",
@@ -1158,7 +1080,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-089"
+      "id": "auto-083"
     },
     {
       "date": "2026-08-10",
@@ -1171,7 +1093,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-090"
+      "id": "auto-084"
     },
     {
       "date": "2026-08-10",
@@ -1184,7 +1106,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-091"
+      "id": "auto-085"
     },
     {
       "date": "2026-08-10",
@@ -1197,7 +1119,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-092"
+      "id": "auto-086"
     },
     {
       "date": "2026-08-11",
@@ -1210,7 +1132,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-093"
+      "id": "auto-087"
     },
     {
       "date": "2026-08-11",
@@ -1223,7 +1145,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-094"
+      "id": "auto-088"
     },
     {
       "date": "2026-08-11",
@@ -1236,7 +1158,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-095"
+      "id": "auto-089"
     },
     {
       "date": "2026-08-11",
@@ -1249,7 +1171,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-096"
+      "id": "auto-090"
     },
     {
       "date": "2026-08-11",
@@ -1262,7 +1184,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-097"
+      "id": "auto-091"
     },
     {
       "date": "2026-08-11",
@@ -1275,7 +1197,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-098"
+      "id": "auto-092"
     },
     {
       "date": "2026-08-11",
@@ -1288,7 +1210,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-099"
+      "id": "auto-093"
     },
     {
       "date": "2026-08-11",
@@ -1301,7 +1223,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-100"
+      "id": "auto-094"
     },
     {
       "date": "2026-08-11",
@@ -1314,7 +1236,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-101"
+      "id": "auto-095"
     },
     {
       "date": "2026-08-11",
@@ -1327,7 +1249,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-102"
+      "id": "auto-096"
     },
     {
       "date": "2026-08-11",
@@ -1340,7 +1262,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-103"
+      "id": "auto-097"
     },
     {
       "date": "2026-08-11",
@@ -1353,7 +1275,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "国立競技場5万人規模 (スポーツ)。規制退場により需要は60-90分に分散。",
       "source": "jns-e.com",
-      "id": "auto-104"
+      "id": "auto-098"
     },
     {
       "date": "2026-08-11",
@@ -1366,7 +1288,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-105"
+      "id": "auto-099"
     },
     {
       "date": "2026-08-11",
@@ -1379,7 +1301,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-106"
+      "id": "auto-100"
     },
     {
       "date": "2026-08-12",
@@ -1392,7 +1314,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-107"
+      "id": "auto-101"
     },
     {
       "date": "2026-08-12",
@@ -1405,7 +1327,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-108"
+      "id": "auto-102"
     },
     {
       "date": "2026-08-12",
@@ -1418,7 +1340,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-109"
+      "id": "auto-103"
     },
     {
       "date": "2026-08-12",
@@ -1431,7 +1353,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 15:20。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-110"
+      "id": "auto-104"
     },
     {
       "date": "2026-08-12",
@@ -1444,7 +1366,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-111"
+      "id": "auto-105"
     },
     {
       "date": "2026-08-12",
@@ -1457,7 +1379,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-112"
+      "id": "auto-106"
     },
     {
       "date": "2026-08-12",
@@ -1470,7 +1392,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-113"
+      "id": "auto-107"
     },
     {
       "date": "2026-08-13",
@@ -1483,7 +1405,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-114"
+      "id": "auto-108"
     },
     {
       "date": "2026-08-13",
@@ -1496,7 +1418,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-115"
+      "id": "auto-109"
     },
     {
       "date": "2026-08-13",
@@ -1509,7 +1431,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-116"
+      "id": "auto-110"
     },
     {
       "date": "2026-08-13",
@@ -1522,7 +1444,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-117"
+      "id": "auto-111"
     },
     {
       "date": "2026-08-13",
@@ -1535,7 +1457,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-118"
+      "id": "auto-112"
     },
     {
       "date": "2026-08-13",
@@ -1548,7 +1470,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-119"
+      "id": "auto-113"
     },
     {
       "date": "2026-08-13",
@@ -1561,7 +1483,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-120"
+      "id": "auto-114"
     },
     {
       "date": "2026-08-13",
@@ -1574,7 +1496,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-121"
+      "id": "auto-115"
     },
     {
       "date": "2026-08-13",
@@ -1587,7 +1509,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-122"
+      "id": "auto-116"
     },
     {
       "date": "2026-08-13",
@@ -1600,7 +1522,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-123"
+      "id": "auto-117"
     },
     {
       "date": "2026-08-13",
@@ -1613,7 +1535,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-124"
+      "id": "auto-118"
     },
     {
       "date": "2026-08-14",
@@ -1626,7 +1548,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-125"
+      "id": "auto-119"
     },
     {
       "date": "2026-08-14",
@@ -1639,7 +1561,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-126"
+      "id": "auto-120"
     },
     {
       "date": "2026-08-14",
@@ -1652,7 +1574,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-127"
+      "id": "auto-121"
     },
     {
       "date": "2026-08-14",
@@ -1665,7 +1587,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-128"
+      "id": "auto-122"
     },
     {
       "date": "2026-08-14",
@@ -1678,7 +1600,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-129"
+      "id": "auto-123"
     },
     {
       "date": "2026-08-14",
@@ -1691,7 +1613,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-130"
+      "id": "auto-124"
     },
     {
       "date": "2026-08-14",
@@ -1704,7 +1626,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-131"
+      "id": "auto-125"
     },
     {
       "date": "2026-08-14",
@@ -1717,7 +1639,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-132"
+      "id": "auto-126"
     },
     {
       "date": "2026-08-14",
@@ -1730,7 +1652,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-133"
+      "id": "auto-127"
     },
     {
       "date": "2026-08-14",
@@ -1743,7 +1665,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-134"
+      "id": "auto-128"
     },
     {
       "date": "2026-08-14",
@@ -1756,7 +1678,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-135"
+      "id": "auto-129"
     },
     {
       "date": "2026-08-14",
@@ -1769,7 +1691,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-136"
+      "id": "auto-130"
     },
     {
       "date": "2026-08-14",
@@ -1782,7 +1704,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-137"
+      "id": "auto-131"
     },
     {
       "date": "2026-08-14",
@@ -1795,7 +1717,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "国立競技場5万人規模 (スポーツ)。規制退場により需要は60-90分に分散。",
       "source": "jns-e.com",
-      "id": "auto-138"
+      "id": "auto-132"
     },
     {
       "date": "2026-08-15",
@@ -1808,7 +1730,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-139"
+      "id": "auto-133"
     },
     {
       "date": "2026-08-15",
@@ -1821,7 +1743,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-140"
+      "id": "auto-134"
     },
     {
       "date": "2026-08-15",
@@ -1834,7 +1756,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 13:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-141"
+      "id": "auto-135"
     },
     {
       "date": "2026-08-15",
@@ -1847,7 +1769,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-142"
+      "id": "auto-136"
     },
     {
       "date": "2026-08-15",
@@ -1860,7 +1782,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-143"
+      "id": "auto-137"
     },
     {
       "date": "2026-08-15",
@@ -1873,7 +1795,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-144"
+      "id": "auto-138"
     },
     {
       "date": "2026-08-15",
@@ -1886,7 +1808,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 16:40。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-145"
+      "id": "auto-139"
     },
     {
       "date": "2026-08-15",
@@ -1899,7 +1821,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-146"
+      "id": "auto-140"
     },
     {
       "date": "2026-08-15",
@@ -1912,7 +1834,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "種別: コンサート。終了時刻は開演からの推定",
       "source": "tokyo-dome.co.jp",
-      "id": "auto-147"
+      "id": "auto-141"
     },
     {
       "date": "2026-08-15",
@@ -1925,7 +1847,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-148"
+      "id": "auto-142"
     },
     {
       "date": "2026-08-15",
@@ -1938,7 +1860,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-149"
+      "id": "auto-143"
     },
     {
       "date": "2026-08-15",
@@ -1951,7 +1873,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-150"
+      "id": "auto-144"
     },
     {
       "date": "2026-08-15",
@@ -1964,7 +1886,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-151"
+      "id": "auto-145"
     },
     {
       "date": "2026-08-15",
@@ -1977,7 +1899,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "例年8月中旬土曜。会場周辺道路は完全規制。信濃町・千駄ヶ谷側で待機。日付は要確認",
       "source": "年次マスタ",
-      "id": "auto-152"
+      "id": "auto-146"
     },
     {
       "date": "2026-08-16",
@@ -1990,7 +1912,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-153"
+      "id": "auto-147"
     },
     {
       "date": "2026-08-16",
@@ -2003,7 +1925,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-154"
+      "id": "auto-148"
     },
     {
       "date": "2026-08-16",
@@ -2016,7 +1938,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-155"
+      "id": "auto-149"
     },
     {
       "date": "2026-08-16",
@@ -2029,7 +1951,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 15:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-156"
+      "id": "auto-150"
     },
     {
       "date": "2026-08-16",
@@ -2042,7 +1964,20 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-157"
+      "id": "auto-151"
+    },
+    {
+      "date": "2026-08-16",
+      "name": "藍井エイル 藍いスポーツ大会 A.S.T 260816",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "auto-152"
     },
     {
       "date": "2026-08-16",
@@ -2055,7 +1990,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-158"
+      "id": "auto-153"
     },
     {
       "date": "2026-08-16",
@@ -2068,7 +2003,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "種別: コンサート。終了時刻は開演からの推定",
       "source": "tokyo-dome.co.jp",
-      "id": "auto-159"
+      "id": "auto-154"
     },
     {
       "date": "2026-08-16",
@@ -2081,7 +2016,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-160"
+      "id": "auto-155"
     },
     {
       "date": "2026-08-16",
@@ -2094,7 +2029,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-161"
+      "id": "auto-156"
     },
     {
       "date": "2026-08-16",
@@ -2107,10 +2042,75 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "国立競技場5万人規模 (スポーツ)。規制退場により需要は60-90分に分散。",
       "source": "jns-e.com",
-      "id": "auto-162"
+      "id": "auto-157"
     },
     {
       "date": "2026-08-16",
+      "name": "八月納涼歌舞伎（第三部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-158"
+    },
+    {
+      "date": "2026-08-17",
+      "name": "八月納涼歌舞伎（第一部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "14:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-159"
+    },
+    {
+      "date": "2026-08-17",
+      "name": "八月納涼歌舞伎（第二部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "15:10",
+      "end": "18:40",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-160"
+    },
+    {
+      "date": "2026-08-17",
+      "name": "CNBLUE 2026 CNBLUE LIVE ‘3LOGY’ IN JAPAN 追加公演",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "auto-161"
+    },
+    {
+      "date": "2026-08-17",
+      "name": "日向坂46 日向坂46三期生 LIVE",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "auto-162"
+    },
+    {
+      "date": "2026-08-17",
       "name": "八月納涼歌舞伎（第三部）",
       "venue": "歌舞伎座",
       "category": "theater",
@@ -2124,11 +2124,40 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-08-03": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夕方　まで　雨",
-      "pop_max": 30,
+    "2026-08-04": {
+      "weather_code": "201",
+      "weather": "くもり　昼過ぎ　まで　時々　晴れ　所により　雨",
+      "pop_max": 20,
       "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ],
+      "temp_min": 28,
+      "temp_max": 28
+    },
+    "2026-08-05": {
+      "weather_code": "200",
+      "weather": "くもり　所により　雨",
+      "pop_max": 40,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -2137,103 +2166,18 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
-    "2026-08-04": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夕方　から　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
+          "pop": 40
         }
       ],
       "temp_min": 21,
-      "temp_max": 27
-    },
-    "2026-08-05": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 21,
-      "temp_max": 29,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
+      "temp_max": 28
     },
     "2026-08-06": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 22,
-      "temp_max": 29,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ]
-    },
-    "2026-08-07": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 25,
@@ -2261,11 +2205,39 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
+    "2026-08-07": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 26,
+      "temp_max": 32,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
     "2026-08-08": {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 25,
-      "temp_max": 30,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
@@ -2293,7 +2265,35 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 25,
-      "temp_max": 30,
+      "temp_max": 31,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-08-10": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 24,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
@@ -2329,7 +2329,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "dome",
-      "count": 42
+      "count": 32
     },
     {
       "source": "ariake",
@@ -2337,7 +2337,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 77
+      "count": 78
     },
     {
       "source": "garden_theater",
@@ -2345,11 +2345,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 57
+      "count": 52
     },
     {
       "source": "kabukiza",
-      "count": 97
+      "count": 96
     },
     {
       "source": "national_stadium",
@@ -2377,7 +2377,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 20
+      "count": 16
     }
   ],
   "errors": []
