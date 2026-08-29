@@ -1,10 +1,10 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-08-29T12:06:45+09:00",
+  "generated_at": "2026-08-30T08:02:37+09:00",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
   "events": [
     {
-      "date": "2026-08-29",
+      "date": "2026-08-30",
       "name": "TOKYOおもちゃショー2026",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
@@ -17,188 +17,6 @@ window.TAXI_APP_DATA = {
       "id": "auto-001"
     },
     {
-      "date": "2026-08-29",
-      "name": "日経・東証IRフェア2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "general",
-      "notes": "南3・4ホール。一般公開。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-002"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "HEROINES FES ~夏休みSP~ のんふぃく！ / iON! / 夜光性アミューズ / MEGAFON / ラストシーン / Ill / TENRIN / ポンコツコンポ / ナナコロビヤオキ / ウメコマチ / テンシンランマン / chuLa / パラレルサイダー / Pastel Closet / LADYBABY / なう♡すとれーじ / ヒロインズ研究生",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "12:00",
-      "end": "14:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 11:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "auto-003"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "ボレロ",
-      "venue": "新国立劇場（中劇場）",
-      "category": "theater",
-      "start": "12:00",
-      "end": "14:00",
-      "attendance": 858,
-      "audience": "general",
-      "notes": "ジャンル: dance。会場キャパ約1010席。終演時刻は120分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "auto-004"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "海賊",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "14:00",
-      "end": "17:00",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "auto-005"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "宙組『黒蜥蜴』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-006"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "JAPAN CUP2026チアリーディング日本選手権大会",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-007"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "Stray Kids World Tour",
-      "venue": "国立競技場",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:30",
-      "attendance": 50000,
-      "audience": "general",
-      "notes": "国立競技場5万人規模 (音楽)。規制退場により需要は60-90分に分散。",
-      "source": "jns-e.com",
-      "id": "auto-008"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "Roselia",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "auto-009"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "AI / ACE COOL / Awich / Bonbero / Deech / ELIONE / Jave South / Masato Hayashi / OZworld / SugLawd Familiar / Yellow Pato / 柊人 / 田我流 CHICO CARLITO ONEMAN SHOW ”Red and Blue”",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "auto-010"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "SION with THE MOGAMI(花田裕之 / 細海魚 / 藤井一彦 / クハラカズユキ / 中西智子) SION Major debut 40th ANNIVERSARY 新宿の片隅から2026",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "auto-011"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
-      "venue": "東京国際フォーラム",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "senior_wealthy",
-      "notes": "ミュージカル・舞台想定。18時開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "auto-012"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "2026東京都私立学校展",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "auto-013"
-    },
-    {
-      "date": "2026-08-29",
-      "name": "ディズニー・ワールド・ビート 2026",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "auto-014"
-    },
-    {
-      "date": "2026-08-30",
-      "name": "TOKYOおもちゃショー2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-015"
-    },
-    {
       "date": "2026-08-30",
       "name": "COMIC CITY VEGA 2026",
       "venue": "東京ビッグサイト",
@@ -209,7 +27,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "東1-3・7・8ホール。一般公開。来場者はホール数からの概算（5ホール）",
       "source": "bigsight.jp",
-      "id": "auto-016"
+      "id": "auto-002"
     },
     {
       "date": "2026-08-30",
@@ -222,7 +40,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: dance。会場キャパ約1010席。終演時刻は120分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-017"
+      "id": "auto-003"
     },
     {
       "date": "2026-08-30",
@@ -235,7 +53,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-018"
+      "id": "auto-004"
     },
     {
       "date": "2026-08-30",
@@ -248,7 +66,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 13:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-019"
+      "id": "auto-005"
     },
     {
       "date": "2026-08-30",
@@ -261,7 +79,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-020"
+      "id": "auto-006"
     },
     {
       "date": "2026-08-30",
@@ -274,7 +92,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-021"
+      "id": "auto-007"
     },
     {
       "date": "2026-08-30",
@@ -287,7 +105,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-022"
+      "id": "auto-008"
     },
     {
       "date": "2026-08-30",
@@ -300,7 +118,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "国立競技場5万人規模 (音楽)。規制退場により需要は60-90分に分散。",
       "source": "jns-e.com",
-      "id": "auto-023"
+      "id": "auto-009"
     },
     {
       "date": "2026-08-30",
@@ -313,7 +131,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-024"
+      "id": "auto-010"
     },
     {
       "date": "2026-08-30",
@@ -326,7 +144,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-025"
+      "id": "auto-011"
     },
     {
       "date": "2026-08-30",
@@ -339,7 +157,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: 大会イベント。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-026"
+      "id": "auto-012"
     },
     {
       "date": "2026-08-30",
@@ -352,7 +170,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ミュージカル・舞台想定。18時開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-027"
+      "id": "auto-013"
     },
     {
       "date": "2026-08-30",
@@ -365,7 +183,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-028"
+      "id": "auto-014"
     },
     {
       "date": "2026-08-30",
@@ -378,7 +196,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-029"
+      "id": "auto-015"
     },
     {
       "date": "2026-08-30",
@@ -391,7 +209,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-030"
+      "id": "auto-016"
     },
     {
       "date": "2026-08-31",
@@ -404,7 +222,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-031"
+      "id": "auto-017"
     },
     {
       "date": "2026-08-31",
@@ -417,7 +235,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "auto-032"
+      "id": "auto-018"
     },
     {
       "date": "2026-08-31",
@@ -430,7 +248,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ミュージカル・舞台想定。18時開演で推定",
       "source": "t-i-forum.co.jp",
-      "id": "auto-033"
+      "id": "auto-019"
     },
     {
       "date": "2026-08-31",
@@ -443,7 +261,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-034"
+      "id": "auto-020"
     },
     {
       "date": "2026-08-31",
@@ -456,7 +274,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "auto-035"
+      "id": "auto-021"
     },
     {
       "date": "2026-09-01",
@@ -469,7 +287,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-036"
+      "id": "auto-022"
     },
     {
       "date": "2026-09-01",
@@ -482,7 +300,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-037"
+      "id": "auto-023"
     },
     {
       "date": "2026-09-01",
@@ -495,7 +313,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-038"
+      "id": "auto-024"
     },
     {
       "date": "2026-09-02",
@@ -508,7 +326,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール、西1-4ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（13ホール）",
       "source": "bigsight.jp",
-      "id": "auto-039"
+      "id": "auto-025"
     },
     {
       "date": "2026-09-02",
@@ -521,7 +339,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1・3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
       "source": "bigsight.jp",
-      "id": "auto-040"
+      "id": "auto-026"
     },
     {
       "date": "2026-09-02",
@@ -534,7 +352,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-041"
+      "id": "auto-027"
     },
     {
       "date": "2026-09-02",
@@ -547,7 +365,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-042"
+      "id": "auto-028"
     },
     {
       "date": "2026-09-02",
@@ -560,7 +378,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東2・3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-043"
+      "id": "auto-029"
     },
     {
       "date": "2026-09-02",
@@ -573,7 +391,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-044"
+      "id": "auto-030"
     },
     {
       "date": "2026-09-02",
@@ -586,7 +404,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-045"
+      "id": "auto-031"
     },
     {
       "date": "2026-09-02",
@@ -599,7 +417,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-046"
+      "id": "auto-032"
     },
     {
       "date": "2026-09-02",
@@ -612,7 +430,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-047"
+      "id": "auto-033"
     },
     {
       "date": "2026-09-02",
@@ -625,7 +443,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-048"
+      "id": "auto-034"
     },
     {
       "date": "2026-09-02",
@@ -638,7 +456,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
       "source": "bigsight.jp",
-      "id": "auto-049"
+      "id": "auto-035"
     },
     {
       "date": "2026-09-02",
@@ -651,7 +469,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-050"
+      "id": "auto-036"
     },
     {
       "date": "2026-09-02",
@@ -664,7 +482,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-051"
+      "id": "auto-037"
     },
     {
       "date": "2026-09-02",
@@ -677,7 +495,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-052"
+      "id": "auto-038"
     },
     {
       "date": "2026-09-02",
@@ -690,7 +508,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-053"
+      "id": "auto-039"
     },
     {
       "date": "2026-09-02",
@@ -703,7 +521,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-054"
+      "id": "auto-040"
     },
     {
       "date": "2026-09-02",
@@ -715,193 +533,193 @@ window.TAXI_APP_DATA = {
       "attendance": 1500,
       "audience": "senior_wealthy",
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-041"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 91000,
+      "audience": "business",
+      "notes": "東1-3・7・8ホール、西1-4ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（13ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-042"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 21000,
+      "audience": "business",
+      "notes": "西1・3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-043"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "LIVING＆DESIGN2026 ほか1展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-044"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第40回グルメショー秋2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "東1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-045"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 ヤングファッション＆キッズスタッフフェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "東2・3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-046"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 ベビー＆キッズフェア ほか2展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "東2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-047"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 生活雑貨フェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-048"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 アパレルファッションフェア ほか3展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-049"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 ホームファニシング＆デコラティブフェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "西2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-050"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 香りの商品フェア ほか2展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-051"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 インポートギフトフェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 28000,
+      "audience": "business",
+      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-052"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN アクティブデザイン＆クラフトフェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-053"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN 伝統とmodernの日本ブランドフェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "auto-054"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "秀山祭九月大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
       "id": "auto-055"
     },
     {
       "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 91000,
-      "audience": "business",
-      "notes": "東1-3・7・8ホール、西1-4ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（13ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-056"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 21000,
-      "audience": "business",
-      "notes": "西1・3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-057"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "LIVING＆DESIGN2026 ほか1展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-058"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第40回グルメショー秋2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "東1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-059"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 ヤングファッション＆キッズスタッフフェア",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "東2・3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-060"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 ベビー＆キッズフェア ほか2展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "東2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-061"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 生活雑貨フェア",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-062"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 アパレルファッションフェア ほか3展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-063"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 ホームファニシング＆デコラティブフェア",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "西2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-064"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 香りの商品フェア ほか2展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-065"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "第102回東京インターナショナル・ギフト・ショー秋2026 インポートギフトフェア",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-066"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN アクティブデザイン＆クラフトフェア",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-067"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "東京インターナショナル・ギフト・ショー秋2026 第20回LIFEXDESIGN 伝統とmodernの日本ブランドフェア",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "auto-068"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "秀山祭九月大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-069"
-    },
-    {
-      "date": "2026-09-03",
       "name": "SHOWMAN～４番目の影武者",
       "venue": "新国立劇場（小劇場）",
       "category": "theater",
@@ -911,7 +729,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-070"
+      "id": "auto-056"
     },
     {
       "date": "2026-09-03",
@@ -924,7 +742,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-071"
+      "id": "auto-057"
     },
     {
       "date": "2026-09-03",
@@ -937,7 +755,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-072"
+      "id": "auto-058"
     },
     {
       "date": "2026-09-03",
@@ -950,7 +768,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-073"
+      "id": "auto-059"
     },
     {
       "date": "2026-09-03",
@@ -963,7 +781,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: opera。会場キャパ約1814席。終演時刻は210分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-074"
+      "id": "auto-060"
     },
     {
       "date": "2026-09-04",
@@ -976,7 +794,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール、西1-4ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（13ホール）",
       "source": "bigsight.jp",
-      "id": "auto-075"
+      "id": "auto-061"
     },
     {
       "date": "2026-09-04",
@@ -989,7 +807,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1・3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
       "source": "bigsight.jp",
-      "id": "auto-076"
+      "id": "auto-062"
     },
     {
       "date": "2026-09-04",
@@ -1002,7 +820,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-077"
+      "id": "auto-063"
     },
     {
       "date": "2026-09-04",
@@ -1015,7 +833,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-078"
+      "id": "auto-064"
     },
     {
       "date": "2026-09-04",
@@ -1028,7 +846,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東2・3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-079"
+      "id": "auto-065"
     },
     {
       "date": "2026-09-04",
@@ -1041,7 +859,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-080"
+      "id": "auto-066"
     },
     {
       "date": "2026-09-04",
@@ -1054,7 +872,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-081"
+      "id": "auto-067"
     },
     {
       "date": "2026-09-04",
@@ -1067,7 +885,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-082"
+      "id": "auto-068"
     },
     {
       "date": "2026-09-04",
@@ -1080,7 +898,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-083"
+      "id": "auto-069"
     },
     {
       "date": "2026-09-04",
@@ -1093,7 +911,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-084"
+      "id": "auto-070"
     },
     {
       "date": "2026-09-04",
@@ -1106,7 +924,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
       "source": "bigsight.jp",
-      "id": "auto-085"
+      "id": "auto-071"
     },
     {
       "date": "2026-09-04",
@@ -1119,7 +937,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-086"
+      "id": "auto-072"
     },
     {
       "date": "2026-09-04",
@@ -1132,7 +950,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-087"
+      "id": "auto-073"
     },
     {
       "date": "2026-09-04",
@@ -1145,10 +963,192 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-088"
+      "id": "auto-074"
     },
     {
       "date": "2026-09-04",
+      "name": "運命の力",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "14:00",
+      "end": "17:30",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: opera。会場キャパ約1814席。終演時刻は210分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-075"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "宙組『黒蜥蜴』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "auto-076"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "秀山祭九月大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-077"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "SJJIF World Jiu Jitsu Championship 2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:30",
+      "attendance": 10000,
+      "audience": "youth",
+      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
+      "source": "jpnsport.go.jp/yoyogi",
+      "id": "auto-078"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "SHOWMAN～４番目の影武者",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-079"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "秀山祭九月大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-080"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "SHOWMAN～４番目の影武者",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "12:30",
+      "end": "15:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-081"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "運命の力",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "14:00",
+      "end": "17:30",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: opera。会場キャパ約1814席。終演時刻は210分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-082"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "宙組『黒蜥蜴』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "auto-083"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "秀山祭九月大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-084"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "SJJIF World Jiu Jitsu Championship 2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:30",
+      "attendance": 10000,
+      "audience": "youth",
+      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
+      "source": "jpnsport.go.jp/yoyogi",
+      "id": "auto-085"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "TREASURE",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
+      "audience": "general",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
+      "id": "auto-086"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "秀山祭九月大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-087"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "SHOWMAN～４番目の影武者",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "12:30",
+      "end": "15:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-088"
+    },
+    {
+      "date": "2026-09-06",
       "name": "運命の力",
       "venue": "新国立劇場（オペラパレス）",
       "category": "theater",
@@ -1161,7 +1161,7 @@ window.TAXI_APP_DATA = {
       "id": "auto-089"
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-06",
       "name": "宙組『黒蜥蜴』",
       "venue": "東京宝塚劇場",
       "category": "theater",
@@ -1174,7 +1174,7 @@ window.TAXI_APP_DATA = {
       "id": "auto-090"
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-06",
       "name": "秀山祭九月大歌舞伎（夜の部）",
       "venue": "歌舞伎座",
       "category": "theater",
@@ -1187,7 +1187,7 @@ window.TAXI_APP_DATA = {
       "id": "auto-091"
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-06",
       "name": "SJJIF World Jiu Jitsu Championship 2026",
       "venue": "国立代々木競技場 第一体育館",
       "category": "concert",
@@ -1200,199 +1200,17 @@ window.TAXI_APP_DATA = {
       "id": "auto-092"
     },
     {
-      "date": "2026-09-04",
-      "name": "SHOWMAN～４番目の影武者",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 397,
+      "date": "2026-09-06",
+      "name": "TREASURE",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
       "audience": "general",
-      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
       "id": "auto-093"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "秀山祭九月大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-094"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "SHOWMAN～４番目の影武者",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "12:30",
-      "end": "15:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "auto-095"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "運命の力",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "14:00",
-      "end": "17:30",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: opera。会場キャパ約1814席。終演時刻は210分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "auto-096"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "宙組『黒蜥蜴』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-097"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "秀山祭九月大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-098"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "SJJIF World Jiu Jitsu Championship 2026",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-099"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "TREASURE",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "auto-100"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "秀山祭九月大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-101"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "SHOWMAN～４番目の影武者",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "12:30",
-      "end": "15:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "auto-102"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "運命の力",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "14:00",
-      "end": "17:30",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: opera。会場キャパ約1814席。終演時刻は210分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "auto-103"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "宙組『黒蜥蜴』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "auto-104"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "秀山祭九月大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "auto-105"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "SJJIF World Jiu Jitsu Championship 2026",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-106"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "TREASURE",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "auto-107"
     },
     {
       "date": "2026-09-06",
@@ -1405,7 +1223,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "国立競技場5万人規模 (スポーツ)。規制退場により需要は60-90分に分散。",
       "source": "jns-e.com",
-      "id": "auto-108"
+      "id": "auto-094"
     },
     {
       "date": "2026-09-07",
@@ -1418,7 +1236,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-109"
+      "id": "auto-095"
     },
     {
       "date": "2026-09-07",
@@ -1431,7 +1249,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-110"
+      "id": "auto-096"
     },
     {
       "date": "2026-09-08",
@@ -1444,7 +1262,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール、西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
       "source": "bigsight.jp",
-      "id": "auto-111"
+      "id": "auto-097"
     },
     {
       "date": "2026-09-08",
@@ -1457,7 +1275,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-112"
+      "id": "auto-098"
     },
     {
       "date": "2026-09-08",
@@ -1470,7 +1288,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-113"
+      "id": "auto-099"
     },
     {
       "date": "2026-09-08",
@@ -1483,7 +1301,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-114"
+      "id": "auto-100"
     },
     {
       "date": "2026-09-08",
@@ -1496,7 +1314,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-115"
+      "id": "auto-101"
     },
     {
       "date": "2026-09-09",
@@ -1509,7 +1327,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール、西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
       "source": "bigsight.jp",
-      "id": "auto-116"
+      "id": "auto-102"
     },
     {
       "date": "2026-09-09",
@@ -1522,7 +1340,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-117"
+      "id": "auto-103"
     },
     {
       "date": "2026-09-09",
@@ -1535,7 +1353,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-118"
+      "id": "auto-104"
     },
     {
       "date": "2026-09-09",
@@ -1548,7 +1366,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-119"
+      "id": "auto-105"
     },
     {
       "date": "2026-09-09",
@@ -1561,7 +1379,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-120"
+      "id": "auto-106"
     },
     {
       "date": "2026-09-09",
@@ -1574,7 +1392,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-121"
+      "id": "auto-107"
     },
     {
       "date": "2026-09-09",
@@ -1587,7 +1405,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-122"
+      "id": "auto-108"
     },
     {
       "date": "2026-09-10",
@@ -1600,7 +1418,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "分科会No.79。東京都。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
       "source": "jams.med.or.jp",
-      "id": "auto-123"
+      "id": "auto-109"
     },
     {
       "date": "2026-09-10",
@@ -1613,7 +1431,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール、西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
       "source": "bigsight.jp",
-      "id": "auto-124"
+      "id": "auto-110"
     },
     {
       "date": "2026-09-10",
@@ -1626,7 +1444,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-125"
+      "id": "auto-111"
     },
     {
       "date": "2026-09-10",
@@ -1639,7 +1457,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-126"
+      "id": "auto-112"
     },
     {
       "date": "2026-09-10",
@@ -1652,7 +1470,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-127"
+      "id": "auto-113"
     },
     {
       "date": "2026-09-10",
@@ -1665,7 +1483,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-128"
+      "id": "auto-114"
     },
     {
       "date": "2026-09-10",
@@ -1678,7 +1496,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-129"
+      "id": "auto-115"
     },
     {
       "date": "2026-09-10",
@@ -1691,7 +1509,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
-      "id": "auto-130"
+      "id": "auto-116"
     },
     {
       "date": "2026-09-10",
@@ -1704,7 +1522,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
-      "id": "auto-131"
+      "id": "auto-117"
     },
     {
       "date": "2026-09-10",
@@ -1717,7 +1535,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-132"
+      "id": "auto-118"
     },
     {
       "date": "2026-09-11",
@@ -1730,7 +1548,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "分科会No.79。東京都。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
       "source": "jams.med.or.jp",
-      "id": "auto-133"
+      "id": "auto-119"
     },
     {
       "date": "2026-09-11",
@@ -1743,7 +1561,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "分科会No.77。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
       "source": "jams.med.or.jp",
-      "id": "auto-134"
+      "id": "auto-120"
     },
     {
       "date": "2026-09-11",
@@ -1756,7 +1574,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "東1-3・7・8ホール、西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
       "source": "bigsight.jp",
-      "id": "auto-135"
+      "id": "auto-121"
     },
     {
       "date": "2026-09-11",
@@ -1769,7 +1587,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
-      "id": "auto-136"
+      "id": "auto-122"
     },
     {
       "date": "2026-09-11",
@@ -1782,7 +1600,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
-      "id": "auto-137"
+      "id": "auto-123"
     },
     {
       "date": "2026-09-11",
@@ -1795,7 +1613,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-138"
+      "id": "auto-124"
     },
     {
       "date": "2026-09-11",
@@ -1808,7 +1626,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-139"
+      "id": "auto-125"
     },
     {
       "date": "2026-09-11",
@@ -1821,7 +1639,7 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
-      "id": "auto-140"
+      "id": "auto-126"
     },
     {
       "date": "2026-09-11",
@@ -1834,7 +1652,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
-      "id": "auto-141"
+      "id": "auto-127"
     },
     {
       "date": "2026-09-11",
@@ -1847,7 +1665,7 @@ window.TAXI_APP_DATA = {
       "audience": "general",
       "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-142"
+      "id": "auto-128"
     },
     {
       "date": "2026-09-11",
@@ -1860,53 +1678,175 @@ window.TAXI_APP_DATA = {
       "audience": "senior_wealthy",
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
-      "id": "auto-143"
+      "id": "auto-129"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "日本移植学会 学術集会",
+      "venue": "都内学術集会会場",
+      "category": "exhibition",
+      "start": "09:00",
+      "end": "17:00",
+      "attendance": 2500,
+      "audience": "business",
+      "notes": "分科会No.79。東京都。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
+      "source": "jams.med.or.jp",
+      "id": "auto-130"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "日本消化器内視鏡学会 学術集会",
+      "venue": "都内学術集会会場",
+      "category": "exhibition",
+      "start": "09:00",
+      "end": "17:00",
+      "attendance": 2500,
+      "audience": "business",
+      "notes": "分科会No.77。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
+      "source": "jams.med.or.jp",
+      "id": "auto-131"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "秀山祭九月大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-132"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "白鳥の湖",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "12:30",
+      "end": "15:30",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-133"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "SHOWMAN～４番目の影武者",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "12:30",
+      "end": "15:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-134"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "プロ野球 巨人 vs 阪神",
+      "venue": "東京ドーム",
+      "category": "sports",
+      "start": "14:00",
+      "end": "17:15",
+      "attendance": 42000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "auto-135"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "葉葉葉－裸足であがる－",
+      "venue": "新国立劇場（中劇場）",
+      "category": "theater",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 858,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "auto-136"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "雪組『ポーの一族』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "auto-137"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "秀山祭九月大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "auto-138"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "ONE N' ONLY LIVE TOUR 2026 「INFERNO」",
+      "venue": "国立代々木競技場 第一体育館",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:30",
+      "attendance": 10000,
+      "audience": "youth",
+      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
+      "source": "jpnsport.go.jp/yoyogi",
+      "id": "auto-139"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "NEWS",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
+      "audience": "general",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
+      "id": "auto-140"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "２０２６／２７明治安田Ｊ１リーグ「MUFG THE国立DAY」第7節：FC町田ゼルビア vs 横浜F・マリノス",
+      "venue": "国立競技場",
+      "category": "sports",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "国立競技場5万人規模 (スポーツ)。規制退場により需要は60-90分に分散。",
+      "source": "jns-e.com",
+      "id": "auto-141"
     }
   ],
   "weather": {
-    "2026-08-29": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり",
-      "pop_max": 70,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ],
-      "temp_min": 24,
-      "temp_max": 27
-    },
     "2026-08-30": {
       "weather_code": "200",
-      "weather": "くもり",
-      "pop_max": 10,
+      "weather": "くもり　夕方　晴れ　所により　昼前　まで　雨",
+      "pop_max": 30,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 30
         },
         {
           "start_min": 720,
@@ -1919,37 +1859,37 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 21,
-      "temp_max": 29
+      "temp_min": 28,
+      "temp_max": 28
     },
     "2026-08-31": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
-      "pop_max": 30,
-      "temp_min": 23,
-      "temp_max": 32,
+      "weather_code": "111",
+      "weather": "晴れ　夕方　から　くもり　所により　昼過ぎ　から　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 23,
+      "temp_max": 31
     },
     "2026-09-01": {
       "weather_code": "201",
@@ -2103,7 +2043,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "bigsight",
-      "count": 63
+      "count": 64
     },
     {
       "source": "dome",
