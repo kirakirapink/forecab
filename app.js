@@ -17,6 +17,21 @@ const AUDIENCE_LABEL = {
   senior_wealthy: "年配・富裕層",
 };
 
+const REGION = window.FORECAB_REGION || {
+  id: "tokyo",
+  label: "東京",
+  tag: "東京イベント需要予報",
+  tagEn: "Tokyo Event Demand Forecast",
+  mapCenter: [35.681, 139.767],
+  mapZoom: 12,
+};
+const REGIONS = window.FORECAB_REGIONS || { tokyo: REGION };
+// localStorage は同一オリジン内で全URLが共有するため、地域ごとに分離する。
+// 東京版だけは既存ユーザーの実績記録を維持するため旧キーを継続利用する。
+const FEEDBACK_STORAGE_KEY = REGION.id === "tokyo"
+  ? "forecab_feedback"
+  : `forecab_feedback:${REGION.id}`;
+
 const { toMin, fmtMin, clamp } = window.FORECAB_SCORING;
 const scoringCtx = () => ({ venues: window.VENUES || {}, venueDefault: window.VENUE_DEFAULT || {}, weather: (window.TAXI_APP_DATA && window.TAXI_APP_DATA.weather) || {} });
 const scoreEvent = ev => window.FORECAB_SCORING.scoreEvent(ev, scoringCtx());
@@ -32,7 +47,7 @@ function esc(s) {
 
 function loadFeedback() {
   try {
-    const raw = localStorage.getItem("forecab_feedback");
+    const raw = localStorage.getItem(FEEDBACK_STORAGE_KEY);
     if (!raw) return {};
     const parsed = JSON.parse(raw);
     return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
@@ -43,7 +58,7 @@ function loadFeedback() {
 
 function saveFeedback(obj) {
   try {
-    localStorage.setItem("forecab_feedback", JSON.stringify(obj));
+    localStorage.setItem(FEEDBACK_STORAGE_KEY, JSON.stringify(obj));
   } catch (e) {
     // 保存できない環境では実績記録だけ無効化し、表示は継続する。
   }
@@ -315,7 +330,7 @@ function requestUserLocation(onSuccess, onError) {
 function initVenueMap() {
   if (mapInitialized || !window.L || !document.getElementById("venue-map")) return;
   mapInitialized = true;
-  map = L.map("venue-map").setView([35.681, 139.767], 12);
+  map = L.map("venue-map").setView(REGION.mapCenter, REGION.mapZoom || 12);
   map.on("popupopen", e => {
     const popupEl = e.popup.getElement();
     if (!popupEl) return;
@@ -397,6 +412,12 @@ function renderFreshnessBanner() {
   const el = document.getElementById("freshness-banner");
   const meta = window.TAXI_APP_DATA || {};
   const gen = new Date(meta.generated_at);
+
+  if (meta.region && meta.region !== REGION.id) {
+    el.textContent = `⚠ ${REGION.label}版に別地域のデータが読み込まれました。再読み込みしてください`;
+    el.hidden = false;
+    return;
+  }
 
   if (!meta.generated_at || isNaN(gen.getTime())) {
     el.textContent = "⚠ データの更新時刻が確認できません。表示内容が古い可能性があります";
@@ -776,7 +797,7 @@ function renderList() {
   const evs = filteredEvents();
   if (eventsOfDay().length === 0) {
     el.innerHTML = `<div class="empty-big">この日のデータがありません。<br>
-      <code>python3 tools/make_demo_data.py</code> でデモデータを再生成できます。</div>`;
+      <code>python3 tools/fetch_events.py --region ${esc(REGION.id)}</code> でデータを再取得できます。</div>`;
     return;
   }
   if (evs.length === 0) {
@@ -955,8 +976,23 @@ function renderFooter() {
     wxLine = `<div class="footer-wx">${isToday ? "本日" : esc(state.date)}の予報 ／ ${esc(w || "")} ／ ${esc(pop)} ／ ${esc(t.join(" "))}</div>`;
   }
 
-  el.innerHTML = `${errorLine}${wxLine}<span class="footer-brand">FORECAB</span> ${src} ・ 更新 ${esc(meta.generated_at || "-")}<br>
+  el.innerHTML = `${errorLine}${wxLine}<span class="footer-brand">FORECAB ${esc(REGION.label)}版</span> ${src} ・ 更新 ${esc(meta.generated_at || "-")}<br>
     スコアは公開情報ベースの参考値です。実際の需要・交通規制・営業区域は現場の判断を優先してください。`;
+}
+
+function applyRegionUI() {
+  document.title = `FORECAB — ${REGION.tag}`;
+  const tag = document.querySelector(".brand-tag");
+  if (tag) {
+    tag.innerHTML = `${esc(REGION.tag)}<span class="brand-tag-en">${esc(REGION.tagEn)}</span>`;
+  }
+
+  const ribbon = document.getElementById("region-ribbon");
+  if (!ribbon) return;
+  ribbon.innerHTML = Object.values(REGIONS).map(region => {
+    const active = region.id === REGION.id;
+    return `<a class="region-link${active ? " active" : ""}" href="${esc(region.href)}"${active ? ' aria-current="page"' : ""}>${esc(region.label)}</a>`;
+  }).join("");
 }
 
 function render() {
@@ -1002,4 +1038,5 @@ if (document.readyState === "loading") {
 }
 
 startNowViewAutoRefresh();
+applyRegionUI();
 render();

@@ -1,4 +1,4 @@
-"""気象庁(JMA)の東京地方天気予報を取得する。
+"""気象庁(JMA)の地域別天気予報を取得する。
 
 API:    https://www.jma.go.jp/bosai/forecast/data/forecast/{area_code}.json
         area_code=130000 = 東京都
@@ -20,8 +20,7 @@ import urllib.request
 
 from .base import _SSL_CTX, USER_AGENT, SourceError
 
-# 130000 = 東京都
-URL = "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
+URL = "https://www.jma.go.jp/bosai/forecast/data/forecast/{area_code}.json"
 FALLBACK_HOURLY_WINDOWS = (
     (0, 360),
     (360, 720),
@@ -30,9 +29,9 @@ FALLBACK_HOURLY_WINDOWS = (
 )
 
 
-def _fetch_json():
+def _fetch_json(area_code="130000"):
     """JMA forecast JSON を取得（生）"""
-    req = urllib.request.Request(URL, headers={"User-Agent": USER_AGENT})
+    req = urllib.request.Request(URL.format(area_code=area_code), headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(req, timeout=20, context=_SSL_CTX) as res:
             return json.loads(res.read())
@@ -53,12 +52,12 @@ def _make_fallback_hourly(pop):
     ]
 
 
-def fetch():
+def fetch(area_code="130000"):
     """日付ISO → {weather_code, weather, pop_max, temp_max, temp_min} の dict を返す。
     取得失敗時は空 dict を返す（スコアは weather_factor=1.0 で計算される設計）。
     """
     try:
-        data = _fetch_json()
+        data = _fetch_json(area_code)
     except SourceError as e:
         print(f"[weather] 警告: {e}")
         return {}

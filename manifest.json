@@ -1,8 +1,10 @@
 {
-  "name": "FORECAB — 東京イベント需要予報",
+  "id": "./",
+  "name": "FORECAB — 地域別イベント需要予報",
   "short_name": "FORECAB",
-  "description": "東京のイベントから読む、タクシーの需要予報",
-  "start_url": "./index.html",
+  "description": "地域のイベントから読む、タクシーの需要予報",
+  "start_url": "./tokyo/",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#eef0f3",
   "theme_color": "#eef0f3",

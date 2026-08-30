@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import vm from "node:vm";
 
-const SITE_URL = "https://kirakirapink.github.io/forecab/";
+// Discord配信は当面、従来どおり東京版のみ。地域追加で通知を3倍にしない。
+const SITE_URL = "https://kirakirapink.github.io/forecab/tokyo/";
 const JST_OFFSET_MS = 9 * 60 * 60 * 1000;
 const WEEKDAYS = ["日", "月", "火", "水", "木", "金", "土"];
 

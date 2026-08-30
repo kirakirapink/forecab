@@ -1,4 +1,4 @@
-"""Zepp公式スケジュールから都内3館の公演を取得する。
+"""Zepp公式スケジュールから地域別の公演を取得する。
 
 ページ: https://www.zepp.co.jp/hall/haneda/schedule/
         https://www.zepp.co.jp/hall/divercity/schedule/
@@ -14,23 +14,21 @@ import re
 
 from .base import http_get, make_event, strip_tags
 
-HALLS = [
-    {
-        "url": "https://www.zepp.co.jp/hall/haneda/schedule/",
-        "venue": "Zepp Haneda",
-        "attendance": 2900,
-    },
-    {
-        "url": "https://www.zepp.co.jp/hall/divercity/schedule/",
-        "venue": "Zepp DiverCity",
-        "attendance": 2400,
-    },
-    {
-        "url": "https://www.zepp.co.jp/hall/shinjuku/schedule/",
-        "venue": "Zepp Shinjuku",
-        "attendance": 1500,
-    },
-]
+REGION_HALLS = {
+    "tokyo": [
+        {"url": "https://www.zepp.co.jp/hall/haneda/schedule/", "venue": "Zepp Haneda", "attendance": 2900},
+        {"url": "https://www.zepp.co.jp/hall/divercity/schedule/", "venue": "Zepp DiverCity", "attendance": 2400},
+        {"url": "https://www.zepp.co.jp/hall/shinjuku/schedule/", "venue": "Zepp Shinjuku", "attendance": 1500},
+    ],
+    "yokohama": [
+        {"url": "https://www.zepp.co.jp/hall/yokohama/schedule/", "venue": "KT Zepp Yokohama", "attendance": 2100},
+    ],
+    "osaka": [
+        {"url": "https://www.zepp.co.jp/hall/namba/schedule/", "venue": "Zepp Namba", "attendance": 2500},
+        {"url": "https://www.zepp.co.jp/hall/osakabayside/schedule/", "venue": "Zepp Osaka Bayside", "attendance": 2800},
+    ],
+}
+HALLS = REGION_HALLS["tokyo"]
 
 DURATION_MIN = 150
 
@@ -109,10 +107,13 @@ def _parse_page(html, venue, attendance):
     return events
 
 
-def fetch():
-    """Zepp Haneda / Zepp DiverCity のイベントを正規化イベントのリストで返す。"""
+def fetch(region="tokyo"):
+    """指定地域のZeppイベントを正規化イベントのリストで返す。"""
+    halls = REGION_HALLS.get(region)
+    if halls is None:
+        raise ValueError(f"未対応の地域です: {region}")
     events = []
-    for hall in HALLS:
+    for hall in halls:
         html = http_get(hall["url"])
         events += _parse_page(html, hall["venue"], hall["attendance"])
     return events

@@ -41,8 +41,23 @@ body {
 
 button { font-family: inherit; }
 
+.redirect-page {
+  min-height: 60vh;
+  display: grid;
+  place-content: center;
+  gap: 14px;
+  text-align: center;
+}
+.redirect-page a { color: var(--amber-deep); font-weight: 700; }
+
 /* ---------- ブランド ---------- */
 .app-header { padding: 26px 2px 14px; }
+.header-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
 .brand {
   font-size: 27px; font-weight: 900; letter-spacing: .14em;
   color: var(--ink); line-height: 1;
@@ -60,6 +75,30 @@ button { font-family: inherit; }
   letter-spacing: .22em; text-transform: uppercase; color: var(--muted-label);
   margin-top: 2px;
 }
+.region-ribbon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  padding: 3px;
+  background: var(--card);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  box-shadow: 0 1px 2px rgba(20, 24, 33, .04);
+}
+.region-link {
+  min-width: 47px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: var(--dim);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.region-link:hover { color: var(--ink); }
+.region-link.active { background: var(--ink); color: #fff; }
 
 /* ---------- 日付タブ ---------- */
 .freshness-banner {
@@ -643,6 +682,12 @@ button { font-family: inherit; }
 }
 
 @media (max-width: 600px) {
+  .header-main {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .region-ribbon { align-self: stretch; }
+  .region-link { flex: 1; }
   .map-title-row {
     flex-direction: column;
     align-items: stretch;
@@ -700,6 +745,7 @@ button { font-family: inherit; }
   }
   .date-tab.active .md { color: #15171c; }
   .date-tab.active .wd { color: rgba(21,23,28,.65); }
+  .region-link.active { color: #15171c; }
 
   /* ---------- 重点3件 ---------- */
   .best-rank { color: #5f6672; }

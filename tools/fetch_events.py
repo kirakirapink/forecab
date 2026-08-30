@@ -1,281 +1,224 @@
 #!/usr/bin/env python3
-"""公開情報からイベントを自動取得して data/events.js を生成する。
+"""公開情報から地域別イベントを取得し、events.js を生成する。
 
 使い方:
-    python3 tools/fetch_events.py                  # 今日から14日分を取得して反映
-    python3 tools/fetch_events.py --days 7        # 範囲を変える
-    python3 tools/fetch_events.py --dry-run       # events.js を書かずに結果を表示
-    python3 tools/fetch_events.py --offline       # 通信せずキャッシュのみで再生成
+    python3 tools/fetch_events.py --region tokyo
+    python3 tools/fetch_events.py --region yokohama --days 21
+    python3 tools/fetch_events.py --region osaka --dry-run
 
-データソース（tools/sources/ 以下に1ファイル1ソース）:
-    npb       NPB公式の月別日程（東京ドーム・明治神宮野球場の試合）
-    bigsight  東京ビッグサイト公式のイベント一覧（展示会・催事）
-
-さらに data/manual_events.csv があればマージする（ライブ・コンサート等、
-自動取得できないイベントを手で足す用。列は data/events_template.csv と同じ）。
-
-マナー: リクエスト間2秒・12時間キャッシュ・User-Agentに連絡先明示（sources/base.py）。
+取得は sources/base.py の2秒間隔・12時間キャッシュ・明示User-Agentを共通利用する。
 """
 import argparse
 import csv
 import datetime
+import hashlib
 import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from sources import base, npb, bigsight, dome, ariake, zepp, garden_theater, nntt, kabukiza, national_stadium, medical_society, nougakudo, annual, forum, yoyogi, takarazuka, weather  # noqa: E402
+from region_config import REGIONS  # noqa: E402
+from sources import (  # noqa: E402
+    annual, ariake, base, bigsight, dome, forum, garden_theater, k_arena,
+    kabukiza, kyocera_dome, medical_society, national_stadium, nntt, nougakudo,
+    npb, osaka_johall, takarazuka, weather, yokohama_arena, yoyogi, zepp,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT_PATH = ROOT / "data" / "events.js"
-MANUAL_CSV = ROOT / "data" / "manual_events.csv"
-
-# GitHub Actions(UTC)で実行しても日付がズレないよう、日本時間で「今日」を決める
 JST = datetime.timezone(datetime.timedelta(hours=9))
 
 
 def date_range(days):
+    """GitHub ActionsがUTCでもずれない、日本時間基準の日付範囲を返す。"""
     today = datetime.datetime.now(JST).date()
     return [today + datetime.timedelta(days=i) for i in range(days)]
 
 
-def load_manual_csv():
-    if not MANUAL_CSV.exists():
+def load_manual_csv(path):
+    if not path.exists():
         return []
     events = []
-    with MANUAL_CSV.open(encoding="utf-8-sig") as f:
-        for i, row in enumerate(csv.DictReader(f), start=2):
-            row = {k.strip(): (v or "").strip() for k, v in row.items() if k}
+    with path.open(encoding="utf-8-sig") as file_obj:
+        for row in csv.DictReader(file_obj):
+            row = {key.strip(): (value or "").strip() for key, value in row.items() if key}
             if not row.get("date") or not row.get("name"):
                 continue
             events.append({
-                "date": row["date"], "name": row["name"], "venue": row.get("venue", ""),
-                "category": row.get("category", "concert"), "start": row.get("start", "18:00"),
+                "date": row["date"],
+                "name": row["name"],
+                "venue": row.get("venue", ""),
+                "category": row.get("category", "concert"),
+                "start": row.get("start", "18:00"),
                 "end": row.get("end", "21:00"),
                 "attendance": int(row["attendance"]) if str(row.get("attendance", "")).isdigit() else 5000,
-                "audience": row.get("audience", "general"), "notes": row.get("notes", ""),
+                "audience": row.get("audience", "general"),
+                "notes": row.get("notes", ""),
                 "source": "手動CSV",
             })
     return events
 
 
-def main():
-    ap = argparse.ArgumentParser(description="イベント自動取得 → data/events.js 生成")
-    ap.add_argument("--days", type=int, default=14, help="今日から何日分を対象にするか（既定14）")
-    ap.add_argument("--pages", type=int, default=3, help="ビッグサイト一覧の取得ページ数（既定3）")
-    ap.add_argument("--sources", default="npb,bigsight,dome,ariake,zepp,garden_theater,nntt,kabukiza,national_stadium,medical_society,nougakudo,yoyogi,takarazuka,annual,forum", help="使うソース（カンマ区切り）")
-    ap.add_argument("--offline", action="store_true", help="通信せずキャッシュのみ使う")
-    ap.add_argument("--dry-run", action="store_true", help="events.js を書かずに結果表示のみ")
-    args = ap.parse_args()
+def stable_event_id(region, event):
+    """取得順が変わっても同じイベントに同じIDを割り当てる。"""
+    identity = "|".join(str(value).strip() for value in (
+        region, event.get("date"), event.get("venue"), event.get("name"), event.get("start"),
+    ))
+    digest = hashlib.sha256(identity.encode("utf-8")).hexdigest()[:12]
+    return f"{region}-{digest}"
 
-    base.OFFLINE = args.offline
-    if args.offline:
-        # オフライン再生成では通信せず、手元にあるキャッシュを鮮度に関係なく使う。
-        base.CACHE_MAX_AGE_HOURS = 24 * 365 * 100
-    wanted = set(args.sources.split(","))
-    dates = date_range(args.days)
-    date_set = {d.isoformat() for d in dates}
-    weekend_dates = {d.isoformat() for d in dates if d.weekday() >= 5}
 
-    all_events = []
-    errors = []
-    fetch_stats = []
+class Collector:
+    def __init__(self):
+        self.events = []
+        self.errors = []
+        self.fetch_stats = []
+
+    def add(self, source_name, label, callback):
+        try:
+            got = callback()
+            print(f"[{source_name}] {len(got)}件（{label}）")
+            self.fetch_stats.append({"source": source_name, "count": len(got)})
+            self.events += got
+        except Exception as exc:  # 1ソース障害でも他ソースと公開を継続する
+            self.errors.append(f"[{source_name}] {exc}")
+
+
+def collect_sources(region, wanted, dates, pages):
+    collector = Collector()
+    months = sorted({(date.year, date.month) for date in dates})
+    weekend_dates = {date.isoformat() for date in dates if date.weekday() >= 5}
 
     if "npb" in wanted:
-        months = sorted({(d.year, d.month) for d in dates})
         for year, month in months:
-            try:
-                got = npb.fetch(year, month, weekend_dates)
-                print(f"[npb] {year}-{month:02d}: {len(got)}試合（都内球場）")
-                fetch_stats.append({"source": "npb", "count": len(got)})
-                all_events += got
-            except base.SourceError as e:
-                errors.append(f"[npb] {e}")
-
+            collector.add(
+                "npb", f"{region}・{year}-{month:02d}",
+                lambda year=year, month=month: npb.fetch(year, month, weekend_dates, region=region),
+            )
     if "bigsight" in wanted:
-        try:
-            got = bigsight.fetch(pages=args.pages)
-            print(f"[bigsight] {len(got)}件（開催日ごとに展開済み）")
-            fetch_stats.append({"source": "bigsight", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[bigsight] {e}")
-
+        collector.add("bigsight", "東京ビッグサイト", lambda: bigsight.fetch(pages=pages))
     if "dome" in wanted:
-        try:
-            got = dome.fetch()
-            print(f"[dome] {len(got)}件（東京ドーム・野球以外）")
-            fetch_stats.append({"source": "dome", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[dome] {e}")
-
+        collector.add("dome", "東京ドーム・野球以外", dome.fetch)
     if "ariake" in wanted:
-        try:
-            got = ariake.fetch()
-            print(f"[ariake] {len(got)}件（有明アリーナ）")
-            fetch_stats.append({"source": "ariake", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[ariake] {e}")
-
+        collector.add("ariake", "有明アリーナ", ariake.fetch)
     if "zepp" in wanted:
-        try:
-            got = zepp.fetch()
-            print(f"[zepp] {len(got)}件（Zepp Haneda / Zepp DiverCity / Zepp Shinjuku）")
-            fetch_stats.append({"source": "zepp", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[zepp] {e}")
-
+        collector.add("zepp", f"{REGIONS[region]['label']}のZepp", lambda: zepp.fetch(region=region))
     if "garden_theater" in wanted:
-        try:
-            got = garden_theater.fetch()
-            print(f"[garden_theater] {len(got)}件（東京ガーデンシアター）")
-            fetch_stats.append({"source": "garden_theater", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[garden_theater] {e}")
-
+        collector.add("garden_theater", "東京ガーデンシアター", garden_theater.fetch)
     if "nntt" in wanted:
-        try:
-            got = nntt.fetch()
-            print(f"[nntt] {len(got)}件（新国立劇場：オペラ・バレエ・現代演劇）")
-            fetch_stats.append({"source": "nntt", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[nntt] {e}")
-
+        collector.add("nntt", "新国立劇場", nntt.fetch)
     if "kabukiza" in wanted:
-        try:
-            got = kabukiza.fetch()
-            print(f"[kabukiza] {len(got)}件（歌舞伎座）")
-            fetch_stats.append({"source": "kabukiza", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[kabukiza] {e}")
-
+        collector.add("kabukiza", "歌舞伎座", kabukiza.fetch)
     if "national_stadium" in wanted:
-        try:
-            got = national_stadium.fetch()
-            print(f"[national_stadium] {len(got)}件（国立競技場）")
-            fetch_stats.append({"source": "national_stadium", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[national_stadium] {e}")
-
+        collector.add("national_stadium", "国立競技場", national_stadium.fetch)
     if "medical_society" in wanted:
-        try:
-            got = medical_society.fetch()
-            print(f"[medical_society] {len(got)}件（日本医学会・都内学術集会）")
-            fetch_stats.append({"source": "medical_society", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[medical_society] {e}")
-
+        collector.add("medical_society", "都内学術集会", medical_society.fetch)
     if "nougakudo" in wanted:
-        try:
-            got = nougakudo.fetch()
-            print(f"[nougakudo] {len(got)}件（国立能楽堂）")
-            fetch_stats.append({"source": "nougakudo", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[nougakudo] {e}")
-
+        collector.add("nougakudo", "国立能楽堂", nougakudo.fetch)
     if "yoyogi" in wanted:
-        try:
-            got = yoyogi.fetch()
-            print(f"[yoyogi] {len(got)}件（国立代々木競技場 第一体育館）")
-            fetch_stats.append({"source": "yoyogi", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[yoyogi] {e}")
-
+        collector.add("yoyogi", "国立代々木競技場 第一体育館", yoyogi.fetch)
     if "takarazuka" in wanted:
-        try:
-            got = takarazuka.fetch()
-            print(f"[takarazuka] {len(got)}件（東京宝塚劇場）")
-            fetch_stats.append({"source": "takarazuka", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[takarazuka] {e}")
-
+        collector.add("takarazuka", "東京宝塚劇場", takarazuka.fetch)
     if "annual" in wanted:
-        try:
-            got = annual.fetch(days_ahead=args.days)
-            print(f"[annual] {len(got)}件（年次マスタ）")
-            fetch_stats.append({"source": "annual", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[annual] {e}")
-
+        collector.add("annual", "東京年次マスタ", lambda: annual.fetch(days_ahead=len(dates)))
     if "forum" in wanted:
-        try:
-            got = forum.fetch(days_ahead=args.days)
-            print(f"[forum] {len(got)}件（東京国際フォーラム）")
-            fetch_stats.append({"source": "forum", "count": len(got)})
-            all_events += got
-        except base.SourceError as e:
-            errors.append(f"[forum] {e}")
+        collector.add("forum", "東京国際フォーラム", lambda: forum.fetch(days_ahead=len(dates)))
+    if "k_arena" in wanted:
+        collector.add("k_arena", "Kアリーナ横浜", lambda: k_arena.fetch(months))
+    if "yokohama_arena" in wanted:
+        collector.add("yokohama_arena", "横浜アリーナ", lambda: yokohama_arena.fetch(months))
+    if "kyocera_dome" in wanted:
+        collector.add("kyocera_dome", "京セラドーム大阪・野球以外", lambda: kyocera_dome.fetch(months))
+    if "osaka_johall" in wanted:
+        collector.add("osaka_johall", "大阪城ホール", osaka_johall.fetch)
+    return collector
 
-    manual = load_manual_csv()
-    if manual:
-        print(f"[manual] {MANUAL_CSV.name}: {len(manual)}件")
-        all_events += manual
 
-    # 期間でフィルタし、(日付, 会場, 名前) で重複排除（手動CSVを優先したいので手動を先に）
-    all_events.sort(key=lambda e: 0 if e.get("source") == "手動CSV" else 1)
+def normalize_events(region, raw_events, dates):
+    date_set = {date.isoformat() for date in dates}
+    # 手動CSVを優先し、同日・同会場・同名を二重計上しない。
+    raw_events.sort(key=lambda event: 0 if event.get("source") == "手動CSV" else 1)
     seen = set()
     events = []
-    for ev in all_events:
-        if ev["date"] not in date_set:
+    for event in raw_events:
+        if event.get("date") not in date_set:
             continue
-        key = (ev["date"], ev["venue"], ev["name"])
+        key = (event.get("date"), event.get("venue"), event.get("name"))
         if key in seen:
             continue
         seen.add(key)
-        events.append(ev)
+        event["id"] = stable_event_id(region, event)
+        events.append(event)
+    return sorted(events, key=lambda event: (event["date"], event["start"], event["venue"]))
 
-    events.sort(key=lambda e: (e["date"], e["start"]))
-    for i, ev in enumerate(events, start=1):
-        ev["id"] = f"auto-{i:03d}"
 
-    print(f"\n対象期間: {dates[0]} 〜 {dates[-1]} / 採用 {len(events)}件")
-    for e in errors:
-        print("警告:", e)
+def parse_args():
+    parser = argparse.ArgumentParser(description="地域別イベント自動取得 → events.js 生成")
+    parser.add_argument("--region", choices=REGIONS, default="tokyo", help="対象地域（既定: tokyo）")
+    parser.add_argument("--days", type=int, default=14, help="今日から何日分を対象にするか（既定14）")
+    parser.add_argument("--pages", type=int, default=3, help="ビッグサイト一覧の取得ページ数（既定3）")
+    parser.add_argument("--sources", help="地域既定値を上書きするソース名（カンマ区切り）")
+    parser.add_argument("--offline", action="store_true", help="通信せずキャッシュのみ使う")
+    parser.add_argument("--dry-run", action="store_true", help="events.jsを書かずに結果表示のみ")
+    return parser.parse_args()
 
+
+def main():
+    args = parse_args()
+    config = REGIONS[args.region]
+    if args.days < 1:
+        raise SystemExit("--days は1以上を指定してください")
+
+    base.OFFLINE = args.offline
+    if args.offline:
+        base.CACHE_MAX_AGE_HOURS = 24 * 365 * 100
+
+    wanted = set(args.sources.split(",")) if args.sources else set(config["sources"])
+    dates = date_range(args.days)
+    collector = collect_sources(args.region, wanted, dates, args.pages)
+    manual_path = ROOT / config["manual_csv"]
+    manual = load_manual_csv(manual_path)
+    if manual:
+        print(f"[manual] {manual_path.name}: {len(manual)}件")
+        collector.events += manual
+    events = normalize_events(args.region, collector.events, dates)
+
+    print(f"\n地域: {config['label']} / 対象期間: {dates[0]} 〜 {dates[-1]} / 採用 {len(events)}件")
+    for error in collector.errors:
+        print("警告:", error)
     if args.dry_run:
-        for ev in events:
-            print(f"  {ev['date']} {ev['start']}-{ev['end']} [{ev['category']:<10}] "
-                  f"{ev['venue']:<10} {ev['name'][:40]} ({ev['attendance']:,}人, {ev['source']})")
+        for event in events:
+            print(f"  {event['date']} {event['start']}-{event['end']} [{event['category']:<10}] "
+                  f"{event['venue']:<12} {event['name'][:40]} ({event['attendance']:,}人, {event['source']})")
         return
 
-    # 気象予報（東京地方）。失敗時は空dictで継続（app.js側でweather_factor=1.0）
     try:
-        wx = weather.fetch()
-        print(f"[weather] {len(wx)}日分（気象庁・東京地方）")
-    except Exception as e:
+        wx = weather.fetch(config["weather_area_code"])
+        print(f"[weather] {len(wx)}日分（気象庁・{config['weather_label']}）")
+    except Exception as exc:
         wx = {}
-        print(f"警告: [weather] {e}")
-
-    srcs = sorted({e["source"] for e in events})
+        collector.errors.append(f"[weather] {exc}")
+        print(f"警告: [weather] {exc}")
+    sources = sorted({event["source"] for event in events})
     payload = {
         "generated_at": datetime.datetime.now(JST).isoformat(timespec="seconds"),
-        "source": "自動取得: " + " + ".join(srcs) if srcs else "データなし",
+        "region": args.region,
+        "source": "自動取得: " + " + ".join(sources) if sources else "データなし",
         "events": events,
         "weather": wx,
-        "fetch_stats": fetch_stats,
-        "errors": errors,
+        "fetch_stats": collector.fetch_stats,
+        "errors": collector.errors,
     }
-    js = (
+    output_path = ROOT / config["output"]
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    script = (
         "// このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する\n"
         "window.TAXI_APP_DATA = "
         + json.dumps(payload, ensure_ascii=False, indent=2)
         + ";\n"
     )
-    OUT_PATH.write_text(js, encoding="utf-8")
-    print(f"書き出し完了 -> {OUT_PATH}")
+    output_path.write_text(script, encoding="utf-8")
+    print(f"書き出し完了 -> {output_path}")
     if not events:
         print("注意: 採用0件です。--dry-run で取得状況を確認してください。")
 

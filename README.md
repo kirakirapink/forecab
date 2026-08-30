@@ -1,19 +1,28 @@
-# FORECAB — 東京イベント需要予報
+# FORECAB — 地域別イベント需要予報
 
-東京のイベント情報（展示会・ライブ・スポーツ・舞台・催事）から、
+東京・横浜・大阪のイベント情報（展示会・ライブ・スポーツ・舞台・催事）から、
 タクシードライバー向けに **「いつ・どこを狙うべきか」** を星0〜5でスコアリングして表示するWebアプリ。
 （FORECAB = Forecast + Cab）
 
-ブラウザだけで動く（サーバー・ネット接続・インストール不要）。
+画面とスコアリングは共通化し、イベント・会場・天気は地域ごとに分離している。
+
+公開URL:
+
+- 東京: `https://kirakirapink.github.io/forecab/tokyo/`
+- 横浜: `https://kirakirapink.github.io/forecab/yokohama/`
+- 大阪: `https://kirakirapink.github.io/forecab/osaka/`
+- 旧URL `/forecab/` は東京版へ転送
 
 ## 使い方
 
-[index.html](index.html) をブラウザで開くだけ。
+ローカルではリポジトリ直下をHTTP配信して開く（イベントデータを `fetch` するため `file://` ではなくHTTPを使用）。
 
 ```bash
-open index.html
+python3 -m http.server 8000
+# http://localhost:8000/tokyo/ を開く
 ```
 
+- ヘッダーの地域リボンで東京・横浜・大阪を切り替え
 - 上部の日付タブで日を切り替え
 - 「この日のベスト3」→ タップでそのイベントカードへ
 - 時間帯別の需要予報（ヒートマップ）でピーク時間を確認
@@ -42,6 +51,8 @@ open index.html
 ### 自動取得（メイン）
 ```bash
 python3 tools/fetch_events.py              # 今日から14日分を取得して反映
+python3 tools/fetch_events.py --region yokohama
+python3 tools/fetch_events.py --region osaka
 python3 tools/fetch_events.py --dry-run   # 取得結果のプレビューのみ
 python3 tools/fetch_events.py --offline   # 通信せずキャッシュから再生成
 ```
@@ -50,11 +61,15 @@ python3 tools/fetch_events.py --offline   # 通信せずキャッシュから再
 
 | ソース | 取れるもの | 来場者の推定方法 |
 |---|---|---|
-| `npb.py` — NPB公式 月別日程 | 東京ドーム・明治神宮野球場のプロ野球 | 球場×平日/週末の平均動員テーブル |
+| `npb.py` — NPB公式 月別日程 | 東京ドーム・神宮・横浜スタジアム・京セラドームのプロ野球 | 球場×平日/週末の平均動員テーブル |
 | `bigsight.py` — 東京ビッグサイト公式 | 展示会・催事（会期・時間・入場区分つき） | 利用ホール数 × 7,000人/日 |
 | `dome.py` — 東京ドーム公式 | ドームのコンサート・催事（野球以外。開演時刻つき） | コンサート45,000 / 催事30,000 |
 | `ariake.py` — 有明アリーナ公式 | アリーナのライブ・スポーツ（当月+翌月） | 12,000（開演は18:00仮置き） |
-| `zepp.py` — Zepp公式 | Zepp Haneda / Zepp DiverCity / Zepp Shinjuku のライブ（OPEN/START時刻つき） | Haneda 2,900 / DiverCity 2,400 / Shinjuku 1,500 |
+| `zepp.py` — Zepp公式 | 東京3館・KT Zepp Yokohama・Zepp Namba / Osaka Bayside | 各館の最大収容規模 |
+| `k_arena.py` — Kアリーナ横浜公式 | 公演日・OPEN/START | 20,000 |
+| `yokohama_arena.py` — 横浜アリーナ公式 | 公開カレンダーJSON（複数公演・終演時刻対応） | 17,000 |
+| `kyocera_dome.py` — 京セラドーム大阪公式 | 野球以外のコンサート・催事 | コンサート45,000 / 催事30,000 |
+| `osaka_johall.py` — 大阪城ホール公式 | 公演日・開演/終演（複数公演対応） | 16,000 |
 | `garden_theater.py` — 東京ガーデンシアター公式 | 大型ホールのライブ・スポーツ（期間公演は日ごとに展開） | 7,000（開演は18:00仮置き） |
 | `yoyogi.py` — 国立代々木競技場公式 | 第一体育館のライブ・イベント（当月+翌月） | 10,000（時刻は17:00-20:30仮置き） |
 | `takarazuka.py` — 宝塚歌劇公式 | 東京宝塚劇場の公演（期間公演は月曜を除き日ごとに展開） | 2,000（終演18:30の夕方回を主需要として採用） |
@@ -106,7 +121,8 @@ gh repo create forecab --public --source=. --push
 1. **Settings → Pages → Source を「GitHub Actions」** にする
 2. **Actions タブ → update-events → Run workflow** で初回実行
 
-公開URLは `https://<ユーザー名>.github.io/forecab/`。
+公開URLは `https://<ユーザー名>.github.io/forecab/`。ここから東京版へ移動し、
+画面上部から横浜・大阪へ切り替えられる。
 友人には このURLをSafariで開いて **共有 → ホーム画面に追加** してもらうと、
 アイコン付きでアプリのように起動できる（PWA対応済み）。
 
@@ -115,19 +131,25 @@ gh repo create forecab --public --source=. --push
 
 ## 会場を追加する
 
-[venues.js](venues.js) に1ブロック足すだけ。
+東京は [venues.js](venues.js)、横浜・大阪は [regional/](regional/) 内の会場マスタに1ブロック足す。
 駅アクセス（near/mid/far）、長距離期待（0〜1）、よく出る行き先、付け方のコツを書く。
 未登録の会場名でもアプリは動く（標準値でスコアリング）。
 
 ## 構成
 
 ```
-index.html       アプリ本体（これを開く）
-app.js           スコアリングエンジン + UI
-venues.js        会場マスタ（タクシー特性の知識ベース)
-style.css        シルバー/ホワイトベースのライトテーマ
-data/events.js   イベントデータ（自動生成。直接編集しない）
-tools/           データ生成・変換スクリプト（Python 3 標準ライブラリのみ）
+index.html                  旧URL互換の東京版転送入口
+tokyo/index.html            東京版
+yokohama/index.html         横浜版
+osaka/index.html            大阪版
+bootstrap.js / regions.js   共通ローダー・地域設定
+app.js / scoring.js         全地域共通UI・スコアリング
+venues.js                   東京会場マスタ
+regional/                   横浜・大阪会場マスタ
+data/events.js              東京イベントデータ
+data/yokohama/events.js     横浜イベントデータ
+data/osaka/events.js        大阪イベントデータ
+tools/                      地域別データ生成（Python 3標準ライブラリのみ）
 ```
 
 ## 免責

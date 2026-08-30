@@ -12,5 +12,9 @@ jobs:
       - name: JS構文チェック
         run: |
           node --check app.js
+          node --check bootstrap.js
+          node --check regions.js
+          node --check regional/yokohama-venues.js
+          node --check regional/osaka-venues.js
           node --check scoring.js
           node --check tools/post_daily.mjs

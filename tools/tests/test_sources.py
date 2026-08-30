@@ -97,6 +97,71 @@ class SourceFixtureTests(EventAssertions):
         self.assertGreaterEqual(len(events), 1)
         self.assert_valid_event(events[0])
 
+    def test_npb_separates_tokyo_yokohama_and_osaka_stadiums(self):
+        weekend_dates = {
+            datetime.date(2026, 6, day).isoformat()
+            for day in range(1, 31)
+            if datetime.date(2026, 6, day).weekday() >= 5
+        }
+        with offline_source("npb") as npb:
+            tokyo = npb.fetch(2026, 6, weekend_dates, region="tokyo")
+            yokohama = npb.fetch(2026, 6, weekend_dates, region="yokohama")
+            osaka = npb.fetch(2026, 6, weekend_dates, region="osaka")
+        self.assertTrue(tokyo)
+        self.assertTrue(yokohama)
+        self.assertTrue(osaka)
+        self.assertEqual({event["venue"] for event in yokohama}, {"横浜スタジアム"})
+        self.assertEqual({event["venue"] for event in osaka}, {"京セラドーム大阪"})
+        self.assertFalse({event["venue"] for event in tokyo} & {"横浜スタジアム", "京セラドーム大阪"})
+
+    def test_k_arena_parser(self):
+        module = importlib.import_module("sources.k_arena")
+        html = '''<li class="schedule-list-item">
+          <p class="schedule-list-item__date">2026.09.02.Wed.</p>
+          <h2 class="schedule-list-item__title">桑田佳祐 夏祭りツアー</h2>
+          <p class="schedule-list-item__artist">桑田佳祐</p>
+          <div class="schedule-list-item__open-start"><p>OPEN 17:00 / START 18:30</p></div>
+        </li>'''
+        events = module._parse_page(html)
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["venue"], "Kアリーナ横浜")
+        self.assertEqual(events[0]["date"], "2026-09-02")
+        self.assertEqual(events[0]["start"], "18:30")
+        self.assert_valid_event(events[0])
+
+    def test_yokohama_arena_json_parser_supports_multiple_shows(self):
+        module = importlib.import_module("sources.yokohama_arena")
+        payload = '''[{"date1":"2026-09-20","date2":"2026-09-20","category":"2",
+          "title":"IDOL RUNWAY","artist":false,"ev_open":["11:00","17:00"],
+          "ev_start":["12:00","18:00"],"ev_end":["16:00","21:00"]}]'''
+        events = module._parse_payload(payload)
+        self.assertEqual([event["start"] for event in events], ["12:00", "18:00"])
+        self.assertEqual([event["end"] for event in events], ["16:00", "21:00"])
+        self.assertTrue(all(event["venue"] == "横浜アリーナ" for event in events))
+
+    def test_kyocera_parser_skips_baseball_and_private_events(self):
+        module = importlib.import_module("sources.kyocera_dome")
+        html = '''
+          <section class="event-box " id="event2026-09-01"><div class="top"><h1>LIVE</h1><h2>TOUR</h2><span>コンサート</span></div><div>開始時間：17:00～</div></section>
+          <section class="event-box " id="event2026-09-02"><div class="top"><h2>オリックスvs楽天</h2><span>野球</span></div><div>開始時間：18:00～</div></section>
+          <section class="event-box " id="event2026-09-03"><div class="top"><h2>非公開イベント</h2><span>イベント</span></div><div>開始時間：09:00～</div></section>
+        '''
+        events = module._parse_page(html)
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["name"], "LIVE TOUR")
+        self.assertEqual(events[0]["venue"], "京セラドーム大阪")
+        self.assert_valid_event(events[0])
+
+    def test_osaka_johall_parser_uses_published_end_times(self):
+        module = importlib.import_module("sources.osaka_johall")
+        html = '''<div class="slider-contents"><span class="date">2026/09/01</span>
+          <dt class="event-ttl"><a>大阪ライブ</a></dt>
+          <span class="d-ttl">開演</span><span class="d-txt">12:00/16:00</span>
+          <span class="d-ttl">終演</span><span class="d-txt">14:00/18:30</span></div>'''
+        events = module._parse_page(html)
+        self.assertEqual([event["end"] for event in events], ["14:00", "18:30"])
+        self.assertTrue(all(event["venue"] == "大阪城ホール" for event in events))
+
     def test_bigsight_fetches_from_list_fixture(self):
         with offline_source("bigsight") as bigsight:
             events = bigsight.fetch(pages=1)
