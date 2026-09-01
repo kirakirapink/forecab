@@ -1,74 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-08-31T08:16:48+09:00",
+  "generated_at": "2026-09-01T09:26:28+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-08-31",
-      "name": "BUZZ-ER.PARTY PARTYReLITナナクロニクルBLACK IRISALL INSE7ENTH SENSEProtea*NEWTRENDPARADEMIA (Buzzer Entertainment 新グループ)君未来。 ブザフェス~10th Anniversary year~",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "15:00",
-      "end": "17:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-5d427050f7da"
-    },
-    {
-      "date": "2026-08-31",
-      "name": "ELECTRIC CALLBOY TANZNEID WORLD TOUR JAPAN",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-af76505ba469"
-    },
-    {
-      "date": "2026-08-31",
-      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
-      "venue": "東京国際フォーラム",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "senior_wealthy",
-      "notes": "ミュージカル・舞台想定。18時開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-2b757f32e639"
-    },
-    {
-      "date": "2026-08-31",
-      "name": "ExWHYZ ExWHYZ LAST LIVE ‘光’",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-0e96486b9c6b"
-    },
-    {
-      "date": "2026-08-31",
-      "name": "lynch. TOUR'26「IGNITE THE CLIMAX」",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-884b0e4e3590"
-    },
     {
       "date": "2026-09-01",
       "name": "宙組『黒蜥蜴』",
@@ -81,6 +16,19 @@ window.TAXI_APP_DATA = {
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
       "id": "tokyo-95325e0afbc1"
+    },
+    {
+      "date": "2026-09-01",
+      "name": "VILLAINS HOUSE VILLAINS HOUSE主催 2周年東名阪ワンマンツアー『DEVIL SMILE』",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-ef3219c6457a"
     },
     {
       "date": "2026-09-01",
@@ -107,6 +55,32 @@ window.TAXI_APP_DATA = {
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
       "id": "tokyo-11718654b32e"
+    },
+    {
+      "date": "2026-09-01",
+      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-b6701db63f78"
+    },
+    {
+      "date": "2026-09-01",
+      "name": "ザ・ルーツ MEMBERBlack Thought (MC)Questlove (Drums,MD)Kamal Gray (Key)Raymond Angry (Key)\"Captain\" Kirk Douglas (Gt)Thaddaeus Tribbett (Ba)Stro Elliot (Perc)Dave Guy (Tp)Michael Buckley (Sax)Tuba Gooding Jr. (Sousaphone) Billboard Live presents THE ROOTS Japan Tour 2026",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-efc056a07177"
     },
     {
       "date": "2026-09-01",
@@ -344,6 +318,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-02",
+      "name": "Sweet Alley Sweet Alley LIVE HOUSE ONEMAN LIVE",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-2de8f5512b7d"
+    },
+    {
+      "date": "2026-09-02",
       "name": "プロ野球 ヤクルト vs 阪神",
       "venue": "明治神宮野球場",
       "category": "sports",
@@ -354,6 +341,32 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "tokyo-51bdcd5acc6f"
+    },
+    {
+      "date": "2026-09-02",
+      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-c2045b7783b6"
+    },
+    {
+      "date": "2026-09-02",
+      "name": "Age Factory x ENTH x Paledusk Age Factory x ENTH x Paleduskpresents「GOBLIN」TOUR 2026",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-897fe40acbdf"
     },
     {
       "date": "2026-09-03",
@@ -591,6 +604,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-03",
+      "name": "Rockon Social Club KURE 5-56 Presents Rockon Social Club Tour 2026 WARRIORS",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-bb5c16ce6ffe"
+    },
+    {
+      "date": "2026-09-03",
       "name": "運命の力",
       "venue": "新国立劇場（オペラパレス）",
       "category": "theater",
@@ -614,6 +640,71 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "tokyo-6a1dce8a3826"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Private",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: 会議・式典・セミナー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-9388dedbce92"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-283194cebc9e"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "DIAURA 『愚民の日 2026』",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-c5bdb3443ca8"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "【香り高い 福井のそば PREMIUM DAY】 福井県産そばスイーツ無料配布会",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-613ce6040137"
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Blue Mash 【Guest】ねぐせ / FOMARE ロックスター症候群",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-e9eb6171ce1c"
     },
     {
       "date": "2026-09-04",
@@ -851,6 +942,32 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-04",
+      "name": "Rockon Social Club KURE 5-56 Presents Rockon Social Club Tour 2026 WARRIORS",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-721dc92c812b"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "森本爵 森本爵ONEMANLIVE ～Palindrome～",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-d0ac407a9222"
+    },
+    {
+      "date": "2026-09-04",
       "name": "プロ野球 ヤクルト vs 中日",
       "venue": "明治神宮野球場",
       "category": "sports",
@@ -861,6 +978,45 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "tokyo-44ff0afcb257"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "ano ano Hall Tour 2026 DUAL DINER 追加公演",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-0488a42ef5ce"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-5c7d8d4c399b"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "Maki Maki Tour 2026「四暗刻」",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-1b7435e90f6b"
     },
     {
       "date": "2026-09-04",
@@ -942,6 +1098,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-05",
+      "name": "キズ キズ Zepp TOUR 『天照焔巡』",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-1ca23904730e"
+    },
+    {
+      "date": "2026-09-05",
       "name": "SJJIF World Jiu Jitsu Championship 2026",
       "venue": "国立代々木競技場 第一体育館",
       "category": "concert",
@@ -952,6 +1121,19 @@ window.TAXI_APP_DATA = {
       "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
       "source": "jpnsport.go.jp/yoyogi",
       "id": "tokyo-b71f24e32f69"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "StarLight PolaRis(すたぽら) StarLight PolaRis Summer Tour 2026 「StarLoading now…!!」",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-d2f8af0a64c3"
     },
     {
       "date": "2026-09-05",
@@ -980,6 +1162,71 @@ window.TAXI_APP_DATA = {
       "id": "tokyo-b27d72d0d4d5"
     },
     {
+      "date": "2026-09-05",
+      "name": "聖飢魔Ⅱ 聖飢魔Ⅱ GREAT BLACK MASS TOUR「SEASONⅡ」",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-b76cf0072fb4"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-918b3551caed"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "粗品(vo. gt) / 藤本ひかり・Tomi・Fami。(ba) / 岸波藍 (dr) 粗品TOUR2026「怪獣こやけ」",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-5bec9cd12504"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "第37回日本テディベア with Friends コンベンション",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-76dcb4121c4d"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Kiramune Presents Hiroshi Kamiya Live Tour 2026 「Share Live」",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-f7cc05609d83"
+    },
+    {
       "date": "2026-09-06",
       "name": "秀山祭九月大歌舞伎（昼の部）",
       "venue": "歌舞伎座",
@@ -1004,6 +1251,19 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
       "id": "tokyo-cf29d8c27b0c"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "Element Sicks Element Sicks Live Tour 2026「SAVE」（1回目）",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 13:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-e557386b6249"
     },
     {
       "date": "2026-09-06",
@@ -1046,6 +1306,32 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-06",
+      "name": "アルルカン アルルカン LIVE TOUR 2026「imagine」",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "16:30",
+      "end": "19:00",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 15:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-12d9cfe70407"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "downy / mouse on the keys HELLO INDIE 2026 -TOKYO-",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-8d8225af64a2"
+    },
+    {
+      "date": "2026-09-06",
       "name": "SJJIF World Jiu Jitsu Championship 2026",
       "venue": "国立代々木競技場 第一体育館",
       "category": "concert",
@@ -1072,6 +1358,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-06",
+      "name": "Element Sicks Element Sicks Live Tour 2026「SAVE」（2回目）",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-36960d03e6b2"
+    },
+    {
+      "date": "2026-09-06",
       "name": "TREASURE",
       "venue": "有明アリーナ",
       "category": "concert",
@@ -1082,6 +1381,58 @@ window.TAXI_APP_DATA = {
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
       "id": "tokyo-a0d58c2d693f"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "黒夢 ザ パーフェクト デイズ トゥ ダイ",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-b28d4affa302"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-56246442212c"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "第37回日本テディベア with Friends コンベンション",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-14aaf40fb32a"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "billboard classics 劇場アニメ『ベルサイユのばら』シンフォニックコンサート2026",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "youth",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-e2685d8adef8"
     },
     {
       "date": "2026-09-06",
@@ -1123,6 +1474,32 @@ window.TAXI_APP_DATA = {
       "id": "tokyo-d1f4a3c83a57"
     },
     {
+      "date": "2026-09-07",
+      "name": "▷せーぶぽいんと ▷savepoint LAST LIVE『▷せーぶぽいんと』",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "16:30",
+      "end": "19:00",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 15:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-e8a183215f29"
+    },
+    {
+      "date": "2026-09-07",
+      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-9cca92d7533f"
+    },
+    {
       "date": "2026-09-08",
       "name": "国際物流総合展2026",
       "venue": "東京ビッグサイト",
@@ -1150,6 +1527,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-08",
+      "name": "マーキュロ / べロティカ / VILLAINS HOUSE / ギミック / セクト / PSYCHOデリック / メモリーズ / サークルライチ塾生三期 / クララ・マグラ / TENRIN / AdamLilith / LADYBABY / マザリ / 神様の言う通り / キングサリ / RAViDAVi / シンデレラ宣言！ / シュレーディンガーの犬 / 闇雲 / ココロシンドローム / THE PINK MINDS / Dr.CUTTER / 白百合と雨 サークルライチ主催『The Godfather』",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "11:20",
+      "end": "13:50",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 11:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-410462939ef6"
+    },
+    {
+      "date": "2026-09-08",
       "name": "秀山祭九月大歌舞伎（夜の部）",
       "venue": "歌舞伎座",
       "category": "theater",
@@ -1173,6 +1563,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "tokyo-c75f730ed131"
+    },
+    {
+      "date": "2026-09-08",
+      "name": "第6回The Makers・Apparel Show",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-a35b81d72e02"
     },
     {
       "date": "2026-09-08",
@@ -1241,6 +1644,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-09",
+      "name": "KEJIMIN × TAEKWONCRE KEJIMIN × TAEKWONCRE JAPAN LIVE PERFORMANCE（1回目）",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "15:00",
+      "end": "17:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 14:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-0a1a7857badb"
+    },
+    {
+      "date": "2026-09-09",
       "name": "TRANOÏ TOKYO",
       "venue": "国立代々木競技場 第一体育館",
       "category": "concert",
@@ -1267,6 +1683,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-09",
+      "name": "KEJIMIN × TAEKWONCRE KEJIMIN × TAEKWONCRE JAPAN LIVE PERFORMANCE（2回目）",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-ce7cf2bb7b8b"
+    },
+    {
+      "date": "2026-09-09",
       "name": "白鳥の湖",
       "venue": "新国立劇場（オペラパレス）",
       "category": "theater",
@@ -1277,6 +1706,19 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
       "id": "tokyo-2ba99f60c484"
+    },
+    {
+      "date": "2026-09-09",
+      "name": "第6回The Makers・Apparel Show",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-1ba2e888a7ad"
     },
     {
       "date": "2026-09-10",
@@ -1409,6 +1851,32 @@ window.TAXI_APP_DATA = {
       "id": "tokyo-cd640afac2ad"
     },
     {
+      "date": "2026-09-10",
+      "name": "kanekoayano 「kanekoayano World Tour 2026」",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-ded83b24fe68"
+    },
+    {
+      "date": "2026-09-10",
+      "name": "NIA ARCHIVES",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-d5531c87f594"
+    },
+    {
       "date": "2026-09-11",
       "name": "日本移植学会 学術集会",
       "venue": "都内学術集会会場",
@@ -1501,6 +1969,32 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-11",
+      "name": "KengNamping KengNamping 1ST FANMEETING IN JAPAN（1回目）",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 13:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-fc46b746fac1"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "つばきファクトリー つばきファクトリー CONCERT TOUR 2026 AUTUMN ～Bloomy Groovy Story～（1回目）",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "15:00",
+      "end": "17:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 14:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-b213ed408159"
+    },
+    {
+      "date": "2026-09-11",
       "name": "秀山祭九月大歌舞伎（夜の部）",
       "venue": "歌舞伎座",
       "category": "theater",
@@ -1540,6 +2034,45 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-11",
+      "name": "9月11日(金) : Juice=Juice／NiziU／FRUITS ZIPPER 9月12日(土) : INI／IMP.／GENERATIONS 9月13日(日) : BUDDiiS／MAZZEL／LIL LEAGUE CDTVライブ！ライブ！秋の大感謝祭2026",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-5d1e6af3f8a9"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "つばきファクトリー つばきファクトリー CONCERT TOUR 2026 AUTUMN ～Bloomy Groovy Story～（2回目）",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "18:15",
+      "end": "20:45",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-84b484f720fa"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "KengNamping KengNamping 1ST FANMEETING IN JAPAN（2回目）",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 17:45。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-e39324e21c90"
+    },
+    {
+      "date": "2026-09-11",
       "name": "白鳥の湖",
       "venue": "新国立劇場（オペラパレス）",
       "category": "theater",
@@ -1550,6 +2083,45 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
       "id": "tokyo-429885008097"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "古川雄大 The Greatest Concert vol.3 -Man of the Stage-",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-e20f6ba7f500"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Maison de Queen THE FIRST AISA TOUR「scenario」",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "19:20",
+      "end": "21:50",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 18:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-669e9b7c0ad5"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "大江戸骨董市",
+      "venue": "東京国際フォーラム",
+      "category": "festival",
+      "start": "09:00",
+      "end": "16:00",
+      "attendance": 5000,
+      "audience": "general",
+      "notes": "催事想定。日中開催で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-189dca6401d1"
     },
     {
       "date": "2026-09-12",
@@ -1576,6 +2148,19 @@ window.TAXI_APP_DATA = {
       "notes": "分科会No.77。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
       "source": "jams.med.or.jp",
       "id": "tokyo-01158a75c0ce"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "ふるさと回帰フェア2026",
+      "venue": "東京国際フォーラム",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 3000,
+      "audience": "business",
+      "notes": "学会・展示会・カンファレンス想定。10-17時開催で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-759ec6f980f1"
     },
     {
       "date": "2026-09-12",
@@ -1618,6 +2203,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-12",
+      "name": "小見山直人 / 美魔王 / NO X OVER / B2takes!! / 二代目FOR:ACE / Luvω / KOSHIN / Protea* / BLACK IRIS / NEWTREND / IXAØN / ALL IN / 100STARS / SE7ENTH SENSE / 電脳ヒメカ / AiAi / 永城ひなた / Pei Chan / 都築つづ / ぶたまん / VALHALLA Special MUSIC FESライ推し出版記念ツアーファイナル— supported/MUSIC FOR ALL —",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "12:50",
+      "end": "15:20",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-df640e9d1f12"
+    },
+    {
+      "date": "2026-09-12",
       "name": "葉葉葉－裸足であがる－",
       "venue": "新国立劇場（中劇場）",
       "category": "theater",
@@ -1657,6 +2255,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-12",
+      "name": "出演者：ハロプロ研修生吉田光里・服部琉愛・坂本葵花・青木優奈・根本花凛・宮﨑理帆・大野愛莉・樋口愛海・染谷彩良・鈴木琴美・斎藤ゆり夏・山本はな・岸田桃果・田村梛々・長井莉依那・坂田しおり・佐藤絢音・苅部咲良・佐伯詩春ゲスト：ロージークロニクルMC：アラケン【東京公演】 ※出演者は⼀部変更となる場合がございます。予めご了承ください。 Hello! Project 研修生発表会 2026 9月 ～新風～",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "15:45",
+      "end": "18:15",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-b238a3bc57f2"
+    },
+    {
+      "date": "2026-09-12",
       "name": "秀山祭九月大歌舞伎（夜の部）",
       "venue": "歌舞伎座",
       "category": "theater",
@@ -1667,6 +2278,19 @@ window.TAXI_APP_DATA = {
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
       "id": "tokyo-40d86d33d593"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "Benjazzy、JUSTHIS、Sonsi、Tiji Jojo GO-AheadZ FutureZ",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-6a941ed5ae10"
     },
     {
       "date": "2026-09-12",
@@ -1696,6 +2320,58 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-12",
+      "name": "9月11日(金) : Juice=Juice／NiziU／FRUITS ZIPPER 9月12日(土) : INI／IMP.／GENERATIONS 9月13日(日) : BUDDiiS／MAZZEL／LIL LEAGUE CDTVライブ！ライブ！秋の大感謝祭2026",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-4bd1a4847c50"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "出演者：ロージークロニクルゲスト：ハロプロ研修生吉田光里・服部琉愛・坂本葵花・青木優奈・根本花凛・宮﨑理帆・大野愛莉・樋口愛海・染谷彩良・鈴木琴美・斎藤ゆり夏・山本はな・岸田桃果・田村梛々・長井莉依那・坂田しおり・佐藤絢音・苅部咲良・佐伯詩春 ※出演者は⼀部変更となる場合がございます。予めご了承ください。 ロージークロニクル ライブツアー2026 〜BOOKMARK〜",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 17:45。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-dcc7a6c47178"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "オトメイトパーティー2026",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-9c36606d3671"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "古川雄大 The Greatest Concert vol.3 -Man of the Stage-",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-3450f12b5a70"
+    },
+    {
+      "date": "2026-09-12",
       "name": "２０２６／２７明治安田Ｊ１リーグ「MUFG THE国立DAY」第7節：FC町田ゼルビア vs 横浜F・マリノス",
       "venue": "国立競技場",
       "category": "sports",
@@ -1706,6 +2382,19 @@ window.TAXI_APP_DATA = {
       "notes": "国立競技場5万人規模 (スポーツ)。規制退場により需要は60-90分に分散。",
       "source": "jns-e.com",
       "id": "tokyo-418bed9a7507"
+    },
+    {
+      "date": "2026-09-13",
+      "name": "ふるさと回帰フェア2026",
+      "venue": "東京国際フォーラム",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 3000,
+      "audience": "business",
+      "notes": "学会・展示会・カンファレンス想定。10-17時開催で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-50fc20385398"
     },
     {
       "date": "2026-09-13",
@@ -1826,6 +2515,32 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-13",
+      "name": "Novelbright NOVELCITY EDITIONNovelbright結成13周年記念LIVE「Lighter’s High」",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-d2851a0a05bd"
+    },
+    {
+      "date": "2026-09-13",
+      "name": "DOES DOES 20th Anniversary Live “ Thanksloving! ” in Zepp Shinjuku",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-3501eff459ab"
+    },
+    {
+      "date": "2026-09-13",
       "name": "ONE N' ONLY LIVE TOUR 2026 「INFERNO」",
       "venue": "国立代々木競技場 第一体育館",
       "category": "concert",
@@ -1862,14 +2577,186 @@ window.TAXI_APP_DATA = {
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
       "id": "tokyo-df4e8c1806d5"
+    },
+    {
+      "date": "2026-09-13",
+      "name": "9月11日(金) : Juice=Juice／NiziU／FRUITS ZIPPER 9月12日(土) : INI／IMP.／GENERATIONS 9月13日(日) : BUDDiiS／MAZZEL／LIL LEAGUE CDTVライブ！ライブ！秋の大感謝祭2026",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-385a0b3a86c8"
+    },
+    {
+      "date": "2026-09-13",
+      "name": "オトメイトパーティー2026",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-df46528e993f"
+    },
+    {
+      "date": "2026-09-13",
+      "name": "古川雄大 The Greatest Concert vol.3 -Man of the Stage-",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-9965eb6afc4d"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "秀山祭九月大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-84756c4ca42e"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "大相撲九月場所",
+      "venue": "両国国技館",
+      "category": "sports",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 11000,
+      "audience": "senior_wealthy",
+      "notes": "九月場所15日間。打ち出し18時前後にタニマチ・年配富裕層が銀座・赤坂・料亭方面へ。正面玄関側で待機が定石。日付は要確認",
+      "source": "年次マスタ",
+      "id": "tokyo-8057ef9efa94"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "秀山祭九月大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-fc41e20c02e8"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "MIYAVI 【1部】MIYAVI Official Fan Club \"Under The Same Sky\" presents MIYAVI Special Birthday Event 2026 ※FC限定イベント 【2部】MIYAVI Special Birthday Live 2026（1回目）",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "16:30",
+      "end": "19:00",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-7d1f3a999076"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "プロ野球 ヤクルト vs 広島",
+      "venue": "明治神宮野球場",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 24000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "tokyo-237666ffb5b7"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "古川雄大 The Greatest Concert vol.3 -Man of the Stage-",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-bd479647b802"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "MIYAVI 【1部】MIYAVI Official Fan Club \"Under The Same Sky\" presents MIYAVI Special Birthday Event 2026 ※FC限定イベント 【2部】MIYAVI Special Birthday Live 2026（2回目）",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-d642e8dd94f8"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "SHO-SENSEI!! SHO-SENSEI!! Asia Tour 2026",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-ded66c84d5d3"
     }
   ],
   "weather": {
-    "2026-08-31": {
-      "weather_code": "200",
-      "weather": "くもり　所により　昼過ぎ　から　雨",
-      "pop_max": 30,
+    "2026-09-01": {
+      "weather_code": "201",
+      "weather": "くもり　朝　から　昼過ぎ　晴れ",
+      "pop_max": 20,
       "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ],
+      "temp_min": 30,
+      "temp_max": 30
+    },
+    "2026-09-02": {
+      "weather_code": "201",
+      "weather": "くもり　昼過ぎ　まで　時々　晴れ　所により　昼過ぎ　から　雨　で　雷を伴う",
+      "pop_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -1883,74 +2770,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
-        }
-      ],
-      "temp_min": 29,
-      "temp_max": 29
-    },
-    "2026-09-01": {
-      "weather_code": "200",
-      "weather": "くもり　所により　明け方　まで　雨",
-      "pop_max": 30,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
           "pop": 20
         }
       ],
-      "temp_min": 23,
-      "temp_max": 30
-    },
-    "2026-09-02": {
-      "weather_code": "200",
-      "pop_max": 30,
-      "temp_min": 25,
-      "temp_max": 35,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ]
+      "temp_min": 24,
+      "temp_max": 33
     },
     "2026-09-03": {
       "weather_code": "202",
       "pop_max": 70,
       "temp_min": 23,
-      "temp_max": 31,
+      "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
@@ -1975,62 +2805,90 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-04": {
-      "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 22,
-      "temp_max": 27,
+      "weather_code": "203",
+      "pop_max": 70,
+      "temp_min": 21,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 70
         }
       ]
     },
     "2026-09-05": {
       "weather_code": "200",
-      "pop_max": 30,
+      "pop_max": 40,
+      "temp_min": 20,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-06": {
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 20,
       "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     },
-    "2026-09-06": {
+    "2026-09-07": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 20,
@@ -2062,10 +2920,6 @@ window.TAXI_APP_DATA = {
   "fetch_stats": [
     {
       "source": "npb",
-      "count": 24
-    },
-    {
-      "source": "npb",
       "count": 23
     },
     {
@@ -2074,31 +2928,31 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "dome",
-      "count": 46
+      "count": 49
     },
     {
       "source": "ariake",
-      "count": 29
+      "count": 25
     },
     {
       "source": "zepp",
-      "count": 90
+      "count": 72
     },
     {
       "source": "garden_theater",
-      "count": 2
+      "count": 12
     },
     {
       "source": "nntt",
-      "count": 75
+      "count": 76
     },
     {
       "source": "kabukiza",
-      "count": 85
+      "count": 88
     },
     {
       "source": "national_stadium",
-      "count": 14
+      "count": 10
     },
     {
       "source": "medical_society",
@@ -2110,7 +2964,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "yoyogi",
-      "count": 27
+      "count": 8
     },
     {
       "source": "takarazuka",
@@ -2118,11 +2972,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "annual",
-      "count": 2
+      "count": 3
     },
     {
       "source": "forum",
-      "count": 1
+      "count": 24
     }
   ],
   "errors": []

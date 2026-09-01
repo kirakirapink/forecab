@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-08-31T08:17:01+09:00",
+  "generated_at": "2026-09-01T09:26:36+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-08-31",
-      "name": "風見和香 ⾵⾒和⾹⽣誕ソロライブ「ののかまると⽝の散歩〜まだまだ⼦⽝ですっ︕〜」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-8f2b36f25cf4"
-    },
     {
       "date": "2026-09-02",
       "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ",
@@ -44,6 +31,32 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-602f12d52f40"
     },
     {
+      "date": "2026-09-03",
+      "name": "ABEDON / 八熊慎一 / 奥田民生 / 木内健 / 奥野真哉ゲスト：北原雅彦 ABEDON AND THE RINGSIDE / 2026ツアー「ROUND 4」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-522d1f6e3d61"
+    },
+    {
+      "date": "2026-09-04",
+      "name": "THE GOOD-BYE THE GOOD-BYE LIVE TOUR 2026 - HELLO GOOD-BYE ROAD -",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:45。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-4416a8d3202b"
+    },
+    {
       "date": "2026-09-05",
       "name": "式典",
       "venue": "横浜アリーナ",
@@ -55,6 +68,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-9eaa7334f717"
+    },
+    {
+      "date": "2026-09-05",
+      "name": "Do As Infinity Do As Infinity 27th Anniversary LIVE TOUR（仮）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-33e81a16820e"
     },
     {
       "date": "2026-09-05",
@@ -96,6 +122,19 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-1e507f2424e1"
     },
     {
+      "date": "2026-09-07",
+      "name": "<10thAnniversary SP LIVE>スカイピース <SP Performance>中山優馬THE SUPER FRUIT佐藤三兄弟寺島圭亮Crimson Crat ClanTHE超BOYSSE7ENTH SENSEALL INProtea*BLACK IRISYikeSON FLEEKB2takes!! MC：PA-CHIKU シンセレ SUMMER FESTIVAL 2026",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 13:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-4e489026312f"
+    },
+    {
       "date": "2026-09-08",
       "name": "プロ野球 DeNA vs ヤクルト",
       "venue": "横浜スタジアム",
@@ -107,6 +146,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "yokohama-4a30bba8359d"
+    },
+    {
+      "date": "2026-09-08",
+      "name": "シンガーズハイ PLAYBACK tour 2026",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-aeaa1bd59d97"
     },
     {
       "date": "2026-09-08",
@@ -161,6 +213,32 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-0af67dd817fe"
     },
     {
+      "date": "2026-09-10",
+      "name": "Cornelius CORNELIUS REFRACTIONS TOUR 2026",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-92d5c5880334"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "WHITE SCORPION ACE・ACO・ALLY・AOI・CHOCO・COCO・HANNA・MOMO・NATSU・NAVI・NICO WHITE SCORPION 5th ONEMAN LIVE",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-095c33f2b657"
+    },
+    {
       "date": "2026-09-12",
       "name": "2026 TWS TOUR ‘24/7:FOR:YOU’ IN JAPAN",
       "venue": "Kアリーナ横浜",
@@ -172,6 +250,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-02ab25f58924"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "花澤香菜 HANAZAWA KANA Live 2026 “Clematis”",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-8721ac19bf48"
     },
     {
       "date": "2026-09-13",
@@ -211,47 +302,31 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-a5f2732540d2"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "プロ野球 DeNA vs 巨人",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 28000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-44c4c380af9a"
     }
   ],
   "weather": {
-    "2026-08-31": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夕方　から　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 29,
-      "temp_max": 29
-    },
     "2026-09-01": {
       "weather_code": "201",
-      "weather": "くもり　昼前　から　夕方　晴れ",
-      "pop_max": 20,
+      "weather": "くもり　朝　から　昼過ぎ　晴れ",
+      "pop_max": 10,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
@@ -264,36 +339,37 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 24,
+      "temp_min": 30,
       "temp_max": 30
     },
     "2026-09-02": {
       "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 26,
-      "temp_max": 34,
+      "weather": "くもり　昼過ぎ　まで　時々　晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 25,
+      "temp_max": 32
     },
     "2026-09-03": {
       "weather_code": "202",
@@ -324,62 +400,90 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-04": {
-      "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 22,
-      "temp_max": 26,
+      "weather_code": "203",
+      "pop_max": 70,
+      "temp_min": 21,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 70
         }
       ]
     },
     "2026-09-05": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 20,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-06": {
       "weather_code": "200",
-      "pop_max": 30,
-      "temp_min": 21,
+      "pop_max": 40,
+      "temp_min": 20,
       "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     },
-    "2026-09-06": {
+    "2026-09-07": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 21,
@@ -414,20 +518,16 @@ window.TAXI_APP_DATA = {
       "count": 15
     },
     {
-      "source": "npb",
-      "count": 15
-    },
-    {
       "source": "zepp",
-      "count": 35
+      "count": 20
     },
     {
       "source": "k_arena",
-      "count": 27
+      "count": 11
     },
     {
       "source": "yokohama_arena",
-      "count": 42
+      "count": 9
     }
   ],
   "errors": []

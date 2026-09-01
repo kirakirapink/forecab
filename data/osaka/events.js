@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-08-31T08:17:15+09:00",
+  "generated_at": "2026-09-01T09:26:47+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-08-31",
-      "name": "THE ROOTS Billboard Live presentsTHE ROOTS Japan Tour 2026 MEMBERBlack Thought (MC) / Questlove (Drums,MD) / Kamal Gray (Key) / Raymond Angry (Key) / \"Captain\" Kirk Douglas (Gt) / Thaddaeus Tribbett (Ba) / Stro Elliot (Perc) / Dave Guy (Tp) / Michael Buckley (Sax) / Tuba Gooding Jr. (Sousaphone)",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "20:00",
-      "end": "22:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 19:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-25b806b92c04"
-    },
     {
       "date": "2026-09-01",
       "name": "新しい地図(稲垣吾郎 草彅 剛 香取慎吾)",
@@ -83,6 +70,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-ceb6550749d2"
     },
     {
+      "date": "2026-09-02",
+      "name": "FLO FLO - Therapy At The Club Tour 2026 JAPAN",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-69fcd4579071"
+    },
+    {
       "date": "2026-09-04",
       "name": "プロ野球 オリックス vs ロッテ",
       "venue": "京セラドーム大阪",
@@ -122,6 +122,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-d707fde4ec2e"
     },
     {
+      "date": "2026-09-05",
+      "name": "青木陽菜 / 夢限大みゅーたいぷ / RealRomantic（O.A）Guest MC：進藤あまね BM-ECHOES FESTIVAL 2026",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-a78d2f4c39cc"
+    },
+    {
       "date": "2026-09-06",
       "name": "プロ野球 オリックス vs ロッテ",
       "venue": "京セラドーム大阪",
@@ -133,6 +146,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "osaka-618d29f3064a"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "LOVEBITES OUTSTANDING TOUR - JAPAN 2026",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-6889a52e4a6b"
     },
     {
       "date": "2026-09-06",
@@ -188,6 +214,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-10",
+      "name": "陰陽座 陰陽座ツアー2026『流転の現に夢喰らう也』",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-0a4e8129ce45"
+    },
+    {
+      "date": "2026-09-10",
       "name": "BOYNEXTDOOR",
       "venue": "大阪城ホール",
       "category": "concert",
@@ -214,6 +253,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-12",
+      "name": "爆音漫才選集 大阪爆音漫才選集（1回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "13:30",
+      "end": "16:00",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 12:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-2a63a3f665c5"
+    },
+    {
+      "date": "2026-09-12",
       "name": "プロ野球 オリックス vs 楽天",
       "venue": "京セラドーム大阪",
       "category": "sports",
@@ -224,52 +276,49 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "osaka-e1d42967713f"
+    },
+    {
+      "date": "2026-09-12",
+      "name": "爆音漫才選集 大阪爆音漫才選集（2回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-ab42346263e3"
+    },
+    {
+      "date": "2026-09-13",
+      "name": "ヒロインズ大阪研究生 / なう♡すとれーじ / ラストシーン / MEGAFON / ドレスコード / AdamLilith / 夜光性アミューズ / ナナコロビヤオキ / iON! HEROINES LIVE in OSAKA",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "12:40",
+      "end": "15:10",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-a03e6ba12249"
     }
   ],
   "weather": {
-    "2026-08-31": {
-      "weather_code": "110",
-      "weather": "晴れ　昼過ぎ　から　時々　くもり　所により　雨　で　雷を伴う",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 36,
-      "temp_max": 36
-    },
     "2026-09-01": {
       "weather_code": "101",
-      "weather": "晴れ　時々　くもり　所により　未明　雨",
+      "weather": "晴れ　時々　くもり　所により　夕方　まで　雨",
       "pop_max": 20,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 1080,
@@ -277,146 +326,175 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 28,
-      "temp_max": 36
+      "temp_min": 35,
+      "temp_max": 35
     },
     "2026-09-02": {
-      "weather_code": "201",
+      "weather_code": "111",
+      "weather": "晴れ　昼前　から　くもり　所により　雨　で　雷を伴う",
       "pop_max": 30,
-      "temp_min": 27,
-      "temp_max": 35,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
         }
-      ]
+      ],
+      "temp_min": 27,
+      "temp_max": 35
     },
     "2026-09-03": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 26,
-      "temp_max": 33,
+      "pop_max": 70,
+      "temp_min": 25,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
       ]
     },
     "2026-09-04": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 24,
-      "temp_max": 30,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 60
         }
       ]
     },
     "2026-09-05": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 23,
       "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     },
     "2026-09-06": {
       "weather_code": "200",
-      "pop_max": 30,
+      "pop_max": 40,
       "temp_min": 23,
       "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-07": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 24,
+      "temp_max": 31,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
@@ -424,19 +502,15 @@ window.TAXI_APP_DATA = {
   "fetch_stats": [
     {
       "source": "npb",
-      "count": 18
-    },
-    {
-      "source": "npb",
       "count": 13
     },
     {
       "source": "zepp",
-      "count": 45
+      "count": 23
     },
     {
       "source": "kyocera_dome",
-      "count": 10
+      "count": 5
     },
     {
       "source": "osaka_johall",
