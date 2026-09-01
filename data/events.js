@@ -1,100 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-01T09:26:28+09:00",
+  "generated_at": "2026-09-02T08:06:15+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-09-01",
-      "name": "宙組『黒蜥蜴』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-95325e0afbc1"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "VILLAINS HOUSE VILLAINS HOUSE主催 2周年東名阪ワンマンツアー『DEVIL SMILE』",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-ef3219c6457a"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "プロ野球 ヤクルト vs 阪神",
-      "venue": "明治神宮野球場",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 24000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "tokyo-c04649c5a638"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "JOURNEY",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "tokyo-11718654b32e"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "⽇⽶合作ブロードウェイミュージカル「フル・モンティ」",
-      "venue": "東京国際フォーラム",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "senior_wealthy",
-      "notes": "ミュージカル・舞台想定。18時開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-b6701db63f78"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "ザ・ルーツ MEMBERBlack Thought (MC)Questlove (Drums,MD)Kamal Gray (Key)Raymond Angry (Key)\"Captain\" Kirk Douglas (Gt)Thaddaeus Tribbett (Ba)Stro Elliot (Perc)Dave Guy (Tp)Michael Buckley (Sax)Tuba Gooding Jr. (Sousaphone) Billboard Live presents THE ROOTS Japan Tour 2026",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-efc056a07177"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "SHOWMAN～４番目の影武者",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-3b3259429977"
-    },
     {
       "date": "2026-09-02",
       "name": "第102回東京インターナショナル・ギフト・ショー秋2026",
@@ -695,7 +604,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-03",
-      "name": "Blue Mash 【Guest】ねぐせ / FOMARE ロックスター症候群",
+      "name": "Blue Mash 【Guest】ねぐせ。 / FOMARE ロックスター症候群",
       "venue": "Zepp DiverCity",
       "category": "concert",
       "start": "19:00",
@@ -704,7 +613,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "tokyo-e9eb6171ce1c"
+      "id": "tokyo-1a0157875c95"
     },
     {
       "date": "2026-09-04",
@@ -1644,7 +1553,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-09",
-      "name": "KEJIMIN × TAEKWONCRE KEJIMIN × TAEKWONCRE JAPAN LIVE PERFORMANCE（1回目）",
+      "name": "KEJIMIN × TAEKWONCRE 【公演中止】KEJIMIN × TAEKWONCRE JAPAN LIVE PERFORMANCE（1回目）",
       "venue": "Zepp Shinjuku",
       "category": "concert",
       "start": "15:00",
@@ -1653,7 +1562,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 14:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "tokyo-0a1a7857badb"
+      "id": "tokyo-6fe84f134f9c"
     },
     {
       "date": "2026-09-09",
@@ -1683,7 +1592,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-09",
-      "name": "KEJIMIN × TAEKWONCRE KEJIMIN × TAEKWONCRE JAPAN LIVE PERFORMANCE（2回目）",
+      "name": "KEJIMIN × TAEKWONCRE 【公演中止】KEJIMIN × TAEKWONCRE JAPAN LIVE PERFORMANCE（2回目）",
       "venue": "Zepp Shinjuku",
       "category": "concert",
       "start": "18:30",
@@ -1692,7 +1601,7 @@ window.TAXI_APP_DATA = {
       "audience": "youth",
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "tokyo-ce7cf2bb7b8b"
+      "id": "tokyo-d2bde24d1977"
     },
     {
       "date": "2026-09-09",
@@ -2720,43 +2629,105 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "tokyo-ded66c84d5d3"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "秀山祭九月大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-f2b9546fad5f"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "大相撲九月場所",
+      "venue": "両国国技館",
+      "category": "sports",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 11000,
+      "audience": "senior_wealthy",
+      "notes": "九月場所15日間。打ち出し18時前後にタニマチ・年配富裕層が銀座・赤坂・料亭方面へ。正面玄関側で待機が定石。日付は要確認",
+      "source": "年次マスタ",
+      "id": "tokyo-c5c7db86be7a"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "雪組『ポーの一族』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-8c25a2009451"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "秀山祭九月大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-3db44df9d868"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "ギミック ギミック主催 2周年東名阪ワンマンツアー『ビスク・ドール』",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-f033fa6cce70"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "プロ野球 ヤクルト vs 広島",
+      "venue": "明治神宮野球場",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 24000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "tokyo-0016e77f9047"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "古川雄大 The Greatest Concert vol.3 -Man of the Stage-",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-04ce0a7dbf11"
     }
   ],
   "weather": {
-    "2026-09-01": {
-      "weather_code": "201",
-      "weather": "くもり　朝　から　昼過ぎ　晴れ",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 30,
-      "temp_max": 30
-    },
     "2026-09-02": {
       "weather_code": "201",
-      "weather": "くもり　昼過ぎ　まで　時々　晴れ　所により　昼過ぎ　から　雨　で　雷を伴う",
+      "weather": "くもり　昼前　から　昼過ぎ　晴れ　所により　雨　で　雷を伴う",
       "pop_max": 20,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -2773,42 +2744,43 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ],
-      "temp_min": 24,
-      "temp_max": 33
+      "temp_min": 32,
+      "temp_max": 32
     },
     "2026-09-03": {
-      "weather_code": "202",
-      "pop_max": 70,
-      "temp_min": 23,
-      "temp_max": 32,
+      "weather_code": "214",
+      "weather": "くもり　夕方　から　雨　所により　昼過ぎ　から　雷　を伴う",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 25,
+      "temp_max": 30
     },
     "2026-09-04": {
       "weather_code": "203",
       "pop_max": 70,
       "temp_min": 21,
-      "temp_max": 25,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -2833,86 +2805,114 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-05": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "203",
+      "pop_max": 70,
       "temp_min": 20,
-      "temp_max": 26,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 70
         }
       ]
     },
     "2026-09-06": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 20,
-      "temp_max": 27,
+      "weather_code": "203",
+      "pop_max": 60,
+      "temp_min": 19,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 60
         }
       ]
     },
     "2026-09-07": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 20,
       "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-08": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 22,
+      "temp_max": 29,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
@@ -2928,7 +2928,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "dome",
-      "count": 49
+      "count": 45
     },
     {
       "source": "ariake",
@@ -2944,11 +2944,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 76
+      "count": 77
     },
     {
       "source": "kabukiza",
-      "count": 88
+      "count": 91
     },
     {
       "source": "national_stadium",
@@ -2964,7 +2964,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "yoyogi",
-      "count": 8
+      "count": 14
     },
     {
       "source": "takarazuka",
@@ -2972,7 +2972,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "annual",
-      "count": 3
+      "count": 4
     },
     {
       "source": "forum",
