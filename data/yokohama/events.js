@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-02T08:06:23+09:00",
+  "generated_at": "2026-09-03T08:04:21+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-02",
-      "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-85a430a15274"
-    },
     {
       "date": "2026-09-03",
       "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ",
@@ -331,34 +318,34 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-09-02": {
-      "weather_code": "201",
-      "weather": "くもり　昼前　から　夕方　晴れ",
-      "pop_max": 10,
+    "2026-09-03": {
+      "weather_code": "214",
+      "weather": "くもり　夕方　から　雨　所により　夕方　から　夜のはじめ頃　雷を伴い　激しく　降る",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 50
         }
       ],
       "temp_min": 31,
       "temp_max": 31
     },
-    "2026-09-03": {
-      "weather_code": "200",
-      "weather": "くもり　所により　明け方　から　雨",
-      "pop_max": 40,
+    "2026-09-04": {
+      "weather_code": "302",
+      "weather": "雨　昼前　まで　時々　くもり　所により　昼前　まで　雷　を伴う",
+      "pop_max": 70,
       "hourly": [
         {
           "start_min": 0,
@@ -368,55 +355,27 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 60
         }
       ],
-      "temp_min": 26,
-      "temp_max": 30
-    },
-    "2026-09-04": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 22,
-      "temp_max": 27,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ]
+      "temp_min": 24,
+      "temp_max": 26
     },
     "2026-09-05": {
       "weather_code": "203",
       "pop_max": 70,
-      "temp_min": 20,
-      "temp_max": 24,
+      "temp_min": 19,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
@@ -442,57 +401,57 @@ window.TAXI_APP_DATA = {
     },
     "2026-09-06": {
       "weather_code": "203",
-      "pop_max": 60,
+      "pop_max": 70,
       "temp_min": 20,
       "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 70
         }
       ]
     },
     "2026-09-07": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 21,
-      "temp_max": 27,
+      "weather_code": "203",
+      "pop_max": 70,
+      "temp_min": 20,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
       ]
     },
@@ -500,6 +459,34 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 22,
+      "temp_max": 29,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-09": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 23,
       "temp_max": 29,
       "hourly": [
         {
