@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-03T08:04:33+09:00",
+  "generated_at": "2026-09-04T08:03:03+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
@@ -81,6 +81,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "osaka-618d29f3064a"
+    },
+    {
+      "date": "2026-09-06",
+      "name": "ハロプロ研修生 ゲスト：ロージークロニクル Hello! Project 研修生発表会 2026 9月 〜新風〜",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "15:30",
+      "end": "18:00",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 14:45。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-08a85342473b"
     },
     {
       "date": "2026-09-06",
@@ -302,43 +315,40 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "osaka-90723fa73531"
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Gateballers / ストレイテナー / スピッツ / Bray me ロックロックこんにちは！Ver.28 ～にゃーロック！ホームズ～",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "17:45",
+      "end": "20:15",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-f88142a0d377"
+    },
+    {
+      "date": "2026-09-17",
+      "name": "プロ野球 オリックス vs ソフトバンク",
+      "venue": "京セラドーム大阪",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 26000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "osaka-25e9cdd8aef9"
     }
   ],
   "weather": {
-    "2026-09-03": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり　所により　夜遅く　雷を伴い　非常に　激しく　降る",
-      "pop_max": 70,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ],
-      "temp_min": 30,
-      "temp_max": 30
-    },
     "2026-09-04": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり　所により　明け方　まで　雷を伴い　非常に　激しく　降る",
+      "weather_code": "300",
+      "weather": "雨　所により　雷を伴い　激しく　降る",
       "pop_max": 70,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -355,41 +365,42 @@ window.TAXI_APP_DATA = {
           "pop": 50
         }
       ],
-      "temp_min": 23,
-      "temp_max": 26
+      "temp_min": 25,
+      "temp_max": 25
     },
     "2026-09-05": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 22,
-      "temp_max": 29,
+      "weather_code": "202",
+      "weather": "くもり　未明　雨　所により　雷　を伴う",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 22,
+      "temp_max": 28
     },
     "2026-09-06": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 23,
+      "temp_min": 24,
       "temp_max": 29,
       "hourly": [
         {
@@ -418,7 +429,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 24,
-      "temp_max": 30,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -443,58 +454,86 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-08": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 25,
       "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
     "2026-09-09": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 25,
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 26,
       "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-10": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 26,
+      "temp_max": 32,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
@@ -506,7 +545,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 24
+      "count": 28
     },
     {
       "source": "kyocera_dome",

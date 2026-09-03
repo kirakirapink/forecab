@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-03T08:04:21+09:00",
+  "generated_at": "2026-09-04T08:02:53+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-03",
-      "name": "桑田佳祐 夏祭りツアー 2026 supported by カンロ",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-602f12d52f40"
-    },
-    {
-      "date": "2026-09-03",
-      "name": "ABEDON / 八熊慎一 / 奥田民生 / 木内健 / 奥野真哉ゲスト：北原雅彦 ABEDON AND THE RINGSIDE / 2026ツアー「ROUND 4」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-522d1f6e3d61"
-    },
     {
       "date": "2026-09-04",
       "name": "THE GOOD-BYE THE GOOD-BYE LIVE TOUR 2026 - HELLO GOOD-BYE ROAD -",
@@ -318,40 +292,11 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-09-03": {
-      "weather_code": "214",
-      "weather": "くもり　夕方　から　雨　所により　夕方　から　夜のはじめ頃　雷を伴い　激しく　降る",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 31,
-      "temp_max": 31
-    },
     "2026-09-04": {
-      "weather_code": "302",
-      "weather": "雨　昼前　まで　時々　くもり　所により　昼前　まで　雷　を伴う",
-      "pop_max": 70,
+      "weather_code": "203",
+      "weather": "くもり　朝晩　雨",
+      "pop_max": 60,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -360,7 +305,7 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 40
         },
         {
           "start_min": 1080,
@@ -368,42 +313,43 @@ window.TAXI_APP_DATA = {
           "pop": 60
         }
       ],
-      "temp_min": 24,
-      "temp_max": 26
+      "temp_min": 27,
+      "temp_max": 27
     },
     "2026-09-05": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 19,
-      "temp_max": 23,
+      "weather_code": "313",
+      "weather": "雨　昼前　から　くもり",
+      "pop_max": 60,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 30
         }
-      ]
+      ],
+      "temp_min": 21,
+      "temp_max": 25
     },
     "2026-09-06": {
       "weather_code": "203",
       "pop_max": 70,
-      "temp_min": 20,
-      "temp_max": 24,
+      "temp_min": 21,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -431,7 +377,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "203",
       "pop_max": 70,
       "temp_min": 20,
-      "temp_max": 26,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -488,6 +434,34 @@ window.TAXI_APP_DATA = {
       "pop_max": 50,
       "temp_min": 23,
       "temp_max": 29,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-10": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 24,
+      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
