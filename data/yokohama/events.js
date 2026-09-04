@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-04T08:02:53+09:00",
+  "generated_at": "2026-09-05T07:50:42+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-04",
-      "name": "THE GOOD-BYE THE GOOD-BYE LIVE TOUR 2026 - HELLO GOOD-BYE ROAD -",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:45。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-4416a8d3202b"
-    },
     {
       "date": "2026-09-05",
       "name": "式典",
@@ -289,47 +276,44 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "yokohama-94715a4e8bba"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "プロ野球 DeNA vs ヤクルト",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 28000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-d7d43cb7e6ba"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "杉山清貴 演奏：大島孝夫とDEAR BREEZE （ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、 キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-cc22aa7b4104"
     }
   ],
   "weather": {
-    "2026-09-04": {
-      "weather_code": "203",
-      "weather": "くもり　朝晩　雨",
-      "pop_max": 60,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
     "2026-09-05": {
-      "weather_code": "313",
-      "weather": "雨　昼前　から　くもり",
-      "pop_max": 60,
+      "weather_code": "202",
+      "weather": "くもり　明け方　まで　雨　所により　朝　まで　雷　を伴う",
+      "pop_max": 20,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 60
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 20
         },
         {
           "start_min": 720,
@@ -339,129 +323,158 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
+          "pop": 10
+        }
+      ],
+      "temp_min": 26,
+      "temp_max": 26
+    },
+    "2026-09-06": {
+      "weather_code": "214",
+      "weather": "くもり　昼過ぎ　から　雨　所により　夜遅く　雷を伴い　激しく　降る",
+      "pop_max": 80,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
           "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 70
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 80
         }
       ],
       "temp_min": 21,
       "temp_max": 25
     },
-    "2026-09-06": {
+    "2026-09-07": {
       "weather_code": "203",
-      "pop_max": 70,
+      "pop_max": 80,
       "temp_min": 21,
       "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
-        }
-      ]
-    },
-    "2026-09-07": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 20,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
+          "pop": 80
         }
       ]
     },
     "2026-09-08": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 22,
-      "temp_max": 29,
+      "weather_code": "203",
+      "pop_max": 60,
+      "temp_min": 23,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-09": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 23,
-      "temp_max": 29,
+      "pop_max": 60,
+      "temp_min": 24,
+      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-10": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 24,
-      "temp_max": 30,
+      "temp_min": 23,
+      "temp_max": 28,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-11": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 22,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
