@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-05T07:50:42+09:00",
+  "generated_at": "2026-09-06T07:42:33+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-05",
-      "name": "式典",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-9eaa7334f717"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "Do As Infinity Do As Infinity 27th Anniversary LIVE TOUR（仮）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-33e81a16820e"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "2026 ByeonWooSeok Asia Fanmeeting Tour in Yokohama 〈The Secret Library〉 — Byeon WooSeok",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-81b0117ae65c"
-    },
     {
       "date": "2026-09-06",
       "name": "式典",
@@ -302,72 +263,81 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-cc22aa7b4104"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "第43回 マイナビ 東京ガールズコレクション 2026 AUTUMN/WINTER",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "14:00",
+      "end": "21:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 12:00。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-989d5ead27a6"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "杉山清貴 演奏：大島孝夫とDEAR BREEZE （ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、 キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "16:30",
+      "end": "19:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-57b95a784888"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "プロ野球 DeNA vs ヤクルト",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 32000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-dd50d453ed36"
     }
   ],
   "weather": {
-    "2026-09-05": {
-      "weather_code": "202",
-      "weather": "くもり　明け方　まで　雨　所により　朝　まで　雷　を伴う",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 26,
-      "temp_max": 26
-    },
     "2026-09-06": {
-      "weather_code": "214",
-      "weather": "くもり　昼過ぎ　から　雨　所により　夜遅く　雷を伴い　激しく　降る",
-      "pop_max": 80,
+      "weather_code": "300",
+      "weather": "雨　所により　夕方　から　雷を伴い　激しく　降る",
+      "pop_max": 100,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 90
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 100
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 80
+          "pop": 100
         }
       ],
-      "temp_min": 21,
-      "temp_max": 25
+      "temp_min": 24,
+      "temp_max": 24
     },
     "2026-09-07": {
-      "weather_code": "203",
-      "pop_max": 80,
-      "temp_min": 21,
-      "temp_max": 25,
+      "weather_code": "300",
+      "weather": "雨　所により　明け方　まで　雷を伴い　非常に　激しく　降る",
+      "pop_max": 100,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 80
+          "pop": 100
         },
         {
           "start_min": 360,
@@ -382,15 +352,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 80
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 23,
+      "temp_max": 28
     },
     "2026-09-08": {
-      "weather_code": "203",
+      "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 23,
-      "temp_max": 31,
+      "temp_min": 24,
+      "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
@@ -417,8 +389,8 @@ window.TAXI_APP_DATA = {
     "2026-09-09": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 24,
-      "temp_max": 30,
+      "temp_min": 25,
+      "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
@@ -444,9 +416,37 @@ window.TAXI_APP_DATA = {
     },
     "2026-09-10": {
       "weather_code": "202",
+      "pop_max": 60,
+      "temp_min": 22,
+      "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
+        }
+      ]
+    },
+    "2026-09-11": {
+      "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 23,
-      "temp_max": 28,
+      "temp_min": 21,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -470,31 +470,31 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-09-11": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 22,
-      "temp_max": 26,
+    "2026-09-12": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 21,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 40
         }
       ]
     }

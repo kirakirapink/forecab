@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-05T07:50:53+09:00",
+  "generated_at": "2026-09-06T07:42:44+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-05",
-      "name": "Zepp de LIVE",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "11:30",
-      "end": "14:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 11:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-6857fbbc34e1"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "プロ野球 オリックス vs ロッテ",
-      "venue": "京セラドーム大阪",
-      "category": "sports",
-      "start": "14:00",
-      "end": "17:15",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "osaka-85fbabde5e65"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "DREAMS COME TRUE",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-d707fde4ec2e"
-    },
-    {
-      "date": "2026-09-05",
-      "name": "青木陽菜 / 夢限大みゅーたいぷ / RealRomantic（O.A）Guest MC：進藤あまね BM-ECHOES FESTIVAL 2026",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-a78d2f4c39cc"
-    },
     {
       "date": "2026-09-06",
       "name": "プロ野球 オリックス vs ロッテ",
@@ -265,6 +213,32 @@ window.TAXI_APP_DATA = {
       "id": "osaka-9331db8ae686"
     },
     {
+      "date": "2026-09-13",
+      "name": "【Persona Singers】Lyn（稲泉りん）、高橋あず美、Lotus Juice【Band members】吉丸 “Wookiee” 洸平(Guitar)、松本コーキ(Guitar)、マツモトタクロウ(Bass)、直井弦太(Drums)、工藤寛丈(Keyboards)、MIZ(Violin)▼ゲスト小西利樹（アトラス） PERSONA LIVE TOUR 2026 - Resonance -",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-d6bce705ed59"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "HIDEKI SAIJO FILM LIVE Hideki Saijo 55th AnniversaryHIDEKI FESTA2026 秋",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 13:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-dc0b35af7234"
+    },
+    {
       "date": "2026-09-15",
       "name": "プロ野球 オリックス vs ソフトバンク",
       "venue": "京セラドーム大阪",
@@ -302,6 +276,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "osaka-90723fa73531"
+    },
+    {
+      "date": "2026-09-16",
+      "name": "HANA",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-22b3423eff6c"
     },
     {
       "date": "2026-09-17",
@@ -354,179 +341,218 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-4ece3b41cb25"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "BoA 2026 BoA THE LIVE",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "16:00",
+      "end": "18:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-effa6100423d"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Kroi Kroi Live Tour 2026 \"JUNGLE\"",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "17:30",
+      "end": "20:00",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-5dc05c874ecd"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Stray Kids Stray Kids World Tour 〈 RUN IT JAPAN 〉",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-b21f8d66c7ef"
     }
   ],
   "weather": {
-    "2026-09-05": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
+    "2026-09-06": {
+      "weather_code": "214",
+      "weather": "くもり　夕方　から　雨",
+      "pop_max": 90,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 90
         }
       ],
-      "temp_min": 31,
-      "temp_max": 31
+      "temp_min": 29,
+      "temp_max": 29
     },
-    "2026-09-06": {
-      "weather_code": "200",
-      "weather": "くもり　所により　昼過ぎ　から　雨",
-      "pop_max": 40,
+    "2026-09-07": {
+      "weather_code": "300",
+      "weather": "雨　所により　夕方　まで　雷を伴い　激しく　降る",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 60
         }
       ],
-      "temp_min": 24,
+      "temp_min": 23,
       "temp_max": 30
     },
-    "2026-09-07": {
+    "2026-09-08": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 24,
+      "pop_max": 60,
+      "temp_min": 26,
+      "temp_max": 31,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
+        }
+      ]
+    },
+    "2026-09-09": {
+      "weather_code": "203",
+      "pop_max": 70,
+      "temp_min": 25,
       "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
-        }
-      ]
-    },
-    "2026-09-08": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 26,
-      "temp_max": 31,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ]
-    },
-    "2026-09-09": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 26,
-      "temp_max": 32,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
       ]
     },
     "2026-09-10": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 25,
-      "temp_max": 31,
+      "pop_max": 60,
+      "temp_min": 24,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-11": {
       "weather_code": "202",
       "pop_max": 50,
+      "temp_min": 25,
+      "temp_max": 29,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-12": {
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 24,
-      "temp_max": 30,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -558,7 +584,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 28
+      "count": 33
     },
     {
       "source": "kyocera_dome",
