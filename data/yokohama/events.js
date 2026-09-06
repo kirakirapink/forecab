@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-06T07:42:33+09:00",
+  "generated_at": "2026-09-07T07:45:43+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-06",
-      "name": "式典",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "12:00",
-      "end": "15:00",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 11:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-83772b8bddd6"
-    },
-    {
-      "date": "2026-09-06",
-      "name": "2026 ByeonWooSeok Asia Fanmeeting Tour in Yokohama 〈The Secret Library〉 — Byeon WooSeok",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "16:00",
-      "end": "19:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 14:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-1e507f2424e1"
-    },
     {
       "date": "2026-09-07",
       "name": "<10thAnniversary SP LIVE>スカイピース <SP Performance>中山優馬THE SUPER FRUIT佐藤三兄弟寺島圭亮Crimson Crat ClanTHE超BOYSSE7ENTH SENSEALL INProtea*BLACK IRISYikeSON FLEEKB2takes!! MC：PA-CHIKU シンセレ SUMMER FESTIVAL 2026",
@@ -302,52 +276,91 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "yokohama-dd50d453ed36"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER 　AGESTOCK2026 in 横浜アリーナ（1回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "12:00",
+      "end": "16:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 11:00。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-3cecc3e99757"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER 　AGESTOCK2026 in 横浜アリーナ（2回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 17:00。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-f6aca598d8bd"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "THE YELLOW MONKEY THE YELLOW MONKEY TOUR 2026 THE COUNTDOWN〜60分1本勝負〜",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-507bda3a3847"
     }
   ],
   "weather": {
-    "2026-09-06": {
-      "weather_code": "300",
-      "weather": "雨　所により　夕方　から　雷を伴い　激しく　降る",
-      "pop_max": 100,
+    "2026-09-07": {
+      "weather_code": "313",
+      "weather": "雨　夜　くもり　所により　昼前　まで　雷を伴い　激しく　降る",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 90
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 100
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 100
+          "pop": 30
         }
       ],
-      "temp_min": 24,
-      "temp_max": 24
+      "temp_min": 27,
+      "temp_max": 27
     },
-    "2026-09-07": {
-      "weather_code": "300",
-      "weather": "雨　所により　明け方　まで　雷を伴い　非常に　激しく　降る",
-      "pop_max": 100,
+    "2026-09-08": {
+      "weather_code": "203",
+      "weather": "くもり　時々　雨　所により　雷　を伴う",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 100
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 80
+          "pop": 50
         },
         {
           "start_min": 1080,
@@ -356,41 +369,13 @@ window.TAXI_APP_DATA = {
         }
       ],
       "temp_min": 23,
-      "temp_max": 28
-    },
-    "2026-09-08": {
-      "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 24,
-      "temp_max": 32,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 60
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 60
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ]
+      "temp_max": 30
     },
     "2026-09-09": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 25,
-      "temp_max": 32,
+      "temp_min": 23,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
@@ -445,7 +430,7 @@ window.TAXI_APP_DATA = {
     "2026-09-11": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 27,
       "hourly": [
         {
@@ -473,8 +458,36 @@ window.TAXI_APP_DATA = {
     "2026-09-12": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 21,
-      "temp_max": 27,
+      "temp_min": 22,
+      "temp_max": 28,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-13": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 23,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
