@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-07T07:45:53+09:00",
+  "generated_at": "2026-09-08T08:20:33+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
@@ -367,43 +367,40 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻はドームイベントの標準3時間で推定",
       "source": "kyoceradome-osaka.jp",
       "id": "osaka-841de9b65ef6"
+    },
+    {
+      "date": "2026-09-21",
+      "name": "HIDEKI SAIJO FILM LIVE Hideki Saijo 55th AnniversaryHIDEKI FESTA2026 秋",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 13:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-6dbc6e87f06c"
+    },
+    {
+      "date": "2026-09-21",
+      "name": "ふみの ふみの初ワンマンライブツアー2026 「僕のすべてを知ってるような君だから」",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "16:00",
+      "end": "18:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-b934c8079ccf"
     }
   ],
   "weather": {
-    "2026-09-07": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり　所により　昼過ぎ　から　夜のはじめ頃　雷を伴い　激しく　降る",
-      "pop_max": 70,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ],
-      "temp_min": 28,
-      "temp_max": 28
-    },
     "2026-09-08": {
       "weather_code": "302",
-      "weather": "雨　時々　くもり　所により　夕方　から　雷を伴い　激しく　降る",
-      "pop_max": 70,
+      "weather": "雨　昼前　まで　時々　くもり　所により　昼過ぎ　から　雷を伴い　激しく　降る",
+      "pop_max": 80,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -412,27 +409,26 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ],
-      "temp_min": 25,
+      "temp_min": 29,
       "temp_max": 29
     },
     "2026-09-09": {
-      "weather_code": "203",
+      "weather_code": "302",
+      "weather": "雨　夕方　から　時々　くもり　所により　雷を伴い　激しく　降る",
       "pop_max": 70,
-      "temp_min": 25,
-      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 50
         },
         {
           "start_min": 360,
@@ -447,15 +443,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 25,
+      "temp_max": 28
     },
     "2026-09-10": {
       "weather_code": "202",
       "pop_max": 60,
       "temp_min": 24,
-      "temp_max": 30,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -538,8 +536,8 @@ window.TAXI_APP_DATA = {
     "2026-09-13": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 25,
-      "temp_max": 31,
+      "temp_min": 26,
+      "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
@@ -560,6 +558,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 40
+        }
+      ]
+    },
+    "2026-09-14": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 25,
+      "temp_max": 32,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }

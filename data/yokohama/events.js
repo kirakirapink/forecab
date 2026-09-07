@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-07T07:45:43+09:00",
+  "generated_at": "2026-09-08T08:20:20+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-07",
-      "name": "<10thAnniversary SP LIVE>スカイピース <SP Performance>中山優馬THE SUPER FRUIT佐藤三兄弟寺島圭亮Crimson Crat ClanTHE超BOYSSE7ENTH SENSEALL INProtea*BLACK IRISYikeSON FLEEKB2takes!! MC：PA-CHIKU シンセレ SUMMER FESTIVAL 2026",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "14:00",
-      "end": "16:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 13:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-4e489026312f"
-    },
     {
       "date": "2026-09-08",
       "name": "プロ野球 DeNA vs ヤクルト",
@@ -315,18 +302,31 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-507bda3a3847"
+    },
+    {
+      "date": "2026-09-21",
+      "name": "T.C.R.横浜銀蝿R.S. T.C.R.横浜銀蝿R.S. It's Only Rock'n Roll 集会 2026 KEEP ROLLING ～時代を超えて～ TOUR FINAL and TAKU Happy Birthday",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 16:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-7c663a8fb360"
     }
   ],
   "weather": {
-    "2026-09-07": {
-      "weather_code": "313",
-      "weather": "雨　夜　くもり　所により　昼前　まで　雷を伴い　激しく　降る",
-      "pop_max": 80,
+    "2026-09-08": {
+      "weather_code": "302",
+      "weather": "雨　昼過ぎ　まで　時々　くもり　所により　雷　を伴う",
+      "pop_max": 70,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 50
         },
         {
           "start_min": 720,
@@ -336,28 +336,28 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 70
         }
       ],
-      "temp_min": 27,
-      "temp_max": 27
+      "temp_min": 28,
+      "temp_max": 28
     },
-    "2026-09-08": {
-      "weather_code": "203",
-      "weather": "くもり　時々　雨　所により　雷　を伴う",
-      "pop_max": 50,
+    "2026-09-09": {
+      "weather_code": "214",
+      "weather": "くもり　昼過ぎ　から　雨　所により　夜のはじめ頃　まで　雷　を伴う",
+      "pop_max": 60,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
           "pop": 40
         },
         {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
           "start_min": 720,
           "end_min": 1080,
           "pop": 50
@@ -365,65 +365,37 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ],
-      "temp_min": 23,
+      "temp_min": 26,
       "temp_max": 30
     },
-    "2026-09-09": {
-      "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 23,
-      "temp_max": 31,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 60
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 60
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ]
-    },
     "2026-09-10": {
-      "weather_code": "202",
-      "pop_max": 60,
+      "weather_code": "203",
+      "pop_max": 70,
       "temp_min": 22,
-      "temp_max": 27,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 70
         }
       ]
     },
@@ -458,8 +430,8 @@ window.TAXI_APP_DATA = {
     "2026-09-12": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 22,
-      "temp_max": 28,
+      "temp_min": 23,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -487,7 +459,35 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 23,
-      "temp_max": 28,
+      "temp_max": 29,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-14": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 23,
+      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
