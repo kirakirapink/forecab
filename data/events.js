@@ -1,100 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-08T08:20:12+09:00",
+  "generated_at": "2026-09-09T08:14:40+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jns-e.com + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-09-08",
-      "name": "国際物流総合展2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 63000,
-      "audience": "business",
-      "notes": "東1-3・7・8ホール、西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-77ab7053b2ab"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "秀山祭九月大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-494566145bd9"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "マーキュロ / べロティカ / VILLAINS HOUSE / ギミック / セクト / PSYCHOデリック / メモリーズ / サークルライチ塾生三期 / クララ・マグラ / TENRIN / AdamLilith / LADYBABY / マザリ / 神様の言う通り / キングサリ / RAViDAVi / シンデレラ宣言！ / シュレーディンガーの犬 / 闇雲 / ココロシンドローム / THE PINK MINDS / Dr.CUTTER / 白百合と雨 サークルライチ主催『The Godfather』",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "11:20",
-      "end": "13:50",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 11:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-410462939ef6"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "秀山祭九月大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-0747d0f3135c"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "プロ野球 巨人 vs 中日",
-      "venue": "東京ドーム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 40000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "tokyo-c75f730ed131"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "第6回The Makers・Apparel Show",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-a35b81d72e02"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "SHOWMAN～４番目の影武者",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: musical。会場キャパ約468席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-b3852bc9fd12"
-    },
     {
       "date": "2026-09-09",
       "name": "国際物流総合展2026",
@@ -2538,12 +2447,259 @@ window.TAXI_APP_DATA = {
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-0f3e46df0b01"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "ベストフリーマーケット",
+      "venue": "東京国際フォーラム",
+      "category": "festival",
+      "start": "09:00",
+      "end": "16:00",
+      "attendance": 5000,
+      "audience": "general",
+      "notes": "催事想定。日中開催で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-319ed126b44d"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "秀山祭九月大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-eebc7f1f5aa4"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "スクールアイドルミュージカル",
+      "venue": "新国立劇場（中劇場）",
+      "category": "theater",
+      "start": "13:00",
+      "end": "16:00",
+      "attendance": 858,
+      "audience": "general",
+      "notes": "ジャンル: musical。会場キャパ約1010席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-d34fbd95aac3"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "fav me fav me 中本こまり生誕祭2026",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "13:15",
+      "end": "15:45",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 12:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-fa948abb884f"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Unique Motion Japan",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "14:00",
+      "end": "16:00",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: dance。会場キャパ約468席。終演時刻は120分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-02405269c849"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "大相撲九月場所",
+      "venue": "両国国技館",
+      "category": "sports",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 11000,
+      "audience": "senior_wealthy",
+      "notes": "九月場所15日間。打ち出し18時前後にタニマチ・年配富裕層が銀座・赤坂・料亭方面へ。正面玄関側で待機が定石。日付は要確認",
+      "source": "年次マスタ",
+      "id": "tokyo-8d90f7a202df"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "雪組『ポーの一族』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-01cdb2c6b3fe"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "秀山祭九月大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-2e9a5db8d3ad"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "NANA MIZUKI LIVE GRACE 2026 -OPUS Ⅳ-",
+      "venue": "国立代々木競技場 第一体育館",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:30",
+      "attendance": 10000,
+      "audience": "youth",
+      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
+      "source": "jpnsport.go.jp/yoyogi",
+      "id": "tokyo-e6052a0208ee"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Kroi /東京スカパラダイスオーケストラ Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5-",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-95cafeac7fa3"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "fav me/Toi Toi Toi/log you PEAK SPOT JOIN vol.10",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-85903d722fa6"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "プロ野球 ヤクルト vs 阪神",
+      "venue": "明治神宮野球場",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 24000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "tokyo-0da7a2d31e5f"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "スピッツ, Teenage Fanclub, 羊文学, Ride",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
+      "audience": "general",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
+      "id": "tokyo-e726fd781e21"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "JUNG HAEIN 2026 JUNG HAEIN FANMEETING IN JAPAN～HAEINISM～of the HAEINESS, by the HAEINESS, for the HAEINESS",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-c7dab05ed34e"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "SUPER BEAVER「都会のラクダ DOME TOUR 2026」",
+      "venue": "東京ドーム",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:30",
+      "attendance": 45000,
+      "audience": "youth",
+      "notes": "種別: コンサート。終了時刻は開演からの推定",
+      "source": "tokyo-dome.co.jp",
+      "id": "tokyo-81c29171a1a4"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "EPAD 舞台映像上映 Re ライブシアター in TOKYO 『最後のドン・キホーテ THE LAST REMAKE of Don Quixote』",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-002f46c26edf"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "みんなのパチンコ・パチスロ サミット2026",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-6836c3baa8d8"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "MYSTERY NIGHT TOUR 2026 稲川淳二の怪談ナイト",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-95ea2437507d"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "masayuki suzuki taste of martini tour 2026 Step123 season2 “70 / 40th anniversar",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-064bc71b398d"
     }
   ],
   "weather": {
-    "2026-09-08": {
-      "weather_code": "203",
-      "weather": "くもり　時々　雨　所により　昼前　から　雷　を伴う",
+    "2026-09-09": {
+      "weather_code": "302",
+      "weather": "雨　朝　から　昼前　くもり　所により　雷を伴い　激しく　降る",
       "pop_max": 60,
       "hourly": [
         {
@@ -2562,71 +2718,43 @@ window.TAXI_APP_DATA = {
           "pop": 60
         }
       ],
-      "temp_min": 29,
-      "temp_max": 29
+      "temp_min": 31,
+      "temp_max": 31
     },
-    "2026-09-09": {
-      "weather_code": "214",
-      "weather": "くもり　昼過ぎ　から　雨　所により　昼前　から　夕方　雷　を伴う",
+    "2026-09-10": {
+      "weather_code": "203",
+      "weather": "くもり　朝晩　雨",
       "pop_max": 60,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
           "pop": 20
         },
         {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
       ],
-      "temp_min": 26,
-      "temp_max": 31
-    },
-    "2026-09-10": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 21,
-      "temp_max": 26,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ]
+      "temp_min": 19,
+      "temp_max": 25
     },
     "2026-09-11": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 20,
-      "temp_max": 27,
+      "temp_min": 19,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -2653,8 +2781,8 @@ window.TAXI_APP_DATA = {
     "2026-09-12": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 22,
-      "temp_max": 29,
+      "temp_min": 20,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -2681,8 +2809,8 @@ window.TAXI_APP_DATA = {
     "2026-09-13": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 22,
-      "temp_max": 29,
+      "temp_min": 20,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -2708,8 +2836,36 @@ window.TAXI_APP_DATA = {
     },
     "2026-09-14": {
       "weather_code": "200",
-      "pop_max": 40,
+      "pop_max": 30,
       "temp_min": 22,
+      "temp_max": 30,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-09-15": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 23,
       "temp_max": 30,
       "hourly": [
         {
@@ -2758,15 +2914,15 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 8
+      "count": 9
     },
     {
       "source": "nntt",
-      "count": 72
+      "count": 75
     },
     {
       "source": "kabukiza",
-      "count": 88
+      "count": 86
     },
     {
       "source": "national_stadium",
@@ -2790,11 +2946,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "annual",
-      "count": 10
+      "count": 11
     },
     {
       "source": "forum",
-      "count": 28
+      "count": 31
     }
   ],
   "errors": []

@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-08T08:20:20+09:00",
+  "generated_at": "2026-09-09T08:14:48+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-08",
-      "name": "プロ野球 DeNA vs ヤクルト",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 28000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-4a30bba8359d"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "シンガーズハイ PLAYBACK tour 2026",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-aeaa1bd59d97"
-    },
-    {
-      "date": "2026-09-08",
-      "name": "HOSHIMACHI SUISEI ARENA TOUR 2026 Once Upon a Stellar — 星街すいせい",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-62aea14b5aa7"
-    },
     {
       "date": "2026-09-09",
       "name": "プロ野球 DeNA vs ヤクルト",
@@ -315,18 +276,44 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:15。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-7c663a8fb360"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "キズ キズ Zepp TOUR『天照焔巡』",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-9219403f183c"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "プロ野球 DeNA vs 中日",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 28000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-6077ad4bd9fd"
     }
   ],
   "weather": {
-    "2026-09-08": {
+    "2026-09-09": {
       "weather_code": "302",
-      "weather": "雨　昼過ぎ　まで　時々　くもり　所により　雷　を伴う",
+      "weather": "雨　朝　から　昼過ぎ　くもり　所により　夕方　から　雷を伴い　激しく　降る",
       "pop_max": 70,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 720,
@@ -339,18 +326,18 @@ window.TAXI_APP_DATA = {
           "pop": 70
         }
       ],
-      "temp_min": 28,
-      "temp_max": 28
+      "temp_min": 29,
+      "temp_max": 29
     },
-    "2026-09-09": {
-      "weather_code": "214",
-      "weather": "くもり　昼過ぎ　から　雨　所により　夜のはじめ頃　まで　雷　を伴う",
-      "pop_max": 60,
+    "2026-09-10": {
+      "weather_code": "203",
+      "weather": "くもり　朝晩　雨",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
@@ -360,50 +347,22 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
       ],
-      "temp_min": 26,
-      "temp_max": 30
-    },
-    "2026-09-10": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 22,
-      "temp_max": 26,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ]
+      "temp_min": 19,
+      "temp_max": 24
     },
     "2026-09-11": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 22,
-      "temp_max": 27,
+      "temp_min": 20,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -430,8 +389,8 @@ window.TAXI_APP_DATA = {
     "2026-09-12": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 23,
-      "temp_max": 29,
+      "temp_min": 21,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -458,8 +417,8 @@ window.TAXI_APP_DATA = {
     "2026-09-13": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 23,
-      "temp_max": 29,
+      "temp_min": 21,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -485,8 +444,36 @@ window.TAXI_APP_DATA = {
     },
     "2026-09-14": {
       "weather_code": "200",
-      "pop_max": 40,
+      "pop_max": 30,
       "temp_min": 23,
+      "temp_max": 30,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-09-15": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 24,
       "temp_max": 30,
       "hourly": [
         {
