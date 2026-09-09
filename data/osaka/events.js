@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-09T08:14:59+09:00",
+  "generated_at": "2026-09-10T08:01:41+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-09",
-      "name": "BOYNEXTDOOR",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-861df20b7846"
-    },
     {
       "date": "2026-09-10",
       "name": "ANGEL CHAMPAGNE presents 超RIZIN.5 浪速の超復活祭り",
@@ -357,6 +344,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-20",
+      "name": "松田聖子",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-49cceab06b0b"
+    },
+    {
+      "date": "2026-09-20",
       "name": "Stray Kids Stray Kids World Tour 〈 RUN IT JAPAN 〉",
       "venue": "京セラドーム大阪",
       "category": "concert",
@@ -432,43 +432,53 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻はドームイベントの標準3時間で推定",
       "source": "kyoceradome-osaka.jp",
       "id": "osaka-10888acc59ad"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "BABYMONSTER 2026-27 BABYMONSTER WORLD TOUR [춤(CHOOM)] IN JAPAN",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-02de4ad091a0"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "Cornelius CORNELIUS REFRACTIONS TOUR 2026",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-d7eac5d7f153"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "MIKADO 「NEW ERA」～MIKADO FIRST ZEPP ONEMAN LIVE～",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-0fa44ab06169"
     }
   ],
   "weather": {
-    "2026-09-09": {
-      "weather_code": "313",
-      "weather": "雨　夜　くもり　所により　夕方　まで　雷を伴い　非常に　激しく　降る",
-      "pop_max": 90,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 90
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 90
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
     "2026-09-10": {
-      "weather_code": "212",
-      "weather": "くもり　夜　雨",
-      "pop_max": 70,
+      "weather_code": "114",
+      "weather": "晴れ　後　くもり　夕方　から　雨",
+      "pop_max": 80,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -477,50 +487,51 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 80
         }
       ],
-      "temp_min": 23,
-      "temp_max": 29
+      "temp_min": 28,
+      "temp_max": 28
     },
     "2026-09-11": {
-      "weather_code": "203",
-      "pop_max": 50,
-      "temp_min": 23,
-      "temp_max": 29,
+      "weather_code": "313",
+      "weather": "雨　昼過ぎ　から　くもり",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 21,
+      "temp_max": 27
     },
     "2026-09-12": {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 24,
-      "temp_max": 30,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -547,7 +558,7 @@ window.TAXI_APP_DATA = {
     "2026-09-13": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 25,
+      "temp_min": 26,
       "temp_max": 32,
       "hourly": [
         {
@@ -575,8 +586,8 @@ window.TAXI_APP_DATA = {
     "2026-09-14": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 26,
-      "temp_max": 31,
+      "temp_min": 25,
+      "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
@@ -601,9 +612,37 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-15": {
+      "weather_code": "203",
+      "pop_max": 60,
+      "temp_min": 25,
+      "temp_max": 29,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
+        }
+      ]
+    },
+    "2026-09-16": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 25,
+      "temp_min": 24,
       "temp_max": 30,
       "hourly": [
         {
