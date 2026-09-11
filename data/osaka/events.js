@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-11T07:59:04+09:00",
+  "generated_at": "2026-09-12T08:03:57+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-11",
-      "name": "プロ野球 オリックス vs 西武",
-      "venue": "京セラドーム大阪",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 26000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "osaka-1cff64de8f2c"
-    },
     {
       "date": "2026-09-12",
       "name": "爆音漫才選集 大阪爆音漫才選集（1回目）",
@@ -370,6 +357,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-22",
+      "name": "ZASSO.2026 ～アメ村えれふぁんと15周年～",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "14:00",
+      "end": "17:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-4cd60a09ff37"
+    },
+    {
+      "date": "2026-09-22",
       "name": "Chage ChageLiveTour2026 One Love",
       "venue": "Zepp Namba",
       "category": "concert",
@@ -471,14 +471,112 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-6a036bdd8370"
+    },
+    {
+      "date": "2026-09-25",
+      "name": "Rockon Social Club KURE 5-56 Presents Rockon Social Club Tour 2026 WARRIORS",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-b151dc598a8a"
+    },
+    {
+      "date": "2026-09-25",
+      "name": "プロ野球 オリックス vs ソフトバンク",
+      "venue": "京セラドーム大阪",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 26000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "osaka-d0a42a9af879"
+    },
+    {
+      "date": "2026-09-25",
+      "name": "sumika sumika Live Tour 2026 『Flügel Letter』",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-2030d942fe46"
     }
   ],
   "weather": {
-    "2026-09-11": {
-      "weather_code": "313",
-      "weather": "雨　昼過ぎ　から　くもり　所により　昼前　まで　雷　を伴う",
-      "pop_max": 60,
+    "2026-09-12": {
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
+      "pop_max": 20,
       "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ],
+      "temp_min": 30,
+      "temp_max": 30
+    },
+    "2026-09-13": {
+      "weather_code": "212",
+      "weather": "くもり　昼過ぎ　から　夕方　雨　所により　昼過ぎ　から　雷　を伴う",
+      "pop_max": 50,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ],
+      "temp_min": 25,
+      "temp_max": 32
+    },
+    "2026-09-14": {
+      "weather_code": "203",
+      "pop_max": 60,
+      "temp_min": 25,
+      "temp_max": 32,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -487,183 +585,124 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
-    "2026-09-12": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 23,
-      "temp_max": 31
-    },
-    "2026-09-13": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 25,
-      "temp_max": 31,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ]
-    },
-    "2026-09-14": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 25,
-      "temp_max": 32,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-15": {
       "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 25,
+      "pop_max": 80,
+      "temp_min": 24,
       "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 80
         }
       ]
     },
     "2026-09-16": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 24,
       "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-17": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 24,
       "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
+        }
+      ]
+    },
+    "2026-09-18": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 24,
+      "temp_max": 31,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
@@ -683,7 +722,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 7
+      "count": 8
     }
   ],
   "errors": []
