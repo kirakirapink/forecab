@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-12T08:03:46+09:00",
+  "generated_at": "2026-09-13T07:53:35+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-12",
-      "name": "2026 TWS TOUR ‘24/7:FOR:YOU’ IN JAPAN",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-02ab25f58924"
-    },
-    {
-      "date": "2026-09-12",
-      "name": "花澤香菜 HANAZAWA KANA Live 2026 “Clematis”",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-8721ac19bf48"
-    },
     {
       "date": "2026-09-13",
       "name": "2026 TWS TOUR ‘24/7:FOR:YOU’ IN JAPAN",
@@ -302,12 +276,90 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-55e594ced39f"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Supported by ローソンチケット AKB48 THREE CONCEPTS LIVE in K-Arena Yokohama “新曲「好きish」コンサート”",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "12:30",
+      "end": "15:30",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 11:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-c26a80e9151b"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "WHIB 2026 WHIB 2nd FAN CON [OUR BLUE HOUR]（1回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-048567826fb5"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "プロ野球 DeNA vs 阪神",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "14:00",
+      "end": "17:15",
+      "attendance": 32000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-2d7817dedbec"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-bd17ca2332d3"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "WHIB 2026 WHIB 2nd FAN CON [OUR BLUE HOUR]（2回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-083af5b0608d"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Supported by ローソンチケット AKB48 THREE CONCEPTS LIVE in K-Arena Yokohama “全員「好きish」コンサート”",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-8b0b7c87ea54"
     }
   ],
   "weather": {
-    "2026-09-12": {
-      "weather_code": "313",
-      "weather": "雨　昼前　から　くもり",
+    "2026-09-13": {
+      "weather_code": "311",
+      "weather": "雨　昼前　から　くもり　後　晴れ",
       "pop_max": 50,
       "hourly": [
         {
@@ -323,31 +375,31 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ],
-      "temp_min": 23,
-      "temp_max": 23
+      "temp_min": 25,
+      "temp_max": 25
     },
-    "2026-09-13": {
-      "weather_code": "211",
-      "weather": "くもり　夕方　から　晴れ　所により　明け方　から　昼過ぎ　雨",
-      "pop_max": 30,
+    "2026-09-14": {
+      "weather_code": "101",
+      "weather": "晴れ　朝晩　くもり",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 1080,
@@ -355,62 +407,34 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 21,
-      "temp_max": 26
-    },
-    "2026-09-14": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 24,
-      "temp_max": 31,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ]
+      "temp_min": 23,
+      "temp_max": 30
     },
     "2026-09-15": {
       "weather_code": "203",
-      "pop_max": 70,
+      "pop_max": 60,
       "temp_min": 24,
-      "temp_max": 29,
+      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 60
         }
       ]
     },
@@ -418,7 +442,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "203",
       "pop_max": 60,
       "temp_min": 22,
-      "temp_max": 27,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -443,38 +467,66 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-17": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 21,
-      "temp_max": 26,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-18": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 21,
-      "temp_max": 27,
+      "temp_min": 20,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-19": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 20,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
