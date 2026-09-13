@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-13T07:53:46+09:00",
+  "generated_at": "2026-09-14T07:58:32+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-13",
-      "name": "ヒロインズ大阪研究生 / なう♡すとれーじ / ラストシーン / MEGAFON / ドレスコード / AdamLilith / 夜光性アミューズ / ナナコロビヤオキ / iON! HEROINES LIVE in OSAKA",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "12:40",
-      "end": "15:10",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-a03e6ba12249"
-    },
-    {
-      "date": "2026-09-13",
-      "name": "サカナクション",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-9331db8ae686"
-    },
-    {
-      "date": "2026-09-13",
-      "name": "【Persona Singers】Lyn（稲泉りん）、高橋あず美、Lotus Juice【Band members】吉丸 “Wookiee” 洸平(Guitar)、松本コーキ(Guitar)、マツモトタクロウ(Bass)、直井弦太(Drums)、工藤寛丈(Keyboards)、MIZ(Violin)▼ゲスト小西利樹（アトラス） PERSONA LIVE TOUR 2026 - Resonance -",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-d6bce705ed59"
-    },
     {
       "date": "2026-09-15",
       "name": "HIDEKI SAIJO FILM LIVE Hideki Saijo 55th AnniversaryHIDEKI FESTA2026 秋",
@@ -497,77 +458,99 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-db335b41ed37"
+    },
+    {
+      "date": "2026-09-27",
+      "name": "SUPER★DRAGON SUPER★DRAGON DRA FES 2026（1回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "14:30",
+      "end": "17:00",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 13:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-c4b73252261a"
+    },
+    {
+      "date": "2026-09-27",
+      "name": "OWV OWV LIVE TOUR 2026 -SQUAD-（1回目）",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "15:00",
+      "end": "17:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-fde60e534a1b"
+    },
+    {
+      "date": "2026-09-27",
+      "name": "SUPER★DRAGON SUPER★DRAGON DRA FES 2026（2回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-e3ebb0d9abbe"
+    },
+    {
+      "date": "2026-09-27",
+      "name": "OWV OWV LIVE TOUR 2026 -SQUAD-（2回目）",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-93ae986fb15a"
     }
   ],
   "weather": {
-    "2026-09-13": {
-      "weather_code": "212",
-      "weather": "くもり　夕方　一時　雨　所により　昼過ぎ　から　雷　を伴う",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ],
-      "temp_min": 32,
-      "temp_max": 32
-    },
     "2026-09-14": {
-      "weather_code": "212",
-      "weather": "くもり　夕方　一時　雨　所により　昼過ぎ　から　雷　を伴う",
-      "pop_max": 50,
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ　所により　昼過ぎ　から　雨　で　雷を伴う",
+      "pop_max": 40,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ],
-      "temp_min": 24,
-      "temp_max": 32
+      "temp_min": 33,
+      "temp_max": 33
     },
     "2026-09-15": {
-      "weather_code": "203",
+      "weather_code": "302",
+      "weather": "雨　朝晩　くもり　所により　夕方　から　夜のはじめ頃　雷を伴い　激しく　降る",
       "pop_max": 80,
-      "temp_min": 25,
-      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 80
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 70
         },
         {
           "start_min": 720,
@@ -577,42 +560,44 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 80
+          "pop": 60
         }
-      ]
+      ],
+      "temp_min": 25,
+      "temp_max": 28
     },
     "2026-09-16": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 24,
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 23,
       "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
       ]
     },
     "2026-09-17": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 24,
+      "temp_min": 23,
       "temp_max": 30,
       "hourly": [
         {
@@ -692,6 +677,34 @@ window.TAXI_APP_DATA = {
           "pop": 40
         }
       ]
+    },
+    "2026-09-20": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 23,
+      "temp_max": 30,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -709,7 +722,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 8
+      "count": 7
     }
   ],
   "errors": []
