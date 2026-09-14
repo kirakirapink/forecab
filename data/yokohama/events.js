@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-14T07:58:21+09:00",
+  "generated_at": "2026-09-15T08:43:31+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-14",
-      "name": "プロ野球 DeNA vs 巨人",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 28000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-44c4c380af9a"
-    },
     {
       "date": "2026-09-15",
       "name": "プロ野球 DeNA vs 巨人",
@@ -367,47 +354,31 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-909b79a22194"
+    },
+    {
+      "date": "2026-09-28",
+      "name": "プロ野球 DeNA vs 広島",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 28000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-6c934603167e"
     }
   ],
   "weather": {
-    "2026-09-14": {
-      "weather_code": "111",
-      "weather": "晴れ　夜　くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 31,
-      "temp_max": 31
-    },
     "2026-09-15": {
-      "weather_code": "203",
-      "weather": "くもり　時々　雨　所により　朝　から　雷　を伴う",
-      "pop_max": 60,
+      "weather_code": "302",
+      "weather": "雨　時々　くもり　所により　朝　から　昼前　雷を伴い　激しく　降る",
+      "pop_max": 70,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
@@ -420,19 +391,18 @@ window.TAXI_APP_DATA = {
           "pop": 50
         }
       ],
-      "temp_min": 23,
-      "temp_max": 27
+      "temp_min": 28,
+      "temp_max": 28
     },
     "2026-09-16": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 21,
-      "temp_max": 27,
+      "weather_code": "302",
+      "weather": "雨　時々　くもり　所により　昼前　まで　雷　を伴う",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 360,
@@ -442,14 +412,16 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 60
         }
-      ]
+      ],
+      "temp_min": 21,
+      "temp_max": 23
     },
     "2026-09-17": {
       "weather_code": "202",
@@ -482,8 +454,8 @@ window.TAXI_APP_DATA = {
     "2026-09-18": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 24,
+      "temp_min": 20,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -510,7 +482,7 @@ window.TAXI_APP_DATA = {
     "2026-09-19": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 19,
+      "temp_min": 20,
       "temp_max": 26,
       "hourly": [
         {
@@ -539,7 +511,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 21,
-      "temp_max": 27,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -560,6 +532,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 50
+        }
+      ]
+    },
+    "2026-09-21": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 22,
+      "temp_max": 28,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
