@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-15T08:43:42+09:00",
+  "generated_at": "2026-09-16T08:27:50+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-15",
-      "name": "HIDEKI SAIJO FILM LIVE Hideki Saijo 55th AnniversaryHIDEKI FESTA2026 秋",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "14:00",
-      "end": "16:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 13:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-dc0b35af7234"
-    },
-    {
-      "date": "2026-09-15",
-      "name": "プロ野球 オリックス vs ソフトバンク",
-      "venue": "京セラドーム大阪",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 26000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "osaka-f5138a4cff93"
-    },
-    {
-      "date": "2026-09-15",
-      "name": "kanekoayano kanekoayano World Tour 2026",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-d3c97c5fe3b9"
-    },
     {
       "date": "2026-09-16",
       "name": "プロ野球 オリックス vs ソフトバンク",
@@ -448,6 +409,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-09-26",
+      "name": "EXILE THE SECOND",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "16:00",
+      "end": "19:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-9fa37db9ebe7"
+    },
+    {
+      "date": "2026-09-26",
       "name": "WHITE JAM WHITE JAM Zepp Tour 2026 \"磁石\"〜 初のゼップツアー・5大都市 〜",
       "venue": "Zepp Namba",
       "category": "concert",
@@ -513,92 +487,64 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-09-15": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり　所により　昼前　から　夜のはじめ頃　雷を伴い　激しく　降る",
-      "pop_max": 70,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
     "2026-09-16": {
       "weather_code": "203",
-      "weather": "くもり　昼前　まで　時々　雨",
+      "weather": "くもり　時々　雨",
       "pop_max": 60,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ],
-      "temp_min": 23,
-      "temp_max": 27
+      "temp_min": 26,
+      "temp_max": 26
     },
     "2026-09-17": {
       "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 23,
-      "temp_max": 29,
+      "weather": "くもり　所により　夕方　から　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 23,
+      "temp_max": 29
     },
     "2026-09-18": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 24,
-      "temp_max": 30,
+      "temp_min": 23,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
@@ -625,7 +571,7 @@ window.TAXI_APP_DATA = {
     "2026-09-19": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 24,
+      "temp_min": 23,
       "temp_max": 31,
       "hourly": [
         {
@@ -653,8 +599,8 @@ window.TAXI_APP_DATA = {
     "2026-09-20": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 24,
-      "temp_max": 32,
+      "temp_min": 23,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
@@ -682,7 +628,35 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 24,
-      "temp_max": 31,
+      "temp_max": 30,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-22": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 24,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -722,7 +696,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 7
+      "count": 8
     }
   ],
   "errors": []
