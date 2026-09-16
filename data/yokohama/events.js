@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-16T08:27:38+09:00",
+  "generated_at": "2026-09-17T08:35:10+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
@@ -380,95 +380,80 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "yokohama-a4b4eb932439"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Nothingʼs Carved In Stone Guest：[Alexandros] Nothing’s Carved In Stone \"Hand In Hand Tour 2026\"",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-e71761c06b74"
     }
   ],
   "weather": {
-    "2026-09-16": {
-      "weather_code": "300",
-      "weather": "雨　所により　昼過ぎ　から　夕方　雷を伴い　激しく　降る",
-      "pop_max": 80,
+    "2026-09-17": {
+      "weather_code": "200",
+      "weather": "くもり　所により　明け方　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 80
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 10
         }
       ],
       "temp_min": 23,
-      "temp_max": 24
+      "temp_max": 23
     },
-    "2026-09-17": {
-      "weather_code": "313",
-      "weather": "雨　昼前　から　くもり",
-      "pop_max": 70,
+    "2026-09-18": {
+      "weather_code": "200",
+      "weather": "くもり　所により　雨",
+      "pop_max": 40,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 30
         }
       ],
       "temp_min": 19,
       "temp_max": 23
     },
-    "2026-09-18": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
-    },
     "2026-09-19": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 19,
-      "temp_max": 25,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -493,65 +478,93 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-20": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 20,
       "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-21": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 21,
-      "temp_max": 27,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-09-22": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 21,
+      "temp_min": 22,
+      "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-23": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 22,
       "temp_max": 27,
       "hourly": [
         {
