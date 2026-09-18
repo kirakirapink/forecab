@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-18T08:27:01+09:00",
+  "generated_at": "2026-09-19T08:06:45+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-18",
-      "name": "プロ野球 DeNA vs ヤクルト",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 28000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-d7d43cb7e6ba"
-    },
-    {
-      "date": "2026-09-18",
-      "name": "杉山清貴 演奏：大島孝夫とDEAR BREEZE （ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、 キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-cc22aa7b4104"
-    },
     {
       "date": "2026-09-19",
       "name": "第43回 マイナビ 東京ガールズコレクション 2026 AUTUMN/WINTER",
@@ -406,47 +380,57 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-e71761c06b74"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "FEEL CYCLE LIVE LUSTER2026（1回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "15:00",
+      "end": "16:20",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 14:30。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-b0ab307d8eb9"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "FEEL CYCLE LIVE LUSTER2026（2回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "17:30",
+      "end": "18:30",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 17:00。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-4d5903489bb2"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "FEEL CYCLE LIVE LUSTER2026（3回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "19:40",
+      "end": "21:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 19:10。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-58826dfa245b"
     }
   ],
   "weather": {
-    "2026-09-18": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夕方　から　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 23,
-      "temp_max": 23
-    },
     "2026-09-19": {
-      "weather_code": "200",
-      "weather": "くもり　所により　明け方　から　雨",
-      "pop_max": 40,
+      "weather_code": "203",
+      "weather": "くもり　時々　雨",
+      "pop_max": 50,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
@@ -456,45 +440,46 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ],
-      "temp_min": 20,
-      "temp_max": 25
+      "temp_min": 24,
+      "temp_max": 24
     },
     "2026-09-20": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 20,
-      "temp_max": 24,
+      "weather_code": "300",
+      "weather": "雨　所により　夜　雷を伴い　激しく　降る",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 80
         }
-      ]
+      ],
+      "temp_min": 21,
+      "temp_max": 24
     },
     "2026-09-21": {
       "weather_code": "203",
       "pop_max": 80,
-      "temp_min": 21,
-      "temp_max": 25,
+      "temp_min": 22,
+      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
@@ -519,30 +504,30 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-22": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 22,
-      "temp_max": 27,
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 23,
+      "temp_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     },
@@ -577,8 +562,36 @@ window.TAXI_APP_DATA = {
     "2026-09-24": {
       "weather_code": "200",
       "pop_max": 40,
+      "temp_min": 20,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-25": {
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 19,
-      "temp_max": 25,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
