@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-19T08:06:59+09:00",
+  "generated_at": "2026-09-20T07:44:16+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + npb.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-19",
-      "name": "BoA 2026 BoA THE LIVE",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "16:00",
-      "end": "18:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-effa6100423d"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "松田聖子",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-a1a549e47994"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "Kroi Kroi Live Tour 2026 \"JUNGLE\"",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-5dc05c874ecd"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "Stray Kids Stray Kids World Tour 〈 RUN IT JAPAN 〉",
-      "venue": "京セラドーム大阪",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 45000,
-      "audience": "general",
-      "notes": "終了時刻はドームイベントの標準3時間で推定",
-      "source": "kyoceradome-osaka.jp",
-      "id": "osaka-b21f8d66c7ef"
-    },
     {
       "date": "2026-09-20",
       "name": "Blue Mash ロックスター症候群",
@@ -409,15 +357,15 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-09-19": {
+    "2026-09-20": {
       "weather_code": "201",
-      "weather": "くもり　昼過ぎ　まで　時々　晴れ",
-      "pop_max": 10,
+      "weather": "くもり　時々　晴れ　所により　朝晩　雨",
+      "pop_max": 30,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -427,26 +375,26 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 30
         }
       ],
-      "temp_min": 31,
-      "temp_max": 31
+      "temp_min": 30,
+      "temp_max": 30
     },
-    "2026-09-20": {
+    "2026-09-21": {
       "weather_code": "200",
-      "weather": "くもり　所により　昼過ぎ　から　雨",
-      "pop_max": 40,
+      "weather": "くもり　所により　夜のはじめ頃　まで　雨",
+      "pop_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 30
         },
         {
           "start_min": 720,
@@ -456,45 +404,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 20
         }
       ],
-      "temp_min": 23,
+      "temp_min": 24,
       "temp_max": 29
-    },
-    "2026-09-21": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 23,
-      "temp_max": 28,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
     },
     "2026-09-22": {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 22,
-      "temp_max": 29,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -522,7 +442,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 21,
-      "temp_max": 29,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -549,7 +469,7 @@ window.TAXI_APP_DATA = {
     "2026-09-24": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 29,
       "hourly": [
         {
@@ -578,7 +498,35 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 22,
-      "temp_max": 29,
+      "temp_max": 30,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-26": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 22,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -622,7 +570,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 7
+      "count": 6
     }
   ],
   "errors": []

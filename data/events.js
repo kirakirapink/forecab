@@ -1,217 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-19T08:06:31+09:00",
+  "generated_at": "2026-09-20T07:43:49+09:00",
   "region": "tokyo",
-  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp + 年次マスタ",
+  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-09-19",
-      "name": "2026 国際ウエルディングショー",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "西1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-214bd60a3d04"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "秀山祭九月大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-07a634a19448"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "神山智洋 Tomohiro Kamiyama 1st LIVE TOUR 2026 INPUT⇄OUTPUT（1回目）",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-b2071ac8056f"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "スクールアイドルミュージカル",
-      "venue": "新国立劇場（中劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "16:00",
-      "attendance": 858,
-      "audience": "general",
-      "notes": "ジャンル: musical。会場キャパ約1010席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-89676d80cba6"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "べっかんこ鬼",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "16:30",
-      "attendance": 397,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: opera。会場キャパ約468席。終演時刻は210分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-af9363c17fa8"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "プロ野球 巨人 vs 中日",
-      "venue": "東京ドーム",
-      "category": "sports",
-      "start": "14:00",
-      "end": "17:15",
-      "attendance": 42000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "tokyo-427c15f2c190"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "大相撲九月場所",
-      "venue": "両国国技館",
-      "category": "sports",
-      "start": "15:00",
-      "end": "18:00",
-      "attendance": 11000,
-      "audience": "senior_wealthy",
-      "notes": "九月場所15日間。打ち出し18時前後にタニマチ・年配富裕層が銀座・赤坂・料亭方面へ。正面玄関側で待機が定石。日付は要確認",
-      "source": "年次マスタ",
-      "id": "tokyo-59c29f89de6d"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "雪組『ポーの一族』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-525a0b6f4fc0"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "秀山祭九月大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-9e3bc1aeee2d"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "THE IDOLM@STER MILLION LIVE! 14thLIVE",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "tokyo-14a1238bd1cf"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "BEAST IN BLACK / Majestica / 高梨康治 BEAST IN BLACKDIVE TO DAIVA 2026東京狂宴～Tokyo Crazy Party～",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:00",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-dfc8a5b59466"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "神山智洋 Tomohiro Kamiyama 1st LIVE TOUR 2026 INPUT⇄OUTPUT（2回目）",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-a5e8fde8a25c"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "HIROMITSU KITAYAMA",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "tokyo-24bf8ca0ecd9"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "亀梨和也 KAZUYA KAMENASHI LIVE TOUR 2026 -FROM HERE-",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-7e17f5023139"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "AKINA NAKAMORI LIVE TOUR 2026",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-52f57a054c58"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "未唯mie DEBUT 50th & SOLO 45th Anniversary Celebration presented by Achievement Co",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-bee4846d09d1"
-    },
     {
       "date": "2026-09-20",
       "name": "日本ダーツ祭り2026 / 餃子祭",
@@ -2291,115 +2083,243 @@ window.TAXI_APP_DATA = {
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
       "id": "tokyo-2a45ed5b9f3d"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "第64回全日本模型ホビーショー",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "09:00",
+      "end": "17:00",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "西3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-a40e12a47508"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "日本レーザー医学会 学術集会",
+      "venue": "都内学術集会会場",
+      "category": "exhibition",
+      "start": "09:00",
+      "end": "17:00",
+      "attendance": 2500,
+      "audience": "business",
+      "notes": "分科会No.106。東京都。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
+      "source": "jams.med.or.jp",
+      "id": "tokyo-65350d418079"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "ジャパンオープンテニス2026",
+      "venue": "有明コロシアム",
+      "category": "sports",
+      "start": "11:00",
+      "end": "21:00",
+      "attendance": 8000,
+      "audience": "general",
+      "notes": "ATP500。ナイトセッション終了21時前後が狙い目。予選は9/28-29。日付は公式発表で要確認",
+      "source": "年次マスタ",
+      "id": "tokyo-8deaaa65334c"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "錦秋十月大歌舞伎（第一部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "14:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-b2e1a5d98d3d"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "髪結いの亭主",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "12:00",
+      "end": "14:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-ef04679269b7"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "錦秋十月大歌舞伎（第二部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "14:30",
+      "end": "18:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-f2ecd002d255"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "雪組『ポーの一族』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-42d14884a4ed"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "刀剣乱舞 - ICE BLADE -",
+      "venue": "国立代々木競技場 第一体育館",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:30",
+      "attendance": 10000,
+      "audience": "youth",
+      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
+      "source": "jpnsport.go.jp/yoyogi",
+      "id": "tokyo-dc62a2235e05"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "プロ野球 ヤクルト vs 中日",
+      "venue": "明治神宮野球場",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 29000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "tokyo-63849c25d23a"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "りそなグループ B.LEAGUE 2026-27 SEASON B.LEAGUE ONE",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
+      "audience": "general",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
+      "id": "tokyo-37c4853bead4"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "プロ野球 巨人 vs DeNA",
+      "venue": "東京ドーム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 42000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "tokyo-5eed764eae74"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "錦秋十月大歌舞伎（第三部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-2a38ea619340"
     }
   ],
   "weather": {
-    "2026-09-19": {
-      "weather_code": "203",
-      "weather": "くもり　時々　雨",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
     "2026-09-20": {
       "weather_code": "300",
-      "weather": "雨　所により　朝　から　雷を伴い　激しく　降る",
-      "pop_max": 80,
+      "weather": "雨　所により　夜　雷を伴い　激しく　降る",
+      "pop_max": 90,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 80
+          "pop": 90
         }
       ],
-      "temp_min": 21,
+      "temp_min": 24,
       "temp_max": 24
     },
     "2026-09-21": {
-      "weather_code": "203",
-      "pop_max": 80,
-      "temp_min": 22,
-      "temp_max": 30,
+      "weather_code": "300",
+      "weather": "雨　所により　昼過ぎ　から　雷を伴い　非常に　激しく　降る",
+      "pop_max": 100,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 80
+          "pop": 100
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 80
+          "pop": 90
         }
-      ]
+      ],
+      "temp_min": 21,
+      "temp_max": 26
     },
     "2026-09-22": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 22,
-      "temp_max": 31,
+      "temp_max": 32,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     },
@@ -2434,7 +2354,7 @@ window.TAXI_APP_DATA = {
     "2026-09-24": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 18,
+      "temp_min": 19,
       "temp_max": 26,
       "hourly": [
         {
@@ -2462,8 +2382,36 @@ window.TAXI_APP_DATA = {
     "2026-09-25": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 18,
+      "temp_min": 20,
       "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-26": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 19,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -2499,7 +2447,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "bigsight",
-      "count": 39
+      "count": 35
     },
     {
       "source": "dome",
@@ -2515,11 +2463,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 9
+      "count": 7
     },
     {
       "source": "nntt",
-      "count": 70
+      "count": 67
     },
     {
       "source": "kabukiza",
@@ -2551,7 +2499,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 28
+      "count": 26
     }
   ],
   "errors": []

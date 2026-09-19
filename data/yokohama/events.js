@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-19T08:06:45+09:00",
+  "generated_at": "2026-09-20T07:44:02+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-19",
-      "name": "第43回 マイナビ 東京ガールズコレクション 2026 AUTUMN/WINTER",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "14:00",
-      "end": "21:00",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 12:00。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-989d5ead27a6"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "杉山清貴 演奏：大島孝夫とDEAR BREEZE （ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、 キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "16:30",
-      "end": "19:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-57b95a784888"
-    },
-    {
-      "date": "2026-09-19",
-      "name": "プロ野球 DeNA vs ヤクルト",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-dd50d453ed36"
-    },
     {
       "date": "2026-09-20",
       "name": "IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER 　AGESTOCK2026 in 横浜アリーナ（1回目）",
@@ -120,6 +81,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "yokohama-6077ad4bd9fd"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "ONG SEONG 2026 ONG SEONGWU FANMEETING[Let’s go ONG!]",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-6f6f20c6a23d"
     },
     {
       "date": "2026-09-23",
@@ -419,52 +393,104 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 19:10。",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-58826dfa245b"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "FEEL CYCLE LIVE LUSTER2026（1回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "10:00",
+      "end": "11:20",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 9:30。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-01372f95bbdc"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "FEEL CYCLE LIVE LUSTER2026（2回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "12:30",
+      "end": "13:30",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 12:00。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-6341f32a3e02"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "FEEL CYCLE LIVE LUSTER2026（3回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "14:40",
+      "end": "16:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 14:10。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-e9d5c3d743f2"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "FEEL CYCLE LIVE LUSTER2026（4回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "17:10",
+      "end": "18:10",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 16:40。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-0f7a274ec23f"
     }
   ],
   "weather": {
-    "2026-09-19": {
-      "weather_code": "203",
-      "weather": "くもり　時々　雨",
-      "pop_max": 50,
+    "2026-09-20": {
+      "weather_code": "300",
+      "weather": "雨　所により　夜　雷を伴い　激しく　降る",
+      "pop_max": 90,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 90
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 80
         }
       ],
-      "temp_min": 24,
-      "temp_max": 24
+      "temp_min": 23,
+      "temp_max": 23
     },
-    "2026-09-20": {
+    "2026-09-21": {
       "weather_code": "300",
-      "weather": "雨　所により　夜　雷を伴い　激しく　降る",
-      "pop_max": 80,
+      "weather": "雨　所により　昼過ぎ　から　雷を伴い　非常に　激しく　降る",
+      "pop_max": 90,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 1080,
@@ -473,61 +499,33 @@ window.TAXI_APP_DATA = {
         }
       ],
       "temp_min": 21,
-      "temp_max": 24
-    },
-    "2026-09-21": {
-      "weather_code": "203",
-      "pop_max": 80,
-      "temp_min": 22,
-      "temp_max": 30,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 80
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 80
-        }
-      ]
+      "temp_max": 25
     },
     "2026-09-22": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "203",
+      "pop_max": 60,
       "temp_min": 23,
-      "temp_max": 30,
+      "temp_max": 31,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 60
         }
       ]
     },
@@ -590,8 +588,36 @@ window.TAXI_APP_DATA = {
     "2026-09-25": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 27,
+      "temp_min": 21,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-26": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 20,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -627,7 +653,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 20
+      "count": 21
     },
     {
       "source": "k_arena",
