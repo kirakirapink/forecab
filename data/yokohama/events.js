@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-20T07:44:02+09:00",
+  "generated_at": "2026-09-21T08:04:15+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-20",
-      "name": "IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER 　AGESTOCK2026 in 横浜アリーナ（1回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "12:00",
-      "end": "16:00",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 11:00。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-3cecc3e99757"
-    },
-    {
-      "date": "2026-09-20",
-      "name": "IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER 　AGESTOCK2026 in 横浜アリーナ（2回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 17:00。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-f6aca598d8bd"
-    },
-    {
-      "date": "2026-09-20",
-      "name": "THE YELLOW MONKEY THE YELLOW MONKEY TOUR 2026 THE COUNTDOWN〜60分1本勝負〜",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-507bda3a3847"
-    },
     {
       "date": "2026-09-21",
       "name": "T.C.R.横浜銀蝿R.S. T.C.R.横浜銀蝿R.S. It's Only Rock'n Roll 集会 2026 KEEP ROLLING ～時代を超えて～ TOUR FINAL and TAKU Happy Birthday",
@@ -445,95 +406,132 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:40。",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-0f7a274ec23f"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "FEEL CYCLE LIVE LUSTER2026（1回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "10:00",
+      "end": "11:20",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 9:30。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-e2650e273641"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "FEEL CYCLE LIVE LUSTER2026（2回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "12:30",
+      "end": "13:50",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 12:00。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-6c6189b7cb69"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "FEEL CYCLE LIVE LUSTER2026（3回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "15:00",
+      "end": "16:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 14:30。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-58a2652650ce"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "FEEL CYCLE LIVE LUSTER2026（4回目）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "17:10",
+      "end": "18:30",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 16:40。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-28eb92813e32"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "プロ野球 DeNA vs 阪神",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 32000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-cb3a726d86d2"
     }
   ],
   "weather": {
-    "2026-09-20": {
-      "weather_code": "300",
-      "weather": "雨　所により　夜　雷を伴い　激しく　降る",
-      "pop_max": 90,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 90
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 80
-        }
-      ],
-      "temp_min": 23,
-      "temp_max": 23
-    },
     "2026-09-21": {
       "weather_code": "300",
-      "weather": "雨　所により　昼過ぎ　から　雷を伴い　非常に　激しく　降る",
-      "pop_max": 90,
+      "weather": "雨　所により　昼前　から　夜のはじめ頃　雷を伴い　非常に　激しく　降る",
+      "pop_max": 100,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 90
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 90
+          "pop": 100
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 90
+          "pop": 100
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 80
+          "pop": 70
         }
       ],
-      "temp_min": 21,
+      "temp_min": 25,
       "temp_max": 25
     },
     "2026-09-22": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 23,
-      "temp_max": 31,
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 25,
+      "temp_max": 29
     },
     "2026-09-23": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 21,
-      "temp_max": 26,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -589,7 +587,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 21,
-      "temp_max": 26,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -614,6 +612,34 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-26": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 21,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-27": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 20,
