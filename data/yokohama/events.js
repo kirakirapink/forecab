@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-21T08:04:15+09:00",
+  "generated_at": "2026-09-22T08:54:22+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-21",
-      "name": "T.C.R.横浜銀蝿R.S. T.C.R.横浜銀蝿R.S. It's Only Rock'n Roll 集会 2026 KEEP ROLLING ～時代を超えて～ TOUR FINAL and TAKU Happy Birthday",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-7c663a8fb360"
-    },
     {
       "date": "2026-09-22",
       "name": "キズ キズ Zepp TOUR『天照焔巡』",
@@ -474,40 +461,11 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-09-21": {
-      "weather_code": "300",
-      "weather": "雨　所により　昼前　から　夜のはじめ頃　雷を伴い　非常に　激しく　降る",
-      "pop_max": 100,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 100
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 100
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
     "2026-09-22": {
       "weather_code": "201",
       "weather": "くもり　時々　晴れ",
-      "pop_max": 20,
+      "pop_max": 10,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -524,42 +482,43 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 25,
+      "temp_min": 29,
       "temp_max": 29
     },
     "2026-09-23": {
       "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 21,
-      "temp_max": 27,
+      "weather": "くもり　所により　雨",
+      "pop_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 22,
+      "temp_max": 24
     },
     "2026-09-24": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 20,
-      "temp_max": 26,
+      "temp_min": 21,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -587,7 +546,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 21,
-      "temp_max": 27,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -614,8 +573,8 @@ window.TAXI_APP_DATA = {
     "2026-09-26": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 21,
-      "temp_max": 25,
+      "temp_min": 20,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -640,10 +599,38 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-27": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 20,
       "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-09-28": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 21,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
