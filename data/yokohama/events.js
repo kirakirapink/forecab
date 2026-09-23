@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-23T08:32:17+09:00",
+  "generated_at": "2026-09-24T08:28:17+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-23",
-      "name": "ONG SEONG 2026 ONG SEONGWU FANMEETING[Let’s go ONG!]",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-6f6f20c6a23d"
-    },
-    {
-      "date": "2026-09-23",
-      "name": "CUTIE STREET JAPAN ARENA TOUR 2026 -AUTUMN-",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 15:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-d3d93cc7fcbb"
-    },
-    {
-      "date": "2026-09-23",
-      "name": "プロ野球 DeNA vs 中日",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 28000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-f37227343396"
-    },
     {
       "date": "2026-09-24",
       "name": "UVERworld UVERworld LIVE “危ない” TOUR 2026（ファンクラブ長期連続継続会員様限定ライブ）",
@@ -458,43 +419,27 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-5e9b0182d7d2"
+    },
+    {
+      "date": "2026-10-07",
+      "name": "NEWS LIVE TOUR 2026 /// KMK",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-47451dbae178"
     }
   ],
   "weather": {
-    "2026-09-23": {
-      "weather_code": "202",
-      "weather": "くもり　明け方　まで　雨",
-      "pop_max": 40,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ],
-      "temp_min": 24,
-      "temp_max": 24
-    },
     "2026-09-24": {
-      "weather_code": "211",
-      "weather": "くもり　昼前　から　晴れ　所により　明け方　まで　雨",
-      "pop_max": 20,
+      "weather_code": "101",
+      "weather": "晴れ　朝晩　くもり",
+      "pop_max": 10,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -511,62 +456,63 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 20,
+      "temp_min": 29,
       "temp_max": 29
     },
     "2026-09-25": {
       "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 21,
-      "temp_max": 26,
+      "weather": "くもり　所により　朝晩　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 20,
+      "temp_max": 26
     },
     "2026-09-26": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "203",
+      "pop_max": 70,
       "temp_min": 20,
-      "temp_max": 22,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
       ]
     },
@@ -574,7 +520,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 19,
-      "temp_max": 24,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
@@ -601,7 +547,7 @@ window.TAXI_APP_DATA = {
     "2026-09-28": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 20,
+      "temp_min": 21,
       "temp_max": 27,
       "hourly": [
         {
@@ -630,6 +576,34 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 21,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-09-30": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 20,
       "temp_max": 26,
       "hourly": [
         {
