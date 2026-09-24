@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-24T08:28:17+09:00",
+  "generated_at": "2026-09-25T08:48:13+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-24",
-      "name": "UVERworld UVERworld LIVE “危ない” TOUR 2026（ファンクラブ長期連続継続会員様限定ライブ）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-442a0f614be1"
-    },
     {
       "date": "2026-09-25",
       "name": "プロ野球 DeNA vs 阪神",
@@ -198,19 +185,6 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-5381791a66b9"
-    },
-    {
-      "date": "2026-09-29",
-      "name": "プロ野球 DeNA vs 中日",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 28000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-a4b4eb932439"
     },
     {
       "date": "2026-09-30",
@@ -432,44 +406,28 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-47451dbae178"
+    },
+    {
+      "date": "2026-10-08",
+      "name": "NEWS LIVE TOUR 2026 /// KMK",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-fed25f3dd3d7"
     }
   ],
   "weather": {
-    "2026-09-24": {
-      "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 29,
-      "temp_max": 29
-    },
     "2026-09-25": {
-      "weather_code": "200",
-      "weather": "くもり　所により　朝晩　雨",
+      "weather_code": "201",
+      "weather": "くもり　昼前　から　昼過ぎ　晴れ　所により　夜　雨",
       "pop_max": 20,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 10
@@ -485,19 +443,18 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ],
-      "temp_min": 20,
-      "temp_max": 26
+      "temp_min": 27,
+      "temp_max": 27
     },
     "2026-09-26": {
-      "weather_code": "203",
+      "weather_code": "302",
+      "weather": "雨　朝晩　くもり",
       "pop_max": 70,
-      "temp_min": 20,
-      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 60
         },
         {
           "start_min": 360,
@@ -512,9 +469,11 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 19,
+      "temp_max": 20
     },
     "2026-09-27": {
       "weather_code": "202",
@@ -575,7 +534,7 @@ window.TAXI_APP_DATA = {
     "2026-09-29": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 26,
       "hourly": [
         {
@@ -601,10 +560,38 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-09-30": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 21,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-10-01": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 20,
-      "temp_max": 26,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -632,7 +619,7 @@ window.TAXI_APP_DATA = {
   "fetch_stats": [
     {
       "source": "npb",
-      "count": 16
+      "count": 15
     },
     {
       "source": "npb",
