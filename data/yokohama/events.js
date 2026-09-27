@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-27T08:25:24+09:00",
+  "generated_at": "2026-09-28T08:42:49+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-09-27",
-      "name": "プロ野球 DeNA vs 広島",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "14:00",
-      "end": "17:15",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-5295180219e4"
-    },
-    {
-      "date": "2026-09-27",
-      "name": "Supported by ローソンチケット AKB48 THREE CONCEPTS LIVE in K-Arena Yokohama “推しが「好きish」コンサート”",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "16:00",
-      "end": "19:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 14:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-e79659a3f5aa"
-    },
-    {
-      "date": "2026-09-27",
-      "name": "伊藤蘭 伊藤 蘭 Special Premium Live ～Don’t Stop The Music! ～ vol.3",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-fd43bc3cafa5"
-    },
-    {
-      "date": "2026-09-27",
-      "name": "DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-909b79a22194"
-    },
     {
       "date": "2026-09-28",
       "name": "プロ野球 DeNA vs 広島",
@@ -354,67 +302,106 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-42d073202035"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "JUMPdate! — Hey! Say! JUMP（1回目）",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "13:00",
+      "end": "16:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-cf15d1ec4851"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "JUMPdate! — Hey! Say! JUMP（2回目）",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "17:30",
+      "end": "20:30",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-55f8db292b7b"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "剣持刀也リアルソロライブ【虚空狂宴】",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-3751e0492e75"
     }
   ],
   "weather": {
-    "2026-09-27": {
-      "weather_code": "200",
-      "weather": "くもり　所により　明け方　雨",
-      "pop_max": 20,
+    "2026-09-28": {
+      "weather_code": "302",
+      "weather": "雨　朝晩　くもり　所により　朝　から　昼過ぎ　雷を伴い　激しく　降る",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 50
         }
       ],
-      "temp_min": 24,
-      "temp_max": 24
+      "temp_min": 25,
+      "temp_max": 25
     },
-    "2026-09-28": {
-      "weather_code": "203",
-      "weather": "くもり　時々　雨",
-      "pop_max": 50,
+    "2026-09-29": {
+      "weather_code": "302",
+      "weather": "雨　夕方　から　時々　くもり",
+      "pop_max": 70,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
       ],
-      "temp_min": 22,
-      "temp_max": 26
+      "temp_min": 19,
+      "temp_max": 21
     },
-    "2026-09-29": {
+    "2026-09-30": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 20,
-      "temp_max": 24,
+      "temp_min": 18,
+      "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
@@ -438,7 +425,7 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-09-30": {
+    "2026-10-01": {
       "weather_code": "203",
       "pop_max": 70,
       "temp_min": 19,
@@ -466,59 +453,31 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-01": {
-      "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 21,
-      "temp_max": 27,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 60
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 60
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ]
-    },
     "2026-10-02": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 18,
-      "temp_max": 22,
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 19,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 30
         }
       ]
     },
@@ -547,6 +506,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 40
+        }
+      ]
+    },
+    "2026-10-04": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 16,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
