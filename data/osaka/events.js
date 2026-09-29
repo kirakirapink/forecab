@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-28T08:43:04+09:00",
+  "generated_at": "2026-09-29T09:52:30+09:00",
   "region": "osaka",
   "source": "自動取得: osaka-johall.com",
   "events": [
@@ -55,44 +55,28 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は大型ホール公演の標準3時間で推定",
       "source": "osaka-johall.com",
       "id": "osaka-f5cc59936095"
+    },
+    {
+      "date": "2026-10-09",
+      "name": "高嶋ちさ子のザワつく！音楽会 2026",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-5458a17c074d"
     }
   ],
   "weather": {
-    "2026-09-28": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり　所により　夜のはじめ頃　まで　雷　を伴う",
-      "pop_max": 80,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 80
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ],
-      "temp_min": 26,
-      "temp_max": 26
-    },
     "2026-09-29": {
-      "weather_code": "302",
-      "weather": "雨　昼過ぎ　から　時々　くもり",
+      "weather_code": "313",
+      "weather": "雨　夜　くもり",
       "pop_max": 70,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 70
@@ -105,45 +89,46 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 30
         }
       ],
-      "temp_min": 20,
-      "temp_max": 22
+      "temp_min": 22,
+      "temp_max": 23
     },
     "2026-09-30": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 20,
-      "temp_max": 26,
+      "weather_code": "211",
+      "weather": "くもり　昼前　から　晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 19,
+      "temp_max": 27
     },
     "2026-10-01": {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 20,
-      "temp_max": 26,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -198,7 +183,7 @@ window.TAXI_APP_DATA = {
     "2026-10-03": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 18,
+      "temp_min": 16,
       "temp_max": 26,
       "hourly": [
         {
@@ -224,30 +209,58 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-04": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 19,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-05": {
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 18,
       "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     }
@@ -271,7 +284,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 4
+      "count": 5
     }
   ],
   "errors": []
