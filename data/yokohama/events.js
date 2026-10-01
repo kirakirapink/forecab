@@ -1,21 +1,21 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-09-30T09:07:15+09:00",
+  "generated_at": "2026-10-01T09:25:35+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
     {
-      "date": "2026-09-30",
-      "name": "Nothingʼs Carved In Stone Guest：[Alexandros] Nothing’s Carved In Stone \"Hand In Hand Tour 2026\"",
+      "date": "2026-10-01",
+      "name": "植草克秀・井上ヨシマサ 植草ヨシマサ 着地点は御座いません",
       "venue": "KT Zepp Yokohama",
       "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
+      "start": "18:00",
+      "end": "20:30",
       "attendance": 2100,
       "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
-      "id": "yokohama-e71761c06b74"
+      "id": "yokohama-351b91ab9f9b"
     },
     {
       "date": "2026-10-02",
@@ -42,6 +42,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-4d5903489bb2"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "04 Limited Sazabys 04 Limited Sazabys ONE MAN TOUR 2026",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-35d13a47b9fd"
     },
     {
       "date": "2026-10-02",
@@ -97,6 +110,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-03",
+      "name": "甲斐よしひろ 甲斐よしひろ ホームカミングツアー2026",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-7a41d2a6d024"
+    },
+    {
+      "date": "2026-10-03",
       "name": "FEEL CYCLE LIVE LUSTER2026（4回目）",
       "venue": "横浜アリーナ",
       "category": "festival",
@@ -149,6 +175,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-04",
+      "name": "MODYSSEY 2026 MODYSSEY FAN CONCERT TOUR IN OSAKA, YOKOHAMA（1回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "13:30",
+      "end": "16:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 12:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-a4a16fc8367b"
+    },
+    {
+      "date": "2026-10-04",
       "name": "FEEL CYCLE LIVE LUSTER2026（3回目）",
       "venue": "横浜アリーナ",
       "category": "festival",
@@ -185,6 +224,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻は平均試合時間からの推定。延長あり",
       "source": "npb.jp",
       "id": "yokohama-cb3a726d86d2"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "MODYSSEY 2026 MODYSSEY FAN CONCERT TOUR IN OSAKA, YOKOHAMA（2回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-054ed848d54d"
     },
     {
       "date": "2026-10-06",
@@ -239,6 +291,19 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-fed25f3dd3d7"
     },
     {
+      "date": "2026-10-09",
+      "name": "日食なつこ 日食なつこ 未発表曲ツアー「エリア未来2 “ブラックホール”」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-ac457564e444"
+    },
+    {
       "date": "2026-10-10",
       "name": "JUMPdate! — Hey! Say! JUMP",
       "venue": "横浜アリーナ",
@@ -247,7 +312,7 @@ window.TAXI_APP_DATA = {
       "end": "20:30",
       "attendance": 17000,
       "audience": "youth",
-      "notes": "終了時刻は大型アリーナ公演の標準3時間で推定",
+      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-be51443fca02"
     },
@@ -273,7 +338,7 @@ window.TAXI_APP_DATA = {
       "end": "16:00",
       "attendance": 17000,
       "audience": "youth",
-      "notes": "終了時刻は大型アリーナ公演の標準3時間で推定",
+      "notes": "OPEN 12:00。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-cf15d1ec4851"
     },
@@ -286,7 +351,7 @@ window.TAXI_APP_DATA = {
       "end": "20:30",
       "attendance": 17000,
       "audience": "youth",
-      "notes": "終了時刻は大型アリーナ公演の標準3時間で推定",
+      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-55f8db292b7b"
     },
@@ -312,7 +377,7 @@ window.TAXI_APP_DATA = {
       "end": "16:00",
       "attendance": 17000,
       "audience": "youth",
-      "notes": "終了時刻は大型アリーナ公演の標準3時間で推定",
+      "notes": "OPEN 12:00。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-c21b5d2b28d5"
     },
@@ -325,7 +390,7 @@ window.TAXI_APP_DATA = {
       "end": "20:30",
       "attendance": 17000,
       "audience": "youth",
-      "notes": "終了時刻は大型アリーナ公演の標準3時間で推定",
+      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-90969a064d53"
     },
@@ -344,92 +409,64 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-09-30": {
-      "weather_code": "313",
-      "weather": "雨　昼過ぎ　から　くもり",
-      "pop_max": 70,
+    "2026-10-01": {
+      "weather_code": "211",
+      "weather": "くもり　夕方　から　晴れ　所により　昼前　まで　雨",
+      "pop_max": 40,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 10
         }
       ],
-      "temp_min": 20,
-      "temp_max": 20
+      "temp_min": 26,
+      "temp_max": 26
     },
-    "2026-10-01": {
-      "weather_code": "211",
-      "weather": "くもり　昼過ぎ　から　晴れ　所により　昼前　まで　雨",
+    "2026-10-02": {
+      "weather_code": "200",
+      "weather": "くもり　所により　朝　から　夕方　雨",
       "pop_max": 40,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
           "pop": 40
         },
         {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ],
-      "temp_min": 17,
-      "temp_max": 24
-    },
-    "2026-10-02": {
-      "weather_code": "201",
-      "pop_max": 30,
       "temp_min": 19,
-      "temp_max": 24,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ]
+      "temp_max": 22
     },
     "2026-10-03": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 24,
+      "temp_min": 18,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
@@ -456,7 +493,7 @@ window.TAXI_APP_DATA = {
     "2026-10-04": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 23,
       "hourly": [
         {
@@ -482,9 +519,37 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-05": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 18,
+      "temp_max": 22,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-10-06": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 18,
+      "temp_min": 19,
       "temp_max": 25,
       "hourly": [
         {
@@ -509,7 +574,7 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-06": {
+    "2026-10-07": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 18,
@@ -541,23 +606,19 @@ window.TAXI_APP_DATA = {
   "fetch_stats": [
     {
       "source": "npb",
-      "count": 14
-    },
-    {
-      "source": "npb",
       "count": 1
     },
     {
       "source": "zepp",
-      "count": 21
+      "count": 22
     },
     {
       "source": "k_arena",
-      "count": 17
+      "count": 6
     },
     {
       "source": "yokohama_arena",
-      "count": 32
+      "count": 23
     }
   ],
   "errors": []
