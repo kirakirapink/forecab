@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-02T09:35:42+09:00",
+  "generated_at": "2026-10-03T09:13:38+09:00",
   "region": "osaka",
   "source": "自動取得: osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-02",
-      "name": "杉山清貴／演奏：大島孝夫とDEAR BREEZE（ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-f9d4d1295111"
-    },
-    {
-      "date": "2026-10-02",
-      "name": "MODYSSEY 2026 MODYSSEY FAN CONCERT TOUR IN OSAKA, YOKOHAMA",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-f501d905bc02"
-    },
     {
       "date": "2026-10-03",
       "name": "杉山清貴／演奏：大島孝夫とDEAR BREEZE（ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
@@ -445,10 +419,36 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-5e8e32781c4e"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "LINDBERG LINDBERG LIVE TOUR 2026 「Zepp STEP JUMP」",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-a2d3b9bae96e"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "My Hair is Bad My Hair is Bad presents「ノーブルホームランツアー」",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-6c9ad5a0444f"
     }
   ],
   "weather": {
-    "2026-10-02": {
+    "2026-10-03": {
       "weather_code": "101",
       "weather": "晴れ　時々　くもり",
       "pop_max": 0,
@@ -469,71 +469,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 28,
-      "temp_max": 28
-    },
-    "2026-10-03": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 17,
+      "temp_min": 27,
       "temp_max": 27
     },
     "2026-10-04": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 26,
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 20,
+      "temp_max": 28
     },
     "2026-10-05": {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 21,
-      "temp_max": 25,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -589,7 +561,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 19,
-      "temp_max": 25,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -638,6 +610,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 20
+        }
+      ]
+    },
+    "2026-10-09": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 17,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
