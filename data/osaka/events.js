@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-03T09:13:38+09:00",
+  "generated_at": "2026-10-04T08:35:04+09:00",
   "region": "osaka",
   "source": "自動取得: osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-03",
-      "name": "杉山清貴／演奏：大島孝夫とDEAR BREEZE（ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "16:30",
-      "end": "19:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-56edd8428dd2"
-    },
-    {
-      "date": "2026-10-03",
-      "name": "hide with Spread Beaver hide with Spread Beaver Zepp Tour 2026 “REPSYCLE THE REPSYCLED”",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-c1386886fc87"
-    },
-    {
-      "date": "2026-10-03",
-      "name": "マカロニえんぴつ",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-b2bc722c4491"
-    },
     {
       "date": "2026-10-04",
       "name": "マカロニえんぴつ",
@@ -317,19 +278,6 @@ window.TAXI_APP_DATA = {
       "id": "osaka-7ee2666b372f"
     },
     {
-      "date": "2026-10-12",
-      "name": "大阪メチャハピー祭「本祭」",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-ad5273042820"
-    },
-    {
       "date": "2026-10-13",
       "name": "TMG TMG LIVE 2026 “SAYONARA”",
       "venue": "Zepp Osaka Bayside",
@@ -367,6 +315,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-e7b13ba6a60b"
+    },
+    {
+      "date": "2026-10-14",
+      "name": "Mr.Children【振替公演】",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-0d0971e1536b"
     },
     {
       "date": "2026-10-14",
@@ -445,67 +406,63 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-6c9ad5a0444f"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "SKE48 / OCHA NORMA / ClariS / MORE STAR / ONE LOVE ONE HEART (50音順) MC：下埜正太 FM大阪 『Live or Treat 2026』in Zepp Namba",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "16:30",
+      "end": "19:00",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 15:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-6eaa40adfa16"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "My Hair is Bad My Hair is Bad presents「ノーブルホームランツアー」",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-6dfb285665df"
     }
   ],
   "weather": {
-    "2026-10-03": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
     "2026-10-04": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
-      "pop_max": 10,
+      "weather_code": "200",
+      "weather": "くもり　所により　昼過ぎ　から　夕方　雨",
+      "pop_max": 30,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ],
-      "temp_min": 20,
-      "temp_max": 28
+      "temp_min": 25,
+      "temp_max": 25
     },
     "2026-10-05": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 21,
-      "temp_max": 26,
+      "weather_code": "203",
+      "weather": "くもり　時々　雨",
+      "pop_max": 60,
       "hourly": [
         {
           "start_min": 0,
@@ -515,19 +472,21 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
-      ]
+      ],
+      "temp_min": 19,
+      "temp_max": 25
     },
     "2026-10-06": {
       "weather_code": "200",
@@ -560,8 +519,8 @@ window.TAXI_APP_DATA = {
     "2026-10-07": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 19,
-      "temp_max": 26,
+      "temp_min": 18,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -588,8 +547,8 @@ window.TAXI_APP_DATA = {
     "2026-10-08": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 18,
-      "temp_max": 25,
+      "temp_min": 17,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -614,30 +573,58 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-09": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 26,
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 19,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-10": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 19,
+      "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
@@ -657,7 +644,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 8
+      "count": 7
     }
   ],
   "errors": []

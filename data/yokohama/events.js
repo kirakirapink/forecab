@@ -1,74 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-03T09:13:28+09:00",
+  "generated_at": "2026-10-04T08:34:53+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-03",
-      "name": "FEEL CYCLE LIVE LUSTER2026（1回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "10:00",
-      "end": "11:20",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 9:30。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-01372f95bbdc"
-    },
-    {
-      "date": "2026-10-03",
-      "name": "FEEL CYCLE LIVE LUSTER2026（2回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "12:30",
-      "end": "13:30",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 12:00。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-6341f32a3e02"
-    },
-    {
-      "date": "2026-10-03",
-      "name": "FEEL CYCLE LIVE LUSTER2026（3回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "14:40",
-      "end": "16:00",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 14:10。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-e9d5c3d743f2"
-    },
-    {
-      "date": "2026-10-03",
-      "name": "甲斐よしひろ 甲斐よしひろ ホームカミングツアー2026",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-7a41d2a6d024"
-    },
-    {
-      "date": "2026-10-03",
-      "name": "FEEL CYCLE LIVE LUSTER2026（4回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "17:10",
-      "end": "18:10",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 16:40。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-0f7a274ec23f"
-    },
     {
       "date": "2026-10-04",
       "name": "FEEL CYCLE LIVE LUSTER2026（1回目）",
@@ -380,44 +315,28 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-caf3122b77d3"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "今井翼 TSUBASA IMAI 2026 Happy 45th Anniversary! ーSpecial Talk Showー",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "16:00",
+      "end": "18:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-ee8dffdeb6be"
     }
   ],
   "weather": {
-    "2026-10-03": {
-      "weather_code": "211",
-      "weather": "くもり　昼前　から　晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 24,
-      "temp_max": 24
-    },
     "2026-10-04": {
       "weather_code": "201",
-      "weather": "くもり　朝　から　昼過ぎ　晴れ",
+      "weather": "くもり　朝　から　昼前　晴れ",
       "pop_max": 10,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 0
@@ -425,7 +344,7 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 1080,
@@ -433,42 +352,43 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 17,
-      "temp_max": 25
+      "temp_min": 24,
+      "temp_max": 24
     },
     "2026-10-05": {
       "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 17,
-      "temp_max": 23,
+      "weather": "くもり　所により　昼前　から　夕方　雨",
+      "pop_max": 30,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 18,
+      "temp_max": 22
     },
     "2026-10-06": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 26,
+      "temp_min": 20,
+      "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
@@ -496,7 +416,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 20,
-      "temp_max": 27,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -521,9 +441,37 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-08": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 18,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-10-09": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 18,
+      "temp_min": 17,
       "temp_max": 24,
       "hourly": [
         {
@@ -548,31 +496,31 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-09": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 16,
-      "temp_max": 23,
+    "2026-10-10": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 17,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     }
@@ -592,7 +540,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "yokohama_arena",
-      "count": 23
+      "count": 24
     }
   ],
   "errors": []
