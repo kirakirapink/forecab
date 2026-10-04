@@ -1,113 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-04T08:34:53+09:00",
+  "generated_at": "2026-10-05T08:52:33+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-04",
-      "name": "FEEL CYCLE LIVE LUSTER2026（1回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "10:00",
-      "end": "11:20",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 9:30。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-e2650e273641"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "からぴちパラダイス ARENA TOUR 2026 ～シンフォニーエクスプレス～ — カラフルピーチ",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "12:00",
-      "end": "15:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 10:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-eae1920e5734"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "FEEL CYCLE LIVE LUSTER2026（2回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "12:30",
-      "end": "13:50",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 12:00。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-6c6189b7cb69"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "MODYSSEY 2026 MODYSSEY FAN CONCERT TOUR IN OSAKA, YOKOHAMA（1回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "13:30",
-      "end": "16:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 12:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-a4a16fc8367b"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "FEEL CYCLE LIVE LUSTER2026（3回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "15:00",
-      "end": "16:00",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 14:30。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-58a2652650ce"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "FEEL CYCLE LIVE LUSTER2026（4回目）",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "17:10",
-      "end": "18:30",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 16:40。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-28eb92813e32"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "プロ野球 DeNA vs 阪神",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-cb3a726d86d2"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "MODYSSEY 2026 MODYSSEY FAN CONCERT TOUR IN OSAKA, YOKOHAMA（2回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-054ed848d54d"
-    },
     {
       "date": "2026-10-05",
       "name": "プロ野球 DeNA vs 阪神",
@@ -328,14 +224,69 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-ee8dffdeb6be"
+    },
+    {
+      "date": "2026-10-18",
+      "name": "横浜アリーナBIGフリーマーケット",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "10:00",
+      "end": "13:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 10:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-0d084f0b0fa3"
+    },
+    {
+      "date": "2026-10-18",
+      "name": "ねぐせ。 ねぐせ。ワンマンツアー2026 「君を強く抱きしめたいんだ！」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-106c83175999"
     }
   ],
   "weather": {
-    "2026-10-04": {
-      "weather_code": "201",
-      "weather": "くもり　朝　から　昼前　晴れ",
-      "pop_max": 10,
+    "2026-10-05": {
+      "weather_code": "200",
+      "weather": "くもり　所により　朝　から　昼過ぎ　雨",
+      "pop_max": 20,
       "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
+        }
+      ],
+      "temp_min": 23,
+      "temp_max": 23
+    },
+    "2026-10-06": {
+      "weather_code": "211",
+      "weather": "くもり　昼過ぎ　から　晴れ",
+      "pop_max": 0,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 0
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -344,79 +295,22 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
       ],
-      "temp_min": 24,
-      "temp_max": 24
-    },
-    "2026-10-05": {
-      "weather_code": "200",
-      "weather": "くもり　所により　昼前　から　夕方　雨",
-      "pop_max": 30,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 18,
-      "temp_max": 22
-    },
-    "2026-10-06": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 20,
-      "temp_max": 28,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
+      "temp_min": 21,
+      "temp_max": 29
     },
     "2026-10-07": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 20,
-      "temp_max": 25,
+      "temp_min": 19,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -443,7 +337,7 @@ window.TAXI_APP_DATA = {
     "2026-10-08": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 18,
+      "temp_min": 17,
       "temp_max": 24,
       "hourly": [
         {
@@ -471,8 +365,8 @@ window.TAXI_APP_DATA = {
     "2026-10-09": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 24,
+      "temp_min": 16,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -499,8 +393,8 @@ window.TAXI_APP_DATA = {
     "2026-10-10": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 24,
+      "temp_min": 16,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -521,6 +415,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-10-11": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 17,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
         }
       ]
     }
