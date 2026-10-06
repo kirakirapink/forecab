@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-05T08:52:33+09:00",
+  "generated_at": "2026-10-06T10:41:58+09:00",
   "region": "yokohama",
-  "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
+  "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-05",
-      "name": "プロ野球 DeNA vs 阪神",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 28000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-150753e21053"
-    },
     {
       "date": "2026-10-06",
       "name": "NEWS LIVE TOUR 2026 /// KMK",
@@ -81,6 +68,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-ac457564e444"
+    },
+    {
+      "date": "2026-10-10",
+      "name": "BONBON. BONBON. 1st Live tour 「あなたになりたいだけじゃなく。」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-5648d4cdbfcd"
     },
     {
       "date": "2026-10-10",
@@ -250,44 +250,28 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-106c83175999"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "AVAM／君に、胸キュン。／CURE’T／JamsCollection／Sweet Alley／ドレスコード／NANIMONO／NEVER END ROLL／VVSiS／Pretty Chuu／MEGAFON／REIRIE／Onephony AVAM presents『Débutante vol.10 Halloween SP』",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "14:30",
+      "end": "17:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-a81688736d7a"
     }
   ],
   "weather": {
-    "2026-10-05": {
-      "weather_code": "200",
-      "weather": "くもり　所により　朝　から　昼過ぎ　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 23,
-      "temp_max": 23
-    },
     "2026-10-06": {
-      "weather_code": "211",
-      "weather": "くもり　昼過ぎ　から　晴れ",
+      "weather_code": "111",
+      "weather": "晴れ　夜　くもり",
       "pop_max": 0,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 0
@@ -303,36 +287,37 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 21,
-      "temp_max": 29
+      "temp_min": 28,
+      "temp_max": 28
     },
     "2026-10-07": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 26,
+      "weather_code": "210",
+      "weather": "くもり　昼前　から　時々　晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 20,
+      "temp_max": 25
     },
     "2026-10-08": {
       "weather_code": "101",
@@ -363,38 +348,38 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-09": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "101",
+      "pop_max": 20,
       "temp_min": 16,
       "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
       ]
     },
     "2026-10-10": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 16,
-      "temp_max": 25,
+      "temp_min": 15,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -421,8 +406,8 @@ window.TAXI_APP_DATA = {
     "2026-10-11": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 17,
-      "temp_max": 26,
+      "temp_min": 16,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -445,20 +430,48 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ]
+    },
+    "2026-10-12": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 17,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
     }
   },
   "fetch_stats": [
     {
       "source": "npb",
-      "count": 2
+      "count": 1
     },
     {
       "source": "zepp",
-      "count": 22
+      "count": 23
     },
     {
       "source": "k_arena",
-      "count": 6
+      "count": 9
     },
     {
       "source": "yokohama_arena",

@@ -1,113 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-05T08:52:25+09:00",
+  "generated_at": "2026-10-06T10:41:51+09:00",
   "region": "tokyo",
-  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp + 年次マスタ",
+  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-10-05",
-      "name": "ジャパンオープンテニス2026",
-      "venue": "有明コロシアム",
-      "category": "sports",
-      "start": "11:00",
-      "end": "21:00",
-      "attendance": 8000,
-      "audience": "general",
-      "notes": "ATP500。ナイトセッション終了21時前後が狙い目。予選は9/28-29。日付は公式発表で要確認",
-      "source": "年次マスタ",
-      "id": "tokyo-0c7b9761fb10"
-    },
-    {
-      "date": "2026-10-05",
-      "name": "錦秋十月大歌舞伎（第一部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "14:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-64fb7d94d546"
-    },
-    {
-      "date": "2026-10-05",
-      "name": "髪結いの亭主",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-924e93f3a216"
-    },
-    {
-      "date": "2026-10-05",
-      "name": "錦秋十月大歌舞伎（第二部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "14:30",
-      "end": "18:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-0044a809b075"
-    },
-    {
-      "date": "2026-10-05",
-      "name": "TMG TMG LIVE 2026 “SAYONARA”",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-555a7661a71d"
-    },
-    {
-      "date": "2026-10-05",
-      "name": "プロ野球 ヤクルト vs 広島",
-      "venue": "明治神宮野球場",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 24000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "tokyo-f774d53e299e"
-    },
-    {
-      "date": "2026-10-05",
-      "name": "錦秋十月大歌舞伎（第三部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-a99a89921789"
-    },
-    {
-      "date": "2026-10-05",
-      "name": "BLUEGOATS BLUEGOATS ONEMAN LIVE \"DAWN\" -BAND SET-",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-4716c23a0bbb"
-    },
     {
       "date": "2026-10-06",
       "name": "ジャパンオープンテニス2026",
@@ -315,6 +211,19 @@ window.TAXI_APP_DATA = {
       "notes": "土日は11時回あり。月曜は標準休演日として除外",
       "source": "kageki.hankyu.co.jp/revue",
       "id": "tokyo-342ce6c58f8d"
+    },
+    {
+      "date": "2026-10-07",
+      "name": "iMiN! / AsIs / ハルニシオンOA：ハルカエコー iMiN! × AsIs × ハルニシオン",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-727fac2181b8"
     },
     {
       "date": "2026-10-07",
@@ -1966,23 +1875,101 @@ window.TAXI_APP_DATA = {
       "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-2c7a88b949df"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "錦秋十月大歌舞伎（第一部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "14:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-16e0bc7f4db3"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "髪結いの亭主",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-5b8b26290cfd"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "錦秋十月大歌舞伎（第二部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "14:30",
+      "end": "18:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-c20e4c21c60b"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "りそなグループ B.LEAGUE 2026-27 SEASON B.LEAGUE ONE",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
+      "audience": "general",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
+      "id": "tokyo-289dcc767585"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "錦秋十月大歌舞伎（第三部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-96794e8798e7"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "バーン・ザ・フロア2026",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-72447eeab78b"
     }
   ],
   "weather": {
-    "2026-10-05": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夕方　まで　雨",
-      "pop_max": 20,
+    "2026-10-06": {
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
@@ -1990,10 +1977,10 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 23,
-      "temp_max": 23
+      "temp_min": 28,
+      "temp_max": 28
     },
-    "2026-10-06": {
+    "2026-10-07": {
       "weather_code": "210",
       "weather": "くもり　昼前　から　時々　晴れ",
       "pop_max": 10,
@@ -2006,12 +1993,12 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 1080,
@@ -2019,36 +2006,8 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 20,
-      "temp_max": 29
-    },
-    "2026-10-07": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 18,
-      "temp_max": 26,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
+      "temp_min": 19,
+      "temp_max": 26
     },
     "2026-10-08": {
       "weather_code": "101",
@@ -2082,7 +2041,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 15,
-      "temp_max": 26,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -2109,8 +2068,8 @@ window.TAXI_APP_DATA = {
     "2026-10-10": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 15,
-      "temp_max": 26,
+      "temp_min": 14,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -2161,12 +2120,40 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ]
+    },
+    "2026-10-12": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 16,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
     }
   },
   "fetch_stats": [
     {
       "source": "npb",
-      "count": 5
+      "count": 4
     },
     {
       "source": "bigsight",
@@ -2182,19 +2169,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 75
+      "count": 76
     },
     {
       "source": "garden_theater",
-      "count": 9
+      "count": 8
     },
     {
       "source": "nntt",
-      "count": 62
+      "count": 63
     },
     {
       "source": "kabukiza",
-      "count": 79
+      "count": 78
     },
     {
       "source": "national_stadium",
@@ -2218,11 +2205,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "annual",
-      "count": 2
+      "count": 1
     },
     {
       "source": "forum",
-      "count": 18
+      "count": 22
     }
   ],
   "errors": []
