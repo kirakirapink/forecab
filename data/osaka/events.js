@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-07T09:26:01+09:00",
+  "generated_at": "2026-10-08T09:46:27+09:00",
   "region": "osaka",
   "source": "自動取得: osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-07",
-      "name": "コブクロ",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-f5cc59936095"
-    },
-    {
-      "date": "2026-10-07",
-      "name": "凛として時雨 凛として時雨 TOUR 2026 DREAM KILLER",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-20ce1a7cadb1"
-    },
     {
       "date": "2026-10-08",
       "name": "ヤバイTシャツ屋さん ヤバイTシャツ屋さん \"Magical Tank-top Parade\" ONE-MAN TOUR 2026",
@@ -409,6 +383,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-18",
+      "name": "Ms.OOJA",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-760e8e7fa610"
+    },
+    {
+      "date": "2026-10-18",
       "name": "女王蜂 女王蜂 全国ツアー2026「星」",
       "venue": "Zepp Osaka Bayside",
       "category": "concert",
@@ -435,15 +422,15 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-07": {
+    "2026-10-08": {
       "weather_code": "100",
       "weather": "晴れ",
-      "pop_max": 10,
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
@@ -456,10 +443,10 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 25,
-      "temp_max": 25
+      "temp_min": 27,
+      "temp_max": 27
     },
-    "2026-10-08": {
+    "2026-10-09": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -485,69 +472,41 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 15,
-      "temp_max": 26
+      "temp_min": 18,
+      "temp_max": 28
     },
-    "2026-10-09": {
+    "2026-10-10": {
       "weather_code": "101",
-      "pop_max": 10,
-      "temp_min": 16,
+      "pop_max": 20,
+      "temp_min": 17,
       "temp_max": 28,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
-        }
-      ]
-    },
-    "2026-10-10": {
-      "weather_code": "101",
-      "pop_max": 10,
-      "temp_min": 17,
-      "temp_max": 27,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ]
     },
     "2026-10-11": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 18,
+      "temp_min": 17,
       "temp_max": 28,
       "hourly": [
         {
@@ -575,7 +534,7 @@ window.TAXI_APP_DATA = {
     "2026-10-12": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 18,
+      "temp_min": 17,
       "temp_max": 28,
       "hourly": [
         {
@@ -605,6 +564,34 @@ window.TAXI_APP_DATA = {
       "pop_max": 30,
       "temp_min": 18,
       "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-10-14": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 18,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,

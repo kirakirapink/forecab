@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-07T09:25:51+09:00",
+  "generated_at": "2026-10-08T09:46:16+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-07",
-      "name": "NEWS LIVE TOUR 2026 /// KMK",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-47451dbae178"
-    },
-    {
-      "date": "2026-10-07",
-      "name": "sumika sumika Live Tour 2026 『Flügel Letter』",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-66a2f636f721"
-    },
     {
       "date": "2026-10-08",
       "name": "NEWS LIVE TOUR 2026 /// KMK",
@@ -289,23 +263,36 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-32ee4fdc40b5"
+    },
+    {
+      "date": "2026-10-21",
+      "name": "go!go!vanillas go!go!vanillas presents「ぼくらのタイマン上等ツアー」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-7186fc8d45c1"
     }
   ],
   "weather": {
-    "2026-10-07": {
-      "weather_code": "210",
-      "weather": "くもり　昼過ぎ　から　時々　晴れ　所により　朝　まで　雨",
-      "pop_max": 20,
+    "2026-10-08": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
@@ -313,10 +300,10 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 24,
-      "temp_max": 24
+      "temp_min": 25,
+      "temp_max": 25
     },
-    "2026-10-08": {
+    "2026-10-09": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -342,62 +329,34 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 17,
-      "temp_max": 25
-    },
-    "2026-10-09": {
-      "weather_code": "101",
-      "pop_max": 10,
       "temp_min": 16,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_max": 25
     },
     "2026-10-10": {
       "weather_code": "101",
-      "pop_max": 10,
+      "pop_max": 20,
       "temp_min": 15,
-      "temp_max": 25,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ]
     },
@@ -405,7 +364,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 16,
-      "temp_max": 25,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -432,7 +391,7 @@ window.TAXI_APP_DATA = {
     "2026-10-12": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 17,
+      "temp_min": 16,
       "temp_max": 25,
       "hourly": [
         {
@@ -461,7 +420,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 17,
-      "temp_max": 25,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -482,6 +441,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-10-14": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 17,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
