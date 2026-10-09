@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-08T09:46:27+09:00",
+  "generated_at": "2026-10-09T10:02:35+09:00",
   "region": "osaka",
   "source": "自動取得: osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-08",
-      "name": "ヤバイTシャツ屋さん ヤバイTシャツ屋さん \"Magical Tank-top Parade\" ONE-MAN TOUR 2026",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-abbc2e5ca5cf"
-    },
     {
       "date": "2026-10-09",
       "name": "高嶋ちさ子のザワつく！音楽会 2026",
@@ -422,36 +409,36 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-08": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
     "2026-10-09": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
       "hourly": [
         {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 0
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 0
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 0
+        }
+      ],
+      "temp_min": 29,
+      "temp_max": 29
+    },
+    "2026-10-10": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
+      "hourly": [
+        {
           "start_min": 0,
           "end_min": 360,
           "pop": 0
@@ -472,36 +459,8 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 18,
-      "temp_max": 28
-    },
-    "2026-10-10": {
-      "weather_code": "101",
-      "pop_max": 20,
       "temp_min": 17,
-      "temp_max": 28,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 28
     },
     "2026-10-11": {
       "weather_code": "101",
@@ -534,7 +493,7 @@ window.TAXI_APP_DATA = {
     "2026-10-12": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 28,
       "hourly": [
         {
@@ -588,30 +547,58 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-14": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 18,
       "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-15": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 16,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
         }
       ]
     }
