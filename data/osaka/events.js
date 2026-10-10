@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-09T10:02:35+09:00",
+  "generated_at": "2026-10-10T09:32:44+09:00",
   "region": "osaka",
   "source": "自動取得: osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-09",
-      "name": "高嶋ちさ子のザワつく！音楽会 2026",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-5458a17c074d"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "7ORDER 7ORDER THE LIVE 2026",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-ef6b6c48f884"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "04 Limited Sazabys 04 Limited Sazabys ONE MAN TOUR 2026",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-3c11754b2108"
-    },
     {
       "date": "2026-10-10",
       "name": "甲斐よしひろ KAI YOSHIHIRO ホームカミングツアー 2026",
@@ -406,10 +367,23 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-468a40711059"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "iMiN! / アキシブproject / Ill / ウメコマチ / テンシンランマン / TENRIN / ドレスコード / なう♡すとれーじ / ナナコロビヤオキ / Pastel Closet / パラレルサイダー / ハルカエコー / ヒロインズ研究生大阪 / フルコース / ポンコツコンポ / MEGAFON / 夜光性アミューズ / ラストシーン HEROINES HALLOWEEN",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "11:30",
+      "end": "14:00",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 10:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-d81e95f61845"
     }
   ],
   "weather": {
-    "2026-10-09": {
+    "2026-10-10": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -433,7 +407,7 @@ window.TAXI_APP_DATA = {
       "temp_min": 29,
       "temp_max": 29
     },
-    "2026-10-10": {
+    "2026-10-11": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -460,35 +434,7 @@ window.TAXI_APP_DATA = {
         }
       ],
       "temp_min": 17,
-      "temp_max": 28
-    },
-    "2026-10-11": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 17,
-      "temp_max": 28,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 29
     },
     "2026-10-12": {
       "weather_code": "101",
@@ -547,38 +493,66 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-14": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 18,
       "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
     "2026-10-15": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 16,
+      "temp_min": 17,
       "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-10-16": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 15,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -618,7 +592,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 8
+      "count": 7
     }
   ],
   "errors": []

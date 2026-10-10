@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-09T10:02:25+09:00",
+  "generated_at": "2026-10-10T09:32:33+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-09",
-      "name": "日食なつこ 日食なつこ 未発表曲ツアー「エリア未来2 “ブラックホール”」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-ac457564e444"
-    },
     {
       "date": "2026-10-10",
       "name": "BONBON. BONBON. 1st Live tour 「あなたになりたいだけじゃなく。」",
@@ -263,10 +250,36 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-88ce68d3a588"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "ゆず30周年開幕記念ライブ 心をとめないで",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-85b9af0dc753"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "LINDBERG LINDBERG LIVE TOUR 2026 「Zepp STEP JUMP」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-ced59739f951"
     }
   ],
   "weather": {
-    "2026-10-09": {
+    "2026-10-10": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -290,7 +303,7 @@ window.TAXI_APP_DATA = {
       "temp_min": 26,
       "temp_max": 26
     },
-    "2026-10-10": {
+    "2026-10-11": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -317,35 +330,7 @@ window.TAXI_APP_DATA = {
         }
       ],
       "temp_min": 17,
-      "temp_max": 25
-    },
-    "2026-10-11": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 16,
-      "temp_max": 27,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 26
     },
     "2026-10-12": {
       "weather_code": "201",
@@ -379,7 +364,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 17,
-      "temp_max": 24,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -406,7 +391,7 @@ window.TAXI_APP_DATA = {
     "2026-10-14": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 25,
       "hourly": [
         {
@@ -434,7 +419,7 @@ window.TAXI_APP_DATA = {
     "2026-10-15": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 23,
       "hourly": [
         {
@@ -456,6 +441,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-10-16": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 17,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
         }
       ]
     }

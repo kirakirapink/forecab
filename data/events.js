@@ -1,139 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-09T10:02:17+09:00",
+  "generated_at": "2026-10-10T09:32:25+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + npb.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-09",
-      "name": "日本保険医学会 学術集会",
-      "venue": "都内学術集会会場",
-      "category": "exhibition",
-      "start": "09:00",
-      "end": "17:00",
-      "attendance": 2500,
-      "audience": "business",
-      "notes": "分科会No.33。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
-      "source": "jams.med.or.jp",
-      "id": "tokyo-1ae6cdf43995"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "H.C.R.2026 第53回国際福祉機器展＆フォーラム",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 35000,
-      "audience": "business",
-      "notes": "東1-3・7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（5ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-b5929b9cc9a2"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "第23回 生地・素材 EXPO 秋 ほか10展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-8b87d14a2b25"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "第30回 ライフスタイルWeek【秋】 ほか5展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-f668637b6607"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "第28回 マーケティングWeek -秋- ほか9展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "南3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-912ef57fffe0"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "雪組『ポーの一族』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-0ee14bd663cc"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR [LE-CIEL PRESENTS]ファンクラブ会員限定公演",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "tokyo-e4d4bf4e81c7"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "hide with Spread Beaver hide with Spread Beaver Zepp Tour 2026“REPSYCLE THE REPSYCLED”",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-fc04a794f7d0"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "LÄ-PPISCH TITLE Lä-ppisch Tour 2026 COUNTDOWN",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-4ace3268f46b"
-    },
-    {
-      "date": "2026-10-09",
-      "name": "Dannie May Dannie May TOUR 2026「YOKAI」",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-f6e8d6c357de"
-    },
     {
       "date": "2026-10-10",
       "name": "錦秋十月大歌舞伎（第一部）",
@@ -838,6 +708,58 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-14",
+      "name": "TOKYO PACK 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 35000,
+      "audience": "general",
+      "notes": "東1-3・7・8ホール。一般公開。来場者はホール数からの概算（5ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-46d986c10fce"
+    },
+    {
+      "date": "2026-10-14",
+      "name": "ラベルフォーラムジャパン2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-c90ea52b30bf"
+    },
+    {
+      "date": "2026-10-14",
+      "name": "フード・テイストジャパン（食品開発展2026） ほか3展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 21000,
+      "audience": "business",
+      "notes": "西1・2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-6af25d088fb6"
+    },
+    {
+      "date": "2026-10-14",
+      "name": "SCAJ ワールド スペシャルティコーヒー カンファレンス アンド エキシビション 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 28000,
+      "audience": "business",
+      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-de695e3fd62d"
+    },
+    {
+      "date": "2026-10-14",
       "name": "錦秋十月大歌舞伎（第一部）",
       "venue": "歌舞伎座",
       "category": "theater",
@@ -926,6 +848,58 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "tokyo-1d8fe2977d6a"
+    },
+    {
+      "date": "2026-10-15",
+      "name": "TOKYO PACK 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 35000,
+      "audience": "general",
+      "notes": "東1-3・7・8ホール。一般公開。来場者はホール数からの概算（5ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-1a5cd2465749"
+    },
+    {
+      "date": "2026-10-15",
+      "name": "ラベルフォーラムジャパン2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-a2ec406e1202"
+    },
+    {
+      "date": "2026-10-15",
+      "name": "フード・テイストジャパン（食品開発展2026） ほか3展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 21000,
+      "audience": "business",
+      "notes": "西1・2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-ba0ba3dcf9f0"
+    },
+    {
+      "date": "2026-10-15",
+      "name": "SCAJ ワールド スペシャルティコーヒー カンファレンス アンド エキシビション 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 28000,
+      "audience": "business",
+      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-9320fec6f959"
     },
     {
       "date": "2026-10-15",
@@ -1043,6 +1017,58 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "tokyo-de48980d01e8"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "TOKYO PACK 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 35000,
+      "audience": "general",
+      "notes": "東1-3・7・8ホール。一般公開。来場者はホール数からの概算（5ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-5ee9142f6ac3"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "ラベルフォーラムジャパン2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-d300db89002d"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "フード・テイストジャパン（食品開発展2026） ほか3展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 21000,
+      "audience": "business",
+      "notes": "西1・2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-447abce5ad50"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "SCAJ ワールド スペシャルティコーヒー カンファレンス アンド エキシビション 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 28000,
+      "audience": "business",
+      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-cf32c532b57a"
     },
     {
       "date": "2026-10-16",
@@ -1212,6 +1238,19 @@ window.TAXI_APP_DATA = {
       "notes": "分科会No.58。東京都。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
       "source": "jams.med.or.jp",
       "id": "tokyo-d7a8b5f375e0"
+    },
+    {
+      "date": "2026-10-17",
+      "name": "SCAJ ワールド スペシャルティコーヒー カンファレンス アンド エキシビション 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 28000,
+      "audience": "business",
+      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-092c9b3bc42f"
     },
     {
       "date": "2026-10-17",
@@ -2044,10 +2083,166 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "tokyo-c790c3a3ed76"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "日本臨床免疫学会 学術集会",
+      "venue": "都内学術集会会場",
+      "category": "exhibition",
+      "start": "09:00",
+      "end": "17:00",
+      "attendance": 2500,
+      "audience": "business",
+      "notes": "分科会No.143。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
+      "source": "jams.med.or.jp",
+      "id": "tokyo-835f5b75f7a1"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "髪結いの亭主",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-f0692ab19a83"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "雪組『ポーの一族』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-bbdcb57117d8"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "TMG TMG LIVE 2026 “SAYONARA”",
+      "venue": "東京ガーデンシアター",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 7000,
+      "audience": "youth",
+      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
+      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
+      "id": "tokyo-e56a0a8f57e7"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "OPEN CITY MARUNOUCHI2026 【自由見学・デジタルスタンプラリー】建築と自然のハーモニー",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-d096753750f4"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "東京味わいフェスタ2026 TASTE of TOKYO 有楽町エリア",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "youth",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-7c356ec57d0f"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "2026東京インターナショナルオーディオショウ",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-191eb7e450a7"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "バーン・ザ・フロア2026",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-48974850fb7f"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "山崎育三郎 LIVE TOUR 2026『19BOX 〜STARMAN〜』",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-9b3e20dd66f6"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "ASIAN KUNG-FU GENERATION ASIAN KUNG-FU GENERATION Tour 2026 \"Midage Fanclub\"",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-fffb66e711d2"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "3House 3House One Man Tour “PLAY”",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-20fe36baf973"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "街の灯",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-96f660120849"
     }
   ],
   "weather": {
-    "2026-10-09": {
+    "2026-10-10": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -2071,7 +2266,7 @@ window.TAXI_APP_DATA = {
       "temp_min": 26,
       "temp_max": 26
     },
-    "2026-10-10": {
+    "2026-10-11": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -2098,35 +2293,7 @@ window.TAXI_APP_DATA = {
         }
       ],
       "temp_min": 16,
-      "temp_max": 25
-    },
-    "2026-10-11": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 15,
-      "temp_max": 27,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 27
     },
     "2026-10-12": {
       "weather_code": "201",
@@ -2187,8 +2354,8 @@ window.TAXI_APP_DATA = {
     "2026-10-14": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 16,
-      "temp_max": 26,
+      "temp_min": 17,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -2239,6 +2406,34 @@ window.TAXI_APP_DATA = {
           "pop": 30
         }
       ]
+    },
+    "2026-10-16": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 16,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -2248,7 +2443,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "bigsight",
-      "count": 14
+      "count": 41
     },
     {
       "source": "dome",
@@ -2272,7 +2467,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "kabukiza",
-      "count": 75
+      "count": 77
     },
     {
       "source": "national_stadium",
@@ -2280,7 +2475,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "medical_society",
-      "count": 11
+      "count": 10
     },
     {
       "source": "nougakudo",
@@ -2300,7 +2495,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 36
+      "count": 42
     }
   ],
   "errors": []
