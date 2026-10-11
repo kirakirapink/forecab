@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-10T09:32:44+09:00",
+  "generated_at": "2026-10-11T09:09:23+09:00",
   "region": "osaka",
-  "source": "自動取得: osaka-johall.com + zepp.co.jp",
+  "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-10",
-      "name": "甲斐よしひろ KAI YOSHIHIRO ホームカミングツアー 2026",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-4cd68c44db9b"
-    },
-    {
-      "date": "2026-10-10",
-      "name": "キズ キズ Zepp TOUR 『天照焔巡』",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-0ce6b0b8906f"
-    },
-    {
-      "date": "2026-10-10",
-      "name": "藤井フミヤ",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-a32fd6ffb8ea"
-    },
     {
       "date": "2026-10-11",
       "name": "w-inds. w-inds. FAN CLUB LIVE TOUR 2026 \"Another Golden\"",
@@ -380,44 +341,54 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 10:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-d81e95f61845"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "山本耕史 KOJI YAMAMOTO 50th Anniversary Concert",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-daec4efc27de"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "YOASOBI YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星”",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-4949ebbc1efd"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "THE YELLOW MONKEY THE YELLOW MONKEY TOUR 2026 THE COUNTDOWN〜60分1本勝負〜",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-37fcc1ae8a72"
     }
   ],
   "weather": {
-    "2026-10-10": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 29,
-      "temp_max": 29
-    },
     "2026-10-11": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 0
@@ -433,36 +404,37 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 17,
-      "temp_max": 29
+      "temp_min": 30,
+      "temp_max": 30
     },
     "2026-10-12": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 18,
-      "temp_max": 28,
+      "weather_code": "211",
+      "weather": "くもり　夕方　から　晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 19,
+      "temp_max": 28
     },
     "2026-10-13": {
       "weather_code": "201",
@@ -494,36 +466,36 @@ window.TAXI_APP_DATA = {
     },
     "2026-10-14": {
       "weather_code": "202",
-      "pop_max": 50,
+      "pop_max": 70,
       "temp_min": 18,
-      "temp_max": 25,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
       ]
     },
     "2026-10-15": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 17,
+      "temp_min": 16,
       "temp_max": 25,
       "hourly": [
         {
@@ -552,7 +524,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 15,
-      "temp_max": 26,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -575,6 +547,34 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ]
+    },
+    "2026-10-17": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 18,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -592,7 +592,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 7
+      "count": 6
     }
   ],
   "errors": []

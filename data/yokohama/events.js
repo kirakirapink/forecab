@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-10T09:32:33+09:00",
+  "generated_at": "2026-10-11T09:09:12+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-10",
-      "name": "BONBON. BONBON. 1st Live tour 「あなたになりたいだけじゃなく。」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-5648d4cdbfcd"
-    },
-    {
-      "date": "2026-10-10",
-      "name": "JUMPdate! — Hey! Say! JUMP",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:30",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-be51443fca02"
-    },
-    {
-      "date": "2026-10-10",
-      "name": "MECHATU-A 1st LIVE “Over Drive!” — 佐伯イッテツ / 赤城ウェン / 宇佐美リト / 緋八マナ / 星導ショウ / 叢雲カゲツ / 小柳ロウ / 伊波ライ",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-42d073202035"
-    },
     {
       "date": "2026-10-11",
       "name": "JUMPdate! — Hey! Say! JUMP（1回目）",
@@ -276,39 +237,91 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-ced59739f951"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "演奏：「あぶデカ」スペシャルバンドナビゲーター：長谷部香苗ゲストシンガー：ロザリーナ(帰ってきたあぶない刑事 挿入歌担当）※あぶない刑事 2人の登壇予定はありません。 「あぶない刑事」40周年記念 ABUDEKA SPECIAL FILM CONCERT FINAL これでホントにさらば・・かな・・（1回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 13:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-3e492f3eb310"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "ゆず30周年開幕記念ライブ 心をとめないで",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "16:30",
+      "end": "19:30",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-63afa426f70c"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "ナインティナインの オールナイトニッポン歌謡祭",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "16:30",
+      "end": "19:30",
+      "attendance": 17000,
+      "audience": "senior_wealthy",
+      "notes": "OPEN 15:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-f2d5ed4792ac"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "演奏：「あぶデカ」スペシャルバンドナビゲーター：長谷部香苗ゲストシンガー：ロザリーナ(帰ってきたあぶない刑事 挿入歌担当）※あぶない刑事 2人の登壇予定はありません。 「あぶない刑事」40周年記念 ABUDEKA SPECIAL FILM CONCERT FINAL これでホントにさらば・・かな・・（2回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-54b012330ccf"
     }
   ],
   "weather": {
-    "2026-10-10": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 26,
-      "temp_max": 26
-    },
     "2026-10-11": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
       "hourly": [
         {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 0
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 0
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 0
+        }
+      ],
+      "temp_min": 27,
+      "temp_max": 27
+    },
+    "2026-10-12": {
+      "weather_code": "100",
+      "weather": "晴れ　夜　くもり",
+      "pop_max": 0,
+      "hourly": [
+        {
           "start_min": 0,
           "end_min": 360,
           "pop": 0
@@ -329,36 +342,8 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 17,
-      "temp_max": 26
-    },
-    "2026-10-12": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ]
+      "temp_min": 18,
+      "temp_max": 25
     },
     "2026-10-13": {
       "weather_code": "201",
@@ -391,7 +376,7 @@ window.TAXI_APP_DATA = {
     "2026-10-14": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 18,
+      "temp_min": 19,
       "temp_max": 25,
       "hourly": [
         {
@@ -420,7 +405,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 18,
-      "temp_max": 23,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -447,7 +432,7 @@ window.TAXI_APP_DATA = {
     "2026-10-16": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 17,
+      "temp_min": 16,
       "temp_max": 23,
       "hourly": [
         {
@@ -469,6 +454,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 20
+        }
+      ]
+    },
+    "2026-10-17": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 17,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
