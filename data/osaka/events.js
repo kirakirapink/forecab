@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-11T09:09:23+09:00",
+  "generated_at": "2026-10-12T09:17:29+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-11",
-      "name": "w-inds. w-inds. FAN CLUB LIVE TOUR 2026 \"Another Golden\"",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 16:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-d1f1f342ff9c"
-    },
-    {
-      "date": "2026-10-11",
-      "name": "石田組",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-2860851c448c"
-    },
-    {
-      "date": "2026-10-11",
-      "name": "筋肉少女帯 ツアー2026｢奇談師｣",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-52e6658a0047"
-    },
     {
       "date": "2026-10-12",
       "name": "中村耕一＋JAYWALK 45周年記念ツアー～JAYWALKING AROUND JAPAN 2026～",
@@ -380,44 +341,54 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-37fcc1ae8a72"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "WHIB 2026 WHIB FAN CONCERT [BLUE HOUR]（1回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-2e217db360ad"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "YOASOBI YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星”",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-25b5f5eb5961"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "WHIB 2026 WHIB FAN CONCERT [BLUE HOUR]（2回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-57f02448e510"
     }
   ],
   "weather": {
-    "2026-10-11": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 30,
-      "temp_max": 30
-    },
     "2026-10-12": {
-      "weather_code": "211",
-      "weather": "くもり　夕方　から　晴れ",
+      "weather_code": "101",
+      "weather": "晴れ　昼過ぎ　から　夕方　くもり",
       "pop_max": 10,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 10
@@ -433,42 +404,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 19,
+      "temp_min": 28,
       "temp_max": 28
     },
     "2026-10-13": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 18,
-      "temp_max": 27,
+      "weather_code": "111",
+      "weather": "晴れ　夕方　から　くもり",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 17,
+      "temp_max": 27
     },
     "2026-10-14": {
       "weather_code": "202",
       "pop_max": 70,
       "temp_min": 18,
-      "temp_max": 23,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -496,7 +468,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 16,
-      "temp_max": 25,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -523,7 +495,7 @@ window.TAXI_APP_DATA = {
     "2026-10-16": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 15,
+      "temp_min": 14,
       "temp_max": 25,
       "hourly": [
         {
@@ -575,6 +547,34 @@ window.TAXI_APP_DATA = {
           "pop": 30
         }
       ]
+    },
+    "2026-10-18": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 19,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -592,7 +592,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 6
+      "count": 5
     }
   ],
   "errors": []

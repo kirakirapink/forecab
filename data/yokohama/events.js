@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-11T09:09:12+09:00",
+  "generated_at": "2026-10-12T09:17:17+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-11",
-      "name": "JUMPdate! — Hey! Say! JUMP（1回目）",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "13:00",
-      "end": "16:00",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 12:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-cf15d1ec4851"
-    },
-    {
-      "date": "2026-10-11",
-      "name": "JUMPdate! — Hey! Say! JUMP（2回目）",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:30",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-55f8db292b7b"
-    },
-    {
-      "date": "2026-10-11",
-      "name": "剣持刀也リアルソロライブ【虚空狂宴】",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-3751e0492e75"
-    },
     {
       "date": "2026-10-12",
       "name": "JUMPdate! — Hey! Say! JUMP（1回目）",
@@ -94,6 +55,32 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-f4f04272898f"
+    },
+    {
+      "date": "2026-10-13",
+      "name": "虹色の飛行少女 虹色の飛行少女6thONEMANLIVE「NEXT DESTINATION」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-89c4814f1d52"
+    },
+    {
+      "date": "2026-10-14",
+      "name": "CHANYEOL 『CHANYEOL JAPAN TOUR 2026 -The Route-』",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-215c649c8f2e"
     },
     {
       "date": "2026-10-15",
@@ -289,12 +276,51 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-54b012330ccf"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "with MAMO～STAR～",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "16:00",
+      "end": "19:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 14:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-6cd9b57e4ef6"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "ゆず30周年開幕記念ライブ 心をとめないで",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "16:30",
+      "end": "19:30",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-d7940514f25e"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "遠藤綾（『マクロスF』シェリル・ノーム役）May'n（『マクロスF』シェリル・ノーム歌担当）⼩清⽔亜美（『マクロスΔ』美雲・ギンヌメール役）Junna（『マクロスΔ』美雲・ギンヌメール歌担当） ROAD TO MACROSS CROSSOVER 2026 powered by 超時空ファンクラブ マクロス魂",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-23d21633b171"
     }
   ],
   "weather": {
-    "2026-10-11": {
-      "weather_code": "100",
-      "weather": "晴れ",
+    "2026-10-12": {
+      "weather_code": "111",
+      "weather": "晴れ　夜　くもり",
       "pop_max": 0,
       "hourly": [
         {
@@ -313,13 +339,13 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 27,
-      "temp_max": 27
+      "temp_min": 26,
+      "temp_max": 26
     },
-    "2026-10-12": {
-      "weather_code": "100",
-      "weather": "晴れ　夜　くもり",
-      "pop_max": 0,
+    "2026-10-13": {
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
@@ -334,50 +360,22 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 10
         }
       ],
       "temp_min": 18,
       "temp_max": 25
     },
-    "2026-10-13": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ]
-    },
     "2026-10-14": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 19,
-      "temp_max": 25,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -432,7 +430,7 @@ window.TAXI_APP_DATA = {
     "2026-10-16": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 16,
+      "temp_min": 15,
       "temp_max": 23,
       "hourly": [
         {
@@ -458,6 +456,34 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-17": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 15,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-10-18": {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 17,
@@ -493,7 +519,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 26
+      "count": 28
     },
     {
       "source": "k_arena",
