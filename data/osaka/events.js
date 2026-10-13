@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-12T09:17:29+09:00",
+  "generated_at": "2026-10-13T11:28:47+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-12",
-      "name": "中村耕一＋JAYWALK 45周年記念ツアー～JAYWALKING AROUND JAPAN 2026～",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "16:30",
-      "end": "19:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-93256ceffa38"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "Hilcrhyme ヒルクライム ZEPP TOUR「2026」",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-7ee2666b372f"
-    },
     {
       "date": "2026-10-13",
       "name": "TMG TMG LIVE 2026 “SAYONARA”",
@@ -304,6 +278,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-d81e95f61845"
     },
     {
+      "date": "2026-10-23",
+      "name": "緑黄色社会",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-e0a0e62719e3"
+    },
+    {
       "date": "2026-10-24",
       "name": "山本耕史 KOJI YAMAMOTO 50th Anniversary Concert",
       "venue": "Zepp Namba",
@@ -344,6 +331,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-25",
+      "name": "W.ダブルヴィー / 脳内パステル / あおぞらをキミに / 宇宙∞プラネクシア / キューハチパーセント！ / AI♡RARA / ちょこみんと / ナナコロビヤオキ / 君に、胸キュン。 / シンデレラ宣言！ / ワッツ◎さーくる / サクヤコノハナ / Qu♡AIy / すーぱーぷーばぁー!! / NEO BREAK / anemoreel / スキトオルアオ / tune time capsule / ヒロインズ研究生 大阪 / fille mimi / Merry Mellow / ЯiM:MiR / LAST PiECE みんがるSP in Zepp Namba",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "12:20",
+      "end": "14:50",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 11:40。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-7e7cf4086fa7"
+    },
+    {
+      "date": "2026-10-25",
       "name": "WHIB 2026 WHIB FAN CONCERT [BLUE HOUR]（1回目）",
       "venue": "Zepp Osaka Bayside",
       "category": "concert",
@@ -380,33 +380,22 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-57f02448e510"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Michael Schenker Group DON'T SELL YOUR SOUL TOUR 2026",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-7c07000c3823"
     }
   ],
   "weather": {
-    "2026-10-12": {
-      "weather_code": "101",
-      "weather": "晴れ　昼過ぎ　から　夕方　くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 28,
-      "temp_max": 28
-    },
     "2026-10-13": {
       "weather_code": "111",
       "weather": "晴れ　夕方　から　くもり",
@@ -415,12 +404,41 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 0
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ],
+      "temp_min": 28,
+      "temp_max": 28
+    },
+    "2026-10-14": {
+      "weather_code": "311",
+      "weather": "雨　昼前　から　くもり　後　晴れ　所により　昼前　まで　雷　を伴う",
+      "pop_max": 70,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 70
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
         },
         {
           "start_min": 720,
@@ -430,149 +448,178 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ],
-      "temp_min": 17,
-      "temp_max": 27
-    },
-    "2026-10-14": {
-      "weather_code": "202",
-      "pop_max": 70,
-      "temp_min": 18,
-      "temp_max": 24,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ]
+      "temp_min": 20,
+      "temp_max": 26
     },
     "2026-10-15": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 16,
-      "temp_max": 24,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
-    "2026-10-16": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 14,
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
+      "temp_min": 17,
       "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
+        }
+      ]
+    },
+    "2026-10-16": {
+      "weather_code": "101",
+      "pop_max": 10,
+      "temp_min": 14,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
         }
       ]
     },
     "2026-10-17": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 18,
-      "temp_max": 26,
+      "weather_code": "101",
+      "pop_max": 10,
+      "temp_min": 17,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
         }
       ]
     },
     "2026-10-18": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 19,
+      "weather_code": "201",
+      "pop_max": 20,
+      "temp_min": 17,
+      "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-10-19": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 20,
       "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
+        }
+      ]
+    },
+    "2026-10-20": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 19,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
@@ -584,7 +631,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 49
+      "count": 52
     },
     {
       "source": "kyocera_dome",
@@ -592,7 +639,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 5
+      "count": 6
     }
   ],
   "errors": []

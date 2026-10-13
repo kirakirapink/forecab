@@ -1,178 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-12T09:17:09+09:00",
+  "generated_at": "2026-10-13T11:28:29+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-12",
-      "name": "錦秋十月大歌舞伎（第一部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "14:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-1f4d86ab5774"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "髪結いの亭主",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "12:00",
-      "end": "14:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-b4a04946b5c8"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "イタリアのトルコ人",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "16:30",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: opera。会場キャパ約1814席。終演時刻は210分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-6f8e7d55e401"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "錦秋十月大歌舞伎（第二部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "14:30",
-      "end": "18:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-5f4e9397df1f"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "出演者（50音順）：ONE OR EIGHT / MYERA / TAGRIGHT / XngHan&Xoul / AEN The Performance Zero",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-a1720e9a901e"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "tokyo-1917b77d8d8f"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "フレデリック GUEST：Coming Soon UMIMOYASU 2026-2027 MOVE",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-98286719df88"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "RAISE A SUILEN BanG Dream! 13th☆LIVE DAY3 : RAISE A SUILEN「EXTREME EXPRESS」",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-ab136b15bfab"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "錦秋十月大歌舞伎（第三部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-3e99830c3038"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "Gero Live Tour 2026 「ECHOES」",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-d47d394a74dc"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "きものサローネ2026",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-3119f42d1e68"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "TAKUI NAKAJIMA 2026 THE BEST REQUEST SONGS",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-12c5e923a50b"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "CREAM CREAM The World Tour 2026",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-5fff1f1f8c90"
-    },
     {
       "date": "2026-10-13",
       "name": "錦秋十月大歌舞伎（第一部）",
@@ -2239,47 +2070,75 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "tokyo-ade241a2e155"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "JIMTOF2026 第33回日本国際工作機械見本市",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 91000,
+      "audience": "business",
+      "notes": "東1-3・7・8ホール、西1-4ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（13ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-d9d2cacac6e3"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "澪川舞香/fav me 澪川舞香 生誕祭2026 ～Moonlit Princess～",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-d7fbc60bf8db"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "OPEN CITY MARUNOUCHI2026 【自由見学・デジタルスタンプラリー】建築と自然のハーモニー",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-ab54f717c2f8"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "中⼭莉⼦ 中⼭莉⼦ ⽣誕ソロライブ「中⼭莉⼦の⽣誕祭。」",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-cf221a7153fe"
     }
   ],
   "weather": {
-    "2026-10-12": {
-      "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
     "2026-10-13": {
       "weather_code": "201",
-      "weather": "くもり　昼過ぎ　まで　時々　晴れ",
+      "weather": "くもり　時々　晴れ",
       "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -2292,146 +2151,204 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 17,
+      "temp_min": 25,
       "temp_max": 25
     },
     "2026-10-14": {
       "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 18,
-      "temp_max": 27,
+      "weather": "くもり　所により　朝　から　夕方　雨　で　雷を伴う",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 18,
+      "temp_max": 26
     },
     "2026-10-15": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 22,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ]
-    },
-    "2026-10-16": {
       "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 14,
-      "temp_max": 23,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
-    "2026-10-17": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 14,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
+      "temp_min": 18,
       "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
+        }
+      ]
+    },
+    "2026-10-16": {
+      "weather_code": "101",
+      "pop_max": 10,
+      "temp_min": 16,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
+        }
+      ]
+    },
+    "2026-10-17": {
+      "weather_code": "101",
+      "pop_max": 10,
+      "temp_min": 16,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
         }
       ]
     },
     "2026-10-18": {
       "weather_code": "201",
-      "pop_max": 30,
+      "pop_max": 20,
       "temp_min": 16,
       "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 20
+        }
+      ]
+    },
+    "2026-10-19": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 19,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-20": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 18,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
@@ -2459,15 +2376,15 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 8
+      "count": 7
     },
     {
       "source": "nntt",
-      "count": 70
+      "count": 69
     },
     {
       "source": "kabukiza",
-      "count": 73
+      "count": 70
     },
     {
       "source": "national_stadium",
@@ -2495,7 +2412,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 45
+      "count": 43
     }
   ],
   "errors": []

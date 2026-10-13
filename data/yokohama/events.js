@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-12T09:17:17+09:00",
+  "generated_at": "2026-10-13T11:28:37+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-12",
-      "name": "JUMPdate! — Hey! Say! JUMP（1回目）",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "13:00",
-      "end": "16:00",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 12:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-c21b5d2b28d5"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "Appare！ VS横アリ 其の一",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "15:00",
-      "end": "17:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-49899b1a67b3"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "JUMPdate! — Hey! Say! JUMP（2回目）",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:30",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-90969a064d53"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "Kuzuha One-Man Live “Bloody Alexandrite” — 葛葉 / 剣持刀也 / 不破湊 / イブラヒム / ローレン・イロアス",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-f4f04272898f"
-    },
     {
       "date": "2026-10-13",
       "name": "虹色の飛行少女 虹色の飛行少女6thONEMANLIVE「NEXT DESTINATION」",
@@ -315,47 +263,36 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-23d21633b171"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-6ff45a2664c5"
     }
   ],
   "weather": {
-    "2026-10-12": {
-      "weather_code": "111",
-      "weather": "晴れ　夜　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 26,
-      "temp_max": 26
-    },
     "2026-10-13": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
+      "weather_code": "200",
+      "weather": "くもり",
       "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -368,146 +305,204 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 18,
+      "temp_min": 25,
       "temp_max": 25
     },
     "2026-10-14": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 26,
+      "weather_code": "201",
+      "weather": "くもり　朝晩　晴れ　所により　昼前　から　夜のはじめ頃　雨　で　雷を伴う",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 20,
+      "temp_max": 26
     },
     "2026-10-15": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 18,
-      "temp_max": 22,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ]
-    },
-    "2026-10-16": {
       "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 15,
-      "temp_max": 23,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
-    "2026-10-17": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 15,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
+      "temp_min": 18,
       "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
+        }
+      ]
+    },
+    "2026-10-16": {
+      "weather_code": "101",
+      "pop_max": 10,
+      "temp_min": 17,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
+        }
+      ]
+    },
+    "2026-10-17": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 17,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
         }
       ]
     },
     "2026-10-18": {
       "weather_code": "201",
-      "pop_max": 30,
+      "pop_max": 20,
       "temp_min": 17,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-10-19": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 20,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-20": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 19,
       "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 50
         }
       ]
     }
