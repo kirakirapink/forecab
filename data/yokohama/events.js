@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-14T09:11:46+09:00",
+  "generated_at": "2026-10-15T08:45:34+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-14",
-      "name": "CHANYEOL 『CHANYEOL JAPAN TOUR 2026 -The Route-』",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-215c649c8f2e"
-    },
     {
       "date": "2026-10-15",
       "name": "レトロリロン レトロリロン Zepp Tour 2026「アブノーマルライフハック」",
@@ -279,41 +266,12 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-14": {
-      "weather_code": "202",
-      "weather": "くもり　昼過ぎ　一時　雨　所により　昼前　から　夜のはじめ頃　雷　を伴う",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
     "2026-10-15": {
-      "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり",
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
       "pop_max": 10,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 0
@@ -329,41 +287,42 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 18,
-      "temp_max": 24
+      "temp_min": 23,
+      "temp_max": 23
     },
     "2026-10-16": {
       "weather_code": "101",
-      "pop_max": 10,
-      "temp_min": 17,
-      "temp_max": 25,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 17,
+      "temp_max": 25
     },
     "2026-10-17": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 25,
       "hourly": [
         {
@@ -392,7 +351,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 20,
       "temp_min": 17,
-      "temp_max": 24,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
@@ -445,30 +404,58 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-20": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 19,
-      "temp_max": 23,
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 20,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-21": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 18,
+      "temp_max": 22,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }

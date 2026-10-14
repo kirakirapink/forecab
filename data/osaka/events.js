@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-14T09:11:56+09:00",
+  "generated_at": "2026-10-15T08:45:45+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-14",
-      "name": "TMG TMG LIVE 2026 “SAYONARA”",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-e7b13ba6a60b"
-    },
-    {
-      "date": "2026-10-14",
-      "name": "Mr.Children【振替公演】",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-0d0971e1536b"
-    },
-    {
-      "date": "2026-10-14",
-      "name": "Tomohiro Kamiyama Tomohiro Kamiyama 1st LIVE TOUR 2026 INPUT⇄OUTPUT",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-1d14f52dc996"
-    },
     {
       "date": "2026-10-15",
       "name": "Tomohiro Kamiyama Tomohiro Kamiyama 1st LIVE TOUR 2026 INPUT⇄OUTPUT（1回目）",
@@ -357,6 +318,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-25",
+      "name": "絢香",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-01dda122b400"
+    },
+    {
+      "date": "2026-10-25",
       "name": "WHIB 2026 WHIB FAN CONCERT [BLUE HOUR]（2回目）",
       "venue": "Zepp Osaka Bayside",
       "category": "concert",
@@ -393,34 +367,47 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-0c45a1f16929"
+    },
+    {
+      "date": "2026-10-28",
+      "name": "ELLEGARDEN Bad For Education Tour II (2026)",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-414d762d93d7"
     }
   ],
   "weather": {
-    "2026-10-14": {
-      "weather_code": "211",
-      "weather": "くもり　夕方　から　晴れ　所により　昼前　まで　雨　で　雷を伴う",
-      "pop_max": 40,
+    "2026-10-15": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
       ],
-      "temp_min": 26,
-      "temp_max": 26
+      "temp_min": 25,
+      "temp_max": 25
     },
-    "2026-10-15": {
+    "2026-10-16": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -446,41 +433,13 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 17,
-      "temp_max": 25
-    },
-    "2026-10-16": {
-      "weather_code": "101",
-      "pop_max": 10,
-      "temp_min": 14,
-      "temp_max": 26,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_min": 16,
+      "temp_max": 26
     },
     "2026-10-17": {
       "weather_code": "101",
       "pop_max": 10,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 27,
       "hourly": [
         {
@@ -508,8 +467,8 @@ window.TAXI_APP_DATA = {
     "2026-10-18": {
       "weather_code": "201",
       "pop_max": 20,
-      "temp_min": 17,
-      "temp_max": 27,
+      "temp_min": 18,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -535,9 +494,37 @@ window.TAXI_APP_DATA = {
     },
     "2026-10-19": {
       "weather_code": "202",
-      "pop_max": 50,
+      "pop_max": 60,
       "temp_min": 20,
-      "temp_max": 26,
+      "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
+        }
+      ]
+    },
+    "2026-10-20": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 19,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -561,31 +548,31 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-20": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 19,
-      "temp_max": 24,
+    "2026-10-21": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 17,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 40
         }
       ]
     }
