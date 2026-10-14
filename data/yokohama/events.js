@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-13T11:28:37+09:00",
+  "generated_at": "2026-10-14T09:11:46+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-13",
-      "name": "虹色の飛行少女 虹色の飛行少女6thONEMANLIVE「NEXT DESTINATION」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-89c4814f1d52"
-    },
     {
       "date": "2026-10-14",
       "name": "CHANYEOL 『CHANYEOL JAPAN TOUR 2026 -The Route-』",
@@ -276,73 +263,50 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-6ff45a2664c5"
+    },
+    {
+      "date": "2026-10-27",
+      "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-95287e0eb23f"
     }
   ],
   "weather": {
-    "2026-10-13": {
-      "weather_code": "200",
-      "weather": "くもり",
-      "pop_max": 10,
+    "2026-10-14": {
+      "weather_code": "202",
+      "weather": "くもり　昼過ぎ　一時　雨　所により　昼前　から　夜のはじめ頃　雷　を伴う",
+      "pop_max": 50,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ],
       "temp_min": 25,
       "temp_max": 25
     },
-    "2026-10-14": {
-      "weather_code": "201",
-      "weather": "くもり　朝晩　晴れ　所により　昼前　から　夜のはじめ頃　雨　で　雷を伴う",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 20,
-      "temp_max": 26
-    },
     "2026-10-15": {
       "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
+      "weather": "晴れ　朝晩　くもり",
       "pop_max": 10,
-      "temp_min": 18,
-      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -352,19 +316,21 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 10
         }
-      ]
+      ],
+      "temp_min": 18,
+      "temp_max": 24
     },
     "2026-10-16": {
       "weather_code": "101",

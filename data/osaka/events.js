@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-13T11:28:47+09:00",
+  "generated_at": "2026-10-14T09:11:56+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-13",
-      "name": "TMG TMG LIVE 2026 “SAYONARA”",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-4e2b59c99cdb"
-    },
-    {
-      "date": "2026-10-13",
-      "name": "LOUIS TOMLINSON LOUIS TOMLINSON - HOW DID WE GET HERE? WORLD TOUR 2026 JAPAN",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-d67b52fac919"
-    },
     {
       "date": "2026-10-14",
       "name": "TMG TMG LIVE 2026 “SAYONARA”",
@@ -292,6 +266,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-24",
+      "name": "緑黄色社会",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "16:00",
+      "end": "19:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-0985e635b619"
+    },
+    {
+      "date": "2026-10-24",
       "name": "山本耕史 KOJI YAMAMOTO 50th Anniversary Concert",
       "venue": "Zepp Namba",
       "category": "concert",
@@ -393,52 +380,31 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-7c07000c3823"
+    },
+    {
+      "date": "2026-10-27",
+      "name": "ELLEGARDEN Bad For Education Tour II (2026)",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-0c45a1f16929"
     }
   ],
   "weather": {
-    "2026-10-13": {
-      "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 28,
-      "temp_max": 28
-    },
     "2026-10-14": {
-      "weather_code": "311",
-      "weather": "雨　昼前　から　くもり　後　晴れ　所により　昼前　まで　雷　を伴う",
-      "pop_max": 70,
+      "weather_code": "211",
+      "weather": "くもり　夕方　から　晴れ　所により　昼前　まで　雨　で　雷を伴う",
+      "pop_max": 40,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 720,
@@ -451,37 +417,37 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 20,
+      "temp_min": 26,
       "temp_max": 26
     },
     "2026-10-15": {
       "weather_code": "100",
       "weather": "晴れ",
-      "pop_max": 10,
-      "temp_min": 17,
-      "temp_max": 25,
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 17,
+      "temp_max": 25
     },
     "2026-10-16": {
       "weather_code": "101",
@@ -639,7 +605,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 6
+      "count": 7
     }
   ],
   "errors": []
