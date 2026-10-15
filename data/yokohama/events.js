@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-15T08:45:34+09:00",
+  "generated_at": "2026-10-16T08:34:47+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-15",
-      "name": "レトロリロン レトロリロン Zepp Tour 2026「アブノーマルライフハック」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-8ff86da5bdf8"
-    },
     {
       "date": "2026-10-16",
       "name": "今井翼 TSUBASA IMAI Live 2026 「Treasure」",
@@ -263,42 +250,55 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-95287e0eb23f"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "Sakura Miko 2nd Live “Blooming Parade!!” — さくらみこ",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-bad764d50f8c"
     }
   ],
   "weather": {
-    "2026-10-15": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 23,
-      "temp_max": 23
-    },
     "2026-10-16": {
       "weather_code": "101",
       "weather": "晴れ　時々　くもり",
-      "pop_max": 20,
+      "pop_max": 0,
+      "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 0
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 0
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 0
+        }
+      ],
+      "temp_min": 25,
+      "temp_max": 25
+    },
+    "2026-10-17": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 360,
@@ -316,42 +316,14 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 17,
-      "temp_max": 25
-    },
-    "2026-10-17": {
-      "weather_code": "101",
-      "pop_max": 20,
       "temp_min": 18,
-      "temp_max": 25,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 25
     },
     "2026-10-18": {
       "weather_code": "201",
       "pop_max": 20,
-      "temp_min": 17,
-      "temp_max": 23,
+      "temp_min": 16,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -378,7 +350,7 @@ window.TAXI_APP_DATA = {
     "2026-10-19": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 20,
+      "temp_min": 19,
       "temp_max": 25,
       "hourly": [
         {
@@ -407,7 +379,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 20,
-      "temp_max": 25,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -434,8 +406,36 @@ window.TAXI_APP_DATA = {
     "2026-10-21": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 18,
-      "temp_max": 22,
+      "temp_min": 20,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-22": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 17,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,

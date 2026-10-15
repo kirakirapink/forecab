@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-15T08:45:45+09:00",
+  "generated_at": "2026-10-16T08:34:58+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-15",
-      "name": "Tomohiro Kamiyama Tomohiro Kamiyama 1st LIVE TOUR 2026 INPUT⇄OUTPUT（1回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-d7ecb19dbd3c"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "Tomohiro Kamiyama Tomohiro Kamiyama 1st LIVE TOUR 2026 INPUT⇄OUTPUT（2回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-c00b905e6674"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "Mr.Children【振替公演】",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-5aecb3ec19f5"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "3House 3House One Man Tour “PLAY”",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-5e8e32781c4e"
-    },
     {
       "date": "2026-10-16",
       "name": "Novelbright",
@@ -380,43 +328,40 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-414d762d93d7"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "N.Flying 2026 N.Flying LIVE '&CON5 : into REM' IN JAPAN",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-806216d37dc4"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "ASIAN KUNG-FU GENERATION ASIAN KUNG-FU GENERATION Tour 2026 \"Midage Fanclub\"",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-cc9410f1ac50"
     }
   ],
   "weather": {
-    "2026-10-15": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
     "2026-10-16": {
-      "weather_code": "100",
-      "weather": "晴れ",
+      "weather_code": "111",
+      "weather": "晴れ　夕方　から　くもり",
       "pop_max": 0,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -433,42 +378,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 16,
+      "temp_min": 26,
       "temp_max": 26
     },
     "2026-10-17": {
-      "weather_code": "101",
-      "pop_max": 10,
-      "temp_min": 18,
-      "temp_max": 27,
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 18,
+      "temp_max": 26
     },
     "2026-10-18": {
       "weather_code": "201",
       "pop_max": 20,
       "temp_min": 18,
-      "temp_max": 26,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -495,7 +441,7 @@ window.TAXI_APP_DATA = {
     "2026-10-19": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 20,
+      "temp_min": 21,
       "temp_max": 27,
       "hourly": [
         {
@@ -523,6 +469,34 @@ window.TAXI_APP_DATA = {
     "2026-10-20": {
       "weather_code": "202",
       "pop_max": 50,
+      "temp_min": 21,
+      "temp_max": 27,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-10-21": {
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 19,
       "temp_max": 25,
       "hourly": [
@@ -548,10 +522,10 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-21": {
+    "2026-10-22": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 17,
+      "temp_min": 16,
       "temp_max": 23,
       "hourly": [
         {
@@ -592,7 +566,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 7
+      "count": 6
     }
   ],
   "errors": []

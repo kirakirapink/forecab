@@ -1,178 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-15T08:45:26+09:00",
+  "generated_at": "2026-10-16T08:34:40+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-15",
-      "name": "TOKYO PACK 2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 35000,
-      "audience": "general",
-      "notes": "東1-3・7・8ホール。一般公開。来場者はホール数からの概算（5ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-1a5cd2465749"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "ラベルフォーラムジャパン2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-a2ec406e1202"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "フード・テイストジャパン（食品開発展2026） ほか3展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 21000,
-      "audience": "business",
-      "notes": "西1・2・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-ba0ba3dcf9f0"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "SCAJ ワールド スペシャルティコーヒー カンファレンス アンド エキシビション 2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-9320fec6f959"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "錦秋十月大歌舞伎（第一部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "14:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-0fd17eb735c5"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "髪結いの亭主",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-ade3bb523e5e"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "錦秋十月大歌舞伎（第二部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "14:30",
-      "end": "18:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-8cd999f6240b"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "雪組『ポーの一族』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-d370a285f8a7"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "2026-2027 &TEAM CONCERT TOUR ‘Mark on You’",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-67f2813414a5"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "錦秋十月大歌舞伎（第三部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-297e45be6aa0"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "ジュディ・オング歌⼿⽣活60周年記念コンサート「Diva60 The legend of Judy Ongg」",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-ef572cb8a57b"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "ポルカドットスティングレイ ポルカドットスティングレイ ポルフェス122 #教祖爆誕 ワンマン",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-e552ba9f7922"
-    },
-    {
-      "date": "2026-10-15",
-      "name": "POLYPLUS POLYPLUS LIVE 2026 - CONNECT",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-de48980d01e8"
-    },
     {
       "date": "2026-10-16",
       "name": "TOKYO PACK 2026",
@@ -1826,6 +1657,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-26",
+      "name": "◆HEROINES出演グループiLiFE!/iON!/のんふぃく︕/iMiN!/TENRIN/ラストシーン/ポンコツコンポ/Pastel Closet ◆公募枠ゲスト出演（50⾳順）あいすなっつ/アイドルカレッジ/Aproof/仮⾯⼥⼦/KIRA:MINA/セツナソウ/Chuu♡Cute/昼夜逆転/HATENO/ひなてん︕/metarium/Lv.♡Charm iLiVE! TOUR TOKYO",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "12:00",
+      "end": "14:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 11:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-eefb1e7c88f7"
+    },
+    {
+      "date": "2026-10-26",
       "name": "澪川舞香/fav me 澪川舞香 生誕祭2026 ～Moonlit Princess～",
       "venue": "Zepp Shinjuku",
       "category": "concert",
@@ -1956,19 +1800,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-28",
-      "name": "Mrs. GREEN APPLE Ringo Jam Tour “SHADOWS”",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "tokyo-76ae9e3f3483"
-    },
-    {
-      "date": "2026-10-28",
       "name": "BUMP OF CHICKEN",
       "venue": "有明アリーナ",
       "category": "concert",
@@ -2057,43 +1888,183 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
       "source": "nntt.jac.go.jp",
       "id": "tokyo-92842b7039e2"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "日本公衆衛生学会 学術集会",
+      "venue": "都内学術集会会場",
+      "category": "exhibition",
+      "start": "09:00",
+      "end": "17:00",
+      "attendance": 2500,
+      "audience": "business",
+      "notes": "分科会No.36。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
+      "source": "jams.med.or.jp",
+      "id": "tokyo-36671b02dce5"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "JIMTOF2026 第33回日本国際工作機械見本市",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 91000,
+      "audience": "business",
+      "notes": "東1-3・7・8ホール、西1-4ホール、南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（13ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-d781ce49f6f7"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "たとへば君",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-f76850c13ab2"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "MTV VMAJ 2026",
+      "venue": "東京ドーム",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:30",
+      "attendance": 45000,
+      "audience": "youth",
+      "notes": "種別: コンサート。終了時刻は開演からの推定",
+      "source": "tokyo-dome.co.jp",
+      "id": "tokyo-c1b8ccdd9d71"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "OPEN CITY MARUNOUCHI2026 【自由見学・デジタルスタンプラリー】建築と自然のハーモニー",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-d9bc39966f95"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "組合まつり in TOKYO ～技あり、食あり、Nipponの逸品～",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-f829e951634c"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "クリエイティブ・ウェルビーイング・トーキョー だれもが文化でつながる国際会議2026",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-affb0e5a1837"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "PERSONZ RELORD TOUR \"DISCOVER JAPAN 47\"",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-df384982d1c1"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "俺たちの旅スペシャルコンサート～まだまだ旅は終わらない～",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-c7bfe701e988"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "西川貴教 Takanori Nishikawa LIVE TOUR 2026 REWIND of VOYAGE trAnsIt",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-096566221f01"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "GANG PARADE GANG PARADE「LAST SAY HELLO」",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-91f19f507bed"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "Yu Seki & Yohji Igarashi 1st ONE-MAN",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-a4e4b6546950"
+    },
+    {
+      "date": "2026-10-29",
+      "name": "街の灯",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-b58fa38717f6"
     }
   ],
   "weather": {
-    "2026-10-15": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 23,
-      "temp_max": 23
-    },
     "2026-10-16": {
       "weather_code": "101",
       "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
+      "pop_max": 0,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -2110,42 +2081,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 17,
+      "temp_min": 26,
       "temp_max": 26
     },
     "2026-10-17": {
-      "weather_code": "101",
+      "weather_code": "100",
+      "weather": "晴れ",
       "pop_max": 10,
-      "temp_min": 17,
-      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 10
         }
-      ]
+      ],
+      "temp_min": 17,
+      "temp_max": 25
     },
     "2026-10-18": {
       "weather_code": "201",
       "pop_max": 20,
-      "temp_min": 16,
-      "temp_max": 23,
+      "temp_min": 15,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -2172,7 +2144,7 @@ window.TAXI_APP_DATA = {
     "2026-10-19": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 19,
+      "temp_min": 18,
       "temp_max": 26,
       "hourly": [
         {
@@ -2201,7 +2173,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 19,
-      "temp_max": 25,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -2226,6 +2198,34 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-21": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 19,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-22": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 17,
@@ -2273,7 +2273,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 86
+      "count": 87
     },
     {
       "source": "garden_theater",
@@ -2281,11 +2281,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 76
+      "count": 75
     },
     {
       "source": "kabukiza",
-      "count": 64
+      "count": 61
     },
     {
       "source": "national_stadium",
@@ -2301,7 +2301,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "yoyogi",
-      "count": 13
+      "count": 23
     },
     {
       "source": "takarazuka",
@@ -2313,7 +2313,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 50
+      "count": 52
     }
   ],
   "errors": []
