@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-16T08:34:47+09:00",
+  "generated_at": "2026-10-17T08:18:24+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-16",
-      "name": "今井翼 TSUBASA IMAI Live 2026 「Treasure」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-caf3122b77d3"
-    },
     {
       "date": "2026-10-17",
       "name": "今井翼 TSUBASA IMAI 2026 Happy 45th Anniversary! ーSpecial Talk Showー",
@@ -263,12 +250,25 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-bad764d50f8c"
+    },
+    {
+      "date": "2026-10-30",
+      "name": "ACIDMAN ACIDMAN ONEMAN LIVE \"This is ACIDMAN 2026\"",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-3197db9f2691"
     }
   ],
   "weather": {
-    "2026-10-16": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
+    "2026-10-17": {
+      "weather_code": "100",
+      "weather": "晴れ",
       "pop_max": 0,
       "hourly": [
         {
@@ -290,9 +290,9 @@ window.TAXI_APP_DATA = {
       "temp_min": 25,
       "temp_max": 25
     },
-    "2026-10-17": {
+    "2026-10-18": {
       "weather_code": "100",
-      "weather": "晴れ",
+      "weather": "晴れ　夜　くもり",
       "pop_max": 0,
       "hourly": [
         {
@@ -316,41 +316,13 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 18,
-      "temp_max": 25
-    },
-    "2026-10-18": {
-      "weather_code": "201",
-      "pop_max": 20,
-      "temp_min": 16,
-      "temp_max": 24,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_min": 15,
+      "temp_max": 24
     },
     "2026-10-19": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 19,
+      "temp_min": 18,
       "temp_max": 25,
       "hourly": [
         {
@@ -378,8 +350,8 @@ window.TAXI_APP_DATA = {
     "2026-10-20": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 20,
-      "temp_max": 24,
+      "temp_min": 21,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -406,8 +378,8 @@ window.TAXI_APP_DATA = {
     "2026-10-21": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 20,
-      "temp_max": 24,
+      "temp_min": 21,
+      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
@@ -432,10 +404,38 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-22": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "201",
+      "pop_max": 30,
       "temp_min": 17,
       "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-10-23": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 15,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,

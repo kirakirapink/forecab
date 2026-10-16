@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-16T08:34:58+09:00",
+  "generated_at": "2026-10-17T08:18:36+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-16",
-      "name": "Novelbright",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-8e5dd72a2b20"
-    },
-    {
-      "date": "2026-10-16",
-      "name": "LINDBERG LINDBERG LIVE TOUR 2026 「Zepp STEP JUMP」",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-a2d3b9bae96e"
-    },
-    {
-      "date": "2026-10-16",
-      "name": "My Hair is Bad My Hair is Bad presents「ノーブルホームランツアー」",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-6c9ad5a0444f"
-    },
     {
       "date": "2026-10-17",
       "name": "SKE48 / OCHA NORMA / ClariS / MORE STAR / ONE LOVE ONE HEART (50音順) MC：下埜正太 FM大阪 『Live or Treat 2026』in Zepp Namba",
@@ -317,6 +278,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-0c45a1f16929"
     },
     {
+      "date": "2026-10-27",
+      "name": "YURIN LIVE Vol.4 GUEST：コブクロ",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-ad28cfdf5fbf"
+    },
+    {
       "date": "2026-10-28",
       "name": "ELLEGARDEN Bad For Education Tour II (2026)",
       "venue": "Zepp Osaka Bayside",
@@ -354,12 +328,38 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-cc9410f1ac50"
+    },
+    {
+      "date": "2026-10-30",
+      "name": "@onefive @onefive LIVE 2026 Zepp TOUR「“Serolla Latte” (セロﾗﾗテ)」",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-51ef5055180d"
+    },
+    {
+      "date": "2026-10-30",
+      "name": "ASIAN KUNG-FU GENERATION ASIAN KUNG-FU GENERATION Tour 2026 \"Midage Fanclub\"",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-91e206846497"
     }
   ],
   "weather": {
-    "2026-10-16": {
-      "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり",
+    "2026-10-17": {
+      "weather_code": "100",
+      "weather": "晴れ",
       "pop_max": 0,
       "hourly": [
         {
@@ -381,10 +381,10 @@ window.TAXI_APP_DATA = {
       "temp_min": 26,
       "temp_max": 26
     },
-    "2026-10-17": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
+    "2026-10-18": {
+      "weather_code": "110",
+      "weather": "晴れ　昼過ぎ　から　時々　くもり",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
@@ -399,77 +399,49 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 10
         }
       ],
-      "temp_min": 18,
-      "temp_max": 26
-    },
-    "2026-10-18": {
-      "weather_code": "201",
-      "pop_max": 20,
-      "temp_min": 18,
-      "temp_max": 27,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_min": 17,
+      "temp_max": 27
     },
     "2026-10-19": {
       "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 21,
+      "pop_max": 50,
+      "temp_min": 20,
       "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
       ]
     },
     "2026-10-20": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 27,
       "hourly": [
         {
@@ -496,37 +468,65 @@ window.TAXI_APP_DATA = {
     },
     "2026-10-21": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 19,
+      "pop_max": 60,
+      "temp_min": 17,
       "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-10-22": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 15,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-10-23": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 16,
-      "temp_max": 23,
+      "temp_min": 15,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
