@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-17T08:18:24+09:00",
+  "generated_at": "2026-10-18T07:56:43+09:00",
   "region": "yokohama",
-  "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
+  "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-17",
-      "name": "今井翼 TSUBASA IMAI 2026 Happy 45th Anniversary! ーSpecial Talk Showー",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "16:00",
-      "end": "18:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-ee8dffdeb6be"
-    },
     {
       "date": "2026-10-18",
       "name": "横浜アリーナBIGフリーマーケット",
@@ -174,6 +161,19 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-54b012330ccf"
     },
     {
+      "date": "2026-10-24",
+      "name": "プロ野球 DeNA vs ソフトバンク",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:30",
+      "end": "21:45",
+      "attendance": 32000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-ac168ed749fe"
+    },
+    {
       "date": "2026-10-25",
       "name": "with MAMO～STAR～",
       "venue": "横浜アリーナ",
@@ -211,6 +211,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-23d21633b171"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "プロ野球 DeNA vs ソフトバンク",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 32000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-87a558bf9edf"
     },
     {
       "date": "2026-10-26",
@@ -263,10 +276,49 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-3197db9f2691"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "宇都宮隆 / 野村義男 / 松尾和博 / nishi-ken LIVE UTSU BAR TOUR 2026 〜それゆけ歌酔曲!!〜 ギア-レイワ8『オータムこい』",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-35aafb947cb1"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "U-KNOW PROJECT 26 : SCENE ♯1 – EDIT — U-KNOW (東方神起)",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-00930e42a541"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "プロ野球 DeNA vs ソフトバンク",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:30",
+      "end": "21:45",
+      "attendance": 32000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-45ed84c9377f"
     }
   ],
   "weather": {
-    "2026-10-17": {
+    "2026-10-18": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -287,70 +339,42 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
-    "2026-10-18": {
-      "weather_code": "100",
-      "weather": "晴れ　夜　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 15,
+      "temp_min": 24,
       "temp_max": 24
     },
     "2026-10-19": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 18,
-      "temp_max": 25,
+      "weather_code": "201",
+      "weather": "くもり　昼前　まで　時々　晴れ　所により　夜　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 19,
+      "temp_max": 26
     },
     "2026-10-20": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 21,
+      "temp_min": 22,
       "temp_max": 27,
       "hourly": [
         {
@@ -378,8 +402,8 @@ window.TAXI_APP_DATA = {
     "2026-10-21": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 21,
-      "temp_max": 26,
+      "temp_min": 22,
+      "temp_max": 27,
       "hourly": [
         {
           "start_min": 0,
@@ -406,8 +430,8 @@ window.TAXI_APP_DATA = {
     "2026-10-22": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 17,
-      "temp_max": 23,
+      "temp_min": 18,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -458,12 +482,40 @@ window.TAXI_APP_DATA = {
           "pop": 40
         }
       ]
+    },
+    "2026-10-24": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 15,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
     }
   },
   "fetch_stats": [
     {
       "source": "npb",
-      "count": 1
+      "count": 4
     },
     {
       "source": "zepp",
