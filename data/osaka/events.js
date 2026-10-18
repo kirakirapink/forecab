@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-18T07:56:54+09:00",
+  "generated_at": "2026-10-19T07:51:39+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-18",
-      "name": "【第1部】iLiFE! / 相席スタート 山添寛 / アキナ / さや香 / 紅しょうが 【第2部】iLiFE! / 相席スタート 山添寛 / トレンディエンジェル たかし / 平成ノブシコブシ 徳井健太 and more... 『 ＋HIROINE2 ～iLiFE! 芸人ゲームバトル～ 』 in Zepp Namba（1回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "12:30",
-      "end": "15:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-4773ef800402"
-    },
-    {
-      "date": "2026-10-18",
-      "name": "【第1部】iLiFE! / 相席スタート 山添寛 / アキナ / さや香 / 紅しょうが 【第2部】iLiFE! / 相席スタート 山添寛 / トレンディエンジェル たかし / 平成ノブシコブシ 徳井健太 and more... 『 ＋HIROINE2 ～iLiFE! 芸人ゲームバトル～ 』 in Zepp Namba（2回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "16:30",
-      "end": "19:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-68a0e8b67892"
-    },
-    {
-      "date": "2026-10-18",
-      "name": "Ms.OOJA",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-760e8e7fa610"
-    },
-    {
-      "date": "2026-10-18",
-      "name": "女王蜂 女王蜂 全国ツアー2026「星」",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-0023f63fa0aa"
-    },
     {
       "date": "2026-10-20",
       "name": "のんふぃく! のんふぃく！全国ツアー 『FICTIONAL JAPAN ROAD 2026』",
@@ -357,40 +305,11 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-18": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 28,
-      "temp_max": 28
-    },
     "2026-10-19": {
-      "weather_code": "212",
-      "weather": "くもり　夕方　から　夜のはじめ頃　雨　所により　昼過ぎ　から　雷　を伴う",
+      "weather_code": "214",
+      "weather": "くもり　昼過ぎ　から　雨　所により　夜のはじめ頃　雷を伴い　激しく　降る",
       "pop_max": 60,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -404,27 +323,26 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ],
-      "temp_min": 20,
-      "temp_max": 26
+      "temp_min": 27,
+      "temp_max": 27
     },
     "2026-10-20": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 22,
-      "temp_max": 28,
+      "weather_code": "203",
+      "weather": "くもり　時々　雨　所により　夕方　まで　雷　を伴う",
+      "pop_max": 70,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
@@ -434,15 +352,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 30
         }
-      ]
+      ],
+      "temp_min": 23,
+      "temp_max": 27
     },
     "2026-10-21": {
       "weather_code": "202",
       "pop_max": 70,
-      "temp_min": 18,
-      "temp_max": 26,
+      "temp_min": 19,
+      "temp_max": 29,
       "hourly": [
         {
           "start_min": 0,
@@ -468,57 +388,57 @@ window.TAXI_APP_DATA = {
     },
     "2026-10-22": {
       "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 15,
-      "temp_max": 23,
+      "pop_max": 20,
+      "temp_min": 16,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
       ]
     },
     "2026-10-23": {
       "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 15,
-      "temp_max": 23,
+      "pop_max": 30,
+      "temp_min": 14,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     },
@@ -526,7 +446,35 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 18,
-      "temp_max": 23,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-10-25": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 19,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -557,16 +505,20 @@ window.TAXI_APP_DATA = {
       "count": 0
     },
     {
+      "source": "npb",
+      "count": 0
+    },
+    {
       "source": "zepp",
       "count": 52
     },
     {
       "source": "kyocera_dome",
-      "count": 2
+      "count": 7
     },
     {
       "source": "osaka_johall",
-      "count": 6
+      "count": 5
     }
   ],
   "errors": []
