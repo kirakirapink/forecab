@@ -1,100 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-19T07:51:11+09:00",
+  "generated_at": "2026-10-20T09:09:24+09:00",
   "region": "tokyo",
-  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + tokyo-dome.co.jp + zepp.co.jp + 年次マスタ",
+  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-10-19",
-      "name": "錦秋十月大歌舞伎（第一部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "14:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-16e0bc7f4db3"
-    },
-    {
-      "date": "2026-10-19",
-      "name": "髪結いの亭主",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-5b8b26290cfd"
-    },
-    {
-      "date": "2026-10-19",
-      "name": "錦秋十月大歌舞伎（第二部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "14:30",
-      "end": "18:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-c20e4c21c60b"
-    },
-    {
-      "date": "2026-10-19",
-      "name": "＃Luvless #Luvless 1st Anniversary Live – Villains for Love – @ Zepp DiverCity",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "16:00",
-      "end": "18:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-aa5175b1b2cf"
-    },
-    {
-      "date": "2026-10-19",
-      "name": "りそなグループ B.LEAGUE 2026-27 SEASON B.LEAGUE ONE",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "tokyo-289dcc767585"
-    },
-    {
-      "date": "2026-10-19",
-      "name": "錦秋十月大歌舞伎（第三部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-96794e8798e7"
-    },
-    {
-      "date": "2026-10-19",
-      "name": "バーン・ザ・フロア2026",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-72447eeab78b"
-    },
     {
       "date": "2026-10-20",
       "name": "錦秋十月大歌舞伎（第一部）",
@@ -1345,19 +1254,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-29",
-      "name": "MTV VMAJ 2026",
-      "venue": "東京ドーム",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:30",
-      "attendance": 45000,
-      "audience": "youth",
-      "notes": "種別: コンサート。終了時刻は開演からの推定",
-      "source": "tokyo-dome.co.jp",
-      "id": "tokyo-c1b8ccdd9d71"
-    },
-    {
-      "date": "2026-10-29",
       "name": "OPEN CITY MARUNOUCHI2026 【自由見学・デジタルスタンプラリー】建築と自然のハーモニー",
       "venue": "東京国際フォーラム",
       "category": "concert",
@@ -1940,18 +1836,86 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
       "id": "tokyo-10038ff70036"
+    },
+    {
+      "date": "2026-11-02",
+      "name": "吉例顔見世大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-349bd9e5e5a9"
+    },
+    {
+      "date": "2026-11-02",
+      "name": "吉例顔見世大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-830767862651"
+    },
+    {
+      "date": "2026-11-02",
+      "name": "たとへば君",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-1cb4b506888e"
     }
   ],
   "weather": {
-    "2026-10-19": {
-      "weather_code": "201",
-      "weather": "くもり　昼過ぎ　まで　時々　晴れ　所により　夜　雨",
+    "2026-10-20": {
+      "weather_code": "200",
+      "weather": "くもり　所により　夕方　まで　雨",
       "pop_max": 30,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ],
+      "temp_min": 28,
+      "temp_max": 28
+    },
+    "2026-10-21": {
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ　所により　夜遅く　雨",
+      "pop_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -1961,74 +1925,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
-        }
-      ],
-      "temp_min": 27,
-      "temp_max": 27
-    },
-    "2026-10-20": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夕方　まで　雨",
-      "pop_max": 30,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
           "pop": 20
         }
       ],
       "temp_min": 20,
-      "temp_max": 27
-    },
-    "2026-10-21": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 22,
-      "temp_max": 29,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
+      "temp_max": 29
     },
     "2026-10-22": {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 17,
-      "temp_max": 24,
+      "temp_max": 25,
       "hourly": [
         {
           "start_min": 0,
@@ -2053,9 +1960,37 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-23": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 14,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-10-24": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 15,
+      "temp_min": 14,
       "temp_max": 21,
       "hourly": [
         {
@@ -2080,39 +2015,39 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-24": {
+    "2026-10-25": {
       "weather_code": "200",
-      "pop_max": 30,
-      "temp_min": 14,
-      "temp_max": 22,
+      "pop_max": 40,
+      "temp_min": 17,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     },
-    "2026-10-25": {
+    "2026-10-26": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 16,
-      "temp_max": 23,
+      "temp_min": 18,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -2152,7 +2087,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "dome",
-      "count": 50
+      "count": 0
     },
     {
       "source": "ariake",
@@ -2168,7 +2103,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 72
+      "count": 71
     },
     {
       "source": "kabukiza",
@@ -2184,7 +2119,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nougakudo",
-      "count": 6
+      "count": 7
     },
     {
       "source": "yoyogi",
@@ -2200,7 +2135,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 51
+      "count": 50
     }
   ],
   "errors": []
