@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-21T08:40:56+09:00",
+  "generated_at": "2026-10-22T09:00:23+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
@@ -302,14 +302,198 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:45。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-2eb9b8fe2554"
+    },
+    {
+      "date": "2026-11-01",
+      "name": "千原ジュニアの座王 東西２大ライブツアー",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-31ee667f50fc"
     }
   ],
   "weather": {
-    "2026-10-21": {
-      "weather_code": "214",
-      "weather": "くもり　夕方　から　雨　所により　昼前　から　雷　を伴う",
-      "pop_max": 60,
+    "2026-10-22": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
       "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 0
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 0
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 0
+        }
+      ],
+      "temp_min": 25,
+      "temp_max": 25
+    },
+    "2026-10-23": {
+      "weather_code": "111",
+      "weather": "晴れ　夕方　から　くもり　所により　夜　雨",
+      "pop_max": 40,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 0
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 0
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ],
+      "temp_min": 14,
+      "temp_max": 25
+    },
+    "2026-10-24": {
+      "weather_code": "203",
+      "pop_max": 60,
+      "temp_min": 18,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
+        }
+      ]
+    },
+    "2026-10-25": {
+      "weather_code": "203",
+      "pop_max": 70,
+      "temp_min": 21,
+      "temp_max": 25,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 70
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 70
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 70
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 70
+        }
+      ]
+    },
+    "2026-10-26": {
+      "weather_code": "202",
+      "pop_max": 60,
+      "temp_min": 20,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
+        }
+      ]
+    },
+    "2026-10-27": {
+      "weather_code": "203",
+      "pop_max": 50,
+      "temp_min": 18,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-10-28": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 13,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -318,196 +502,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
-        }
-      ],
-      "temp_min": 30,
-      "temp_max": 30
-    },
-    "2026-10-22": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 18,
-      "temp_max": 25
-    },
-    "2026-10-23": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 15,
-      "temp_max": 24,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
-    },
-    "2026-10-24": {
-      "weather_code": "203",
-      "pop_max": 80,
-      "temp_min": 18,
-      "temp_max": 23,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 80
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 80
-        }
-      ]
-    },
-    "2026-10-25": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 20,
-      "temp_max": 26,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ]
-    },
-    "2026-10-26": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 19,
-      "temp_max": 26,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
-        }
-      ]
-    },
-    "2026-10-27": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 16,
-      "temp_max": 23,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
       ]
     }
   },
   "fetch_stats": [
-    {
-      "source": "npb",
-      "count": 0
-    },
-    {
-      "source": "npb",
-      "count": 0
-    },
     {
       "source": "zepp",
       "count": 52
@@ -518,8 +523,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 6
+      "count": 7
     }
   ],
-  "errors": []
+  "errors": [
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_10_detail.html: <urlopen error timed out>",
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_11_detail.html: <urlopen error timed out>"
+  ]
 };

@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-21T08:40:43+09:00",
+  "generated_at": "2026-10-22T08:59:03+09:00",
   "region": "yokohama",
-  "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
+  "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-21",
-      "name": "go!go!vanillas go!go!vanillas presents「ぼくらのタイマン上等ツアー」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-7186fc8d45c1"
-    },
     {
       "date": "2026-10-22",
       "name": "go!go!vanillas w/MONO NO AWARE go!go!vanillas presents「ぼくらのタイマン上等ツアー」",
@@ -109,19 +96,6 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-54b012330ccf"
     },
     {
-      "date": "2026-10-24",
-      "name": "プロ野球 DeNA vs ソフトバンク",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:30",
-      "end": "21:45",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-ac168ed749fe"
-    },
-    {
       "date": "2026-10-25",
       "name": "with MAMO～STAR～",
       "venue": "横浜アリーナ",
@@ -159,19 +133,6 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-23d21633b171"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "プロ野球 DeNA vs ソフトバンク",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-87a558bf9edf"
     },
     {
       "date": "2026-10-26",
@@ -252,19 +213,6 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-00930e42a541"
     },
     {
-      "date": "2026-10-31",
-      "name": "プロ野球 DeNA vs ソフトバンク",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:30",
-      "end": "21:45",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-45ed84c9377f"
-    },
-    {
       "date": "2026-11-01",
       "name": "U-KNOW PROJECT 26 : SCENE ♯1 – EDIT — U-KNOW (東方神起)",
       "venue": "横浜アリーナ",
@@ -276,19 +224,6 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 15:00。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-53005a96592d"
-    },
-    {
-      "date": "2026-11-01",
-      "name": "プロ野球 DeNA vs ソフトバンク",
-      "venue": "横浜スタジアム",
-      "category": "sports",
-      "start": "18:00",
-      "end": "21:15",
-      "attendance": 32000,
-      "audience": "general",
-      "notes": "終了時刻は平均試合時間からの推定。延長あり",
-      "source": "npb.jp",
-      "id": "yokohama-2eff969409d9"
     },
     {
       "date": "2026-11-03",
@@ -318,40 +253,11 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-21": {
-      "weather_code": "201",
-      "weather": "くもり　昼前　から　夕方　晴れ　所により　夜遅く　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 28,
-      "temp_max": 28
-    },
     "2026-10-22": {
       "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり",
-      "pop_max": 10,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 0,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -368,42 +274,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 20,
+      "temp_min": 25,
       "temp_max": 25
     },
     "2026-10-23": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 15,
-      "temp_max": 21,
+      "weather_code": "111",
+      "weather": "晴れ　昼過ぎ　から　くもり",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 15,
+      "temp_max": 22
     },
     "2026-10-24": {
-      "weather_code": "202",
+      "weather_code": "203",
       "pop_max": 60,
-      "temp_min": 16,
-      "temp_max": 19,
+      "temp_min": 15,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -428,9 +335,65 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-25": {
+      "weather_code": "203",
+      "pop_max": 60,
+      "temp_min": 17,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
+        }
+      ]
+    },
+    "2026-10-26": {
+      "weather_code": "203",
+      "pop_max": 70,
+      "temp_min": 17,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 70
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 70
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 70
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 70
+        }
+      ]
+    },
+    "2026-10-27": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 18,
+      "temp_min": 17,
       "temp_max": 22,
       "hourly": [
         {
@@ -455,72 +418,36 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-26": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 18,
-      "temp_max": 23,
+    "2026-10-28": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 14,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
-        }
-      ]
-    },
-    "2026-10-27": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 17,
-      "temp_max": 21,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 40
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 40
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     }
   },
   "fetch_stats": [
-    {
-      "source": "npb",
-      "count": 4
-    },
-    {
-      "source": "npb",
-      "count": 1
-    },
     {
       "source": "zepp",
       "count": 28
@@ -534,5 +461,8 @@ window.TAXI_APP_DATA = {
       "count": 34
     }
   ],
-  "errors": []
+  "errors": [
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_10_detail.html: <urlopen error timed out>",
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_11_detail.html: <urlopen error timed out>"
+  ]
 };
