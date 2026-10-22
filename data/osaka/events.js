@@ -1,8 +1,8 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-22T09:00:23+09:00",
+  "generated_at": "2026-10-23T08:59:00+09:00",
   "region": "osaka",
-  "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
+  "source": "自動取得: kyoceradome-osaka.jp + zepp.co.jp",
   "events": [
     {
       "date": "2026-10-23",
@@ -16,32 +16,6 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 10:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-d81e95f61845"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "緑黄色社会",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-e0a0e62719e3"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "緑黄色社会",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "16:00",
-      "end": "19:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-0985e635b619"
     },
     {
       "date": "2026-10-24",
@@ -123,19 +97,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-25",
-      "name": "絢香",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-01dda122b400"
-    },
-    {
-      "date": "2026-10-25",
       "name": "WHIB 2026 WHIB FAN CONCERT [BLUE HOUR]（2回目）",
       "venue": "Zepp Osaka Bayside",
       "category": "concert",
@@ -172,32 +133,6 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-0c45a1f16929"
-    },
-    {
-      "date": "2026-10-27",
-      "name": "YURIN LIVE Vol.4 GUEST：コブクロ",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-ad28cfdf5fbf"
-    },
-    {
-      "date": "2026-10-28",
-      "name": "YURIN LIVE Vol.5 GUEST：UVERworld",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-c2277922a14e"
     },
     {
       "date": "2026-10-28",
@@ -266,19 +201,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-10-31",
-      "name": "Livejack 2026 SMASH BEAT SP",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-04fcfd8998e5"
-    },
-    {
-      "date": "2026-10-31",
       "name": "BONBON. BONBON. 1st Live tour「あなたになりたいだけじゃなく。」",
       "venue": "Zepp Osaka Bayside",
       "category": "concert",
@@ -302,56 +224,14 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:45。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-2eb9b8fe2554"
-    },
-    {
-      "date": "2026-11-01",
-      "name": "千原ジュニアの座王 東西２大ライブツアー",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-31ee667f50fc"
     }
   ],
   "weather": {
-    "2026-10-22": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
     "2026-10-23": {
-      "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり　所により　夜　雨",
-      "pop_max": 40,
+      "weather_code": "212",
+      "weather": "くもり　時々　晴れ　夜遅く　雨",
+      "pop_max": 50,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -365,41 +245,70 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ],
-      "temp_min": 14,
+      "temp_min": 25,
       "temp_max": 25
     },
     "2026-10-24": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 18,
-      "temp_max": 23,
+      "weather_code": "313",
+      "weather": "雨　夕方　から　くもり　所により　昼前　まで　雷を伴い　激しく　降る",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 30
+        }
+      ],
+      "temp_min": 20,
+      "temp_max": 25
+    },
+    "2026-10-25": {
+      "weather_code": "203",
+      "pop_max": 80,
+      "temp_min": 22,
+      "temp_max": 26,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 80
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 80
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 80
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 80
         }
       ]
     },
-    "2026-10-25": {
+    "2026-10-26": {
       "weather_code": "203",
       "pop_max": 70,
       "temp_min": 21,
@@ -427,59 +336,31 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-10-26": {
-      "weather_code": "202",
-      "pop_max": 60,
-      "temp_min": 20,
-      "temp_max": 24,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 60
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 60
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ]
-    },
     "2026-10-27": {
       "weather_code": "203",
-      "pop_max": 50,
-      "temp_min": 18,
+      "pop_max": 60,
+      "temp_min": 17,
       "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
@@ -487,7 +368,35 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 13,
-      "temp_max": 20,
+      "temp_max": 21,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-10-29": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 12,
+      "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
@@ -520,14 +429,11 @@ window.TAXI_APP_DATA = {
     {
       "source": "kyocera_dome",
       "count": 7
-    },
-    {
-      "source": "osaka_johall",
-      "count": 7
     }
   ],
   "errors": [
     "[npb] 取得失敗 https://npb.jp/games/2026/schedule_10_detail.html: <urlopen error timed out>",
-    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_11_detail.html: <urlopen error timed out>"
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_11_detail.html: <urlopen error timed out>",
+    "[osaka_johall] 取得失敗 https://www.osaka-johall.com/event/: HTTP Error 503: Service Unavailable"
   ]
 };

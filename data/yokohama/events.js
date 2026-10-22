@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-22T08:59:03+09:00",
+  "generated_at": "2026-10-23T08:57:41+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-22",
-      "name": "go!go!vanillas w/MONO NO AWARE go!go!vanillas presents「ぼくらのタイマン上等ツアー」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-88ce68d3a588"
-    },
     {
       "date": "2026-10-23",
       "name": "ゆず30周年開幕記念ライブ 心をとめないで",
@@ -174,6 +161,19 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-bad764d50f8c"
     },
     {
+      "date": "2026-10-29",
+      "name": "森山直太朗 NAOTARO MORIYAMA Zepp TOURS 2026 『Zepp de Rolling DOSA 〜すべからく愛々〜』",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-282173e0ef4f"
+    },
+    {
       "date": "2026-10-30",
       "name": "ACIDMAN ACIDMAN ONEMAN LIVE \"This is ACIDMAN 2026\"",
       "venue": "KT Zepp Yokohama",
@@ -253,40 +253,11 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-22": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
     "2026-10-23": {
-      "weather_code": "111",
-      "weather": "晴れ　昼過ぎ　から　くもり",
-      "pop_max": 0,
+      "weather_code": "201",
+      "weather": "くもり　昼過ぎ　まで　時々　晴れ",
+      "pop_max": 10,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -300,72 +271,73 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 10
         }
       ],
-      "temp_min": 15,
-      "temp_max": 22
+      "temp_min": 21,
+      "temp_max": 21
     },
     "2026-10-24": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 15,
-      "temp_max": 18,
+      "weather_code": "302",
+      "weather": "雨　朝晩　くもり",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 16,
+      "temp_max": 18
     },
     "2026-10-25": {
-      "weather_code": "203",
-      "pop_max": 60,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 17,
-      "temp_max": 23,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
       ]
     },
     "2026-10-26": {
       "weather_code": "203",
       "pop_max": 70,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 20,
       "hourly": [
         {
@@ -392,37 +364,37 @@ window.TAXI_APP_DATA = {
     },
     "2026-10-27": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 17,
+      "pop_max": 60,
+      "temp_min": 18,
       "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-10-28": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 14,
-      "temp_max": 20,
+      "temp_min": 15,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
@@ -443,6 +415,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-10-29": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 13,
+      "temp_max": 18,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }
@@ -450,7 +450,7 @@ window.TAXI_APP_DATA = {
   "fetch_stats": [
     {
       "source": "zepp",
-      "count": 28
+      "count": 29
     },
     {
       "source": "k_arena",
