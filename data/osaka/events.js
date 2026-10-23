@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-23T08:59:00+09:00",
+  "generated_at": "2026-10-24T08:50:34+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-23",
-      "name": "iMiN! / アキシブproject / Ill / ウメコマチ / テンシンランマン / TENRIN / ドレスコード / なう♡すとれーじ / ナナコロビヤオキ / Pastel Closet / パラレルサイダー / ハルカエコー / ヒロインズ研究生大阪 / フルコース / ポンコツコンポ / MEGAFON / 夜光性アミューズ / ラストシーン HEROINES HALLOWEEN",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "11:30",
-      "end": "14:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 10:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-d81e95f61845"
-    },
     {
       "date": "2026-10-24",
       "name": "山本耕史 KOJI YAMAMOTO 50th Anniversary Concert",
@@ -107,6 +94,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-57f02448e510"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "POLO G / LIL TJAY / G-K.I.D / JIN DOGG / MIKADO / TIJI JOJO / YOU THUG / YZERR FORCE FESTIVAL PRESENTS “POLO G & LIL TJAY” AFTER LIVE SHOW",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-74b375fbf2a6"
     },
     {
       "date": "2026-10-26",
@@ -227,40 +227,11 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-23": {
-      "weather_code": "212",
-      "weather": "くもり　時々　晴れ　夜遅く　雨",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 25,
-      "temp_max": 25
-    },
     "2026-10-24": {
       "weather_code": "313",
-      "weather": "雨　夕方　から　くもり　所により　昼前　まで　雷を伴い　激しく　降る",
+      "weather": "雨　昼前　から　くもり　所により　朝　まで　雷を伴い　激しく　降る",
       "pop_max": 80,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -269,32 +240,31 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
         }
       ],
-      "temp_min": 20,
-      "temp_max": 25
+      "temp_min": 27,
+      "temp_max": 27
     },
     "2026-10-25": {
-      "weather_code": "203",
+      "weather_code": "214",
+      "weather": "くもり　昼過ぎ　から　雨　所により　夕方　から　雷を伴い　激しく　降る",
       "pop_max": 80,
-      "temp_min": 22,
-      "temp_max": 26,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 80
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 40
         },
         {
           "start_min": 720,
@@ -306,13 +276,15 @@ window.TAXI_APP_DATA = {
           "end_min": 1440,
           "pop": 80
         }
-      ]
+      ],
+      "temp_min": 22,
+      "temp_max": 27
     },
     "2026-10-26": {
       "weather_code": "203",
       "pop_max": 70,
-      "temp_min": 21,
-      "temp_max": 25,
+      "temp_min": 19,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -337,30 +309,30 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-27": {
-      "weather_code": "203",
-      "pop_max": 60,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 17,
       "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
       ]
     },
@@ -368,7 +340,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 13,
-      "temp_max": 21,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -395,7 +367,7 @@ window.TAXI_APP_DATA = {
     "2026-10-29": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 12,
+      "temp_min": 11,
       "temp_max": 21,
       "hourly": [
         {
@@ -419,12 +391,40 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ]
+    },
+    "2026-10-30": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 15,
+      "temp_max": 22,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
     }
   },
   "fetch_stats": [
     {
       "source": "zepp",
-      "count": 52
+      "count": 53
     },
     {
       "source": "kyocera_dome",

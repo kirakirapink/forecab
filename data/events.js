@@ -1,100 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-23T08:56:23+09:00",
+  "generated_at": "2026-10-24T08:47:57+09:00",
   "region": "tokyo",
-  "source": "自動取得: ariake-arena.tokyo + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + nntt.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + zepp.co.jp + 年次マスタ",
+  "source": "自動取得: ariake-arena.tokyo + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-10-23",
-      "name": "日本臨床免疫学会 学術集会",
-      "venue": "都内学術集会会場",
-      "category": "exhibition",
-      "start": "09:00",
-      "end": "17:00",
-      "attendance": 2500,
-      "audience": "business",
-      "notes": "分科会No.143。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
-      "source": "jams.med.or.jp",
-      "id": "tokyo-835f5b75f7a1"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "髪結いの亭主",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-f0692ab19a83"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "TMG TMG LIVE 2026 “SAYONARA”",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-e56a0a8f57e7"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "シアーミュージック SHEER MUSIC FES 2026",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-527ab2093c04"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "ASIAN KUNG-FU GENERATION ASIAN KUNG-FU GENERATION Tour 2026 \"Midage Fanclub\"",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-fffb66e711d2"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "3House 3House One Man Tour “PLAY”",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-20fe36baf973"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "街の灯",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-96f660120849"
-    },
     {
       "date": "2026-10-24",
       "name": "日本臨床免疫学会 学術集会",
@@ -1056,52 +965,75 @@ window.TAXI_APP_DATA = {
       "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
       "id": "tokyo-ebb41a38192b"
+    },
+    {
+      "date": "2026-11-06",
+      "name": "吉例顔見世大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-a31bb1b58d8f"
+    },
+    {
+      "date": "2026-11-06",
+      "name": "11月定例公演 ◎能作者のまなざし",
+      "venue": "国立能楽堂",
+      "category": "theater",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 500,
+      "audience": "senior_wealthy",
+      "notes": "能・狂言。年配富裕層中心。千駄ヶ谷駅徒歩7分でやや駅遠、終演後タクシー需要強い。",
+      "source": "ntj.jac.go.jp",
+      "id": "tokyo-41ae718220db"
+    },
+    {
+      "date": "2026-11-06",
+      "name": "吉例顔見世大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-e4bab7f8a6ae"
+    },
+    {
+      "date": "2026-11-06",
+      "name": "オネーギン",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-15143c24e5df"
     }
   ],
   "weather": {
-    "2026-10-23": {
-      "weather_code": "201",
-      "weather": "くもり　昼過ぎ　まで　時々　晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 21,
-      "temp_max": 21
-    },
     "2026-10-24": {
-      "weather_code": "302",
-      "weather": "雨　朝晩　くもり",
-      "pop_max": 70,
+      "weather_code": "300",
+      "weather": "雨",
+      "pop_max": 80,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 1080,
@@ -1109,24 +1041,23 @@ window.TAXI_APP_DATA = {
           "pop": 50
         }
       ],
-      "temp_min": 16,
-      "temp_max": 17
+      "temp_min": 18,
+      "temp_max": 19
     },
     "2026-10-25": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 17,
-      "temp_max": 23,
+      "weather_code": "214",
+      "weather": "くもり　夕方　から　雨",
+      "pop_max": 60,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -1136,15 +1067,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
-      ]
+      ],
+      "temp_min": 17,
+      "temp_max": 26
     },
     "2026-10-26": {
       "weather_code": "203",
       "pop_max": 70,
-      "temp_min": 17,
-      "temp_max": 20,
+      "temp_min": 16,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -1169,10 +1102,10 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-27": {
-      "weather_code": "202",
+      "weather_code": "203",
       "pop_max": 60,
-      "temp_min": 17,
-      "temp_max": 22,
+      "temp_min": 15,
+      "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
@@ -1199,8 +1132,8 @@ window.TAXI_APP_DATA = {
     "2026-10-28": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 14,
-      "temp_max": 19,
+      "temp_min": 13,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -1225,30 +1158,58 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-10-29": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 12,
-      "temp_max": 18,
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 11,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-30": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 13,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
@@ -1272,11 +1233,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 73
+      "count": 72
     },
     {
       "source": "kabukiza",
-      "count": 64
+      "count": 67
     },
     {
       "source": "national_stadium",
@@ -1284,11 +1245,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "medical_society",
-      "count": 7
+      "count": 6
     },
     {
       "source": "nougakudo",
-      "count": 5
+      "count": 6
     },
     {
       "source": "yoyogi",
@@ -1297,13 +1258,16 @@ window.TAXI_APP_DATA = {
     {
       "source": "annual",
       "count": 1
+    },
+    {
+      "source": "forum",
+      "count": 0
     }
   ],
   "errors": [
     "[npb] 取得失敗 https://npb.jp/games/2026/schedule_10_detail.html: <urlopen error timed out>",
     "[npb] 取得失敗 https://npb.jp/games/2026/schedule_11_detail.html: <urlopen error timed out>",
     "[bigsight] 取得失敗 https://www.bigsight.jp/visitor/event/: HTTP Error 503: Service Unavailable",
-    "[takarazuka] 取得失敗 https://kageki.hankyu.co.jp/revue/index.html: <urlopen error timed out>",
-    "[forum] 取得失敗 https://www.t-i-forum.co.jp/visitors/event/: HTTP Error 503: Service Unavailable"
+    "[takarazuka] 取得失敗 https://kageki.hankyu.co.jp/revue/index.html: <urlopen error timed out>"
   ]
 };
