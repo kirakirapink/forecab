@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-24T08:50:34+09:00",
+  "generated_at": "2026-10-25T08:02:02+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-24",
-      "name": "山本耕史 KOJI YAMAMOTO 50th Anniversary Concert",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 17:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-daec4efc27de"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "YOASOBI YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 “超惑星”",
-      "venue": "京セラドーム大阪",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 45000,
-      "audience": "general",
-      "notes": "終了時刻はドームイベントの標準3時間で推定",
-      "source": "kyoceradome-osaka.jp",
-      "id": "osaka-4949ebbc1efd"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "THE YELLOW MONKEY THE YELLOW MONKEY TOUR 2026 THE COUNTDOWN〜60分1本勝負〜",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-37fcc1ae8a72"
-    },
     {
       "date": "2026-10-25",
       "name": "W.ダブルヴィー / 脳内パステル / あおぞらをキミに / 宇宙∞プラネクシア / キューハチパーセント！ / AI♡RARA / ちょこみんと / ナナコロビヤオキ / 君に、胸キュン。 / シンデレラ宣言！ / ワッツ◎さーくる / サクヤコノハナ / Qu♡AIy / すーぱーぷーばぁー!! / NEO BREAK / anemoreel / スキトオルアオ / tune time capsule / ヒロインズ研究生 大阪 / fille mimi / Merry Mellow / ЯiM:MiR / LAST PiECE みんがるSP in Zepp Namba",
@@ -227,49 +188,49 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-24": {
-      "weather_code": "313",
-      "weather": "雨　昼前　から　くもり　所により　朝　まで　雷を伴い　激しく　降る",
+    "2026-10-25": {
+      "weather_code": "302",
+      "weather": "雨　朝晩　くもり　所により　昼前　から　夕方　雷を伴い　激しく　降る",
       "pop_max": 80,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 50
         }
       ],
       "temp_min": 27,
       "temp_max": 27
     },
-    "2026-10-25": {
-      "weather_code": "214",
-      "weather": "くもり　昼過ぎ　から　雨　所により　夕方　から　雷を伴い　激しく　降る",
-      "pop_max": 80,
+    "2026-10-26": {
+      "weather_code": "300",
+      "weather": "雨　所により　昼前　から　夜のはじめ頃　雷を伴い　激しく　降る",
+      "pop_max": 90,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 80
+          "pop": 90
         },
         {
           "start_min": 1080,
@@ -277,41 +238,13 @@ window.TAXI_APP_DATA = {
           "pop": 80
         }
       ],
-      "temp_min": 22,
-      "temp_max": 27
-    },
-    "2026-10-26": {
-      "weather_code": "203",
-      "pop_max": 70,
       "temp_min": 19,
-      "temp_max": 24,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ]
+      "temp_max": 21
     },
     "2026-10-27": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 17,
+      "temp_min": 18,
       "temp_max": 24,
       "hourly": [
         {
@@ -396,6 +329,34 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 15,
+      "temp_max": 23,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-10-31": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 14,
       "temp_max": 22,
       "hourly": [
         {

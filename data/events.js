@@ -1,126 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-24T08:47:57+09:00",
+  "generated_at": "2026-10-25T07:59:28+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-10-24",
-      "name": "日本臨床免疫学会 学術集会",
-      "venue": "都内学術集会会場",
-      "category": "exhibition",
-      "start": "09:00",
-      "end": "17:00",
-      "attendance": 2500,
-      "audience": "business",
-      "notes": "分科会No.143。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
-      "source": "jams.med.or.jp",
-      "id": "tokyo-4a726e56a243"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "髪結いの亭主",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "12:00",
-      "end": "14:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-c76e81d178fc"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "街の灯",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "16:00",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-938d9daa5a0f"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "plenty plenty re:birthツアー2026 \"いま終わりの先へ\"",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-82ab66d56d64"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Adoのドキドキ秘密基地有料会員様限定LIVE",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "tokyo-41284c03d62c"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "ASIAN KUNG-FU GENERATION ASIAN KUNG-FU GENERATION Tour 2026 \"Midage Fanclub\"",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-183d4c02d70b"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "NOMELON NOLEMON / なとり NOMELON NOLEMON 2man Live \"CANVS\"",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-89abd53da8ed"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "超ときめき♡宣伝部",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "tokyo-5491da8c9878"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "オモコロチャンネル(永田、原宿、加藤、ARuFa、ダ・ヴィンチ・恐山) 『オモコロチャンネル 爆走ワンダフルパレード！』",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-1baf8bce50ea"
-    },
     {
       "date": "2026-10-25",
       "name": "髪結いの亭主",
@@ -1017,18 +900,125 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
       "source": "nntt.jac.go.jp",
       "id": "tokyo-15143c24e5df"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "吉例顔見世大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-3223eed693a4"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "オネーギン",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "13:00",
+      "end": "16:00",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-e1407071626e"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "巨匠とマルガリータ",
+      "venue": "新国立劇場（中劇場）",
+      "category": "theater",
+      "start": "15:00",
+      "end": "17:30",
+      "attendance": 858,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-3cff766cd37a"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "吉例顔見世大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-9305f0d51963"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "NMIXX JAPAN DEBUT SHOWCASE “N=MIXX”",
+      "venue": "国立代々木競技場 第一体育館",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:30",
+      "attendance": 10000,
+      "audience": "youth",
+      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
+      "source": "jpnsport.go.jp/yoyogi",
+      "id": "tokyo-cfe28b1e0168"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "GENERATIONS",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
+      "audience": "general",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
+      "id": "tokyo-7ee3da80b2ac"
     }
   ],
   "weather": {
-    "2026-10-24": {
+    "2026-10-25": {
+      "weather_code": "214",
+      "weather": "くもり　昼過ぎ　から　雨　所により　昼過ぎ　から　夜のはじめ頃　雷　を伴う",
+      "pop_max": 60,
+      "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ],
+      "temp_min": 26,
+      "temp_max": 26
+    },
+    "2026-10-26": {
       "weather_code": "300",
       "weather": "雨",
       "pop_max": 80,
       "hourly": [
         {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 70
         },
         {
           "start_min": 720,
@@ -1038,74 +1028,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 18,
-      "temp_max": 19
-    },
-    "2026-10-25": {
-      "weather_code": "214",
-      "weather": "くもり　夕方　から　雨",
-      "pop_max": 60,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
           "pop": 60
         }
       ],
-      "temp_min": 17,
-      "temp_max": 26
-    },
-    "2026-10-26": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 16,
-      "temp_max": 22,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 70
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ]
+      "temp_min": 18,
+      "temp_max": 20
     },
     "2026-10-27": {
-      "weather_code": "203",
+      "weather_code": "313",
       "pop_max": 60,
-      "temp_min": 15,
-      "temp_max": 21,
+      "temp_min": 16,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -1161,7 +1094,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 11,
-      "temp_max": 17,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -1189,7 +1122,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 13,
-      "temp_max": 19,
+      "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
@@ -1212,6 +1145,34 @@ window.TAXI_APP_DATA = {
           "pop": 50
         }
       ]
+    },
+    "2026-10-31": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 15,
+      "temp_max": 24,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -1229,11 +1190,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 6
+      "count": 5
     },
     {
       "source": "nntt",
-      "count": 72
+      "count": 68
     },
     {
       "source": "kabukiza",
@@ -1245,7 +1206,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "medical_society",
-      "count": 6
+      "count": 5
     },
     {
       "source": "nougakudo",
