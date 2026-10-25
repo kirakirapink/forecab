@@ -1,126 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-25T07:59:28+09:00",
+  "generated_at": "2026-10-26T08:05:03+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-10-25",
-      "name": "髪結いの亭主",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-e543c98eed0d"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "街の灯",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "14:00",
-      "end": "17:00",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-842439875066"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "WATWING WATWING Zepp Live Tour「love」（1回目）",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "15:00",
-      "end": "17:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-1b6858dcac6d"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "Adoのドキドキ秘密基地有料会員様限定LIVE",
-      "venue": "国立代々木競技場 第一体育館",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:30",
-      "attendance": 10000,
-      "audience": "youth",
-      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
-      "source": "jpnsport.go.jp/yoyogi",
-      "id": "tokyo-6a1fef98c378"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "KiiiKiii KiiiKiii FesTiiival JAPAN Edition",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-cbfe11bbd412"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "吉澤嘉代子 吉澤嘉代子 “歌う星ツアー2026”",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-27458933b18b"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "超ときめき♡宣伝部",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "tokyo-823dfc6cd779"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "Private",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-9f22b7ca7bdf"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "WATWING WATWING Zepp Live Tour「love」（2回目）",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-ade241a2e155"
-    },
     {
       "date": "2026-10-26",
       "name": "◆HEROINES出演グループiLiFE!/iON!/のんふぃく!/iMiN!/TENRIN/ラストシーン/ポンコツコンポ/Pastel Closet ◆公募枠ゲスト出演（50⾳順）あいすなっつ/アイドルカレッジ/Aproof/仮⾯⼥⼦/KIRA:MINA/セツナソウ/Chuu♡Cute/昼夜逆転/HATENO/ひなてん!/metarium/Lv.♡Charm iLiVE! TOUR TOKYO",
@@ -978,14 +861,151 @@ window.TAXI_APP_DATA = {
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
       "id": "tokyo-7ee3da80b2ac"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "吉例顔見世大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-e92cc5a86125"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "オネーギン",
+      "venue": "新国立劇場（オペラパレス）",
+      "category": "theater",
+      "start": "13:00",
+      "end": "16:00",
+      "attendance": 1541,
+      "audience": "senior_wealthy",
+      "notes": "ジャンル: ballet。会場キャパ約1814席。終演時刻は180分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-c79b35b2dbf3"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "巨匠とマルガリータ",
+      "venue": "新国立劇場（中劇場）",
+      "category": "theater",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 858,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-9d18609e6a99"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "吉例顔見世大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-e60fa6d17469"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "NMIXX JAPAN DEBUT SHOWCASE “N=MIXX”",
+      "venue": "国立代々木競技場 第一体育館",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:30",
+      "attendance": 10000,
+      "audience": "youth",
+      "notes": "開始・終了時刻は未掲載のため17:00-20:30で仮置き。公式公演ページで要確認",
+      "source": "jpnsport.go.jp/yoyogi",
+      "id": "tokyo-fba45e1d1e66"
+    },
+    {
+      "date": "2026-11-08",
+      "name": "GENERATIONS",
+      "venue": "有明アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 12000,
+      "audience": "general",
+      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
+      "source": "ariake-arena.tokyo",
+      "id": "tokyo-569fd3523d75"
     }
   ],
   "weather": {
-    "2026-10-25": {
-      "weather_code": "214",
-      "weather": "くもり　昼過ぎ　から　雨　所により　昼過ぎ　から　夜のはじめ頃　雷　を伴う",
-      "pop_max": 60,
+    "2026-10-26": {
+      "weather_code": "300",
+      "weather": "雨",
+      "pop_max": 90,
       "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 90
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 90
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 70
+        }
+      ],
+      "temp_min": 18,
+      "temp_max": 20
+    },
+    "2026-10-27": {
+      "weather_code": "202",
+      "weather": "くもり　明け方　まで　雨",
+      "pop_max": 70,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 70
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
+        }
+      ],
+      "temp_min": 15,
+      "temp_max": 21
+    },
+    "2026-10-28": {
+      "weather_code": "101",
+      "pop_max": 10,
+      "temp_min": 13,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -994,99 +1014,12 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 26,
-      "temp_max": 26
-    },
-    "2026-10-26": {
-      "weather_code": "300",
-      "weather": "雨",
-      "pop_max": 80,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 70
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ],
-      "temp_min": 18,
-      "temp_max": 20
-    },
-    "2026-10-27": {
-      "weather_code": "313",
-      "pop_max": 60,
-      "temp_min": 16,
-      "temp_max": 22,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 60
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 60
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ]
-    },
-    "2026-10-28": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 13,
-      "temp_max": 20,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
@@ -1094,7 +1027,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 11,
-      "temp_max": 18,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -1173,6 +1106,34 @@ window.TAXI_APP_DATA = {
           "pop": 40
         }
       ]
+    },
+    "2026-11-01": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 13,
+      "temp_max": 21,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -1190,7 +1151,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 5
+      "count": 4
     },
     {
       "source": "nntt",
@@ -1198,7 +1159,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "kabukiza",
-      "count": 67
+      "count": 70
     },
     {
       "source": "national_stadium",
