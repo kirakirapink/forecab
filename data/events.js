@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-26T08:05:03+09:00",
+  "generated_at": "2026-10-27T09:17:38+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + zepp.co.jp + 年次マスタ",
   "events": [
-    {
-      "date": "2026-10-26",
-      "name": "◆HEROINES出演グループiLiFE!/iON!/のんふぃく!/iMiN!/TENRIN/ラストシーン/ポンコツコンポ/Pastel Closet ◆公募枠ゲスト出演（50⾳順）あいすなっつ/アイドルカレッジ/Aproof/仮⾯⼥⼦/KIRA:MINA/セツナソウ/Chuu♡Cute/昼夜逆転/HATENO/ひなてん!/metarium/Lv.♡Charm iLiVE! TOUR TOKYO",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "12:00",
-      "end": "14:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 11:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-10a731d02120"
-    },
-    {
-      "date": "2026-10-26",
-      "name": "澪川舞香/fav me 澪川舞香 生誕祭2026 ～Moonlit Princess～",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-d7fbc60bf8db"
-    },
-    {
-      "date": "2026-10-26",
-      "name": "中⼭莉⼦ 中⼭莉⼦ ⽣誕ソロライブ「中⼭莉⼦の⽣誕祭。」",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-cf221a7153fe"
-    },
     {
       "date": "2026-10-27",
       "name": "マーキュロ / べロティカ / VILLAINS HOUSE / ギミック / セクト / PSYCHOデリック / CODE:XIII / サークルライチ塾生三期 / マザリ / MADOROMI-マドロミ- / めっ！ / 神様の言う通り / 闇雲 / XILUX / Made in Maiden / 憑依中毒-シャーマンホリック- / 花魁道中 / MAZE / AIBECK / LEIWAN / EMPATHY / Dorothy∞Drop / 後日解禁グループ サークルライチ主催『HELLOWEEN』",
@@ -939,43 +900,27 @@ window.TAXI_APP_DATA = {
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
       "id": "tokyo-569fd3523d75"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "巨匠とマルガリータ",
+      "venue": "新国立劇場（中劇場）",
+      "category": "theater",
+      "start": "13:30",
+      "end": "16:00",
+      "attendance": 858,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-bc15930cccaf"
     }
   ],
   "weather": {
-    "2026-10-26": {
-      "weather_code": "300",
-      "weather": "雨",
-      "pop_max": 90,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 90
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 90
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ],
-      "temp_min": 18,
-      "temp_max": 20
-    },
     "2026-10-27": {
-      "weather_code": "202",
-      "weather": "くもり　明け方　まで　雨",
-      "pop_max": 70,
+      "weather_code": "210",
+      "weather": "くもり　昼過ぎ　から　時々　晴れ　所により　昼前　まで　雨",
+      "pop_max": 30,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 70
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -992,42 +937,43 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 15,
-      "temp_max": 21
+      "temp_min": 22,
+      "temp_max": 22
     },
     "2026-10-28": {
-      "weather_code": "101",
-      "pop_max": 10,
-      "temp_min": 13,
-      "temp_max": 20,
+      "weather_code": "100",
+      "weather": "晴れ　夜　くもり",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 15,
+      "temp_max": 20
     },
     "2026-10-29": {
       "weather_code": "200",
       "pop_max": 40,
       "temp_min": 11,
-      "temp_max": 17,
+      "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
@@ -1082,8 +1028,8 @@ window.TAXI_APP_DATA = {
     "2026-10-31": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 15,
-      "temp_max": 24,
+      "temp_min": 14,
+      "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
@@ -1110,8 +1056,8 @@ window.TAXI_APP_DATA = {
     "2026-11-01": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 13,
-      "temp_max": 21,
+      "temp_min": 12,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -1134,6 +1080,34 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ]
+    },
+    "2026-11-02": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 14,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -1151,15 +1125,15 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 4
+      "count": 3
     },
     {
       "source": "nntt",
-      "count": 68
+      "count": 69
     },
     {
       "source": "kabukiza",
-      "count": 70
+      "count": 73
     },
     {
       "source": "national_stadium",
