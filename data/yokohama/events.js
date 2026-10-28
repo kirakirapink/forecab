@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-27T09:18:57+09:00",
+  "generated_at": "2026-10-28T09:20:08+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-27",
-      "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-95287e0eb23f"
-    },
     {
       "date": "2026-10-29",
       "name": "Sakura Miko 2nd Live “Blooming Parade!!” — さくらみこ",
@@ -149,40 +136,11 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-27": {
-      "weather_code": "210",
-      "weather": "くもり　昼過ぎ　から　時々　晴れ　所により　朝　まで　雨",
-      "pop_max": 30,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 22,
-      "temp_max": 22
-    },
     "2026-10-28": {
-      "weather_code": "100",
-      "weather": "晴れ　夜　くもり",
+      "weather_code": "111",
+      "weather": "晴れ　夕方　から　くもり",
       "pop_max": 10,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -199,24 +157,23 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 16,
-      "temp_max": 20
+      "temp_min": 21,
+      "temp_max": 21
     },
     "2026-10-29": {
       "weather_code": "200",
+      "weather": "くもり　所により　昼過ぎ　から　夕方　雨",
       "pop_max": 40,
-      "temp_min": 13,
-      "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -226,15 +183,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 18
     },
     "2026-10-30": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 15,
-      "temp_max": 21,
+      "temp_min": 16,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -261,7 +220,7 @@ window.TAXI_APP_DATA = {
     "2026-10-31": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 15,
+      "temp_min": 16,
       "temp_max": 23,
       "hourly": [
         {
@@ -287,37 +246,37 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-11-01": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "101",
+      "pop_max": 20,
       "temp_min": 13,
-      "temp_max": 20,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
       ]
     },
     "2026-11-02": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 15,
+      "temp_min": 14,
       "temp_max": 20,
       "hourly": [
         {
@@ -339,6 +298,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 40
+        }
+      ]
+    },
+    "2026-11-03": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 13,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
