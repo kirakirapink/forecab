@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-28T09:21:27+09:00",
+  "generated_at": "2026-10-29T09:40:05+09:00",
   "region": "osaka",
   "source": "自動取得: zepp.co.jp",
   "events": [
@@ -84,41 +84,12 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-28": {
-      "weather_code": "101",
-      "weather": "晴れ　昼過ぎ　まで　時々　くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 20,
-      "temp_max": 20
-    },
     "2026-10-29": {
       "weather_code": "111",
       "weather": "晴れ　夕方　から　くもり",
       "pop_max": 10,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 0
@@ -126,7 +97,7 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
@@ -134,24 +105,23 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 11,
-      "temp_max": 21
+      "temp_min": 22,
+      "temp_max": 22
     },
     "2026-10-30": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 15,
-      "temp_max": 21,
+      "weather_code": "313",
+      "weather": "雨　夕方　から　くもり　所により　朝　から　雷　を伴う",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 80
         },
         {
           "start_min": 720,
@@ -161,35 +131,37 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 40
         }
-      ]
+      ],
+      "temp_min": 15,
+      "temp_max": 20
     },
     "2026-10-31": {
       "weather_code": "200",
-      "pop_max": 40,
+      "pop_max": 30,
       "temp_min": 15,
       "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     },
@@ -197,7 +169,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 13,
-      "temp_max": 21,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -225,7 +197,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 15,
-      "temp_max": 20,
+      "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
@@ -252,8 +224,8 @@ window.TAXI_APP_DATA = {
     "2026-11-03": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 12,
-      "temp_max": 19,
+      "temp_min": 13,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -276,21 +248,55 @@ window.TAXI_APP_DATA = {
           "pop": 30
         }
       ]
+    },
+    "2026-11-04": {
+      "weather_code": "201",
+      "pop_max": 20,
+      "temp_min": 12,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
     }
   },
   "fetch_stats": [
+    {
+      "source": "npb",
+      "count": 0
+    },
+    {
+      "source": "npb",
+      "count": 0
+    },
     {
       "source": "zepp",
       "count": 50
     },
     {
       "source": "kyocera_dome",
-      "count": 7
+      "count": 9
     }
   ],
   "errors": [
-    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_10_detail.html: <urlopen error timed out>",
-    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_11_detail.html: <urlopen error timed out>",
     "[osaka_johall] 取得失敗 https://www.osaka-johall.com/event/: HTTP Error 503: Service Unavailable"
   ]
 };

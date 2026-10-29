@@ -1,8 +1,8 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-28T09:20:08+09:00",
+  "generated_at": "2026-10-29T09:39:51+09:00",
   "region": "yokohama",
-  "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
+  "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
     {
       "date": "2026-10-29",
@@ -83,6 +83,19 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-53005a96592d"
     },
     {
+      "date": "2026-11-01",
+      "name": "プロ野球 DeNA vs ソフトバンク",
+      "venue": "横浜スタジアム",
+      "category": "sports",
+      "start": "18:00",
+      "end": "21:15",
+      "attendance": 32000,
+      "audience": "general",
+      "notes": "終了時刻は平均試合時間からの推定。延長あり",
+      "source": "npb.jp",
+      "id": "yokohama-2eff969409d9"
+    },
+    {
       "date": "2026-11-03",
       "name": "Shout Out to Jesus -ENCORE- in K-Arena — KviBaba",
       "venue": "Kアリーナ横浜",
@@ -133,43 +146,27 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-bd7632046fb5"
+    },
+    {
+      "date": "2026-11-11",
+      "name": "令和8年度　日本体育大学「第63回体育研究発表実演会」",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "18:30",
+      "end": "20:00予定",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 16:30。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-f36e6499504c"
     }
   ],
   "weather": {
-    "2026-10-28": {
-      "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 21,
-      "temp_max": 21
-    },
     "2026-10-29": {
       "weather_code": "200",
-      "weather": "くもり　所により　昼過ぎ　から　夕方　雨",
-      "pop_max": 40,
+      "weather": "くもり　所により　昼過ぎ　から　雨",
+      "pop_max": 30,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -178,78 +175,79 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ],
-      "temp_min": 12,
-      "temp_max": 18
+      "temp_min": 19,
+      "temp_max": 19
     },
     "2026-10-30": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 16,
-      "temp_max": 20,
+      "weather_code": "200",
+      "weather": "くもり　所により　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 15,
+      "temp_max": 23
     },
     "2026-10-31": {
       "weather_code": "200",
-      "pop_max": 40,
+      "pop_max": 30,
       "temp_min": 16,
       "temp_max": 23,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     },
     "2026-11-01": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 13,
-      "temp_max": 19,
+      "temp_min": 14,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -276,8 +274,8 @@ window.TAXI_APP_DATA = {
     "2026-11-02": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 14,
-      "temp_max": 20,
+      "temp_min": 16,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -304,8 +302,36 @@ window.TAXI_APP_DATA = {
     "2026-11-03": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 13,
-      "temp_max": 19,
+      "temp_min": 14,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-04": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 12,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -332,6 +358,14 @@ window.TAXI_APP_DATA = {
   },
   "fetch_stats": [
     {
+      "source": "npb",
+      "count": 3
+    },
+    {
+      "source": "npb",
+      "count": 1
+    },
+    {
       "source": "zepp",
       "count": 29
     },
@@ -344,8 +378,5 @@ window.TAXI_APP_DATA = {
       "count": 34
     }
   ],
-  "errors": [
-    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_10_detail.html: <urlopen error timed out>",
-    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_11_detail.html: <urlopen error timed out>"
-  ]
+  "errors": []
 };
