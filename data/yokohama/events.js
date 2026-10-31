@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-10-30T09:40:30+09:00",
+  "generated_at": "2026-10-31T09:30:58+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + npb.jp + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-10-30",
-      "name": "ACIDMAN ACIDMAN ONEMAN LIVE \"This is ACIDMAN 2026\"",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-3197db9f2691"
-    },
     {
       "date": "2026-10-31",
       "name": "宇都宮隆 / 野村義男 / 松尾和博 / nishi-ken LIVE UTSU BAR TOUR 2026 〜それゆけ歌酔曲!!〜 ギア-レイワ8『オータムこい』",
@@ -136,39 +123,39 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-10-30": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夕方　まで　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 22,
-      "temp_max": 22
-    },
     "2026-10-31": {
-      "weather_code": "100",
-      "weather": "晴れ",
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり　所により　明け方　雨",
       "pop_max": 10,
       "hourly": [
         {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 0
+        }
+      ],
+      "temp_min": 24,
+      "temp_max": 24
+    },
+    "2026-11-01": {
+      "weather_code": "201",
+      "weather": "くもり　昼過ぎ　まで　時々　晴れ",
+      "pop_max": 0,
+      "hourly": [
+        {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
@@ -186,62 +173,34 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 15,
-      "temp_max": 24
-    },
-    "2026-11-01": {
-      "weather_code": "101",
-      "pop_max": 20,
       "temp_min": 14,
-      "temp_max": 20,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 22
     },
     "2026-11-02": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 16,
-      "temp_max": 22,
+      "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
@@ -249,7 +208,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 15,
-      "temp_max": 21,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -276,8 +235,8 @@ window.TAXI_APP_DATA = {
     "2026-11-04": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 14,
-      "temp_max": 18,
+      "temp_min": 13,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
@@ -304,8 +263,8 @@ window.TAXI_APP_DATA = {
     "2026-11-05": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 13,
-      "temp_max": 17,
+      "temp_min": 12,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
@@ -326,6 +285,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 50
+        }
+      ]
+    },
+    "2026-11-06": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 14,
+      "temp_max": 21,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
