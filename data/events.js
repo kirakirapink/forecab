@@ -1,113 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-02T09:22:46+09:00",
+  "generated_at": "2026-11-03T11:48:18+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + jpnsport.go.jp/yoyogi + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-02",
-      "name": "吉例顔見世大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-349bd9e5e5a9"
-    },
-    {
-      "date": "2026-11-02",
-      "name": "吉例顔見世大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-830767862651"
-    },
-    {
-      "date": "2026-11-02",
-      "name": "CNBLUE CNBLUE AUTUMN TOUR 2026 -FULL CIRCLE-",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-179ceb8e7437"
-    },
-    {
-      "date": "2026-11-02",
-      "name": "サバシスター / フラワーカンパニーズ Opening Guest：寺中友将(KEYTALK)/てんぷらDJアゲまさ a.k.a小野武正(KEYTALK/Alaska Jam) SET CHANGE GUEST：サカグチアミ SHELTER 35th Anniversary Finale \" ZeppがSHELTERになります \" DAY2",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-f3e8bc00be33"
-    },
-    {
-      "date": "2026-11-02",
-      "name": "OPEN CITY MARUNOUCHI2026 【自由見学・デジタルスタンプラリー】建築と自然のハーモニー",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-5b31ae70c2d2"
-    },
-    {
-      "date": "2026-11-02",
-      "name": "第55回東京都農業祭",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-fa2b9d62de15"
-    },
-    {
-      "date": "2026-11-02",
-      "name": "未来古代楽団ライブ 祝祭あるいは断章8 「氷る世界と燐の君」",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-3e86581f885f"
-    },
-    {
-      "date": "2026-11-02",
-      "name": "たとへば君",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-1cb4b506888e"
-    },
     {
       "date": "2026-11-03",
       "name": "吉例顔見世大歌舞伎（昼の部）",
@@ -211,19 +107,6 @@ window.TAXI_APP_DATA = {
       "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
       "source": "ariake-arena.tokyo",
       "id": "tokyo-9624c5f7c216"
-    },
-    {
-      "date": "2026-11-03",
-      "name": "CNBLUE CNBLUE AUTUMN TOUR 2026 -FULL CIRCLE-",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-cd3fb6733f7b"
     },
     {
       "date": "2026-11-03",
@@ -1241,16 +1124,16 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-10",
-      "name": "アグリビジネス創出フェア2026",
+      "name": "地方銀行フードセレクション2026",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
       "start": "10:00",
       "end": "17:00",
-      "attendance": 7000,
+      "attendance": 28000,
       "audience": "business",
-      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
       "source": "bigsight.jp",
-      "id": "tokyo-5b500684f840"
+      "id": "tokyo-ee58f0448f79"
     },
     {
       "date": "2026-11-10",
@@ -1371,16 +1254,16 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-11",
-      "name": "アグリビジネス創出フェア2026",
+      "name": "地方銀行フードセレクション2026",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
       "start": "10:00",
       "end": "17:00",
-      "attendance": 7000,
+      "attendance": 28000,
       "audience": "business",
-      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
       "source": "bigsight.jp",
-      "id": "tokyo-19e9c2a9ce71"
+      "id": "tokyo-0f3911bec82c"
     },
     {
       "date": "2026-11-11",
@@ -1415,11 +1298,24 @@ window.TAXI_APP_DATA = {
       "category": "exhibition",
       "start": "10:00",
       "end": "17:00",
-      "attendance": 14000,
+      "attendance": 7000,
       "audience": "business",
-      "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-2fd2ff96c3aa"
+    },
+    {
+      "date": "2026-11-11",
+      "name": "アグリビジネス創出フェア2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-19e9c2a9ce71"
     },
     {
       "date": "2026-11-11",
@@ -1592,19 +1488,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-12",
-      "name": "アグリビジネス創出フェア2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-741df1658b66"
-    },
-    {
-      "date": "2026-11-12",
       "name": "FOOD-DX 2026 ほか8展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
@@ -1636,11 +1519,24 @@ window.TAXI_APP_DATA = {
       "category": "exhibition",
       "start": "10:00",
       "end": "17:00",
-      "attendance": 14000,
+      "attendance": 7000,
       "audience": "business",
-      "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-28f14667c614"
+    },
+    {
+      "date": "2026-11-12",
+      "name": "アグリビジネス創出フェア2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-741df1658b66"
     },
     {
       "date": "2026-11-12",
@@ -1813,19 +1709,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-13",
-      "name": "アグリビジネス創出フェア2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-d11065d4045e"
-    },
-    {
-      "date": "2026-11-13",
       "name": "FOOD-DX 2026 ほか8展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
@@ -1857,11 +1740,24 @@ window.TAXI_APP_DATA = {
       "category": "exhibition",
       "start": "10:00",
       "end": "17:00",
-      "attendance": 14000,
+      "attendance": 7000,
       "audience": "business",
-      "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-da9b87078d68"
+    },
+    {
+      "date": "2026-11-13",
+      "name": "アグリビジネス創出フェア2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-d11065d4045e"
     },
     {
       "date": "2026-11-13",
@@ -2112,19 +2008,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-14",
-      "name": "普及公演】出演者変更の",
-      "venue": "国立能楽堂",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 500,
-      "audience": "senior_wealthy",
-      "notes": "能・狂言。年配富裕層中心。千駄ヶ谷駅徒歩7分でやや駅遠、終演後タクシー需要強い。",
-      "source": "ntj.jac.go.jp",
-      "id": "tokyo-8c2ae0a04fcd"
-    },
-    {
-      "date": "2026-11-14",
       "name": "巨匠とマルガリータ",
       "venue": "新国立劇場（中劇場）",
       "category": "theater",
@@ -2252,6 +2135,19 @@ window.TAXI_APP_DATA = {
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-af43595e356e"
+    },
+    {
+      "date": "2026-11-15",
+      "name": "古着フェス",
+      "venue": "東京ビッグサイト",
+      "category": "festival",
+      "start": "10:00",
+      "end": "19:00",
+      "attendance": 14000,
+      "audience": "youth",
+      "notes": "東1・2ホール。一般公開。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-b7f793607a0f"
     },
     {
       "date": "2026-11-15",
@@ -2460,47 +2356,101 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "tokyo-5761f71f1488"
+    },
+    {
+      "date": "2026-11-16",
+      "name": "ザ インターナショナルアカデミック フォーラム The 18th Asian Conference on Education（ACE2026）",
+      "venue": "東京国際フォーラム",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 3000,
+      "audience": "business",
+      "notes": "学会・展示会・カンファレンス想定。10-17時開催で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-064544bb2ba9"
+    },
+    {
+      "date": "2026-11-16",
+      "name": "吉例顔見世大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-f726ed5fea57"
+    },
+    {
+      "date": "2026-11-16",
+      "name": "巨匠とマルガリータ",
+      "venue": "新国立劇場（中劇場）",
+      "category": "theater",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 858,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-10a77268ca63"
+    },
+    {
+      "date": "2026-11-16",
+      "name": "吉例顔見世大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-352fc3a6ddc2"
+    },
+    {
+      "date": "2026-11-16",
+      "name": "私立恵比寿中学 VS SWEET STEDY 私立恵比寿中学 TAIBAN LIVE「放課後ロッケンロール-HYPER- 2026」",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-e5a05bfcaa97"
+    },
+    {
+      "date": "2026-11-16",
+      "name": "CYNHN CYNHN Zepp DiverCityワンマンライブ2026",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-6856fa8c14d0"
     }
   ],
   "weather": {
-    "2026-11-02": {
-      "weather_code": "203",
-      "weather": "くもり　昼過ぎ　から　夕方　雨",
-      "pop_max": 80,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 20,
-      "temp_max": 20
-    },
     "2026-11-03": {
-      "weather_code": "201",
-      "weather": "くもり　昼前　まで　時々　晴れ",
+      "weather_code": "111",
+      "weather": "晴れ　昼過ぎ　から　くもり",
       "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -2513,70 +2463,72 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 12,
-      "temp_max": 20
+      "temp_min": 19,
+      "temp_max": 19
     },
     "2026-11-04": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 13,
-      "temp_max": 19,
+      "weather_code": "212",
+      "weather": "くもり　夜遅く　雨",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 18
     },
     "2026-11-05": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 12,
-      "temp_max": 16,
+      "weather_code": "302",
+      "weather": "雨　時々　くもり",
+      "pop_max": 90,
+      "temp_min": 11,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 90
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 90
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 90
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 90
         }
       ]
     },
     "2026-11-06": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 14,
-      "temp_max": 22,
+      "temp_min": 16,
+      "temp_max": 24,
       "hourly": [
         {
           "start_min": 0,
@@ -2629,30 +2581,86 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-11-08": {
-      "weather_code": "101",
-      "pop_max": 20,
+      "weather_code": "201",
+      "pop_max": 30,
       "temp_min": 10,
+      "temp_max": 17,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-09": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 10,
+      "temp_max": 17,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
+        }
+      ]
+    },
+    "2026-11-10": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 9,
       "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 30
         }
       ]
     }
@@ -2664,7 +2672,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "bigsight",
-      "count": 34
+      "count": 33
     },
     {
       "source": "dome",
@@ -2680,15 +2688,15 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 17
+      "count": 16
     },
     {
       "source": "nntt",
-      "count": 64
+      "count": 65
     },
     {
       "source": "kabukiza",
-      "count": 86
+      "count": 87
     },
     {
       "source": "national_stadium",
@@ -2716,7 +2724,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 39
+      "count": 37
     }
   ],
   "errors": []

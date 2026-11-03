@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-02T09:23:04+09:00",
+  "generated_at": "2026-11-03T11:48:37+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-02",
-      "name": "CHANYEOL CHANYEOL JAPAN TOUR 2026 -The Route-",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-132ea3f21522"
-    },
     {
       "date": "2026-11-03",
       "name": "秦 基博",
@@ -344,20 +331,25 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-11-02": {
-      "weather_code": "203",
-      "weather": "くもり　朝　から　昼過ぎ　雨　後　晴れ",
-      "pop_max": 80,
+    "2026-11-03": {
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 10
         },
         {
           "start_min": 1080,
@@ -365,71 +357,44 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 21,
-      "temp_max": 21
-    },
-    "2026-11-03": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 15,
+      "temp_min": 22,
       "temp_max": 22
     },
     "2026-11-04": {
       "weather_code": "111",
-      "pop_max": 30,
-      "temp_min": 13,
-      "temp_max": 22,
+      "weather": "晴れ　夕方　から　くもり　所により　夜遅く　雨",
+      "pop_max": 40,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 23
     },
     "2026-11-05": {
-      "weather_code": "202",
+      "weather_code": "203",
+      "weather": "くもり　時々　雨",
       "pop_max": 60,
       "temp_min": 16,
-      "temp_max": 20,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -456,7 +421,7 @@ window.TAXI_APP_DATA = {
     "2026-11-06": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 16,
+      "temp_min": 15,
       "temp_max": 23,
       "hourly": [
         {
@@ -485,7 +450,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 12,
-      "temp_max": 20,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
@@ -534,6 +499,62 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 20
+        }
+      ]
+    },
+    "2026-11-09": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 11,
+      "temp_max": 18,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-10": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 11,
+      "temp_max": 17,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
