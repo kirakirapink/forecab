@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-03T11:48:37+09:00",
+  "generated_at": "2026-11-04T10:05:54+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-03",
-      "name": "秦 基博",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-8aa2efe3d071"
-    },
-    {
-      "date": "2026-11-03",
-      "name": "レトロリロン レトロリロン Zepp Tour 2026「アブノーマルライフハック」",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-c8303942b82c"
-    },
-    {
-      "date": "2026-11-03",
-      "name": "ブランデー戦記 BRANDY SENKI TOUR 2026",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-d7ee6efbfe03"
-    },
     {
       "date": "2026-11-04",
       "name": "ピーナッツくん BRIMOIRE",
@@ -240,6 +201,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-14",
+      "name": "U-KNOW",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-bee8bc111e76"
+    },
+    {
+      "date": "2026-11-14",
       "name": "INI 2026 INI 5TH ANNIVERSARY DOME TOUR [CITY OF LIGHTS]",
       "venue": "京セラドーム大阪",
       "category": "concert",
@@ -328,48 +302,27 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-f38c7dc50a00"
+    },
+    {
+      "date": "2026-11-17",
+      "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-37aef87f9852"
     }
   ],
   "weather": {
-    "2026-11-03": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 22,
-      "temp_max": 22
-    },
     "2026-11-04": {
       "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり　所により　夜遅く　雨",
+      "weather": "晴れ　夕方　から　くもり　所により　夜　雨",
       "pop_max": 40,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -386,37 +339,37 @@ window.TAXI_APP_DATA = {
           "pop": 40
         }
       ],
-      "temp_min": 12,
+      "temp_min": 23,
       "temp_max": 23
     },
     "2026-11-05": {
       "weather_code": "203",
-      "weather": "くもり　時々　雨",
-      "pop_max": 60,
-      "temp_min": 16,
-      "temp_max": 22,
+      "weather": "くもり　朝晩　雨",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 60
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 60
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 15,
+      "temp_max": 22
     },
     "2026-11-06": {
       "weather_code": "101",

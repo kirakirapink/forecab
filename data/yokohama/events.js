@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-03T11:48:26+09:00",
+  "generated_at": "2026-11-04T10:05:42+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-03",
-      "name": "来栖りん 来栖りん ワンマンライブ Don’t Stop（1回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "14:00",
-      "end": "16:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 13:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-c2a317b1bfd2"
-    },
-    {
-      "date": "2026-11-03",
-      "name": "Shout Out to Jesus -ENCORE- in K-Arena — KviBaba",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-cc105be93de0"
-    },
-    {
-      "date": "2026-11-03",
-      "name": "i☆Ris 14th Anniversary Live",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-19f021506260"
-    },
-    {
-      "date": "2026-11-03",
-      "name": "来栖りん 来栖りん ワンマンライブ Don’t Stop（2回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-0cbdae60b4f9"
-    },
     {
       "date": "2026-11-04",
       "name": "AdamLilith AdamLilith 4th Anniversary Live 『Les Quatre Reines』",
@@ -276,48 +224,27 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-8912cbdd6532"
+    },
+    {
+      "date": "2026-11-17",
+      "name": "レキシ [メンバー] Keyboard: 元気出せ！遣唐使 (渡 和久) Guitar: 加藤えろ正（カトウタロウ） Percussion: 丑三つ時三朗太（三星章紘） レキシ アコースティックツアー 2026 ～稲･遷都･ワールド～",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-1ae4e482264b"
     }
   ],
   "weather": {
-    "2026-11-03": {
-      "weather_code": "200",
-      "weather": "くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 19,
-      "temp_max": 19
-    },
     "2026-11-04": {
-      "weather_code": "212",
-      "weather": "くもり　夜遅く　雨",
-      "pop_max": 50,
+      "weather_code": "214",
+      "weather": "くもり　夜　雨",
+      "pop_max": 80,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -326,23 +253,21 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 80
         }
       ],
-      "temp_min": 13,
+      "temp_min": 18,
       "temp_max": 18
     },
     "2026-11-05": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり",
+      "weather_code": "313",
+      "weather": "雨　昼過ぎ　から　くもり",
       "pop_max": 90,
-      "temp_min": 13,
-      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -352,19 +277,21 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 90
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 90
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 90
+          "pop": 30
         }
-      ]
+      ],
+      "temp_min": 11,
+      "temp_max": 17
     },
     "2026-11-06": {
       "weather_code": "201",
