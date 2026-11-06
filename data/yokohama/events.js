@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-05T10:21:15+09:00",
+  "generated_at": "2026-11-06T10:25:03+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
@@ -110,6 +110,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-11",
+      "name": "米津玄師 2026 TOUR / GHOST",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-f924425d5656"
+    },
+    {
+      "date": "2026-11-11",
       "name": "令和8年度　日本体育大学「第63回体育研究発表実演会」",
       "venue": "横浜アリーナ",
       "category": "festival",
@@ -133,6 +146,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-9acfd1fef426"
+    },
+    {
+      "date": "2026-11-12",
+      "name": "米津玄師 2026 TOUR / GHOST",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-a01232f49715"
     },
     {
       "date": "2026-11-14",
@@ -237,43 +263,27 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-b5c24c7a8b25"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "菅叶和 菅叶和 NEW BORN LIVE",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-644b95259da4"
     }
   ],
   "weather": {
-    "2026-11-05": {
-      "weather_code": "313",
-      "weather": "雨　昼前　から　くもり",
-      "pop_max": 60,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ],
-      "temp_min": 17,
-      "temp_max": 17
-    },
     "2026-11-06": {
       "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり",
-      "pop_max": 20,
+      "weather": "晴れ　朝晩　くもり　所により　明け方　雨",
+      "pop_max": 0,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -290,42 +300,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 15,
+      "temp_min": 24,
       "temp_max": 24
     },
     "2026-11-07": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 13,
-      "temp_max": 20,
+      "weather_code": "100",
+      "weather": "晴れ　明け方　まで　くもり",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 13,
+      "temp_max": 21
     },
     "2026-11-08": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 11,
-      "temp_max": 16,
+      "temp_min": 10,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -350,30 +361,30 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-11-09": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 11,
-      "temp_max": 17,
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 10,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
@@ -408,7 +419,7 @@ window.TAXI_APP_DATA = {
     "2026-11-11": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 9,
+      "temp_min": 8,
       "temp_max": 16,
       "hourly": [
         {
@@ -432,6 +443,34 @@ window.TAXI_APP_DATA = {
           "pop": 30
         }
       ]
+    },
+    "2026-11-12": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 10,
+      "temp_max": 18,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -445,7 +484,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "k_arena",
-      "count": 12
+      "count": 14
     },
     {
       "source": "yokohama_arena",
