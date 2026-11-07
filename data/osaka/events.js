@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-06T10:25:14+09:00",
+  "generated_at": "2026-11-07T09:41:19+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-06",
-      "name": "MATSURI MATSURI 2nd コンサートツアー（1回目）",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "14:30",
-      "end": "17:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 13:45。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-edd5a9cdabe1"
-    },
-    {
-      "date": "2026-11-06",
-      "name": "MATSURI MATSURI 2nd コンサートツアー（2回目）",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:45。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-a081b8cbef57"
-    },
     {
       "date": "2026-11-07",
       "name": "GLAY",
@@ -328,23 +302,75 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-2f9af74cafef"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "RESISTANCE SURVIVAL（1回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "13:00",
+      "end": "15:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 12:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-1f551010660e"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "LIL LEAGUE LIL LEAGUE's place \"ATELIER\" 2026",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-f5343ffddd80"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "RESISTANCE SURVIVAL（2回目）",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-93d701260b9f"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "2026 MAMA AWARDS Presented by Visa",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-ff2bc5b45b5b"
     }
   ],
   "weather": {
-    "2026-11-06": {
+    "2026-11-07": {
       "weather_code": "101",
-      "weather": "晴れ　時々　くもり　所により　朝　まで　雨",
-      "pop_max": 20,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
@@ -352,10 +378,10 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 22,
-      "temp_max": 22
+      "temp_min": 19,
+      "temp_max": 19
     },
-    "2026-11-07": {
+    "2026-11-08": {
       "weather_code": "101",
       "weather": "晴れ　時々　くもり",
       "pop_max": 10,
@@ -363,7 +389,7 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
@@ -373,78 +399,50 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 10
         }
       ],
-      "temp_min": 13,
-      "temp_max": 19
-    },
-    "2026-11-08": {
-      "weather_code": "101",
-      "pop_max": 10,
-      "temp_min": 11,
-      "temp_max": 18,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_min": 10,
+      "temp_max": 18
     },
     "2026-11-09": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "202",
+      "pop_max": 60,
       "temp_min": 13,
-      "temp_max": 18,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 60
         }
       ]
     },
     "2026-11-10": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 9,
-      "temp_max": 16,
+      "temp_min": 11,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -471,8 +469,8 @@ window.TAXI_APP_DATA = {
     "2026-11-11": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 9,
-      "temp_max": 17,
+      "temp_min": 10,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -500,7 +498,35 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 10,
-      "temp_max": 19,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-11-13": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 11,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -532,7 +558,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 39
+      "count": 40
     },
     {
       "source": "kyocera_dome",
