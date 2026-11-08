@@ -761,6 +761,23 @@ function renderControls() {
   );
 }
 
+function googleMapsLinksHtml({ lat, lng }) {
+  if (!Number.isFinite(lat) || Math.abs(lat) > 90 ||
+      !Number.isFinite(lng) || Math.abs(lng) > 180) return "";
+
+  const point = `${lat},${lng}`;
+  const traffic = new URLSearchParams({ api: "1", map_action: "map", center: point, zoom: "15", layer: "traffic" });
+  const route = new URLSearchParams({ api: "1", destination: point, travelmode: "driving" });
+  return `
+    <div class="detail-row">
+      <span class="detail-key">Google マップで開く</span>
+      <div class="venue-map-links">
+        <a href="https://www.google.com/maps/@?${esc(traffic)}" target="_blank" rel="noopener noreferrer">周辺の渋滞を見る</a>
+        <a href="https://www.google.com/maps/dir/?${esc(route)}" target="_blank" rel="noopener noreferrer">車で何分か見る</a>
+      </div>
+    </div>`;
+}
+
 function breakdownHtml(e) {
   const rows = e.score.breakdown.map(b => `
     <div class="bd-row">
@@ -848,6 +865,7 @@ function renderList() {
           </div>
         </div>
       </summary>
+      ${googleMapsLinksHtml(e.venueInfo)}
       ${breakdownHtml(e)}
     </details>`).join("");
   el.querySelectorAll(".fb-btn").forEach(button =>
