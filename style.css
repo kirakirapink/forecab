@@ -607,6 +607,13 @@ button { font-family: inherit; }
 .bd-hint { grid-area: hint; font-size: 11px; color: var(--dim); padding-left: 66px; }
 
 .detail-row { padding: 9px 16px; font-size: 13px; border-top: 1px solid var(--border); background: #fafbfc; }
+.venue-map-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.venue-map-links a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px;
+  border: 1px solid var(--border-strong); border-radius: 6px;
+  background: var(--card); color: var(--ink); font-weight: 700;
+}
+.venue-map-links a:hover, .venue-map-links a:focus-visible { border-color: var(--ink); }
 .detail-key {
   display: block; font-size: 10px; font-weight: 800; letter-spacing: .14em;
   color: var(--dim); margin-bottom: 3px;
