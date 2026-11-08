@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-08T09:14:51+09:00",
+  "generated_at": "2026-11-08T13:27:18+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
@@ -397,19 +397,24 @@ window.TAXI_APP_DATA = {
   ],
   "weather": {
     "2026-11-08": {
-      "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり",
+      "weather_code": "200",
+      "weather": "くもり",
       "pop_max": 10,
       "hourly": [
         {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 1080,
@@ -451,29 +456,30 @@ window.TAXI_APP_DATA = {
     },
     "2026-11-10": {
       "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 10,
-      "temp_max": 16,
+      "weather": "くもり",
+      "pop_max": 30,
+      "temp_min": 11,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 30
         }
       ]
     },
@@ -536,7 +542,7 @@ window.TAXI_APP_DATA = {
     "2026-11-13": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 11,
+      "temp_min": 12,
       "temp_max": 21,
       "hourly": [
         {
@@ -564,8 +570,8 @@ window.TAXI_APP_DATA = {
     "2026-11-14": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 11,
-      "temp_max": 21,
+      "temp_min": 12,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -586,6 +592,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 20
+        }
+      ]
+    },
+    "2026-11-15": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 15,
+      "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
