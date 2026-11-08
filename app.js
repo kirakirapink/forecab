@@ -116,6 +116,7 @@ function defaultDate() {
 const state = {
   date: defaultDate(),
   sort: "score",          // score | time | near | eff
+  period: "all",
   category: new Set(),     // 空 = 全部
   area: new Set(),
   userLatLng: null,
@@ -457,16 +458,26 @@ function eventsOfDay() {
   return EVENTS.filter(e => e.date === state.date);
 }
 
+const PERIODS = { all: null, day: [600, 960], evening: [960, 1200], night: [1200, 1560] };
+
 function filteredEvents() {
+  const period = PERIODS[state.period];
   return eventsOfDay().filter(e =>
+    (!period || demandWindows(e, 1).some(w => w.from < period[1] && w.to > period[0])) &&
     (state.category.size === 0 || state.category.has(e.category)) &&
     (state.area.size === 0 || state.area.has(e.venueInfo.area))
   );
 }
 
 function scrollToEventCard(eventId) {
-  const card = document.querySelector(`.event-card[data-id="${eventId}"]`);
-  // フィルタで一覧カードが無い場合は何もしない。
+  let card = [...document.querySelectorAll(".event-card[data-id]")].find(el => el.dataset.id === String(eventId));
+  if (!card) {
+    state.period = "all";
+    state.category.clear();
+    state.area.clear();
+    render();
+    card = [...document.querySelectorAll(".event-card[data-id]")].find(el => el.dataset.id === String(eventId));
+  }
   if (!card) return;
   card.scrollIntoView({ behavior: "smooth", block: "center" });
   card.classList.add("flash");
@@ -488,22 +499,26 @@ function renderNowView(nowOverrideMin) {
   const targetEvents = evs
     .filter(e => demandWindows(e, e.score.total / 100).some(w => w.from <= untilMin && w.to >= nowMin))
     .sort((a, b) => b.score.total - a.score.total)
+    .filter((e, i, all) => all.findIndex(other => other.venue === e.venue) === i)
     .slice(0, NOW_VIEW_LIMIT);
 
   if (targetEvents.length > 0) {
     el.innerHTML = `
-      <h2 class="section-title"><span class="en">Nowcast</span>ナウキャスト</h2>
+      <h2 class="section-title"><span class="en">Nowcast</span>いま・これからの狙い目</h2>
       <div class="best3 now-view">` +
-      targetEvents.map((e, i) => `
+      targetEvents.map((e, i) => {
+        const windows = demandWindows(e, 1).filter(w => w.from <= untilMin && w.to >= nowMin);
+        const window = windows.find(w => w.from <= nowMin && w.to >= nowMin) || windows[0];
+        return `
         <button class="best-card now-card" data-id="${e.id}">
           <div class="best-rank">${String(i + 1).padStart(2, "0")}</div>
           <div class="best-body">
-            <div class="best-name">${esc(e.name)}</div>
-            <div class="best-meta">${esc(e.venue)}</div>
-            <div class="best-aim">${esc(aimText(e))}</div>
+            <div class="best-name">${esc(e.venue)}</div>
+            <div class="best-aim">需要の見込み ${fmtMin(window.from)}–${fmtMin(window.to)}</div>
+            <div class="best-meta">${esc(e.venueInfo.area || "")} ／ ${window.from <= nowMin ? "需要発生の見込み" : "まもなく需要の見込み"}</div>
           </div>
           <div class="best-score">${starsHtml(e.score.stars)}</div>
-        </button>`).join("") +
+        </button>`; }).join("") +
       `</div>`;
     el.querySelectorAll(".now-card").forEach(b =>
       b.addEventListener("click", () => scrollToEventCard(b.dataset.id))
@@ -526,27 +541,28 @@ function renderNowView(nowOverrideMin) {
 
   // 現在は谷間なら、最も近い次ピークだけを軽く出す。
   el.innerHTML = `
-    <h2 class="section-title"><span class="en">Nowcast</span>ナウキャスト</h2>
-    <div class="now-bridge">次のピークは <span class="now-bridge-time">${fmtMin(next.from)}</span> 頃 ／ ${esc(next.event.name)}</div>`;
+    <h2 class="section-title"><span class="en">Nowcast</span>いま・これからの狙い目</h2>
+    <div class="now-bridge">次の需要は <span class="now-bridge-time">${fmtMin(next.from)}</span> 頃 ／ ${esc(next.event.venue)}（${esc(next.event.venueInfo.area || "エリア情報なし")}）</div>`;
 }
 
 function renderSummary() {
   const el = document.getElementById("summary");
-  const top = [...eventsOfDay()].sort((a, b) => b.score.total - a.score.total).slice(0, 3);
+  const top = [...eventsOfDay()].sort((a, b) => b.score.total - a.score.total)
+    .filter((e, i, all) => all.findIndex(other => other.venue === e.venue) === i).slice(0, 3);
   if (top.length === 0) {
     el.innerHTML = `<div class="empty">この日のイベントデータがありません</div>`;
     return;
   }
   el.innerHTML = `
-    <h2 class="section-title"><span class="en">Today's Focus</span>本日の焦点</h2>
+    <h2 class="section-title"><span class="en">Today's Focus</span>この日の狙い目</h2>
     <div class="best3">` +
     top.map((e, i) => `
       <button class="best-card" data-id="${e.id}">
         <div class="best-rank">${String(i + 1).padStart(2, "0")}</div>
         <div class="best-body">
-          <div class="best-name">${esc(e.name)}</div>
-          <div class="best-meta">${esc(e.venue)}</div>
+          <div class="best-name">${esc(e.venue)}</div>
           <div class="best-aim">${esc(aimText(e))}</div>
+          <div class="best-meta">${esc(e.venueInfo.area || "")}</div>
         </div>
         <div class="best-score">${starsHtml(e.score.stars)}</div>
       </button>`).join("") +
@@ -584,7 +600,7 @@ function renderHeatmap() {
     const h = Math.round((bins[b] / max) * 100);
     const heat = bins[b] / max;
     const cls = heat > 0.75 ? "hot" : heat > 0.4 ? "warm" : "cool";
-    bars += `<div class="hm-bar-wrap" title="${fmtMin(b * BIN)} 需要 ${Math.round(heat * 100)}%"><div class="hm-bar ${cls}" style="height:${Math.max(h, 3)}%"></div></div>`;
+    bars += `<div class="hm-bar-wrap" title="${fmtMin(b * BIN)} 地域全体の相対的な需要 ${Math.round(heat * 100)}%"><div class="hm-bar ${cls}" style="height:${Math.max(h, 3)}%"></div></div>`;
     labels += `<div class="hm-label">${(b * BIN) % 120 === 0 ? fmtMin(b * BIN).replace(":00", "") + "時" : ""}</div>`;
   }
 
@@ -630,7 +646,7 @@ function renderHeatmap() {
   }
 
   el.innerHTML = `
-    <h2 class="section-title"><span class="en">Hourly Outlook</span>時間帯予報
+    <h2 class="section-title"><span class="en">Hourly Outlook</span>地域全体の時間帯予報
       <span class="peak-note">ピーク ${fmtMin(peakBin * BIN)}前後</span>
     </h2>
     ${wxStrip}
@@ -686,7 +702,7 @@ function renderWeekView() {
       ].join(" ");
       const todayMark = row.date === today ? `<span class="week-today">TODAY</span>` : "";
       const rankBadge = rank ? `<span class="week-rank">${String(rank).padStart(2, "0")}</span>` : `<span class="week-rank blank"></span>`;
-      const eventName = row.topEvent ? shortName(row.topEvent.name) : "イベントなし";
+      const eventName = row.topEvent ? shortName(row.topEvent.venue) : "データなし";
       const bar = row.evs.length > 0
         ? `<span class="week-bar" style="width:${width.toFixed(2)}%"></span>`
         : "";
@@ -721,6 +737,12 @@ function renderControls() {
 
   el.innerHTML = eventsOfDay().length === 0 ? "" : `
     <div class="control-row">
+      <div class="period-label">狙い目の時間帯</div>
+      <div class="sort-toggle" aria-label="狙い目の時間帯">
+        ${[["all", "すべて"], ["day", "昼 10–16時"], ["evening", "夕方 16–20時"], ["night", "夜 20–翌2時"]].map(([value, label]) => `<button class="period-btn sort-btn ${state.period === value ? "on" : ""}" data-period="${value}" aria-pressed="${state.period === value}">${label}</button>`).join("")}
+      </div>
+    </div>
+    <div class="control-row">
       <div class="sort-toggle">
         <button class="sort-btn ${state.sort === "score" ? "on" : ""}" data-sort="score">スコア順</button>
         <button class="sort-btn ${state.sort === "time" ? "on" : ""}" data-sort="time">時間順</button>
@@ -732,7 +754,11 @@ function renderControls() {
     <div class="chip-row">${cats.map(c => chip(c, CATEGORY_LABEL[c] || c, state.category, "category")).join("")}</div>
     <div class="chip-row">${areas.map(a => chip(a, a, state.area, "area")).join("")}</div>`;
 
-  el.querySelectorAll(".sort-btn").forEach(b =>
+  el.querySelectorAll(".period-btn").forEach(b => b.addEventListener("click", () => {
+    state.period = b.dataset.period;
+    render();
+  }));
+  el.querySelectorAll(".sort-btn[data-sort]").forEach(b =>
     b.addEventListener("click", () => {
       const nextSort = b.dataset.sort;
       if ((nextSort === "near" || nextSort === "eff") && !state.userLatLng) {
@@ -841,7 +867,7 @@ function renderList() {
       if (aEff !== bEff) return bEff - aEff;
       return b.score.total - a.score.total;
     }
-    return toMin(a.start) - toMin(b.start);
+    return demandWindows(a, 1)[0].from - demandWindows(b, 1)[0].from;
   });
   const showCountdown = state.date === todayISO();
   el.innerHTML = sorted.map(e => `
@@ -854,17 +880,17 @@ function renderList() {
           <div class="card-info">
             <div class="card-top-row">
               <span class="cat-badge cat-${e.category}">${CATEGORY_LABEL[e.category] || esc(e.category)}</span>
-              <span class="card-time">${e.start}–${e.end}</span>
+              <span class="card-time">開催 ${e.start}–${e.end}</span>
               ${showCountdown ? `<span class="countdown" data-id="${esc(e.id)}"></span>` : ""}
               <span class="expand-hint">詳細</span>
             </div>
-            <div class="card-name">${esc(e.name)}</div>
-            <div class="card-venue">${esc(e.venue)}<span class="card-area">${esc(e.venueInfo.area)}</span></div>
-            <div class="card-facts">約${Number(e.attendance).toLocaleString()}人<span class="sep">／</span>${AUDIENCE_LABEL[e.audience] || esc(e.audience)}</div>
+            <div class="card-venue">${esc(e.venue)}<span class="card-area">${esc(e.venueInfo.area || "")}</span></div>
             <div class="card-aim">${esc(aimText(e))}</div>
+            ${["concert", "sports", "theater"].includes(e.category) ? `<div class="card-pre">開演前の送り需要 ${fmtMin(demandWindows(e, 1)[0].from)}–${fmtMin(demandWindows(e, 1)[0].to)}</div>` : ""}
           </div>
         </div>
       </summary>
+      <div class="detail-row"><span class="detail-key">需要のきっかけ</span>${esc(e.name)}<br><span class="card-facts">来場者 約${Number(e.attendance).toLocaleString()}人 ／ ${AUDIENCE_LABEL[e.audience] || esc(e.audience)}</span></div>
       ${googleMapsLinksHtml(e.venueInfo)}
       ${breakdownHtml(e)}
     </details>`).join("");
