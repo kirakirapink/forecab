@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-07T09:41:08+09:00",
+  "generated_at": "2026-11-08T09:14:40+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-07",
-      "name": "学園アイドルマスター LIVE TOUR -標- ファイナル公演 — 長月 あおい (花海 咲季役) / 小鹿 なお (月村 手毬役) / 飯田 ヒカル (藤田 ことね役) / 七瀬 つむぎ (有村 麻央役) / 花岩 香奈 (葛城 リーリヤ役) / 伊藤 舞音 (倉本 千奈役) / 湊 みや (紫雲 清夏 役) / 川村 玲奈 (篠澤 広役) / 薄井 友里 (姫崎 莉波役) / 松田 彩音(花海 佑芽役) / 春咲 暖 (秦谷 美鈴役) / 陽高 真白 (十王 星南役) / 天音 ゆかり (雨夜 燕役)",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-2811eb52fa9c"
-    },
-    {
-      "date": "2026-11-07",
-      "name": "青木陽菜、BLUE ENCOUNT 青木陽菜 × BLUE ENCOUNT SPECIAL LIVE 「BLUE RIOT」",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-b40efd777b5f"
-    },
     {
       "date": "2026-11-08",
       "name": "VAYONN VAYONN 1st Fanmeeting in JAPAN – Youth Toda（1回目）",
@@ -302,43 +276,40 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-e089626bc217"
+    },
+    {
+      "date": "2026-11-21",
+      "name": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "14:30",
+      "end": "21:00（予定）",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 13:00。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-facd717f5b6c"
+    },
+    {
+      "date": "2026-11-21",
+      "name": "15th Anniversary テレビ朝日ドリームフェスティバル2026 — Aぇ! group / JO1 / Novelbright / マルシィ / ももいろクローバーZ",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 13:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-65c3d98b447c"
     }
   ],
   "weather": {
-    "2026-11-07": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 21,
-      "temp_max": 21
-    },
     "2026-11-08": {
       "weather_code": "201",
       "weather": "くもり　朝　から　昼過ぎ　晴れ",
       "pop_max": 10,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -355,70 +326,71 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 10,
+      "temp_min": 18,
       "temp_max": 18
     },
     "2026-11-09": {
-      "weather_code": "203",
-      "pop_max": 70,
-      "temp_min": 10,
-      "temp_max": 16,
+      "weather_code": "302",
+      "weather": "雨　時々　くもり",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 9,
+      "temp_max": 12
     },
     "2026-11-10": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "pop_max": 50,
       "temp_min": 10,
-      "temp_max": 14,
+      "temp_max": 13,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
     "2026-11-11": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 9,
-      "temp_max": 16,
+      "temp_min": 8,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
@@ -445,8 +417,8 @@ window.TAXI_APP_DATA = {
     "2026-11-12": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 10,
-      "temp_max": 18,
+      "temp_min": 9,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
@@ -475,6 +447,34 @@ window.TAXI_APP_DATA = {
       "pop_max": 20,
       "temp_min": 11,
       "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-11-14": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 11,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
