@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-08T13:36:14+09:00",
+  "generated_at": "2026-11-09T09:37:19+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-08",
-      "name": "齋藤飛鳥 齋藤飛鳥15周年マガジン’neighbourhood’発売記念イベント 『my hood』（1回目）",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "14:30",
-      "end": "17:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 13:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-09a6a7009f0e"
-    },
-    {
-      "date": "2026-11-08",
-      "name": "GLAY",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "16:00",
-      "end": "19:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-5aa966eb90b6"
-    },
-    {
-      "date": "2026-11-08",
-      "name": "jo0ji jo0ji one-man tour 2026「いかり」",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-955b3f567111"
-    },
-    {
-      "date": "2026-11-08",
-      "name": "齋藤飛鳥 齋藤飛鳥15周年マガジン’neighbourhood’発売記念イベント 『my hood』（2回目）",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-cd3e3d40cd42"
-    },
     {
       "date": "2026-11-11",
       "name": "iON! iON!初Zepp5大都市ツアー 『ON!VOYAGE!!』",
@@ -291,6 +239,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-c18bcfafdfbd"
     },
     {
+      "date": "2026-11-19",
+      "name": "米津玄師",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-779b32e3363a"
+    },
+    {
       "date": "2026-11-20",
       "name": "RESISTANCE SURVIVAL（1回目）",
       "venue": "Zepp Osaka Bayside",
@@ -393,48 +354,40 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-83e9b2bb5bd3"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "新しい学校のリーダーズ From AG! with Love 〜ライブハウスより愛を込めて〜",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-2f88d35752bf"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "渋谷すばる / Wienners Music Splash!!",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-523baed7b72b"
     }
   ],
   "weather": {
-    "2026-11-08": {
-      "weather_code": "200",
-      "weather": "くもり",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 18,
-      "temp_max": 18
-    },
     "2026-11-09": {
       "weather_code": "212",
-      "weather": "くもり　夜　雨",
-      "pop_max": 60,
+      "weather": "くもり　夜遅く　雨",
+      "pop_max": 50,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -448,23 +401,21 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 60
+          "pop": 50
         }
       ],
-      "temp_min": 13,
-      "temp_max": 18
+      "temp_min": 17,
+      "temp_max": 17
     },
     "2026-11-10": {
-      "weather_code": "200",
-      "weather": "くもり",
-      "pop_max": 30,
-      "temp_min": 11,
-      "temp_max": 17,
+      "weather_code": "202",
+      "weather": "くもり　後　晴れ　明け方　まで　雨",
+      "pop_max": 70,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 70
         },
         {
           "start_min": 360,
@@ -474,14 +425,16 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 13,
+      "temp_max": 17
     },
     "2026-11-11": {
       "weather_code": "101",

@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-08T13:36:02+09:00",
+  "generated_at": "2026-11-09T09:37:09+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-08",
-      "name": "VAYONN VAYONN 1st Fanmeeting in JAPAN – Youth Toda（1回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "13:30",
-      "end": "16:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 12:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-1e264b184401"
-    },
-    {
-      "date": "2026-11-08",
-      "name": "学園アイドルマスター LIVE TOUR -標- ファイナル公演 — 長月 あおい (花海 咲季役) / 小鹿 なお (月村 手毬役) / 飯田 ヒカル (藤田 ことね役) / 七瀬 つむぎ (有村 麻央役) / 花岩 香奈 (葛城 リーリヤ役) / 伊藤 舞音 (倉本 千奈役) / 湊 みや (紫雲 清夏 役) / 川村 玲奈 (篠澤 広役) / 薄井 友里 (姫崎 莉波役) / 松田 彩音(花海 佑芽役) / 春咲 暖 (秦谷 美鈴役) / 陽高 真白 (十王 星南役) / 天音 ゆかり (雨夜 燕役)",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-bd7632046fb5"
-    },
-    {
-      "date": "2026-11-08",
-      "name": "VAYONN VAYONN 1st Fanmeeting in JAPAN – Youth Toda（2回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-789881663f01"
-    },
     {
       "date": "2026-11-09",
       "name": "XAOSX 『888 -THE REAL CLAP-』（1回目）",
@@ -302,42 +263,76 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 13:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-65c3d98b447c"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "≠ME ≠MissionE 公開収録＆ミニLIVE（1回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "14:30",
+      "end": "17:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 13:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-546a7d228178"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "15th Anniversary テレビ朝日ドリームフェスティバル2026 — INI / NCT DREAM / XngHan&Xoul / Da-iCE / ROIROM",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 13:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-748fb139b4e5"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "≠ME ≠MissionE 公開収録＆ミニLIVE（2回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-91431876d2b1"
     }
   ],
   "weather": {
-    "2026-11-08": {
-      "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり",
-      "pop_max": 0,
+    "2026-11-09": {
+      "weather_code": "302",
+      "weather": "雨　昼過ぎ　から　夕方　くもり",
+      "pop_max": 80,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 70
         }
       ],
-      "temp_min": 18,
-      "temp_max": 18
+      "temp_min": 11,
+      "temp_max": 14
     },
-    "2026-11-09": {
-      "weather_code": "302",
-      "weather": "雨　時々　くもり",
-      "pop_max": 80,
+    "2026-11-10": {
+      "weather_code": "202",
+      "weather": "くもり　後　晴れ　明け方　まで　雨",
+      "pop_max": 60,
       "hourly": [
         {
           "start_min": 0,
@@ -347,50 +342,21 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 0
         }
       ],
-      "temp_min": 9,
-      "temp_max": 12
-    },
-    "2026-11-10": {
-      "weather_code": "202",
-      "weather": "くもり　一時　雨",
-      "pop_max": 50,
-      "temp_min": 9,
-      "temp_max": 15,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ]
+      "temp_min": 10,
+      "temp_max": 14
     },
     "2026-11-11": {
       "weather_code": "101",
