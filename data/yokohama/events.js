@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-09T09:37:09+09:00",
+  "generated_at": "2026-11-10T12:16:16+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-09",
-      "name": "XAOSX 『888 -THE REAL CLAP-』（1回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "15:30",
-      "end": "18:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 14:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-0cff71fa735e"
-    },
-    {
-      "date": "2026-11-09",
-      "name": "XAOSX 『888 -THE REAL CLAP-』（2回目）",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-f2bf8ed1477c"
-    },
     {
       "date": "2026-11-10",
       "name": "@onefive @onefive Zepp Tour 2026 “Serolla Latte”",
@@ -302,47 +276,122 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-91431876d2b1"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "2026 ふるさと港北ふれあいまつり・秋のヨコアリくんまつり（合同開催）",
+      "venue": "横浜アリーナ",
+      "category": "festival",
+      "start": "10:00",
+      "end": "15:00",
+      "attendance": 17000,
+      "audience": "general",
+      "notes": "OPEN 9:30。",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-53eafe198776"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "15th Anniversary テレビ朝日ドリームフェスティバル2026 — ALPHA DRIVE ONE / izna / NCT WISH / MAZZEL / ME:I / モナキ",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "15:00",
+      "end": "18:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 13:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-b68573d8fd4d"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "indigo la End FC LIVE 「藍会 vol.4」",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-1246651fe5c1"
     }
   ],
   "weather": {
-    "2026-11-09": {
-      "weather_code": "302",
-      "weather": "雨　昼過ぎ　から　夕方　くもり",
-      "pop_max": 80,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 80
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 70
-        }
-      ],
-      "temp_min": 11,
-      "temp_max": 14
-    },
     "2026-11-10": {
-      "weather_code": "202",
-      "weather": "くもり　後　晴れ　明け方　まで　雨",
-      "pop_max": 60,
+      "weather_code": "313",
+      "weather": "雨　昼過ぎ　から　くもり　後　晴れ",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 60
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ],
+      "temp_min": 13,
+      "temp_max": 13
+    },
+    "2026-11-11": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 0
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 0
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 0
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 0
+        }
+      ],
+      "temp_min": 9,
+      "temp_max": 15
+    },
+    "2026-11-12": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
+      "temp_min": 10,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -352,72 +401,14 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 10,
-      "temp_max": 14
-    },
-    "2026-11-11": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 9,
-      "temp_max": 16,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
-    "2026-11-12": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 10,
-      "temp_max": 19,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-11-13": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 11,
+      "temp_min": 12,
       "temp_max": 21,
       "hourly": [
         {
@@ -443,30 +434,30 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-11-14": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 11,
-      "temp_max": 20,
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 12,
+      "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 30
         }
       ]
     },
@@ -475,6 +466,62 @@ window.TAXI_APP_DATA = {
       "pop_max": 50,
       "temp_min": 13,
       "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-11-16": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 14,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-17": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 12,
+      "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,

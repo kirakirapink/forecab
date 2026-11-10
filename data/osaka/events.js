@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-09T09:37:19+09:00",
+  "generated_at": "2026-11-10T12:16:25+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
@@ -380,47 +380,49 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-523baed7b72b"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "丸山純奈 丸山純奈 ONEMAN LIVE 2026",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-ba868ede9825"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "神はサイコロを振らない Zepp Tour 2026 \"View From The Soyuz\"",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-847f9da994d9"
     }
   ],
   "weather": {
-    "2026-11-09": {
-      "weather_code": "212",
-      "weather": "くもり　夜遅く　雨",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 17,
-      "temp_max": 17
-    },
     "2026-11-10": {
-      "weather_code": "202",
-      "weather": "くもり　後　晴れ　明け方　まで　雨",
-      "pop_max": 70,
+      "weather_code": "211",
+      "weather": "くもり　夕方　から　晴れ　所により　昼前　雨",
+      "pop_max": 20,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 720,
@@ -430,97 +432,71 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 20
         }
       ],
-      "temp_min": 13,
-      "temp_max": 17
+      "temp_min": 16,
+      "temp_max": 16
     },
     "2026-11-11": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 9,
-      "temp_max": 18,
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 10,
+      "temp_max": 18
     },
     "2026-11-12": {
       "weather_code": "101",
-      "pop_max": 20,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "temp_min": 10,
-      "temp_max": 20,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-11-13": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 12,
-      "temp_max": 21,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
-    "2026-11-14": {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 12,
@@ -548,11 +524,95 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
+    "2026-11-14": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 12,
+      "temp_max": 21,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
     "2026-11-15": {
       "weather_code": "202",
       "pop_max": 50,
       "temp_min": 15,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-11-16": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 13,
       "temp_max": 20,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-17": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 13,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
