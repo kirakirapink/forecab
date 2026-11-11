@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-10T12:16:16+09:00",
+  "generated_at": "2026-11-11T10:05:31+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-10",
-      "name": "@onefive @onefive Zepp Tour 2026 “Serolla Latte”",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-f3cc987a773c"
-    },
     {
       "date": "2026-11-11",
       "name": "米津玄師 2026 TOUR / GHOST",
@@ -315,41 +302,49 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-1246651fe5c1"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "IRON MAIDEN RUN FOR YOUR LIVES WORLD TOUR 2026 FROM IRON MAIDEN TO FEAR OF THE DARK",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-dfb843cbfa74"
     }
   ],
   "weather": {
-    "2026-11-10": {
-      "weather_code": "313",
-      "weather": "雨　昼過ぎ　から　くもり　後　晴れ",
-      "pop_max": 20,
+    "2026-11-11": {
+      "weather_code": "111",
+      "weather": "晴れ　夜　くもり",
+      "pop_max": 0,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 0
         }
       ],
-      "temp_min": 13,
-      "temp_max": 13
+      "temp_min": 15,
+      "temp_max": 15
     },
-    "2026-11-11": {
-      "weather_code": "100",
-      "weather": "晴れ",
+    "2026-11-12": {
+      "weather_code": "101",
+      "weather": "晴れ　朝晩　くもり",
       "pop_max": 0,
       "hourly": [
         {
@@ -373,37 +368,8 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 9,
-      "temp_max": 15
-    },
-    "2026-11-12": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 10,
       "temp_min": 10,
-      "temp_max": 19,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_max": 18
     },
     "2026-11-13": {
       "weather_code": "101",

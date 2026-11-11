@@ -1,139 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-10T12:16:09+09:00",
+  "generated_at": "2026-11-11T10:05:23+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + ntj.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-10",
-      "name": "地方銀行フードセレクション2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 28000,
-      "audience": "business",
-      "notes": "南1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（4ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-ee58f0448f79"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "吉例顔見世大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-0a33336b962d"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-7d2a2682f84f"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "吉例顔見世大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-b504e103ce34"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "ベロティカ ベロティカ 3周年記念5大都市ワンマンツアー 『LIBIDO』",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-8c6253048999"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "Jason Mraz Asia 2026",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-a8c5ca26b1e2"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "0.1gの誤算 初⼼者にも優しい⾃由に⾒ていいワンマン",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-44c9b6523c07"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "The 33rd International Congress of Actuaries（ICA2026）",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-643ad3e27e88"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "ヤバイTシャツ屋さん ヤバイTシャツ屋さん \"Magical Tank-top Parade\" ONE-MAN TOUR 2026",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-56154120348d"
-    },
-    {
-      "date": "2026-11-10",
-      "name": "演劇研修所 第20期生公演『あの子はだあれ、だれでしょね』",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-99fb36c377fd"
-    },
     {
       "date": "2026-11-11",
       "name": "地方銀行フードセレクション2026",
@@ -1618,6 +1488,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-19",
+      "name": "ミュージカル『星影の人』－沖田総司・まぼろしの青春－",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-fd0f7b9a4658"
+    },
+    {
+      "date": "2026-11-19",
       "name": "さだまさしコンサートツアー2026 神さまの言うとおり",
       "venue": "東京国際フォーラム",
       "category": "concert",
@@ -1774,6 +1657,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-20",
+      "name": "ミュージカル『星影の人』－沖田総司・まぼろしの青春－",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-f4d322789351"
+    },
+    {
+      "date": "2026-11-20",
       "name": "さだまさしコンサートツアー2026 神さまの言うとおり",
       "venue": "東京国際フォーラム",
       "category": "concert",
@@ -1914,6 +1810,19 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
       "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
       "id": "tokyo-943ce3f46934"
+    },
+    {
+      "date": "2026-11-21",
+      "name": "ミュージカル『星影の人』－沖田総司・まぼろしの青春－",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-a529d716b8e2"
     },
     {
       "date": "2026-11-21",
@@ -2086,6 +1995,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-22",
+      "name": "ミュージカル『星影の人』－沖田総司・まぼろしの青春－",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-3c9eecf64d8b"
+    },
+    {
+      "date": "2026-11-22",
       "name": "TOKYO周穫祭2026～おいしい！たのしい！東京周遊フェス～",
       "venue": "東京国際フォーラム",
       "category": "concert",
@@ -2242,6 +2164,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-23",
+      "name": "ミュージカル『星影の人』－沖田総司・まぼろしの青春－",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-5181d5f8d709"
+    },
+    {
+      "date": "2026-11-23",
       "name": "Chrono Reverse One Man Live BREAKØUT",
       "venue": "東京国際フォーラム",
       "category": "concert",
@@ -2252,39 +2187,112 @@ window.TAXI_APP_DATA = {
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-6ca1fe290e4f"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "吉例顔見世大歌舞伎（昼の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "15:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-dfd7cc424c60"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-97fc9428715e"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "吉例顔見世大歌舞伎（夜の部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "16:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-de4a9f3fab6f"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "LIL LEAGUE LIL LEAGUE's place \"ATELIER\" 2026",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-e3452c57b66e"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "ミュージカル『星影の人』－沖田総司・まぼろしの青春－",
+      "venue": "東京国際フォーラム",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "senior_wealthy",
+      "notes": "ミュージカル・舞台想定。18時開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-e9f909231e1c"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "TENDOUJI 【ゲスト】Tempalay TENDOUJI LIVEHOUSE TOUR 2026 EASY PUNK PARK FINAL \"THEDAY\" at ZEPP SHINJUKU",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-b74f2f70c4fe"
     }
   ],
   "weather": {
-    "2026-11-10": {
-      "weather_code": "313",
-      "weather": "雨　昼過ぎ　から　くもり　後　晴れ",
-      "pop_max": 20,
+    "2026-11-11": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 0
         }
       ],
-      "temp_min": 13,
-      "temp_max": 13
+      "temp_min": 15,
+      "temp_max": 15
     },
-    "2026-11-11": {
+    "2026-11-12": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -2310,37 +2318,8 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 8,
-      "temp_max": 15
-    },
-    "2026-11-12": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 10,
-      "temp_min": 8,
-      "temp_max": 18,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_min": 9,
+      "temp_max": 18
     },
     "2026-11-13": {
       "weather_code": "101",
@@ -2506,15 +2485,15 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 13
+      "count": 12
     },
     {
       "source": "nntt",
-      "count": 73
+      "count": 76
     },
     {
       "source": "kabukiza",
-      "count": 96
+      "count": 94
     },
     {
       "source": "national_stadium",
@@ -2529,6 +2508,10 @@ window.TAXI_APP_DATA = {
       "count": 5
     },
     {
+      "source": "yoyogi",
+      "count": 0
+    },
+    {
       "source": "takarazuka",
       "count": 272
     },
@@ -2538,10 +2521,8 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 25
+      "count": 31
     }
   ],
-  "errors": [
-    "[yoyogi] 取得失敗 https://www.jpnsport.go.jp/yoyogi/event/tabid/59/Default.aspx: HTTP Error 404: Not Found"
-  ]
+  "errors": []
 };
