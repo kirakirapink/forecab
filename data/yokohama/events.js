@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-11T10:05:31+09:00",
+  "generated_at": "2026-11-12T11:09:09+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-11",
-      "name": "米津玄師 2026 TOUR / GHOST",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-f924425d5656"
-    },
-    {
-      "date": "2026-11-11",
-      "name": "令和8年度　日本体育大学「第63回体育研究発表実演会」",
-      "venue": "横浜アリーナ",
-      "category": "festival",
-      "start": "18:30",
-      "end": "20:00予定",
-      "attendance": 17000,
-      "audience": "general",
-      "notes": "OPEN 16:30。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-f36e6499504c"
-    },
     {
       "date": "2026-11-12",
       "name": "杉山清貴／演奏：大島孝夫とDEAR BREEZE（ベース 大島孝夫、ギター 高島信二、ギター 吉田健二、キーボード 西原俊次、キーボード 大阪哲也、ドラム 小川幸夫） 杉山清貴 SOLO DEBUT 40TH ANNIVERSARY TOUR",
@@ -315,14 +289,45 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-dfb843cbfa74"
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Malcolm Todd Malcolm Todd: Do That Again Tour",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-f6954144d053"
+    },
+    {
+      "date": "2026-11-25",
+      "name": "IRON MAIDEN RUN FOR YOUR LIVES WORLD TOUR 2026 FROM IRON MAIDEN TO FEAR OF THE DARK",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "19:00",
+      "end": "22:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-017956c0dbfc"
     }
   ],
   "weather": {
-    "2026-11-11": {
-      "weather_code": "111",
-      "weather": "晴れ　夜　くもり",
+    "2026-11-12": {
+      "weather_code": "100",
+      "weather": "晴れ",
       "pop_max": 0,
       "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 0
+        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -339,23 +344,23 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 15,
-      "temp_max": 15
+      "temp_min": 18,
+      "temp_max": 18
     },
-    "2026-11-12": {
-      "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり",
-      "pop_max": 0,
+    "2026-11-13": {
+      "weather_code": "211",
+      "weather": "くもり　昼前　から　晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -369,69 +374,42 @@ window.TAXI_APP_DATA = {
         }
       ],
       "temp_min": 10,
-      "temp_max": 18
-    },
-    "2026-11-13": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 12,
-      "temp_max": 21,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 21
     },
     "2026-11-14": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "111",
+      "weather": "晴れ　後　くもり",
+      "pop_max": 10,
       "temp_min": 12,
       "temp_max": 21,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
         }
       ]
     },
     "2026-11-15": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 13,
-      "temp_max": 19,
+      "temp_min": 14,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -458,8 +436,8 @@ window.TAXI_APP_DATA = {
     "2026-11-16": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 14,
-      "temp_max": 19,
+      "temp_min": 13,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -486,8 +464,8 @@ window.TAXI_APP_DATA = {
     "2026-11-17": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 12,
-      "temp_max": 16,
+      "temp_min": 11,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
@@ -508,6 +486,62 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 50
+        }
+      ]
+    },
+    "2026-11-18": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 11,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-11-19": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 9,
+      "temp_max": 16,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
         }
       ]
     }

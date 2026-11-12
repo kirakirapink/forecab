@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-11T10:05:42+09:00",
+  "generated_at": "2026-11-12T11:09:19+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-11",
-      "name": "iON! iON!初Zepp5大都市ツアー 『ON!VOYAGE!!』",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-e8f730caaf1f"
-    },
-    {
-      "date": "2026-11-11",
-      "name": "粗品 粗品TOUR2026 「覚悟の⻤」",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-13bc38d0b516"
-    },
-    {
-      "date": "2026-11-11",
-      "name": "ベストヒット歌謡祭2026",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 16000,
-      "audience": "senior_wealthy",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-ace317060062"
-    },
     {
       "date": "2026-11-13",
       "name": "VERIVERY 2026 VERIVERY CONCERT \"GIVE ME FIVE, KEEP THAT VIBE\" JAPAN（1回目）",
@@ -356,19 +317,6 @@ window.TAXI_APP_DATA = {
       "id": "osaka-83e9b2bb5bd3"
     },
     {
-      "date": "2026-11-21",
-      "name": "第45回全日本小学生バンドフェスティバル(フロア部門) ・第39回全日本マーチングコンテスト(中学生の部)",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "19:00",
-      "end": "22:00",
-      "attendance": 16000,
-      "audience": "youth",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-e0a97f3e4b57"
-    },
-    {
       "date": "2026-11-22",
       "name": "新しい学校のリーダーズ From AG! with Love 〜ライブハウスより愛を込めて〜",
       "venue": "Zepp Osaka Bayside",
@@ -380,6 +328,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-2f88d35752bf"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "第39回全日本マーチングコンテスト(高等学校以上の部)",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-93762c9fe8e3"
     },
     {
       "date": "2026-11-22",
@@ -435,33 +396,9 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-11-11": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 18,
-      "temp_max": 18
-    },
     "2026-11-12": {
-      "weather_code": "100",
-      "weather": "晴れ",
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
       "pop_max": 0,
       "hourly": [
         {
@@ -485,42 +422,44 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 10,
+      "temp_min": 20,
       "temp_max": 20
     },
     "2026-11-13": {
       "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 12,
-      "temp_max": 22,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 13,
+      "temp_max": 22
     },
     "2026-11-14": {
       "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
       "pop_max": 30,
-      "temp_min": 12,
-      "temp_max": 21,
+      "temp_min": 11,
+      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
@@ -546,29 +485,29 @@ window.TAXI_APP_DATA = {
     },
     "2026-11-15": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 15,
+      "pop_max": 70,
+      "temp_min": 16,
       "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
       ]
     },
@@ -576,7 +515,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 13,
-      "temp_max": 20,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
@@ -603,8 +542,8 @@ window.TAXI_APP_DATA = {
     "2026-11-17": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 13,
-      "temp_max": 18,
+      "temp_min": 12,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
@@ -627,6 +566,62 @@ window.TAXI_APP_DATA = {
           "pop": 50
         }
       ]
+    },
+    "2026-11-18": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 11,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ]
+    },
+    "2026-11-19": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 9,
+      "temp_max": 14,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -644,7 +639,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 6
+      "count": 5
     }
   ],
   "errors": []
