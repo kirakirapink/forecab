@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-12T11:09:19+09:00",
+  "generated_at": "2026-11-13T10:44:11+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
@@ -331,19 +331,6 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-22",
-      "name": "第39回全日本マーチングコンテスト(高等学校以上の部)",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-93762c9fe8e3"
-    },
-    {
-      "date": "2026-11-22",
       "name": "渋谷すばる / Wienners Music Splash!!",
       "venue": "Zepp Namba",
       "category": "concert",
@@ -367,6 +354,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-ba868ede9825"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "TOMOO",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-b52bcbb9f47f"
     },
     {
       "date": "2026-11-23",
@@ -396,49 +396,15 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-11-12": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 20,
-      "temp_max": 20
-    },
     "2026-11-13": {
       "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
+      "weather": "晴れ　朝晩　くもり　所により　朝　まで　雨",
+      "pop_max": 20,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
@@ -451,37 +417,37 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 13,
+      "temp_min": 22,
       "temp_max": 22
     },
     "2026-11-14": {
-      "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
+      "weather_code": "200",
+      "weather": "くもり　所により　夜　雨",
       "pop_max": 30,
-      "temp_min": 11,
-      "temp_max": 22,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 21
     },
     "2026-11-15": {
       "weather_code": "202",
