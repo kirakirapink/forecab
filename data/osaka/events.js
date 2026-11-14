@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-13T10:44:11+09:00",
+  "generated_at": "2026-11-14T10:20:03+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-13",
-      "name": "VERIVERY 2026 VERIVERY CONCERT \"GIVE ME FIVE, KEEP THAT VIBE\" JAPAN（1回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "14:30",
-      "end": "17:00",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 13:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-403bef5c0876"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "VERIVERY 2026 VERIVERY CONCERT \"GIVE ME FIVE, KEEP THAT VIBE\" JAPAN（2回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-c99db71187e1"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "超ときめき♡宣伝部 FM大阪 \"推したい夢\" 超ときめき♡宣伝部のめっちゃわかりみ〜!! 超♡わかりみ～てぃんぐ!! Vol.3supported by JR東海",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-577f1948cd43"
-    },
     {
       "date": "2026-11-14",
       "name": "U-KNOW",
@@ -393,47 +354,31 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-518e52273d11"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "BIGBANG BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN JAPAN",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-d98c3edc49ab"
     }
   ],
   "weather": {
-    "2026-11-13": {
-      "weather_code": "101",
-      "weather": "晴れ　朝晩　くもり　所により　朝　まで　雨",
-      "pop_max": 20,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 22,
-      "temp_max": 22
-    },
     "2026-11-14": {
-      "weather_code": "200",
-      "weather": "くもり　所により　夜　雨",
-      "pop_max": 30,
+      "weather_code": "212",
+      "weather": "くもり　夜遅く　雨",
+      "pop_max": 50,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
@@ -443,27 +388,26 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 50
         }
       ],
-      "temp_min": 12,
-      "temp_max": 21
+      "temp_min": 20,
+      "temp_max": 20
     },
     "2026-11-15": {
-      "weather_code": "202",
-      "pop_max": 70,
-      "temp_min": 16,
-      "temp_max": 19,
+      "weather_code": "313",
+      "weather": "雨　夕方　から　くもり",
+      "pop_max": 90,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 70
+          "pop": 90
         },
         {
           "start_min": 720,
@@ -473,9 +417,11 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 20
         }
-      ]
+      ],
+      "temp_min": 14,
+      "temp_max": 18
     },
     "2026-11-16": {
       "weather_code": "201",
@@ -506,62 +452,90 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-11-17": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 12,
-      "temp_max": 19,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ]
-    },
-    "2026-11-18": {
-      "weather_code": "202",
-      "pop_max": 50,
+      "weather_code": "200",
+      "pop_max": 40,
       "temp_min": 11,
       "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 40
+        }
+      ]
+    },
+    "2026-11-18": {
+      "weather_code": "202",
+      "pop_max": 60,
+      "temp_min": 13,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 60
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 60
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 60
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 60
         }
       ]
     },
     "2026-11-19": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 10,
+      "temp_max": 15,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-20": {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 9,

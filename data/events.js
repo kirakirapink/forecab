@@ -1,256 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-13T10:43:54+09:00",
+  "generated_at": "2026-11-14T10:19:45+09:00",
   "region": "tokyo",
-  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + jams.med.or.jp + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
+  "source": "自動取得: ariake-arena.tokyo + bigsight.jp + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-13",
-      "name": "日本気管食道科学会 学術集会",
-      "venue": "都内学術集会会場",
-      "category": "exhibition",
-      "start": "09:00",
-      "end": "17:00",
-      "attendance": 2500,
-      "audience": "business",
-      "notes": "分科会No.41。東京都総会サイト。全国から医師が参集。羽田・東京駅→会場、会場→都心ホテルの需要が典型。",
-      "source": "jams.med.or.jp",
-      "id": "tokyo-d0e3f427f9fe"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "FOOD-DX 2026 ほか8展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "東2・3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-1d57e3af5d88"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "エヌプラス(N-Plus)2026 「New」「Next」をプラスする新素材・新技術展",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "東2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-2b62daf61828"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "JFEX WINTER - 第9回 [国際] 食品･飲料 商談 Week - ほか5展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-da9b87078d68"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "アグリビジネス創出フェア2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-d11065d4045e"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "産業交流展2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "西1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-7c49d1a7a1a8"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "60th FISMA TOKYO（第60回 東京ファッション産業機器展）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-7a272fb08a81"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "ザ インターナショナルアカデミック フォーラム The 18th Asian Conference on Education（ACE2026）",
-      "venue": "東京国際フォーラム",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 3000,
-      "audience": "business",
-      "notes": "学会・展示会・カンファレンス想定。10-17時開催で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-6f15e74fa859"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "吉例顔見世大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-d5a950c3254f"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "巨匠とマルガリータ",
-      "venue": "新国立劇場（中劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 858,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-3c8c9ea55a48"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-362c8dccb022"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "吉例顔見世大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-2032ce3d94ae"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "しるこ siruko Fan Meeting Tour 2026 しるこの部屋〜みんなでしるこの部屋〜",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-9aada7702e9a"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "AKLO / ZORN A2Z 2026",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-f128ef3a7869"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "eill 、Furui Riho eill presents Therapy at the Floor supported by ライブナタリー",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-5cbd175ce24e"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "The 33rd International Congress of Actuaries（ICA2026）",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-abc1d10a7998"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "かつしかトリオ COBALT EXPRESS TOUR 2026",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-b846e7771f16"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "ゴスペラーズ坂ツアー2026 “UNIVER5OUL”",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-9ea3b1270ddc"
-    },
-    {
-      "date": "2026-11-13",
-      "name": "演劇研修所 第20期生公演『あの子はだあれ、だれでしょね』",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-3f2a3de84f33"
-    },
     {
       "date": "2026-11-14",
       "name": "ザ インターナショナルアカデミック フォーラム The 18th Asian Conference on Education（ACE2026）",
@@ -773,7 +526,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-18",
-      "name": "Japan Home Show & Building Show 2026",
+      "name": "第48回ジャパンホームショー ほか7展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
       "start": "09:30",
@@ -782,7 +535,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1-3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
       "source": "bigsight.jp",
-      "id": "tokyo-46464b520857"
+      "id": "tokyo-150c75c9b00c"
     },
     {
       "date": "2026-11-18",
@@ -796,6 +549,32 @@ window.TAXI_APP_DATA = {
       "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-e2149cf9c444"
+    },
+    {
+      "date": "2026-11-18",
+      "name": "HOSPEX Japan 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "09:30",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-2ddef1eddc66"
+    },
+    {
+      "date": "2026-11-18",
+      "name": "ビルメンヒューマンフェア＆クリーンEXPO 2026（西ホール開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "09:30",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "ビルメンヒューマンフェア＆クリーンEXPO 2026（西ホール開催）新規タブで開きます。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-bfdc4ed0c061"
     },
     {
       "date": "2026-11-18",
@@ -822,6 +601,45 @@ window.TAXI_APP_DATA = {
       "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-0ed8316746f6"
+    },
+    {
+      "date": "2026-11-18",
+      "name": "第11回 アジア・ファニシング・フェア 2026（最終日のみ17:00迄）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:30",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "南3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-b5d58b712843"
+    },
+    {
+      "date": "2026-11-18",
+      "name": "ビルメンヒューマンフェア＆クリーンEXPO 2026（南ホール開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "ビルメンヒューマンフェア＆クリーンEXPO 2026（南ホール開催）新規タブで開きます。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-83e9f28c7ab3"
+    },
+    {
+      "date": "2026-11-18",
+      "name": "2026洗浄総合展 ほか5展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 21000,
+      "audience": "business",
+      "notes": "東1-3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-7165eac88964"
     },
     {
       "date": "2026-11-18",
@@ -929,7 +747,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-19",
-      "name": "Japan Home Show & Building Show 2026",
+      "name": "第48回ジャパンホームショー ほか7展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
       "start": "09:30",
@@ -938,7 +756,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1-3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
       "source": "bigsight.jp",
-      "id": "tokyo-944f64ccefbb"
+      "id": "tokyo-362c02d8b080"
     },
     {
       "date": "2026-11-19",
@@ -952,6 +770,32 @@ window.TAXI_APP_DATA = {
       "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-a49b04a6b400"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "HOSPEX Japan 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "09:30",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-1c92d6af9efe"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "ビルメンヒューマンフェア＆クリーンEXPO 2026（西ホール開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "09:30",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "ビルメンヒューマンフェア＆クリーンEXPO 2026（西ホール開催）新規タブで開きます。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-2248de8b538f"
     },
     {
       "date": "2026-11-19",
@@ -978,6 +822,45 @@ window.TAXI_APP_DATA = {
       "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-81b7997e5817"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "第11回 アジア・ファニシング・フェア 2026（最終日のみ17:00迄）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:30",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "南3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-ae8e9dd2908b"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "ビルメンヒューマンフェア＆クリーンEXPO 2026（南ホール開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "ビルメンヒューマンフェア＆クリーンEXPO 2026（南ホール開催）新規タブで開きます。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-b0fb45c7358d"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "2026洗浄総合展 ほか5展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 21000,
+      "audience": "business",
+      "notes": "東1-3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-d08a13f87222"
     },
     {
       "date": "2026-11-19",
@@ -1124,7 +1007,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-20",
-      "name": "Japan Home Show & Building Show 2026",
+      "name": "第48回ジャパンホームショー ほか7展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
       "start": "09:30",
@@ -1133,7 +1016,7 @@ window.TAXI_APP_DATA = {
       "audience": "business",
       "notes": "西1-3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
       "source": "bigsight.jp",
-      "id": "tokyo-ab6880cf2cd3"
+      "id": "tokyo-b57ac0bb6d88"
     },
     {
       "date": "2026-11-20",
@@ -1150,6 +1033,32 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-20",
+      "name": "HOSPEX Japan 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "09:30",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-e5eefefe3ac1"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "ビルメンヒューマンフェア＆クリーンEXPO 2026（西ホール開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "09:30",
+      "end": "17:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "ビルメンヒューマンフェア＆クリーンEXPO 2026（西ホール開催）新規タブで開きます。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-2c56964d8203"
+    },
+    {
+      "date": "2026-11-20",
       "name": "第7回 食品工場Week ほか3展（合同開催）",
       "venue": "東京ビッグサイト",
       "category": "exhibition",
@@ -1160,6 +1069,45 @@ window.TAXI_APP_DATA = {
       "notes": "東7・8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
       "source": "bigsight.jp",
       "id": "tokyo-4a3b256532b4"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "第11回 アジア・ファニシング・フェア 2026（最終日のみ17:00迄）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:30",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "南3・4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-b0d32350c294"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "ビルメンヒューマンフェア＆クリーンEXPO 2026（南ホール開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "ビルメンヒューマンフェア＆クリーンEXPO 2026（南ホール開催）新規タブで開きます。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-be6079c5dd30"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "2026洗浄総合展 ほか5展（合同開催）",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 21000,
+      "audience": "business",
+      "notes": "東1-3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-3623fdfc52a8"
     },
     {
       "date": "2026-11-20",
@@ -1264,6 +1212,19 @@ window.TAXI_APP_DATA = {
       "notes": "年配富裕層向けコンサート想定。18時開演で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-dd33b7b57ab1"
+    },
+    {
+      "date": "2026-11-20",
+      "name": "電気グルーヴ 電気グルーヴ 菩薩アー",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-9b073666c6ae"
     },
     {
       "date": "2026-11-20",
@@ -1433,6 +1394,45 @@ window.TAXI_APP_DATA = {
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-6f0d2d745cdf"
+    },
+    {
+      "date": "2026-11-21",
+      "name": "電気グルーヴ 電気グルーヴ 菩薩アー",
+      "venue": "Zepp Haneda",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2900,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-761d17447abd"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "癒しフェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-ec7125cfc18e"
+    },
+    {
+      "date": "2026-11-22",
+      "name": "東京ネイルエキスポ2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:30",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "西1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-cc1036bfe4ab"
     },
     {
       "date": "2026-11-22",
@@ -1628,6 +1628,32 @@ window.TAXI_APP_DATA = {
       "notes": "催事想定。日中開催で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-4864089e03bb"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "癒しフェア",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:00",
+      "attendance": 7000,
+      "audience": "business",
+      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-3fe4e086db34"
+    },
+    {
+      "date": "2026-11-23",
+      "name": "東京ネイルエキスポ2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "18:30",
+      "attendance": 14000,
+      "audience": "business",
+      "notes": "西1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-11afd4aac4a8"
     },
     {
       "date": "2026-11-23",
@@ -2031,47 +2057,109 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 19:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "tokyo-ba4ab91e4cfa"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "ハムレット、冬の旅",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "14:00",
+      "end": "16:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-f84091ad3041"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-44d9340be09b"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "ポルカドットスティングレイ STILL PINK TOUR 2026",
+      "venue": "Zepp Shinjuku",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "youth",
+      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-558856a95e91"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "放送50周年記念 第20回「徹子の部屋」コンサート",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 4000,
+      "audience": "general",
+      "notes": "コンサート想定。18:30開演で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-2d4b17421178"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "柴田聡子のひとりぼっち'26",
+      "venue": "東京国際フォーラム",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 3000,
+      "audience": "general",
+      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
+      "source": "t-i-forum.co.jp",
+      "id": "tokyo-fa16190f3ea7"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "wave to earth wave to earth - the pieces tour",
+      "venue": "Zepp DiverCity",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2400,
+      "audience": "youth",
+      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "tokyo-c671b02d8c16"
+    },
+    {
+      "date": "2026-11-27",
+      "name": "DANCE to the Future 2026",
+      "venue": "新国立劇場（中劇場）",
+      "category": "theater",
+      "start": "19:00",
+      "end": "21:00",
+      "attendance": 858,
+      "audience": "general",
+      "notes": "ジャンル: dance。会場キャパ約1010席。終演時刻は120分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-8873f4b4a6d7"
     }
   ],
   "weather": {
-    "2026-11-13": {
-      "weather_code": "211",
-      "weather": "くもり　昼前　から　晴れ",
-      "pop_max": 10,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
-      "temp_min": 20,
-      "temp_max": 20
-    },
     "2026-11-14": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
+      "pop_max": 20,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
@@ -2084,19 +2172,18 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 11,
-      "temp_max": 20
+      "temp_min": 19,
+      "temp_max": 19
     },
     "2026-11-15": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 12,
-      "temp_max": 17,
+      "weather_code": "302",
+      "weather": "雨　朝晩　くもり",
+      "pop_max": 80,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 20
         },
         {
           "start_min": 360,
@@ -2106,20 +2193,22 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 50
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 14
     },
     "2026-11-16": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 12,
-      "temp_max": 20,
+      "temp_min": 13,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
@@ -2146,8 +2235,8 @@ window.TAXI_APP_DATA = {
     "2026-11-17": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 11,
-      "temp_max": 15,
+      "temp_min": 10,
+      "temp_max": 14,
       "hourly": [
         {
           "start_min": 0,
@@ -2173,37 +2262,65 @@ window.TAXI_APP_DATA = {
     },
     "2026-11-18": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 10,
-      "temp_max": 19,
+      "pop_max": 60,
+      "temp_min": 9,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
         }
       ]
     },
     "2026-11-19": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 8,
-      "temp_max": 16,
+      "temp_min": 9,
+      "temp_max": 17,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-11-20": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 7,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -2235,7 +2352,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "bigsight",
-      "count": 33
+      "count": 35
     },
     {
       "source": "dome",
@@ -2247,11 +2364,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 76
+      "count": 78
     },
     {
       "source": "garden_theater",
-      "count": 11
+      "count": 10
     },
     {
       "source": "nntt",
@@ -2259,7 +2376,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "kabukiza",
-      "count": 90
+      "count": 88
     },
     {
       "source": "national_stadium",
@@ -2267,11 +2384,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "medical_society",
-      "count": 1
+      "count": 0
     },
     {
       "source": "nougakudo",
-      "count": 4
+      "count": 3
     },
     {
       "source": "yoyogi",
@@ -2287,7 +2404,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 32
+      "count": 29
     }
   ],
   "errors": []
