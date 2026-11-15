@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-14T10:20:03+09:00",
+  "generated_at": "2026-11-15T09:50:39+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-14",
-      "name": "U-KNOW",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-bee8bc111e76"
-    },
-    {
-      "date": "2026-11-14",
-      "name": "INI 2026 INI 5TH ANNIVERSARY DOME TOUR [CITY OF LIGHTS]",
-      "venue": "京セラドーム大阪",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 45000,
-      "audience": "general",
-      "notes": "終了時刻はドームイベントの標準3時間で推定",
-      "source": "kyoceradome-osaka.jp",
-      "id": "osaka-007b14acd8f5"
-    },
-    {
-      "date": "2026-11-14",
-      "name": "花いろは 花いろは 東名阪ツアー『SHIFT UP』@大阪",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-b22a2a9dcccd"
-    },
-    {
-      "date": "2026-11-14",
-      "name": "電気グルーヴ 電気グルーヴ “菩薩アー”",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-193a3323b429"
-    },
     {
       "date": "2026-11-15",
       "name": "INI 2026 INI 5TH ANNIVERSARY DOME TOUR [CITY OF LIGHTS]",
@@ -356,6 +304,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-518e52273d11"
     },
     {
+      "date": "2026-11-25",
+      "name": "GENERATIONS",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-8ff1d3ff1f2d"
+    },
+    {
       "date": "2026-11-27",
       "name": "BIGBANG BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN JAPAN",
       "venue": "京セラドーム大阪",
@@ -367,43 +328,53 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻はドームイベントの標準3時間で推定",
       "source": "kyoceradome-osaka.jp",
       "id": "osaka-d98c3edc49ab"
+    },
+    {
+      "date": "2026-11-28",
+      "name": "ナナコロビヤオキ ナナコロビヤオキ 東名阪Zepp Tour -天下一舞闘会- 桶狭間の戦い",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-19505607c514"
+    },
+    {
+      "date": "2026-11-28",
+      "name": "BIGBANG BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN JAPAN",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-a48ee95a369e"
+    },
+    {
+      "date": "2026-11-28",
+      "name": "QUEENS OF THE STONE AGE You’ll see Queens of the Stone Age World Tour",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "18:00",
+      "end": "20:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-5580afd85f77"
     }
   ],
   "weather": {
-    "2026-11-14": {
-      "weather_code": "212",
-      "weather": "くもり　夜遅く　雨",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 20,
-      "temp_max": 20
-    },
     "2026-11-15": {
       "weather_code": "313",
-      "weather": "雨　夕方　から　くもり",
+      "weather": "雨　夜　くもり　所により　昼前　から　昼過ぎ　雷を伴い　激しく　降る",
       "pop_max": 90,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
         {
           "start_min": 360,
           "end_min": 720,
@@ -412,44 +383,45 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 70
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 30
         }
       ],
-      "temp_min": 14,
-      "temp_max": 18
+      "temp_min": 17,
+      "temp_max": 17
     },
     "2026-11-16": {
       "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 13,
-      "temp_max": 19,
+      "weather": "くもり　朝晩　晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 14,
+      "temp_max": 18
     },
     "2026-11-17": {
       "weather_code": "200",
@@ -480,9 +452,9 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-11-18": {
-      "weather_code": "202",
+      "weather_code": "203",
       "pop_max": 60,
-      "temp_min": 13,
+      "temp_min": 14,
       "temp_max": 19,
       "hourly": [
         {
@@ -511,7 +483,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "201",
       "pop_max": 30,
       "temp_min": 10,
-      "temp_max": 15,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -540,6 +512,34 @@ window.TAXI_APP_DATA = {
       "pop_max": 30,
       "temp_min": 9,
       "temp_max": 14,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-21": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 8,
+      "temp_max": 13,
       "hourly": [
         {
           "start_min": 0,
