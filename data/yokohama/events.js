@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-15T09:50:29+09:00",
+  "generated_at": "2026-11-16T09:49:36+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-15",
-      "name": "日常祭 ~やっぱ、2026~ — 日常組（ぺいんと / クロノア / しにがみ / トラゾー）",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "17:00",
-      "end": "20:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-1726cb086505"
-    },
-    {
-      "date": "2026-11-15",
-      "name": "零[Hz] ZEROHZ LIVE TOUR 2026 \"ECLIPSE DOMINION\" -TOUR FINAL-",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 16:45。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-b17f5f88c89c"
-    },
-    {
-      "date": "2026-11-15",
-      "name": "aiko Live Tour「Love Like Pop vol.26」",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "17:30",
-      "end": "20:30",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-6be34b617518"
-    },
     {
       "date": "2026-11-16",
       "name": "04 Limited Sazabys 【振替公演】04 Limited Sazabys ワンマンツアー \"VIEW tour 2026\"",
@@ -146,6 +107,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 13:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-65c3d98b447c"
+    },
+    {
+      "date": "2026-11-21",
+      "name": "Lv.♡Charm ただいま♡KT Zepp Yokohama 〜CONTINUE ▶ NEXT STAGE〜",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "16:00",
+      "end": "18:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 15:15。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-10fc03c9da27"
     },
     {
       "date": "2026-11-22",
@@ -354,44 +328,67 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-7e7d37f6bb05"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "関 智一（源九郎義経 役）高橋直純（ヒノエ 役）井上和彦（梶原景時 役）保志総一朗（平 敦盛 役）浜田賢二（銀／平 知盛 役）鳥海浩輔（藤原泰衡 役）【声の出演】 宮田幸季（武蔵坊弁慶 役） ネオロマンス♡フェスタ 遙かなる時空の中で３ 平泉の夢（1回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "15:30",
+      "end": "18:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-d95c705b78e2"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "L'Arc-en-Ciel 35th L'Anniversary TOUR",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "16:00",
+      "end": "19:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-a757d57a0aee"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "THE IDOLM＠STER CINDERELLA GIRLS 15th ANNIVERSARY PARTY!!!! ~ for your ONE ~",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 15:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-18a22ba701f8"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "関 智一（源九郎義経 役）高橋直純（ヒノエ 役）井上和彦（梶原景時 役）保志総一朗（平 敦盛 役）浜田賢二（銀／平 知盛 役）鳥海浩輔（藤原泰衡 役）【声の出演】 宮田幸季（武蔵坊弁慶 役） ネオロマンス♡フェスタ 遙かなる時空の中で３ 平泉の夢（2回目）",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 18:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-084b3b08cc51"
     }
   ],
   "weather": {
-    "2026-11-15": {
-      "weather_code": "302",
-      "weather": "雨　朝晩　くもり",
-      "pop_max": 90,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 80
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 90
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ],
-      "temp_min": 15,
-      "temp_max": 15
-    },
     "2026-11-16": {
       "weather_code": "111",
       "weather": "晴れ　昼過ぎ　から　くもり",
       "pop_max": 0,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
           "start_min": 360,
           "end_min": 720,
           "pop": 0
@@ -407,36 +404,37 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 14,
-      "temp_max": 18
+      "temp_min": 19,
+      "temp_max": 19
     },
     "2026-11-17": {
-      "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 11,
-      "temp_max": 14,
+      "weather_code": "214",
+      "weather": "くもり　昼過ぎ　から　雨",
+      "pop_max": 70,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 70
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 14
     },
     "2026-11-18": {
       "weather_code": "203",
@@ -497,8 +495,8 @@ window.TAXI_APP_DATA = {
     "2026-11-20": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 9,
-      "temp_max": 16,
+      "temp_min": 8,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
@@ -525,7 +523,35 @@ window.TAXI_APP_DATA = {
     "2026-11-21": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 9,
+      "temp_min": 7,
+      "temp_max": 13,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-11-22": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 7,
       "temp_max": 15,
       "hourly": [
         {
@@ -558,7 +584,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 31
+      "count": 32
     },
     {
       "source": "k_arena",

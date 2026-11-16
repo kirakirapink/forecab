@@ -1,74 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-15T09:50:39+09:00",
+  "generated_at": "2026-11-16T09:49:46+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-15",
-      "name": "INI 2026 INI 5TH ANNIVERSARY DOME TOUR [CITY OF LIGHTS]",
-      "venue": "京セラドーム大阪",
-      "category": "concert",
-      "start": "14:30",
-      "end": "17:30",
-      "attendance": 45000,
-      "audience": "general",
-      "notes": "終了時刻はドームイベントの標準3時間で推定",
-      "source": "kyoceradome-osaka.jp",
-      "id": "osaka-47c27dab0c00"
-    },
-    {
-      "date": "2026-11-15",
-      "name": "WATWING WATWING Zepp Live Tour「love」（1回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "15:00",
-      "end": "17:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-63ab219d4505"
-    },
-    {
-      "date": "2026-11-15",
-      "name": "U-KNOW",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "16:00",
-      "end": "19:00",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-defd8111e547"
-    },
-    {
-      "date": "2026-11-15",
-      "name": "PARK JINYOUNG PARK JINYOUNG 1ST CONCERT TOUR [CODE#] IN JAPAN",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:00",
-      "end": "20:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-6ab6d9f12fda"
-    },
-    {
-      "date": "2026-11-15",
-      "name": "WATWING WATWING Zepp Live Tour「love」（2回目）",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-f38c7dc50a00"
-    },
     {
       "date": "2026-11-17",
       "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
@@ -317,6 +252,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-8ff1d3ff1f2d"
     },
     {
+      "date": "2026-11-26",
+      "name": "GENERATIONS",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-a647df41c7ce"
+    },
+    {
       "date": "2026-11-27",
       "name": "BIGBANG BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN JAPAN",
       "venue": "京セラドーム大阪",
@@ -367,47 +315,57 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-5580afd85f77"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "秋山黄色 / 音羽ｰotoha- / Q.I.S.(北澤ゆうほ) / SIX LOUNGE / BURNOUT SYNDROMES / FLOW MC：田中乃絵(FM802) / 樋口大喜(FM802) ⼤阪国際⽂化芸術プロジェクト「JAPANIMATION ROCKS」",
+      "venue": "Zepp Osaka Bayside",
+      "category": "concert",
+      "start": "16:00",
+      "end": "18:30",
+      "attendance": 2800,
+      "audience": "youth",
+      "notes": "OPEN 15:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-cdc76cfb30b4"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "Skoop On Somebody Skoop On Somebody 「Christmas Live Tour 2026」",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-001e23c8a912"
+    },
+    {
+      "date": "2026-11-29",
+      "name": "BIGBANG BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN JAPAN",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-ad09dfcb8daf"
     }
   ],
   "weather": {
-    "2026-11-15": {
-      "weather_code": "313",
-      "weather": "雨　夜　くもり　所により　昼前　から　昼過ぎ　雷を伴い　激しく　降る",
-      "pop_max": 90,
-      "hourly": [
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 90
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
-        }
-      ],
-      "temp_min": 17,
-      "temp_max": 17
-    },
     "2026-11-16": {
-      "weather_code": "201",
-      "weather": "くもり　朝晩　晴れ",
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
       "pop_max": 10,
       "hourly": [
         {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 720,
@@ -420,42 +378,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 14,
-      "temp_max": 18
+      "temp_min": 19,
+      "temp_max": 19
     },
     "2026-11-17": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 11,
-      "temp_max": 19,
+      "weather_code": "112",
+      "weather": "晴れ　後　くもり　夜　雨",
+      "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
-      ]
+      ],
+      "temp_min": 10,
+      "temp_max": 18
     },
     "2026-11-18": {
       "weather_code": "203",
       "pop_max": 60,
-      "temp_min": 14,
-      "temp_max": 19,
+      "temp_min": 15,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -510,8 +469,8 @@ window.TAXI_APP_DATA = {
     "2026-11-20": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 9,
-      "temp_max": 14,
+      "temp_min": 8,
+      "temp_max": 11,
       "hourly": [
         {
           "start_min": 0,
@@ -538,8 +497,8 @@ window.TAXI_APP_DATA = {
     "2026-11-21": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 8,
-      "temp_max": 13,
+      "temp_min": 7,
+      "temp_max": 12,
       "hourly": [
         {
           "start_min": 0,
@@ -560,6 +519,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-11-22": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 7,
+      "temp_max": 14,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
         }
       ]
     }
