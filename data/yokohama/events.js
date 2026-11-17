@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-16T09:49:36+09:00",
+  "generated_at": "2026-11-17T12:28:26+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-16",
-      "name": "04 Limited Sazabys 【振替公演】04 Limited Sazabys ワンマンツアー \"VIEW tour 2026\"",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-8912cbdd6532"
-    },
     {
       "date": "2026-11-17",
       "name": "レキシ [メンバー] Keyboard: 元気出せ！遣唐使 (渡 和久) Guitar: 加藤えろ正（カトウタロウ） Percussion: 丑三つ時三朗太（三星章紘） レキシ アコースティックツアー 2026 ～稲･遷都･ワールド～",
@@ -383,140 +370,118 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-11-16": {
-      "weather_code": "111",
-      "weather": "晴れ　昼過ぎ　から　くもり",
-      "pop_max": 0,
+    "2026-11-17": {
+      "weather_code": "300",
+      "weather": "雨　三浦半島　では　夜　激しく　降る",
+      "pop_max": 90,
       "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 90
+        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 90
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 90
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 90
         }
       ],
-      "temp_min": 19,
-      "temp_max": 19
+      "temp_min": 14,
+      "temp_max": 16
     },
-    "2026-11-17": {
-      "weather_code": "214",
-      "weather": "くもり　昼過ぎ　から　雨",
+    "2026-11-18": {
+      "weather_code": "202",
+      "weather": "くもり　後　晴れ　明け方　まで　雨",
       "pop_max": 70,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
+          "pop": 70
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
           "pop": 0
         },
         {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 60
-        },
-        {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 70
+          "pop": 0
         }
       ],
-      "temp_min": 12,
-      "temp_max": 14
-    },
-    "2026-11-18": {
-      "weather_code": "203",
-      "pop_max": 80,
-      "temp_min": 10,
-      "temp_max": 17,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 80
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 80
-        }
-      ]
+      "temp_min": 9,
+      "temp_max": 19
     },
     "2026-11-19": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 10,
-      "temp_max": 18,
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
+      "temp_min": 9,
+      "temp_max": 19,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-11-20": {
       "weather_code": "101",
-      "pop_max": 20,
+      "pop_max": 10,
       "temp_min": 8,
-      "temp_max": 15,
+      "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
@@ -524,7 +489,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 7,
-      "temp_max": 13,
+      "temp_max": 14,
       "hourly": [
         {
           "start_min": 0,
@@ -551,7 +516,7 @@ window.TAXI_APP_DATA = {
     "2026-11-22": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 7,
+      "temp_min": 6,
       "temp_max": 15,
       "hourly": [
         {
@@ -573,6 +538,62 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 20
+        }
+      ]
+    },
+    "2026-11-23": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 7,
+      "temp_max": 16,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-11-24": {
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 8,
+      "temp_max": 17,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 40
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 40
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 40
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 40
         }
       ]
     }

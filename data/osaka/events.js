@@ -1,6 +1,6 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-16T09:49:46+09:00",
+  "generated_at": "2026-11-17T12:28:37+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
@@ -354,47 +354,96 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻はドームイベントの標準3時間で推定",
       "source": "kyoceradome-osaka.jp",
       "id": "osaka-ad09dfcb8daf"
+    },
+    {
+      "date": "2026-11-30",
+      "name": "#らぶしっく #Luvless #Lab♡Sync Zepp TOUR 2026【CHU♡華パラダイス】",
+      "venue": "Zepp Namba",
+      "category": "concert",
+      "start": "17:00",
+      "end": "19:30",
+      "attendance": 2500,
+      "audience": "youth",
+      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "osaka-d3c756403566"
     }
   ],
   "weather": {
-    "2026-11-16": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
+    "2026-11-17": {
+      "weather_code": "114",
+      "weather": "晴れ　後　くもり　夕方　から　雨",
+      "pop_max": 80,
       "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 80
+        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 80
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 80
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 80
         }
       ],
       "temp_min": 19,
       "temp_max": 19
     },
-    "2026-11-17": {
-      "weather_code": "112",
-      "weather": "晴れ　後　くもり　夜　雨",
+    "2026-11-18": {
+      "weather_code": "203",
+      "weather": "くもり　時々　雨",
       "pop_max": 50,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 0
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
+        }
+      ],
+      "temp_min": 14,
+      "temp_max": 19
+    },
+    "2026-11-19": {
+      "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
+      "pop_max": 20,
+      "temp_min": 9,
+      "temp_max": 16,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
         },
         {
           "start_min": 720,
@@ -404,100 +453,42 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 10,
-      "temp_max": 18
-    },
-    "2026-11-18": {
-      "weather_code": "203",
-      "pop_max": 60,
-      "temp_min": 15,
-      "temp_max": 20,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 60
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 60
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 60
-        }
-      ]
-    },
-    "2026-11-19": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 10,
-      "temp_max": 17,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 30
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 30
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 30
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 30
+          "pop": 20
         }
       ]
     },
     "2026-11-20": {
-      "weather_code": "201",
-      "pop_max": 30,
-      "temp_min": 8,
-      "temp_max": 11,
+      "weather_code": "200",
+      "pop_max": 40,
+      "temp_min": 7,
+      "temp_max": 12,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 40
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 40
         }
       ]
     },
     "2026-11-21": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 7,
+      "temp_min": 6,
       "temp_max": 12,
       "hourly": [
         {
@@ -525,8 +516,8 @@ window.TAXI_APP_DATA = {
     "2026-11-22": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 7,
-      "temp_max": 14,
+      "temp_min": 6,
+      "temp_max": 13,
       "hourly": [
         {
           "start_min": 0,
@@ -547,6 +538,62 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 20
+        }
+      ]
+    },
+    "2026-11-23": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 5,
+      "temp_max": 16,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-11-24": {
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 9,
+      "temp_max": 17,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 50
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 50
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 50
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 50
         }
       ]
     }
