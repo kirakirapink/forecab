@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-17T12:28:26+09:00",
+  "generated_at": "2026-11-18T11:46:33+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-17",
-      "name": "レキシ [メンバー] Keyboard: 元気出せ！遣唐使 (渡 和久) Guitar: 加藤えろ正（カトウタロウ） Percussion: 丑三つ時三朗太（三星章紘） レキシ アコースティックツアー 2026 ～稲･遷都･ワールド～",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-1ae4e482264b"
-    },
     {
       "date": "2026-11-18",
       "name": "NELKE Guest:フレデリック NELKE 2 MAN TOUR 2026「MERGE」",
@@ -49,7 +36,7 @@ window.TAXI_APP_DATA = {
       "venue": "横浜アリーナ",
       "category": "concert",
       "start": "18:30",
-      "end": "21:30（予定）",
+      "end": "21:00（予定）",
       "attendance": 17000,
       "audience": "youth",
       "notes": "OPEN 17:00。",
@@ -75,7 +62,7 @@ window.TAXI_APP_DATA = {
       "venue": "横浜アリーナ",
       "category": "concert",
       "start": "14:30",
-      "end": "21:00（予定）",
+      "end": "20:30（予定）",
       "attendance": 17000,
       "audience": "youth",
       "notes": "OPEN 13:00。",
@@ -370,49 +357,20 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-11-17": {
-      "weather_code": "300",
-      "weather": "雨　三浦半島　では　夜　激しく　降る",
-      "pop_max": 90,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 90
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 90
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 90
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 90
-        }
-      ],
-      "temp_min": 14,
-      "temp_max": 16
-    },
     "2026-11-18": {
-      "weather_code": "202",
-      "weather": "くもり　後　晴れ　明け方　まで　雨",
-      "pop_max": 70,
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
@@ -425,43 +383,44 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 9,
-      "temp_max": 19
+      "temp_min": 20,
+      "temp_max": 20
     },
     "2026-11-19": {
       "weather_code": "100",
       "weather": "晴れ",
-      "pop_max": 10,
-      "temp_min": 9,
-      "temp_max": 19,
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 19
     },
     "2026-11-20": {
       "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
       "pop_max": 10,
-      "temp_min": 8,
-      "temp_max": 16,
+      "temp_min": 7,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -487,33 +446,61 @@ window.TAXI_APP_DATA = {
     },
     "2026-11-21": {
       "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 7,
+      "pop_max": 10,
+      "temp_min": 6,
       "temp_max": 14,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-11-22": {
+      "weather_code": "101",
+      "pop_max": 10,
+      "temp_min": 6,
+      "temp_max": 14,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 10
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 10
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 10
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 10
+        }
+      ]
+    },
+    "2026-11-23": {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 6,
@@ -541,59 +528,59 @@ window.TAXI_APP_DATA = {
         }
       ]
     },
-    "2026-11-23": {
-      "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 7,
-      "temp_max": 16,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
-    },
     "2026-11-24": {
-      "weather_code": "200",
-      "pop_max": 40,
-      "temp_min": 8,
+      "weather_code": "202",
+      "pop_max": 50,
+      "temp_min": 10,
       "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
+        }
+      ]
+    },
+    "2026-11-25": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 10,
+      "temp_max": 16,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
@@ -609,12 +596,14 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "k_arena",
-      "count": 14
+      "count": 28
     },
     {
       "source": "yokohama_arena",
-      "count": 10
+      "count": 26
     }
   ],
-  "errors": []
+  "errors": [
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_12_detail.html: HTTP Error 404: Not Found"
+  ]
 };

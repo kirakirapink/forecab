@@ -1,22 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-17T12:28:37+09:00",
+  "generated_at": "2026-11-18T11:46:48+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-17",
-      "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-37aef87f9852"
-    },
     {
       "date": "2026-11-18",
       "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
@@ -305,6 +292,19 @@ window.TAXI_APP_DATA = {
     },
     {
       "date": "2026-11-28",
+      "name": "矢沢永吉",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-017f19134149"
+    },
+    {
+      "date": "2026-11-28",
       "name": "QUEENS OF THE STONE AGE You’ll see Queens of the Stone Age World Tour",
       "venue": "Zepp Namba",
       "category": "concert",
@@ -370,38 +370,9 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-11-17": {
-      "weather_code": "114",
-      "weather": "晴れ　後　くもり　夕方　から　雨",
-      "pop_max": 80,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 80
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 80
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 80
-        }
-      ],
-      "temp_min": 19,
-      "temp_max": 19
-    },
     "2026-11-18": {
-      "weather_code": "203",
-      "weather": "くもり　時々　雨",
+      "weather_code": "212",
+      "weather": "くもり　夜のはじめ頃　一時　雨　所により　夕方　から　夜のはじめ頃　雷　を伴う",
       "pop_max": 50,
       "hourly": [
         {
@@ -412,7 +383,7 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 50
         },
         {
           "start_min": 720,
@@ -425,70 +396,71 @@ window.TAXI_APP_DATA = {
           "pop": 50
         }
       ],
-      "temp_min": 14,
-      "temp_max": 19
+      "temp_min": 20,
+      "temp_max": 20
     },
     "2026-11-19": {
       "weather_code": "201",
-      "weather": "くもり　時々　晴れ",
+      "weather": "くもり　時々　晴れ　所により　夜遅く　雨",
       "pop_max": 20,
-      "temp_min": 9,
-      "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 20
         }
-      ]
+      ],
+      "temp_min": 12,
+      "temp_max": 15
     },
     "2026-11-20": {
-      "weather_code": "200",
-      "pop_max": 40,
+      "weather_code": "202",
+      "weather": "くもり　一時　雨",
+      "pop_max": 50,
       "temp_min": 7,
       "temp_max": 12,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 50
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
     "2026-11-21": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 6,
+      "temp_min": 7,
       "temp_max": 12,
       "hourly": [
         {
@@ -517,7 +489,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 6,
-      "temp_max": 13,
+      "temp_max": 12,
       "hourly": [
         {
           "start_min": 0,
@@ -545,7 +517,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 5,
-      "temp_max": 16,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
@@ -571,29 +543,57 @@ window.TAXI_APP_DATA = {
     },
     "2026-11-24": {
       "weather_code": "202",
-      "pop_max": 50,
-      "temp_min": 9,
-      "temp_max": 17,
+      "pop_max": 60,
+      "temp_min": 10,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 60
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 60
+        }
+      ]
+    },
+    "2026-11-25": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 10,
+      "temp_max": 16,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
@@ -609,12 +609,14 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "kyocera_dome",
-      "count": 7
+      "count": 18
     },
     {
       "source": "osaka_johall",
-      "count": 5
+      "count": 6
     }
   ],
-  "errors": []
+  "errors": [
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_12_detail.html: HTTP Error 404: Not Found"
+  ]
 };

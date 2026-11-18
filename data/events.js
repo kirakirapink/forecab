@@ -1,74 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-17T12:28:18+09:00",
+  "generated_at": "2026-11-18T11:46:18+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-17",
-      "name": "ザ インターナショナルアカデミック フォーラム The 18th Asian Conference on Education（ACE2026）",
-      "venue": "東京国際フォーラム",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 3000,
-      "audience": "business",
-      "notes": "学会・展示会・カンファレンス想定。10-17時開催で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-d1cc54f8b630"
-    },
-    {
-      "date": "2026-11-17",
-      "name": "出演者多数 sound stock Vol.22",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "14:30",
-      "end": "17:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 14:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-967c8c5b8327"
-    },
-    {
-      "date": "2026-11-17",
-      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-9a2ea230f481"
-    },
-    {
-      "date": "2026-11-17",
-      "name": "Da-iCE Da-iCE DAY HALL PHASE 2026 Side A",
-      "venue": "東京ガーデンシアター",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 7000,
-      "audience": "youth",
-      "notes": "ジャンル: コンサート・ショー。開演時刻は一覧に未掲載のため18:00と仮置き",
-      "source": "shopping-sumitomo-rd.com/tokyo_garden_theater",
-      "id": "tokyo-dbdaf1e845f1"
-    },
-    {
-      "date": "2026-11-17",
-      "name": "私立恵比寿中学 VS カネヨリマサル 私立恵比寿中学 TAIBAN LIVE「放課後ロッケンロール-HYPER- 2026」",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-5b69ff500af8"
-    },
     {
       "date": "2026-11-18",
       "name": "第48回ジャパンホームショー ほか7展（合同開催）",
@@ -2213,47 +2148,31 @@ window.TAXI_APP_DATA = {
       "notes": "コンサート想定。18:30開演で推定",
       "source": "t-i-forum.co.jp",
       "id": "tokyo-eddf672c3e42"
+    },
+    {
+      "date": "2026-12-01",
+      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-72c691b40597"
     }
   ],
   "weather": {
-    "2026-11-17": {
-      "weather_code": "214",
-      "weather": "くもり　昼過ぎ　から　雨",
-      "pop_max": 100,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 100
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 100
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 100
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 100
-        }
-      ],
-      "temp_min": 13,
-      "temp_max": 15
-    },
     "2026-11-18": {
-      "weather_code": "102",
-      "weather": "晴れ　時々　くもり　明け方　まで　雨",
-      "pop_max": 70,
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 70
+          "pop": 10
         },
         {
           "start_min": 360,
@@ -2271,43 +2190,44 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 9,
+      "temp_min": 21,
       "temp_max": 21
     },
     "2026-11-19": {
       "weather_code": "100",
       "weather": "晴れ",
-      "pop_max": 10,
-      "temp_min": 8,
-      "temp_max": 19,
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 11,
+      "temp_max": 20
     },
     "2026-11-20": {
       "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
       "pop_max": 10,
       "temp_min": 7,
-      "temp_max": 16,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -2333,64 +2253,64 @@ window.TAXI_APP_DATA = {
     },
     "2026-11-21": {
       "weather_code": "101",
-      "pop_max": 20,
-      "temp_min": 6,
-      "temp_max": 14,
+      "pop_max": 10,
+      "temp_min": 5,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-11-22": {
       "weather_code": "101",
-      "pop_max": 20,
+      "pop_max": 10,
       "temp_min": 5,
       "temp_max": 14,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-11-23": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 5,
+      "temp_min": 4,
       "temp_max": 15,
       "hourly": [
         {
@@ -2418,8 +2338,8 @@ window.TAXI_APP_DATA = {
     "2026-11-24": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 6,
-      "temp_max": 17,
+      "temp_min": 8,
+      "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
@@ -2440,6 +2360,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 40
+        }
+      ]
+    },
+    "2026-11-25": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 9,
+      "temp_max": 16,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
         }
       ]
     }
@@ -2467,15 +2415,15 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "garden_theater",
-      "count": 8
+      "count": 7
     },
     {
       "source": "nntt",
-      "count": 73
+      "count": 75
     },
     {
       "source": "kabukiza",
-      "count": 82
+      "count": 84
     },
     {
       "source": "national_stadium",
@@ -2503,8 +2451,10 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 32
+      "count": 31
     }
   ],
-  "errors": []
+  "errors": [
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_12_detail.html: HTTP Error 404: Not Found"
+  ]
 };
