@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-18T11:46:48+09:00",
+  "generated_at": "2026-11-19T11:20:53+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-18",
-      "name": "乃⽊坂46 6期⽣愛宕⼼響／⼤越ひなの／⼩津玲奈／海邉朱莉／川端晃菜／鈴⽊佑捺／瀬⼾⼝⼼⽉／⻑嶋凛桜／増⽥三莉⾳／森平麗⼼／⽮⽥萌華 乃⽊坂46 6期⽣全国ツアー2026",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-2f9af74cafef"
-    },
-    {
-      "date": "2026-11-18",
-      "name": "米津玄師",
-      "venue": "大阪城ホール",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30",
-      "attendance": 16000,
-      "audience": "general",
-      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
-      "source": "osaka-johall.com",
-      "id": "osaka-c18bcfafdfbd"
-    },
     {
       "date": "2026-11-19",
       "name": "米津玄師",
@@ -356,6 +330,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-ad09dfcb8daf"
     },
     {
+      "date": "2026-11-29",
+      "name": "矢沢永吉",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-3570941b7ed6"
+    },
+    {
       "date": "2026-11-30",
       "name": "#らぶしっく #Luvless #Lab♡Sync Zepp TOUR 2026【CHU♡華パラダイス】",
       "venue": "Zepp Namba",
@@ -367,38 +354,22 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "osaka-d3c756403566"
+    },
+    {
+      "date": "2026-12-02",
+      "name": "Number_i Number_i LIVE TOUR No.III",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-a193a78f4bbb"
     }
   ],
   "weather": {
-    "2026-11-18": {
-      "weather_code": "212",
-      "weather": "くもり　夜のはじめ頃　一時　雨　所により　夕方　から　夜のはじめ頃　雷　を伴う",
-      "pop_max": 50,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 50
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 50
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 50
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 50
-        }
-      ],
-      "temp_min": 20,
-      "temp_max": 20
-    },
     "2026-11-19": {
       "weather_code": "201",
       "weather": "くもり　時々　晴れ　所により　夜遅く　雨",
@@ -407,17 +378,17 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 20
         },
         {
           "start_min": 1080,
@@ -425,15 +396,13 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ],
-      "temp_min": 12,
-      "temp_max": 15
+      "temp_min": 16,
+      "temp_max": 16
     },
     "2026-11-20": {
       "weather_code": "202",
-      "weather": "くもり　一時　雨",
+      "weather": "くもり　明け方　から　朝　雨　所により　昼過ぎ　まで　雷　を伴う",
       "pop_max": 50,
-      "temp_min": 7,
-      "temp_max": 12,
       "hourly": [
         {
           "start_min": 0,
@@ -448,19 +417,22 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 20
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 50
+          "pop": 10
         }
-      ]
+      ],
+      "temp_min": 8,
+      "temp_max": 12
     },
     "2026-11-21": {
       "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
       "pop_max": 30,
-      "temp_min": 7,
+      "temp_min": 8,
       "temp_max": 12,
       "hourly": [
         {
@@ -516,7 +488,7 @@ window.TAXI_APP_DATA = {
     "2026-11-23": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 5,
+      "temp_min": 4,
       "temp_max": 15,
       "hourly": [
         {
@@ -544,8 +516,8 @@ window.TAXI_APP_DATA = {
     "2026-11-24": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 10,
-      "temp_max": 15,
+      "temp_min": 8,
+      "temp_max": 14,
       "hourly": [
         {
           "start_min": 0,
@@ -572,8 +544,8 @@ window.TAXI_APP_DATA = {
     "2026-11-25": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 10,
-      "temp_max": 16,
+      "temp_min": 7,
+      "temp_max": 14,
       "hourly": [
         {
           "start_min": 0,
@@ -594,6 +566,34 @@ window.TAXI_APP_DATA = {
           "start_min": 1080,
           "end_min": 1440,
           "pop": 30
+        }
+      ]
+    },
+    "2026-11-26": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 6,
+      "temp_max": 15,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
         }
       ]
     }
