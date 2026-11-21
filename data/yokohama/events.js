@@ -1,35 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-20T11:04:23+09:00",
+  "generated_at": "2026-11-21T11:00:53+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-20",
-      "name": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:30（予定）",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 17:00。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-b7ecdb407129"
-    },
-    {
-      "date": "2026-11-20",
-      "name": "アン・ウィルソン AN EVENING WITH ANN WILSON & TRIPSITTER",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 18:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-e089626bc217"
-    },
     {
       "date": "2026-11-21",
       "name": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino",
@@ -146,6 +120,19 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:00。終了時刻はライブハウス標準の2時間30分で推定",
       "source": "zepp.co.jp",
       "id": "yokohama-1246651fe5c1"
+    },
+    {
+      "date": "2026-11-24",
+      "name": "パンダドラゴン パンダドラゴン 本気の仲間探しオーディション ファイナル",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "17:30",
+      "end": "20:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-f8ecee72ec58"
     },
     {
       "date": "2026-11-24",
@@ -330,6 +317,19 @@ window.TAXI_APP_DATA = {
       "id": "yokohama-084b3b08cc51"
     },
     {
+      "date": "2026-11-30",
+      "name": "DIR EN GREY DIR EN GREY 30th Anniversary列島激震行脚2026 Nothing XXX Ugly",
+      "venue": "KT Zepp Yokohama",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:00",
+      "attendance": 2100,
+      "audience": "youth",
+      "notes": "OPEN 17:45。終了時刻はライブハウス標準の2時間30分で推定",
+      "source": "zepp.co.jp",
+      "id": "yokohama-6206eba35255"
+    },
+    {
       "date": "2026-12-02",
       "name": "Mr.Children Tour 2026 “Saturday in the park”",
       "venue": "横浜アリーナ",
@@ -354,10 +354,23 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 17:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "yokohama-arena.co.jp",
       "id": "yokohama-a42b544cfa36"
+    },
+    {
+      "date": "2026-12-04",
+      "name": "JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-4fd8d67bc84f"
     }
   ],
   "weather": {
-    "2026-11-20": {
+    "2026-11-21": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -386,9 +399,9 @@ window.TAXI_APP_DATA = {
       "temp_min": 16,
       "temp_max": 16
     },
-    "2026-11-21": {
-      "weather_code": "100",
-      "weather": "晴れ",
+    "2026-11-22": {
+      "weather_code": "110",
+      "weather": "晴れ　昼過ぎ　から　時々　くもり",
       "pop_max": 0,
       "hourly": [
         {
@@ -412,71 +425,43 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 7,
-      "temp_max": 15
-    },
-    "2026-11-22": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 10,
-      "temp_min": 7,
-      "temp_max": 15,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_min": 6,
+      "temp_max": 14
     },
     "2026-11-23": {
       "weather_code": "101",
-      "pop_max": 20,
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "temp_min": 6,
       "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-11-24": {
       "weather_code": "202",
       "pop_max": 60,
-      "temp_min": 9,
-      "temp_max": 16,
+      "temp_min": 10,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -531,7 +516,7 @@ window.TAXI_APP_DATA = {
     "2026-11-26": {
       "weather_code": "201",
       "pop_max": 30,
-      "temp_min": 8,
+      "temp_min": 7,
       "temp_max": 16,
       "hourly": [
         {
@@ -557,10 +542,38 @@ window.TAXI_APP_DATA = {
       ]
     },
     "2026-11-27": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 8,
+      "temp_max": 18,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
+    },
+    "2026-11-28": {
       "weather_code": "200",
       "pop_max": 40,
-      "temp_min": 8,
-      "temp_max": 17,
+      "temp_min": 10,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -592,7 +605,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "zepp",
-      "count": 32
+      "count": 34
     },
     {
       "source": "k_arena",
