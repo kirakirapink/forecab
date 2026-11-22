@@ -1,61 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-21T11:01:11+09:00",
+  "generated_at": "2026-11-22T10:01:25+09:00",
   "region": "osaka",
   "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-21",
-      "name": "RESISTANCE（1回目）",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "12:00",
-      "end": "14:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 11:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-2504abb7260d"
-    },
-    {
-      "date": "2026-11-21",
-      "name": "2026 MAMA AWARDS Presented by Visa",
-      "venue": "京セラドーム大阪",
-      "category": "concert",
-      "start": "15:00",
-      "end": "18:00",
-      "attendance": 45000,
-      "audience": "general",
-      "notes": "終了時刻はドームイベントの標準3時間で推定",
-      "source": "kyoceradome-osaka.jp",
-      "id": "osaka-3f354751d13b"
-    },
-    {
-      "date": "2026-11-21",
-      "name": "lecca lecca Live Tour 2026 “Lovers&Dreamers”",
-      "venue": "Zepp Namba",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-60543d48800b"
-    },
-    {
-      "date": "2026-11-21",
-      "name": "RESISTANCE（2回目）",
-      "venue": "Zepp Osaka Bayside",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2800,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-83e9b2bb5bd3"
-    },
     {
       "date": "2026-11-22",
       "name": "新しい学校のリーダーズ From AG! with Love 〜ライブハウスより愛を込めて〜",
@@ -315,57 +263,78 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻はドームイベントの標準3時間で推定",
       "source": "kyoceradome-osaka.jp",
       "id": "osaka-a193a78f4bbb"
+    },
+    {
+      "date": "2026-12-02",
+      "name": "UVERworld",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-c3a4b1b9715d"
+    },
+    {
+      "date": "2026-12-05",
+      "name": "EXILE EXILE 25th ANNIVERSARY BEST LIVE ～LDH PERFECT YEAR 2026～",
+      "venue": "京セラドーム大阪",
+      "category": "concert",
+      "start": "16:00",
+      "end": "19:00",
+      "attendance": 45000,
+      "audience": "general",
+      "notes": "終了時刻はドームイベントの標準3時間で推定",
+      "source": "kyoceradome-osaka.jp",
+      "id": "osaka-ca81924dba91"
     }
   ],
   "weather": {
-    "2026-11-21": {
-      "weather_code": "111",
-      "weather": "晴れ　夕方　から　くもり　所により　雨",
-      "pop_max": 40,
+    "2026-11-22": {
+      "weather_code": "101",
+      "weather": "晴れ　昼過ぎ　から　夕方　くもり",
+      "pop_max": 10,
       "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 40
-        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 40
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 40
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 40
+          "pop": 0
         }
       ],
       "temp_min": 13,
       "temp_max": 13
     },
-    "2026-11-22": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり　所により　未明　雨",
-      "pop_max": 20,
+    "2026-11-23": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
@@ -373,37 +342,8 @@ window.TAXI_APP_DATA = {
           "pop": 10
         }
       ],
-      "temp_min": 7,
-      "temp_max": 13
-    },
-    "2026-11-23": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
-      "temp_min": 5,
-      "temp_max": 14,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_min": 6,
+      "temp_max": 14
     },
     "2026-11-24": {
       "weather_code": "203",
@@ -561,7 +501,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "osaka_johall",
-      "count": 6
+      "count": 7
     }
   ],
   "errors": [

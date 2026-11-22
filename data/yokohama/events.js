@@ -1,48 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-21T11:00:53+09:00",
+  "generated_at": "2026-11-22T10:01:08+09:00",
   "region": "yokohama",
   "source": "自動取得: k-arena.com + yokohama-arena.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-21",
-      "name": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino",
-      "venue": "横浜アリーナ",
-      "category": "concert",
-      "start": "14:30",
-      "end": "21:00（予定）",
-      "attendance": 17000,
-      "audience": "youth",
-      "notes": "OPEN 13:00。",
-      "source": "yokohama-arena.co.jp",
-      "id": "yokohama-facd717f5b6c"
-    },
-    {
-      "date": "2026-11-21",
-      "name": "15th Anniversary テレビ朝日ドリームフェスティバル2026 — Aぇ! group / JO1 / Novelbright / マルシィ / ももいろクローバーZ",
-      "venue": "Kアリーナ横浜",
-      "category": "concert",
-      "start": "15:00",
-      "end": "18:00",
-      "attendance": 20000,
-      "audience": "youth",
-      "notes": "OPEN 13:30。終了時刻は大型アリーナ公演の標準3時間で推定",
-      "source": "k-arena.com",
-      "id": "yokohama-65c3d98b447c"
-    },
-    {
-      "date": "2026-11-21",
-      "name": "Lv.♡Charm ただいま♡KT Zepp Yokohama 〜CONTINUE ▶ NEXT STAGE〜",
-      "venue": "KT Zepp Yokohama",
-      "category": "concert",
-      "start": "16:00",
-      "end": "18:30",
-      "attendance": 2100,
-      "audience": "youth",
-      "notes": "OPEN 15:15。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "yokohama-10fc03c9da27"
-    },
     {
       "date": "2026-11-22",
       "name": "≠ME ≠MissionE 公開収録＆ミニLIVE（1回目）",
@@ -367,10 +328,60 @@ window.TAXI_APP_DATA = {
       "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
       "source": "k-arena.com",
       "id": "yokohama-4fd8d67bc84f"
+    },
+    {
+      "date": "2026-12-05",
+      "name": "JX 2026 TOUR CONCERT 「CORE」 IN YOKOHAMA",
+      "venue": "Kアリーナ横浜",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 20000,
+      "audience": "youth",
+      "notes": "OPEN 16:30。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "k-arena.com",
+      "id": "yokohama-663f89da851b"
+    },
+    {
+      "date": "2026-12-05",
+      "name": "緑黄色社会 ARENA TOUR 2026 \"あたまご\"",
+      "venue": "横浜アリーナ",
+      "category": "concert",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 17000,
+      "audience": "youth",
+      "notes": "OPEN 17:00。終了時刻は大型アリーナ公演の標準3時間で推定",
+      "source": "yokohama-arena.co.jp",
+      "id": "yokohama-45875f53aa8a"
     }
   ],
   "weather": {
-    "2026-11-21": {
+    "2026-11-22": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 0,
+      "hourly": [
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 0
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 0
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 0
+        }
+      ],
+      "temp_min": 14,
+      "temp_max": 14
+    },
+    "2026-11-23": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 0,
@@ -396,66 +407,8 @@ window.TAXI_APP_DATA = {
           "pop": 0
         }
       ],
-      "temp_min": 16,
-      "temp_max": 16
-    },
-    "2026-11-22": {
-      "weather_code": "110",
-      "weather": "晴れ　昼過ぎ　から　時々　くもり",
-      "pop_max": 0,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 0
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 0
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 0
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 0
-        }
-      ],
       "temp_min": 6,
-      "temp_max": 14
-    },
-    "2026-11-23": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
-      "pop_max": 10,
-      "temp_min": 6,
-      "temp_max": 15,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 10
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 10
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ]
+      "temp_max": 15
     },
     "2026-11-24": {
       "weather_code": "202",
