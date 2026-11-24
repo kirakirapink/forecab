@@ -1,178 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-23T10:27:23+09:00",
+  "generated_at": "2026-11-24T14:10:32+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-23",
-      "name": "大江戸骨董市",
-      "venue": "東京国際フォーラム",
-      "category": "festival",
-      "start": "09:00",
-      "end": "16:00",
-      "attendance": 5000,
-      "audience": "general",
-      "notes": "催事想定。日中開催で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-4864089e03bb"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "癒しフェア",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "西4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-3fe4e086db34"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "東京ネイルエキスポ2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "18:30",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "西1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-11afd4aac4a8"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "吉例顔見世大歌舞伎（昼の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "11:00",
-      "end": "15:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の昼の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-3d98b24e46b5"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "巨匠とマルガリータ",
-      "venue": "新国立劇場（中劇場）",
-      "category": "theater",
-      "start": "13:00",
-      "end": "15:30",
-      "attendance": 858,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約1010席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-f8c83ad6b2ac"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "ピーター・グライムズ",
-      "venue": "新国立劇場（オペラパレス）",
-      "category": "theater",
-      "start": "14:00",
-      "end": "17:30",
-      "attendance": 1541,
-      "audience": "senior_wealthy",
-      "notes": "ジャンル: opera。会場キャパ約1814席。終演時刻は210分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-fff2163910da"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "ハムレット、冬の旅",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "14:00",
-      "end": "16:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-3a05e3675cec"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "-Live Act-GRAPEVINE / ストレイテナー / a flood of circle -After Hours-Hosted by 光村龍哉 -DJ-片平実(GETTiNG BETTER) &more 【GETTiNG BETTER】-30th Anniversary Party-\"Special\"",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "16:30",
-      "end": "19:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 16:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-cb975b5ec066"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "吉例顔見世大歌舞伎（夜の部）",
-      "venue": "歌舞伎座",
-      "category": "theater",
-      "start": "16:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "senior_wealthy",
-      "notes": "歌舞伎の夜の部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
-      "source": "kabuki-bito.jp",
-      "id": "tokyo-b964ae0da5ca"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "Hump Back Hump Back pre. \"HELLO ANEW TOUR\"2026-2027",
-      "venue": "Zepp Haneda",
-      "category": "concert",
-      "start": "17:00",
-      "end": "19:30",
-      "attendance": 2900,
-      "audience": "youth",
-      "notes": "OPEN 16:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-f4be4aa145c9"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "Hearts2Hearts",
-      "venue": "有明アリーナ",
-      "category": "concert",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 12000,
-      "audience": "general",
-      "notes": "開演時刻は一覧に未掲載のため18:00と仮置き。公演サイトで要確認",
-      "source": "ariake-arena.tokyo",
-      "id": "tokyo-92c7ad4952bc"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "ミュージカル『星影の人』－沖田総司・まぼろしの青春－",
-      "venue": "東京国際フォーラム",
-      "category": "theater",
-      "start": "18:00",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "senior_wealthy",
-      "notes": "ミュージカル・舞台想定。18時開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-5181d5f8d709"
-    },
-    {
-      "date": "2026-11-23",
-      "name": "Chrono Reverse One Man Live BREAKØUT",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-6ca1fe290e4f"
-    },
     {
       "date": "2026-11-24",
       "name": "吉例顔見世大歌舞伎（昼の部）",
@@ -1758,37 +1589,81 @@ window.TAXI_APP_DATA = {
       "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
       "source": "kabuki-bito.jp",
       "id": "tokyo-958ecbf3c8d9"
+    },
+    {
+      "date": "2026-12-07",
+      "name": "十二月大歌舞伎（第一部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "14:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-477a82ae3b91"
+    },
+    {
+      "date": "2026-12-07",
+      "name": "十二月大歌舞伎（第二部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "14:30",
+      "end": "18:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-2cee6b750447"
+    },
+    {
+      "date": "2026-12-07",
+      "name": "十二月大歌舞伎（第三部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-e65173a0dac2"
     }
   ],
   "weather": {
-    "2026-11-23": {
-      "weather_code": "100",
-      "weather": "晴れ",
-      "pop_max": 0,
+    "2026-11-24": {
+      "weather_code": "203",
+      "weather": "くもり　昼過ぎ　から　夕方　雨",
+      "pop_max": 70,
       "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 70
+        },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 0
+          "pop": 70
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 70
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 70
         }
       ],
-      "temp_min": 15,
-      "temp_max": 15
+      "temp_min": 19,
+      "temp_max": 19
     },
-    "2026-11-24": {
-      "weather_code": "212",
-      "weather": "くもり　昼過ぎ　から　夕方　雨",
-      "pop_max": 50,
+    "2026-11-25": {
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
@@ -1798,75 +1673,48 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 50
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 0
         }
       ],
-      "temp_min": 8,
-      "temp_max": 18
-    },
-    "2026-11-25": {
-      "weather_code": "101",
-      "pop_max": 20,
       "temp_min": 7,
-      "temp_max": 14,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 15
     },
     "2026-11-26": {
-      "weather_code": "201",
-      "pop_max": 30,
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 10,
       "temp_min": 5,
-      "temp_max": 16,
+      "temp_max": 15,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 30
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 30
+          "pop": 10
         }
       ]
     },
@@ -1874,7 +1722,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 7,
-      "temp_max": 17,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -1901,8 +1749,8 @@ window.TAXI_APP_DATA = {
     "2026-11-28": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 10,
-      "temp_max": 19,
+      "temp_min": 11,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -1953,6 +1801,62 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ]
+    },
+    "2026-11-30": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 5,
+      "temp_max": 17,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-12-01": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 6,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -1962,7 +1866,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "bigsight",
-      "count": 41
+      "count": 39
     },
     {
       "source": "dome",
@@ -1982,11 +1886,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 67
+      "count": 64
     },
     {
       "source": "kabukiza",
-      "count": 84
+      "count": 82
     },
     {
       "source": "national_stadium",
@@ -2014,7 +1918,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 22
+      "count": 19
     }
   ],
   "errors": [
