@@ -1,21 +1,34 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-24T14:11:34+09:00",
+  "generated_at": "2026-11-25T12:59:57+09:00",
   "region": "osaka",
-  "source": "自動取得: kyoceradome-osaka.jp + zepp.co.jp",
+  "source": "自動取得: kyoceradome-osaka.jp + osaka-johall.com + zepp.co.jp",
   "events": [
     {
-      "date": "2026-11-24",
-      "name": "SUPER EIGHT 丸山隆平 / 休日課長 / and more Groove-Method LIVE 2026",
-      "venue": "Zepp Namba",
+      "date": "2026-11-25",
+      "name": "GENERATIONS",
+      "venue": "大阪城ホール",
       "category": "concert",
-      "start": "19:00",
+      "start": "18:30",
       "end": "21:30",
-      "attendance": 2500,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "osaka-518e52273d11"
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-8ff1d3ff1f2d"
+    },
+    {
+      "date": "2026-11-26",
+      "name": "GENERATIONS",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-a647df41c7ce"
     },
     {
       "date": "2026-11-27",
@@ -55,6 +68,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻はドームイベントの標準3時間で推定",
       "source": "kyoceradome-osaka.jp",
       "id": "osaka-a48ee95a369e"
+    },
+    {
+      "date": "2026-11-28",
+      "name": "矢沢永吉",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-017f19134149"
     },
     {
       "date": "2026-11-28",
@@ -109,6 +135,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-ad09dfcb8daf"
     },
     {
+      "date": "2026-11-29",
+      "name": "矢沢永吉",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "17:00",
+      "end": "20:00",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-3570941b7ed6"
+    },
+    {
       "date": "2026-11-30",
       "name": "#らぶしっく #Luvless #Lab♡Sync Zepp TOUR 2026【CHU♡華パラダイス】",
       "venue": "Zepp Namba",
@@ -122,6 +161,19 @@ window.TAXI_APP_DATA = {
       "id": "osaka-d3c756403566"
     },
     {
+      "date": "2026-12-01",
+      "name": "UVERworld",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-d8817806a463"
+    },
+    {
       "date": "2026-12-02",
       "name": "Number_i Number_i LIVE TOUR No.III",
       "venue": "京セラドーム大阪",
@@ -133,6 +185,19 @@ window.TAXI_APP_DATA = {
       "notes": "終了時刻はドームイベントの標準3時間で推定",
       "source": "kyoceradome-osaka.jp",
       "id": "osaka-a193a78f4bbb"
+    },
+    {
+      "date": "2026-12-02",
+      "name": "UVERworld",
+      "venue": "大阪城ホール",
+      "category": "concert",
+      "start": "18:30",
+      "end": "21:30",
+      "attendance": 16000,
+      "audience": "general",
+      "notes": "終了時刻は大型ホール公演の標準3時間で推定",
+      "source": "osaka-johall.com",
+      "id": "osaka-c3a4b1b9715d"
     },
     {
       "date": "2026-12-05",
@@ -162,95 +227,67 @@ window.TAXI_APP_DATA = {
     }
   ],
   "weather": {
-    "2026-11-24": {
-      "weather_code": "313",
-      "weather": "雨　夕方　から　くもり　所により　昼過ぎ　まで　雷　を伴う",
-      "pop_max": 80,
+    "2026-11-25": {
+      "weather_code": "101",
+      "weather": "晴れ　時々　くもり",
+      "pop_max": 0,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 80
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 80
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 80
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 80
+          "pop": 0
         }
       ],
-      "temp_min": 14,
-      "temp_max": 14
+      "temp_min": 13,
+      "temp_max": 13
     },
-    "2026-11-25": {
-      "weather_code": "101",
-      "weather": "晴れ　時々　くもり",
+    "2026-11-26": {
+      "weather_code": "111",
+      "weather": "晴れ　昼過ぎ　から　くもり",
       "pop_max": 10,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 0
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 0
+          "pop": 10
         }
       ],
       "temp_min": 7,
-      "temp_max": 13
-    },
-    "2026-11-26": {
-      "weather_code": "111",
-      "weather": "晴れ　後　くもり",
-      "pop_max": 20,
-      "temp_min": 7,
-      "temp_max": 14,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 20
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 20
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 20
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 20
-        }
-      ]
+      "temp_max": 14
     },
     "2026-11-27": {
       "weather_code": "201",
+      "weather": "くもり　時々　晴れ",
       "pop_max": 30,
       "temp_min": 9,
       "temp_max": 18,
@@ -280,7 +317,7 @@ window.TAXI_APP_DATA = {
     "2026-11-28": {
       "weather_code": "202",
       "pop_max": 50,
-      "temp_min": 13,
+      "temp_min": 11,
       "temp_max": 19,
       "hourly": [
         {
@@ -307,29 +344,29 @@ window.TAXI_APP_DATA = {
     },
     "2026-11-29": {
       "weather_code": "201",
-      "pop_max": 20,
+      "pop_max": 30,
       "temp_min": 8,
       "temp_max": 14,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 30
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 30
         }
       ]
     },
@@ -337,7 +374,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 6,
-      "temp_max": 16,
+      "temp_max": 17,
       "hourly": [
         {
           "start_min": 0,
@@ -364,7 +401,35 @@ window.TAXI_APP_DATA = {
     "2026-12-01": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 9,
+      "temp_min": 10,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 20
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 20
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 20
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 20
+        }
+      ]
+    },
+    "2026-12-02": {
+      "weather_code": "101",
+      "pop_max": 20,
+      "temp_min": 10,
       "temp_max": 18,
       "hourly": [
         {
@@ -402,10 +467,13 @@ window.TAXI_APP_DATA = {
     {
       "source": "kyocera_dome",
       "count": 18
+    },
+    {
+      "source": "osaka_johall",
+      "count": 6
     }
   ],
   "errors": [
-    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_12_detail.html: HTTP Error 404: Not Found",
-    "[osaka_johall] 取得失敗 https://www.osaka-johall.com/event/: <urlopen error timed out>"
+    "[npb] 取得失敗 https://npb.jp/games/2026/schedule_12_detail.html: HTTP Error 404: Not Found"
   ]
 };
