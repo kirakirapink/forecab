@@ -1,191 +1,9 @@
 // このファイルは自動生成。直接編集せず tools/fetch_events.py で再生成する
 window.TAXI_APP_DATA = {
-  "generated_at": "2026-11-27T12:31:55+09:00",
+  "generated_at": "2026-11-28T12:08:30+09:00",
   "region": "tokyo",
   "source": "自動取得: ariake-arena.tokyo + bigsight.jp + kabuki-bito.jp + kageki.hankyu.co.jp/revue + nntt.jac.go.jp + shopping-sumitomo-rd.com/tokyo_garden_theater + t-i-forum.co.jp + zepp.co.jp",
   "events": [
-    {
-      "date": "2026-11-27",
-      "name": "POWTEX 2026 ［第46回国際粉体工業展］",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "09:30",
-      "end": "17:00",
-      "attendance": 21000,
-      "audience": "business",
-      "notes": "東1-3ホール。商談展（業界関係者中心）。来場者はホール数からの概算（3ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-1f2b0d951d04"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "第5回 東京トレーラーハウスショー ほか1展（合同開催）",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "東7ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-a3f72afedaeb"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "イベントJAPAN2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 7000,
-      "audience": "business",
-      "notes": "東8ホール。商談展（業界関係者中心）。来場者はホール数からの概算（1ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-59dde3be0e97"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "ケミカルマテリアルJapan2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "南1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-bcfecec25ecf"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "ハイウェイテクノフェア2026",
-      "venue": "東京ビッグサイト",
-      "category": "exhibition",
-      "start": "10:00",
-      "end": "17:00",
-      "attendance": 14000,
-      "audience": "business",
-      "notes": "西1・2ホール。商談展（業界関係者中心）。来場者はホール数からの概算（2ホール）",
-      "source": "bigsight.jp",
-      "id": "tokyo-eaf403135edd"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "ハムレット、冬の旅",
-      "venue": "新国立劇場（小劇場）",
-      "category": "theater",
-      "start": "14:00",
-      "end": "16:30",
-      "attendance": 397,
-      "audience": "general",
-      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-f84091ad3041"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
-      "venue": "東京宝塚劇場",
-      "category": "theater",
-      "start": "15:30",
-      "end": "18:30",
-      "attendance": 2000,
-      "audience": "senior_wealthy",
-      "notes": "土日は11時回あり。月曜は標準休演日として除外",
-      "source": "kageki.hankyu.co.jp/revue",
-      "id": "tokyo-44d9340be09b"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "ポルカドットスティングレイ STILL PINK TOUR 2026",
-      "venue": "Zepp Shinjuku",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 1500,
-      "audience": "youth",
-      "notes": "OPEN 17:30。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-558856a95e91"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "東レ100周年企画展 WONDER!?展",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-717be9712241"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "放送50周年記念 第20回「徹子の部屋」コンサート",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 4000,
-      "audience": "general",
-      "notes": "コンサート想定。18:30開演で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-2d4b17421178"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "ARTE TOKYO／エキソニモ 《Kiss, or Dual Monitors 2026》",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-23f3a029b8cd"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "柴田聡子のひとりぼっち'26",
-      "venue": "東京国際フォーラム",
-      "category": "concert",
-      "start": "18:30",
-      "end": "21:00",
-      "attendance": 3000,
-      "audience": "general",
-      "notes": "公演詳細不明。コンサート想定（18:30開演）で推定",
-      "source": "t-i-forum.co.jp",
-      "id": "tokyo-fa16190f3ea7"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "wave to earth wave to earth - the pieces tour",
-      "venue": "Zepp DiverCity",
-      "category": "concert",
-      "start": "19:00",
-      "end": "21:30",
-      "attendance": 2400,
-      "audience": "youth",
-      "notes": "OPEN 18:00。終了時刻はライブハウス標準の2時間30分で推定",
-      "source": "zepp.co.jp",
-      "id": "tokyo-c671b02d8c16"
-    },
-    {
-      "date": "2026-11-27",
-      "name": "DANCE to the Future 2026",
-      "venue": "新国立劇場（中劇場）",
-      "category": "theater",
-      "start": "19:00",
-      "end": "21:00",
-      "attendance": 858,
-      "audience": "general",
-      "notes": "ジャンル: dance。会場キャパ約1010席。終演時刻は120分想定。",
-      "source": "nntt.jac.go.jp",
-      "id": "tokyo-8873f4b4a6d7"
-    },
     {
       "date": "2026-11-28",
       "name": "第16回オールジャパンケアコンテスト",
@@ -1420,12 +1238,90 @@ window.TAXI_APP_DATA = {
       "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
       "source": "nntt.jac.go.jp",
       "id": "tokyo-4337db2a51de"
+    },
+    {
+      "date": "2026-12-11",
+      "name": "SEMICON Japan 2026",
+      "venue": "東京ビッグサイト",
+      "category": "exhibition",
+      "start": "10:00",
+      "end": "17:00",
+      "attendance": 63000,
+      "audience": "business",
+      "notes": "東1-3・7・8ホール、西1-4ホール。商談展（業界関係者中心）。来場者はホール数からの概算（9ホール）",
+      "source": "bigsight.jp",
+      "id": "tokyo-d536fa72f641"
+    },
+    {
+      "date": "2026-12-11",
+      "name": "十二月大歌舞伎（第一部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "11:00",
+      "end": "14:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第一部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-a3e7287574e6"
+    },
+    {
+      "date": "2026-12-11",
+      "name": "十二月大歌舞伎（第二部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "14:30",
+      "end": "18:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第二部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-025efea565b6"
+    },
+    {
+      "date": "2026-12-11",
+      "name": "星組『RRR × TAKA”R”AZUKA ～√Rama～（アールアールアール バイ タカラヅカ ～ルートラーマ～）』",
+      "venue": "東京宝塚劇場",
+      "category": "theater",
+      "start": "15:30",
+      "end": "18:30",
+      "attendance": 2000,
+      "audience": "senior_wealthy",
+      "notes": "土日は11時回あり。月曜は標準休演日として除外",
+      "source": "kageki.hankyu.co.jp/revue",
+      "id": "tokyo-a6e9b3adcbd0"
+    },
+    {
+      "date": "2026-12-11",
+      "name": "十二月大歌舞伎（第三部）",
+      "venue": "歌舞伎座",
+      "category": "theater",
+      "start": "18:00",
+      "end": "21:00",
+      "attendance": 1500,
+      "audience": "senior_wealthy",
+      "notes": "歌舞伎の第三部。観客約1,808席で年配富裕層中心。終演時刻は推定。",
+      "source": "kabuki-bito.jp",
+      "id": "tokyo-7ca033a9377c"
+    },
+    {
+      "date": "2026-12-11",
+      "name": "ミノタウロスの皿",
+      "venue": "新国立劇場（小劇場）",
+      "category": "theater",
+      "start": "19:00",
+      "end": "21:30",
+      "attendance": 397,
+      "audience": "general",
+      "notes": "ジャンル: play。会場キャパ約468席。終演時刻は150分想定。",
+      "source": "nntt.jac.go.jp",
+      "id": "tokyo-dc5212bca82c"
     }
   ],
   "weather": {
-    "2026-11-27": {
-      "weather_code": "111",
-      "weather": "晴れ　夜　くもり　所により　夜遅く　雨",
+    "2026-11-28": {
+      "weather_code": "211",
+      "weather": "くもり　夕方　から　晴れ　所により　昼前　雨",
       "pop_max": 20,
       "hourly": [
         {
@@ -1449,44 +1345,13 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ],
-      "temp_min": 17,
-      "temp_max": 17
-    },
-    "2026-11-28": {
-      "weather_code": "311",
-      "weather": "雨　昼前　から　くもり　後　晴れ",
-      "pop_max": 80,
-      "hourly": [
-        {
-          "start_min": 0,
-          "end_min": 360,
-          "pop": 80
-        },
-        {
-          "start_min": 360,
-          "end_min": 720,
-          "pop": 60
-        },
-        {
-          "start_min": 720,
-          "end_min": 1080,
-          "pop": 10
-        },
-        {
-          "start_min": 1080,
-          "end_min": 1440,
-          "pop": 10
-        }
-      ],
-      "temp_min": 8,
-      "temp_max": 20
+      "temp_min": 19,
+      "temp_max": 19
     },
     "2026-11-29": {
       "weather_code": "100",
       "weather": "晴れ",
       "pop_max": 10,
-      "temp_min": 7,
-      "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
@@ -1501,48 +1366,51 @@ window.TAXI_APP_DATA = {
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 10
+          "pop": 0
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 10
+          "pop": 0
         }
-      ]
+      ],
+      "temp_min": 9,
+      "temp_max": 15
     },
     "2026-11-30": {
-      "weather_code": "101",
-      "pop_max": 20,
+      "weather_code": "100",
+      "weather": "晴れ",
+      "pop_max": 10,
       "temp_min": 5,
       "temp_max": 16,
       "hourly": [
         {
           "start_min": 0,
           "end_min": 360,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 360,
           "end_min": 720,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 720,
           "end_min": 1080,
-          "pop": 20
+          "pop": 10
         },
         {
           "start_min": 1080,
           "end_min": 1440,
-          "pop": 20
+          "pop": 10
         }
       ]
     },
     "2026-12-01": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 6,
-      "temp_max": 19,
+      "temp_min": 7,
+      "temp_max": 20,
       "hourly": [
         {
           "start_min": 0,
@@ -1569,7 +1437,7 @@ window.TAXI_APP_DATA = {
     "2026-12-02": {
       "weather_code": "101",
       "pop_max": 20,
-      "temp_min": 7,
+      "temp_min": 8,
       "temp_max": 19,
       "hourly": [
         {
@@ -1626,7 +1494,7 @@ window.TAXI_APP_DATA = {
       "weather_code": "101",
       "pop_max": 20,
       "temp_min": 9,
-      "temp_max": 17,
+      "temp_max": 18,
       "hourly": [
         {
           "start_min": 0,
@@ -1649,6 +1517,34 @@ window.TAXI_APP_DATA = {
           "pop": 20
         }
       ]
+    },
+    "2026-12-05": {
+      "weather_code": "201",
+      "pop_max": 30,
+      "temp_min": 9,
+      "temp_max": 19,
+      "hourly": [
+        {
+          "start_min": 0,
+          "end_min": 360,
+          "pop": 30
+        },
+        {
+          "start_min": 360,
+          "end_min": 720,
+          "pop": 30
+        },
+        {
+          "start_min": 720,
+          "end_min": 1080,
+          "pop": 30
+        },
+        {
+          "start_min": 1080,
+          "end_min": 1440,
+          "pop": 30
+        }
+      ]
     }
   },
   "fetch_stats": [
@@ -1658,7 +1554,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "bigsight",
-      "count": 37
+      "count": 27
     },
     {
       "source": "dome",
@@ -1678,11 +1574,11 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "nntt",
-      "count": 69
+      "count": 67
     },
     {
       "source": "kabukiza",
-      "count": 84
+      "count": 86
     },
     {
       "source": "national_stadium",
@@ -1710,7 +1606,7 @@ window.TAXI_APP_DATA = {
     },
     {
       "source": "forum",
-      "count": 14
+      "count": 10
     }
   ],
   "errors": [
